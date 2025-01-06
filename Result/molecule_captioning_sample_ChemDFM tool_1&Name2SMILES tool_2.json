@@ -1,0 +1,8 @@
+[
+    {
+        "SMILES": "CC(C)C[C@H]1C(=O)N2CCC[C@H]2[C@]2(O)O[C@](NC(=O)[C@@H]3C=C4c5cccc6[nH]c(Br)c(c56)C[C@H]4N(C)C3)(C(C)C)C(=O)N12",
+        "description": "The molecule is an indole alkaloid. It has a role as an antiparkinson drug, a hormone antagonist, a dopamine agonist and an antidyskinesia agent. It derives from a hydride of an ergotaman.",
+        "answer": "Error",
+        "blue2": 5.0582826510950336e-164
+    }
+]

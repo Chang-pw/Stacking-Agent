@@ -1,0 +1,62 @@
+[
+    {
+        "SMILES": "C[C@@H]1CCN(C[C@@H]1N(C)C2=NC=NC3=C2C=CN3)C(=O)N4CCCC4",
+        "description": "The molecule is a pyrrolopyrimidine that is 7H-pyrrolo[2,3-d]pyrimidine substituted at position 4 by a methyl[(3R,4R)-4-methyl-1-(pyrrolidin-1-ylcarbonyl)piperidin-3-yl]nitrilo group. It is a potent JAK3-selective chemical probe. It has a role as an EC 2.7.10.2 (non-specific protein-tyrosine kinase) inhibitor. It is a pyrrolopyrimidine, a tertiary amino compound, a N-acylpiperidine and a N-acylpyrrolidine.",
+        "answer": "\u001b[0m c1ncc2cc[nH]c2n1",
+        "blue2": 0.028671973792721794
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O[C@H]2[C@H]([C@H](O[C@H]([C@@H]2O)O[C@@H]3[C@H]([C@@H](O[C@@H]([C@H]3O)CO)O)NC(=O)C)CO)O)CO)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O",
+        "description": "The molecule is a linear amino tetrasaccharide consisting of a sequence of beta-D-galactose, N-acetyl-beta-D-glucosamine, beta-D-galactose and N-acetyl-beta-D-glucosamine residues linked (1->4), (1->3) and (1->3). It has a role as an epitope. It is an amino tetrasaccharide and a glucosamine oligosaccharide.",
+        "answer": "\u001b[0m CC(=O)N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1O[C@H]2OC[C@H](O)[C@H](O)[C@@H]2OC[C@H]3OC[C@H](O)[C@H](O)[C@@H]3O[C@H]4OC[C@H](O)[C@H](O)[C@@H]4N(C)C=O",
+        "blue2": 0.7637006507248246
+    },
+    {
+        "SMILES": "O.O.O.O.O.O.O.[O-]S(=O)(=O)[O-].[Ni+2]",
+        "description": "The molecule is a hydrate of nickel sulfate containing nickel (in +2 oxidation state), sulfate and water moieties in the ratio 1:1:7. It contains a nickel sulfate.",
+        "answer": "O.O.O.O.O.O.O.O=S(=O)([O-])[O-].[Ni+2]",
+        "blue2": 0.9299811099505543
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/C=C/C(=C/C=C/C=C(\\\\C)/C=C/C=C(\\\\C)/C=C/C=C(\\\\C)/C=C/C(C(C)(C)OC)(O)O)/C)/C)/C)C",
+        "description": "The molecule is a carotenoid ether that is spheroidene carrying two hydroxy groups, both at position 2. It is a carotenoid ether, a carotenol and a ketone hydrate. It derives from a spheroidene.",
+        "answer": "COC(C)(C)C/C=C/C(O)(O)C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(\\C)CC/C=C(\\C)CCC=C(C)C",
+        "blue2": 0.8386615092960766
+    },
+    {
+        "SMILES": "CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC",
+        "description": "The molecule is a tertiary amino compound that is 3,4-dimethoxyphenylethylamine in which the hydrogens attached to the nitrogen are replaced by a methyl group and a 4-cyano-4-(3,4-dimethoxyphenyl)-5-methylhexyl group. It is a tertiary amino compound, an aromatic ether, a polyether and a nitrile.",
+        "answer": "\u001b[0m COc1ccc(CCN(C)C(CCC(C)(C#N)c2cc(OC)c(OC)cc2))cc1OC",
+        "blue2": 0.5164190583516081
+    },
+    {
+        "SMILES": "CC(C)CCCCCCCCCCCCCCCCCCCCCCC(=O)O",
+        "description": "The molecule is a methyl-branched fatty acid that is pentacosanoic acid substituted by a methyl group at position 24. It is a very long-chain fatty acid, a branched-chain saturated fatty acid and a methyl-branched fatty acid. It derives from a pentacosanoic acid.",
+        "answer": "CC(C)CCCCCCCCCCCCCCCCCCCCCCC(=O)O",
+        "blue2": 1.0
+    },
+    {
+        "SMILES": "C(P(=O)(O)O)P(=O)(O)O",
+        "description": "The molecule is a 1,1-bis(phosphonic acid) consisting of methane substituted by two phosphonic acid groups. It has a role as a bone density conservation agent and a chelator.",
+        "answer": "\u001b[0m O=P(O)(O)CP(=O)(O)O",
+        "blue2": 0.6689273264831853
+    },
+    {
+        "SMILES": "CC/C=C\\\\C[C@H](/C=C/C=C\\\\C=C\\\\C=C\\\\C(C(CCCC(=O)[O-])O)O)O",
+        "description": "The molecule is an icosanoid anion that is the conjugate base of (7E,9E,11Z,13E,15R,17Z)-5,6,15-trihydroxyicosapentaenoic acid, obtained by deprotonation of the carboxy group; major species at pH 7.3. It is a lipoxin anion, an icosanoid anion, a long-chain fatty acid anion and a hydroxy fatty acid anion. It is a conjugate base of a (7E,9E,11Z,13E,15R,17Z)-5,6,15-trihydroxyicosapentaenoic acid.",
+        "answer": "\u001b[0m CC/C=C\\C[C@@H](O)/C=C/C=C\\C=C\\C=C\\C(O)C(O)CCCC(=O)[O-]",
+        "blue2": 0.8348418063400346
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](COP(=O)(O)OCCN)[C@@H](/C=C/C=C/CCCCCCC)O",
+        "description": "The molecule is a ceramide phosphoethanolamine (37:2) in which the acyl and sphingoid base specified is tricosanoyl and (4E,6E)-tetradecasphingadienine respectively. It derives from a tricosanoic acid.",
+        "answer": "CCCCCCCCCCCCCCCCCCCCCC(=O)NC(COC1=CC=CC=C1)COP(=O)(O)OCC[N+](C)(C)C",
+        "blue2": 0.71457599023724
+    },
+    {
+        "SMILES": "C[C@@H]([C@H]1[C@H]([C@H]([C@@H](O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O",
+        "description": "The molecule is a quercetin O-glycoside that is quercetin attached to a alpha-L-rhamnofuranosyl moiety at position 3 via a glycosidic linkage. It has a role as a metabolite. It is an alpha-L-rhamnofuranoside, a monosaccharide derivative, a tetrahydroxyflavone and a quercetin O-glycoside.",
+        "answer": "\u001b[0m C[C@@H]1O[C@@H](Oc2c(-c3ccc(O)c(O)c3)oc3cc(O)cc(O)c3c2=O)[C@H](O)[C@H](O)[C@H]1O",
+        "blue2": 0.550021377480818
+    }
+]
