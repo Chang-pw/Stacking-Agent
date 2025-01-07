@@ -1,0 +1,62 @@
+[
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCCCC(C(=O)N[C@@H](COP(=O)([O-])O[C@@H]1[C@@H]([C@@H]([C@H]([C@@H]([C@H]1OC2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)O)O)[C@@H](CCCCCCCCCCCCCCC)O)O",
+        "description": "The molecule is a mannosylinositol phosphorylceramide(1-) having a hexacosanoyl group amide-linked to a C18 sphinganine base, with hydroxylation at C-2 of the C26 very-long-chain fatty acid. It is a conjugate base of a Man-1-2-Ins-1-P-Cer(d18:0/2-OH-26:0).",
+        "answer": "\u001b[0m CCCCCCCCCCCCCCCCCCCCCCCCC(=O)NC[C@H](O)[C@H](CO)NC1[C@H]([C@H]([C@@H]([C@H](O1)COP(=O)([O-])OC2C(C(C(C(O2)CO)O)O)O)O)O)O",
+        "blue2": 0.6381465716157287
+    },
+    {
+        "SMILES": "C(C=O)S(=O)[O-]",
+        "description": "The molecule is an organosulfinate oxoanion resulting from the deprotonation of the sulfino group of sulfinoacetaldehyde. The major species at pH 7.3. It is a conjugate base of a sulfinoacetaldehyde.",
+        "answer": "\u001b[0m O=CCS(=O)[O-]",
+        "blue2": 0.5829830881301374
+    },
+    {
+        "SMILES": "CCCCCCCCCC(C(C(=O)[O-])O)O",
+        "description": "The molecule is a medium-chain fatty acid anion resulting from the deprotonation of the carboxy group of 2,3-dihydroxydodecanoic acid. Major microspecies at pH 7.3 It is a 2-hydroxy fatty acid anion, a 3-hydroxy fatty acid anion and a medium-chain fatty acid anion. It derives from a dodecanoate. It is a conjugate base of a 2,3-dihydroxydodecanoic acid.",
+        "answer": "\u001b[0m CCCCCCCCCCC(O)C(O)C(=O)[O-]",
+        "blue2": 0.7240121189504336
+    },
+    {
+        "SMILES": "CCCCCCCCCC[C@H]([C@H]([C@H](CO)N)O)O",
+        "description": "The molecule is a sphingoid that is the C14-analogue of phytosphingosine. It is a sphingoid, an amino alcohol and a triol. It is a conjugate base of a tetradecaphytosphingosine(1+).",
+        "answer": "\u001b[0m\u001b[0m CCCCCCCCCC[C@@H](O)[C@@H](O)[C@@H](N)CO",
+        "blue2": 0.6802690331382198
+    },
+    {
+        "SMILES": "CCN(CC)C1=CC2=C(C=C1)NC3=C(O2)C(=O)C(=O)C=C3C(=O)[NH3+]",
+        "description": "The molecule is an organic cation that is 3,4-dihydroxyphenoxazin-5-ium carrying additional carbamoyl and diethylamino groups at positions 1 and 7 respectively. The chloride salt is the histological dye 'Celestin blue B'.",
+        "answer": "\u001b[0m CCN(CC)c1ccc2[nH]c3c(C([NH3+])=O)cc(=O)c(=O)c=3oc2c1.[Cl-]",
+        "blue2": 0.43994134506405985
+    },
+    {
+        "SMILES": "[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[Cr+3].[Cr+3]",
+        "description": "The molecule is a compound of chromium and sulfate in which the ratio of chromium (in the +3 oxidation state) to sulfate is 2:3 It contains a chromium(3+).",
+        "answer": "\u001b[0m [Cr+3].[Cr+3].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-]",
+        "blue2": 0.9300663815977889
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@H]([C@H](O[C@@H]1OC[C@@H](C(=O)O)N)CO)O)O",
+        "description": "The molecule is a non-proteinogenic L-amino acid that is N-acetyl-alpha-D-galactosamine linked via an alpha glycosidic bond to the O at position 3 of L-serine. It is a L-serine derivative and a non-proteinogenic L-alpha-amino acid.",
+        "answer": "\u001b[0m CC(=O)N[C@@H]1[C@@H](O)[C@@H](O)[C@@H](CO)O[C@@H]1O[C@@H](CO)N[C@@H](C(=O)O)",
+        "blue2": 0.7436978013636226
+    },
+    {
+        "SMILES": "C(P(=O)(O)O)P(=O)(O)O",
+        "description": "The molecule is a 1,1-bis(phosphonic acid) consisting of methane substituted by two phosphonic acid groups. It has a role as a bone density conservation agent and a chelator.",
+        "answer": "\u001b[0m C(OP(=O)(O))(OP(=O)(O))",
+        "blue2": 0.6454972243679028
+    },
+    {
+        "SMILES": "CC(C)(C)C1=CC(=CC=C1)OC(=S)N(C)C2=NC(=CC=C2)OC",
+        "description": "The molecule is a monothiocarbamic ester that is carbamic acid in which the oxygen of the oxo group is replaced by sulfur, the hydrogens attached to the nitrogen are replaced by methyl and 6-methoxypyridin-2-yl groups, and the hydrogen of the hydroxy group is replaced by a p-tert-butylphenyl group. It has fungicidal and herbicidal activity and is used in paddy rice and turf production. It has a role as a sterol biosynthesis inhibitor, a herbicide and an antifungal agrochemical. It is a member of pyridines, an aromatic ether and a monothiocarbamic ester.",
+        "answer": "\u001b[0m CN(C(=S)OC1=CC=C(C=C1)C(C)(C)C)C2=CC(OC)=NC=C2",
+        "blue2": 0.8279433531821071
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\COP(=O)([O-])OP(=O)([O-])O[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O[C@@H]2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)NC(=O)C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is an organophosphate oxoanion obtained by deprotonation of the diphosphate OH groups of alpha-D-mannosyl-(1->3)-N-acetyl-alpha-D-glucosaminyl-1-diphospho-ditrans,polycis-undecaprenol. Major species at pH 7.3. It is a conjugate base of an alpha-D-mannosyl-(1->3)-N-acetyl-alpha-D-glucosaminyl-1-diphospho-ditrans,polycis-undecaprenol.",
+        "answer": "\u001b[0m [O-]P(=O)([O-])OP(=O)([O-])O[C@H]1[C@@H]([C@H]([C@H](O1)CO)O)OC2=NC(=O)C(=NC2=O)N[C@@H]3[C@H]([C@H]([C@@H]([C@@H]3OP(=O)([O-])[O-])O)O)O.",
+        "blue2": 0.38839675970784804
+    }
+]

@@ -61,7 +61,7 @@ class Warmup:
                 Tool_agent_list = Tool_agent[1:][-(self.tool_number-1):]
                 test_agent,blue2,sample_data = self.test(tool_list+Tool_agent_list)
             print(f"{name}叠加的第{layer}层的blue2为{blue2}")
-            if blue2 >= score:
+            if blue2 > score:
                 with open(f"./Result/molecule_captioning_sample_{name}_{layer}.json","w",encoding="utf-8") as f:
                     json.dump(sample_data,f,indent=4)
                 score = blue2

@@ -30,7 +30,7 @@ class Stacking:
             smiles = i['SMILES']
             description = i['description']
             query = self.query + description
-            final_answer, response, history = test_agent._run(query,[],debug=False)
+            final_answer, response, history = test_agent._run(query,[],debug=True)
             i['answer'] = final_answer
             i['blue2'] = calculate_BLEU(final_answer,smiles,2)
             time.sleep(5)
@@ -54,12 +54,15 @@ class Stacking:
         if tool_number > len(tools):
             print(f"由于tool_number设置大于topN的工具列表，将tool_number设置为最大值 {len(tools)}.\n")
             tool_number = len(tools)
-        for i in remaining_tools:
-            match = re.match(r'^(.*)_\d+$', tool_1['tool'])
-            if i['tool'] == f'{match.group(1)}_0':
-                remaining_tools.remove(i)
-                print(f"由于首选工具{tool_1['tool']}在预热阶段已经与工具{match.group(1)}_0叠加过，则将排除该基础工具 \n")
-
+        try:
+            for i in remaining_tools:
+                match = re.match(r'^(.*)_\d+$', tool_1['tool'])
+                if i['tool'] == f'{match.group(1)}_0':
+                    remaining_tools.remove(i)
+                    print(f"由于首选工具{tool_1['tool']}在预热阶段已经与工具{match.group(1)}_0叠加过，则将排除该基础工具 \n")
+        except:
+            pass
+        
         tool_combinations = itertools.combinations(remaining_tools, tool_number - 1)
         combination_number = math.comb(len(remaining_tools), tool_number - 1)
 
@@ -79,11 +82,11 @@ class Stacking:
             # Call the test function with the current combination of tools
             test_agent, blue2 ,sample_data= self.test(tool_combination, tool_1['tool'], tool_names[-1])
             
-            with open(f'./Result/molecule_captioning_sample_{"&".join(tool_names)}.json','w',encoding='utf-8') as f:
+            with open(f'./Result/molecule_captioning_sample_{tool_names}.json','w',encoding='utf-8') as f:
                 json.dump(sample_data,f,indent=4)
 
             # Append the result to the result list
-            result_list.append({'agent_tool': test_agent, 'score': blue2, 'tool': "&".join(tool_names)})
+            result_list.append({'agent_tool': test_agent, 'score': blue2, 'tool':tool_names})
             print(f"当前叠加工具组合的分数为: {blue2}")
         result_list = sorted_tools(result_list)
         return result_list

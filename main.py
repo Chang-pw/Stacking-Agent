@@ -27,12 +27,15 @@ def main():
     
     ## Task
     if task == 'Query2SMILES':
-        # with open('./Dataset/Description2SMILES_train_data.json','r',encoding='utf-8')    as f:
         with open('./Dataset/Description2SMILES_train_data.json','r',encoding='utf-8')    as f:
             train_data = json.load(f)
         result,_ = Stacking(tools=tools, top_n=topN, tool_number=tool_number,train_data=train_data,
                             train_data_number=train_data_number,query=task_query)._run()
         final_agent = result[0]['agent_tool']
+        try:
+            final_agent.set_all_buffers()
+        except:
+            pass
         print('\n\033[31m ----最终结果---- \033[0m\n')
         print(f"\033[34m 在训练集上表现最优的是 {result[0]['tool']} , 其分数为 {result[0]['score']} 。接下来开始在{task}任务测试集上运行 \033[0m")
     
@@ -42,14 +45,16 @@ def main():
             smiles = i['SMILES']
             description = i['description']
             query = task_query + description 
-            final_agent.buffer = False
             final_agent.debug = True
-            final_answer = final_agent._run(query)
+            if len(result)>1:
+                final_answer = final_agent._run(query)
+            else:
+                final_answer = final_agent.wo_run(query)
             i['answer'] = final_answer
             blue2 = calculate_BLEU(final_answer,smiles,2)
             print('Final answer:'+ final_answer)
             print('Blue2:'+ str(blue2))
-            time.sleep(15)
+            time.sleep(5)
             score += blue2
         final_score = score/len(test_data)
         print(f"\033[34m {result[0]['tool']}在{task}任务测试集上BLEU-2分数为：'{final_score}'\033[0m")
@@ -69,7 +74,6 @@ def main():
             smiles = i['SMILES']
             description = i['description']
             query = 'Please show me a description of this molecule:' + smiles
-            final_agent.buffer = False
             final_agent.debug = True
             final_answer, response, history = final_agent._run(query,[],debug=False)
             i['answer'] = final_answer

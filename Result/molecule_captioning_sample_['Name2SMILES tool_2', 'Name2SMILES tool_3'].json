@@ -1,0 +1,62 @@
+[
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCC(=O)N[C@@H](CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)[C@@H]([C@@H](CCCCCCCCCCC(C)C)O)O",
+        "description": "The molecule is an N-acyl-1-O-beta-D-glucosyl-4-hydroxy-15-methylhexadecasphinganine in which the acyl group has 17 carbons and 0 double bonds. It derives from a 15-methylhexadecaphytosphingosine.",
+        "answer": "CCCCCCCCCCCCCCCCC(=O)N[C@@H](C(O)C1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C(C)CCCCCCCCCCO",
+        "blue2": 0.7209016361737874
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@@H]1O[C@H]2[C@H](O[C@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H]([C@@H](O[C@@H]([C@H]3O)CO)O)NC(=O)C)CO)CO)O)O",
+        "description": "The molecule is an amino trisaccharide consisting of N-acetyl-alpha-D-glucosamine, beta-D-galactose and N-acetyl-D-glucosamine residues linked sequentially (1->4) and (1->3). It has a role as an epitope. It is an amino trisaccharide and a glucosamine oligosaccharide.",
+        "answer": "CC(=O)NC1C(C(C(C(O1)CO)O)O)OC2C(C(C(C(O2)CO)O)O)OC3C(C(C(C(O3)O)O)O)O",
+        "blue2": 0.23657906800488748
+    },
+    {
+        "SMILES": "CC(=C)C(CCC(C)(C)O)CC1=C(C(=C(C=C1O)OC)C(=O)/C=C/C2=C(C=C(C=C2)O)O)O",
+        "description": "The molecule is a member of the class of chalcones that is trans-chalcone substituted by hydroxy groups at positions 2, 4, 2' and 4', a methoxy group at position 6' and a 5-hydroxy-5-methyl-2-(prop-1-en-2-yl)hexyl group at position 3 respectively. It has a role as a plant metabolite. It is a member of chalcones, a member of resorcinols and a monomethoxybenzene. It derives from a trans-chalcone.",
+        "answer": "O=C(/C=C/c1(O)cc(O)ccc1)c1(O)cc(O)c(OC)cc1C(C)(C=C)C(C)(O)C(C)(C)O",
+        "blue2": 0.5561865360094864
+    },
+    {
+        "SMILES": "C(C(C(=O)O)N)P(=O)(O)O",
+        "description": "The molecule is a non-proteinogenc alpha-amino acid that is alanine in which one of the hydrogens of the terminal methyl group has been replaced by a dihydroxy(oxido)-lambda(5)-phosphanyl group. It has a role as a metabotropic glutamate receptor antagonist and a human metabolite. It is a non-proteinogenic alpha-amino acid, a member of phosphonic acids and an alanine derivative.",
+        "answer": "NC(CP(=O)(O)O)C(=O)O",
+        "blue2": 0.8303357611690557
+    },
+    {
+        "SMILES": "C1=NC2=C(N1[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)NC(=O)NC2=O",
+        "description": "The molecule is trianion of xanthosine 5'-diphosphate arising from deprotonation of all three OH groups of the diphosphate. It is an organophosphate oxoanion and a xanthosine 5'-phosphate. It is a conjugate base of a XDP.",
+        "answer": "[O-]P(=O)(O)OP(=O)([O-])O[C@H]1[C@@H](O)[C@H](CO)O[C@H]1n2cnc3c2nc(=O)[nH]c3=O",
+        "blue2": 0.6946591085343714
+    },
+    {
+        "SMILES": "C1=C(NC=N1)C[C@@H](C(=O)[O-])NC(=O)CC[C@@H](C(=O)[O-])[NH3+]",
+        "description": "The molecule is a peptide anion that is the conjugate base of gamma-Glu-His, obtained by removal of protons from the two carboxy groups as well as protonation of the amino group; major species at pH 7.3. It is a conjugate base of a member of gamma-Glu-His.",
+        "answer": "N[C@@H](CCC(=O)N[C@@H](Cc1cnc[nH]1)C(=O)[O-])C(=O)[O-]",
+        "blue2": 0.7405225339187322
+    },
+    {
+        "SMILES": "CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC",
+        "description": "The molecule is a tertiary amino compound that is 3,4-dimethoxyphenylethylamine in which the hydrogens attached to the nitrogen are replaced by a methyl group and a 4-cyano-4-(3,4-dimethoxyphenyl)-5-methylhexyl group. It is a tertiary amino compound, an aromatic ether, a polyether and a nitrile.",
+        "answer": "COc1ccc(CCN(C)(CCC(C(c2ccc(OC)c(OC)c2)C#N)CC))cc1OC",
+        "blue2": 0.528577514667313
+    },
+    {
+        "SMILES": "O.O.O.O.O.O.O.[O-]S(=O)(=O)[O-].[Ni+2]",
+        "description": "The molecule is a hydrate of nickel sulfate containing nickel (in +2 oxidation state), sulfate and water moieties in the ratio 1:1:7. It contains a nickel sulfate.",
+        "answer": "O.O.O.O.O.O.O.O=S(=O)([O-])[O-].[Ni+2]",
+        "blue2": 0.9299811099505543
+    },
+    {
+        "SMILES": "C[C@](CCO)(CC(=O)O)O",
+        "description": "The molecule is the (S)-enantiomer of mevalonic acid. It is a conjugate acid of a (S)-mevalonate. It is an enantiomer of a (R)-mevalonic acid.",
+        "answer": "CC(C[C@H](O)CC(=O)O)O",
+        "blue2": 0.8451542547285166
+    },
+    {
+        "SMILES": "C1CC1C2=NC(=C(C(=N2)N)Cl)C(=O)O",
+        "description": "The molecule is an organochlorine herbicide, the structure of which is that of pyrimidine-4-carboxylic acid substituted at positions 2, 5 and 6 by cyclopropyl, chloro and amino groups respectively. It has a role as a herbicide and a synthetic auxin. It is a member of pyrimidines, a member of cyclopropanes and an organochlorine pesticide. It contains a primary amino group. It is a conjugate acid of an aminocyclopyrachlor(1-).",
+        "answer": "Nc1nc(C2CC2)nc(C(=O)O)c1Cl",
+        "blue2": 0.47999475579049466
+    }
+]

@@ -90,7 +90,7 @@ class Agent:
         max_iter = 10
         n=0
         while n<=max_iter:
-            time.sleep(5)
+            time.sleep(2)
             n+=1
             response, his = self.text_completion(text, history)
             if debug == True:
@@ -98,10 +98,8 @@ class Agent:
             if 'Final Answer:' in response:
                 parts = response.split("Final Answer:")
                 final_answer = parts[1].strip()
-                try:
-                    final_answer = re.findall(r'"(.*?)"', final_answer)[0]
-                except:
-                    pass
+                if '\u001b[0m' in final_answer:
+                    final_answer =final_answer.split('\u001b[0m')[-1].strip()
                 if debug == True:
                     print("\033[91m =============================END=============================\033[0m")
                 return final_answer, response, history

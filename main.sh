@@ -8,7 +8,7 @@ Task='Query2SMILES'
 tools='''
 [
 Name2SMILES(),
-# ChemDFM()
+ChemDFM()
 ]
 '''
 topN=5
