@@ -19,7 +19,7 @@ def get_ChemDFM(input_text):
 class ChemDFM():
     name: str = "ChemDFM"
     description: str = (
-        "Input a molecule name, returns SMILES. Note: the results returned by this tool may not necessarily be correct.",
+        "Input one question, returns answers. Note: the results returned by this tool may not necessarily be correct.",
     )
     def __init__(
         self,

@@ -34,7 +34,7 @@ class Warmup:
                 final_answer = tool[0].wo_run(query)
                 agent = tool[0]
             else:
-                final_answer, response, history = agent._run(query,[],debug=True)
+                final_answer, response, history = agent._run(query,[],debug=False)
             i["answer"] = final_answer
             i["blue2"] = calculate_BLEU(final_answer,smiles,2)
             score += i["blue2"]
