@@ -4,14 +4,14 @@ import os
 import torch
 from transformers import LlamaTokenizer, LlamaForCausalLM, GenerationConfig
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "4"
+os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 app = Flask(__name__)
 
 model_name_or_id = "/data2/ChemDFM/ChemDFM-v1.0-13B"
 tokenizer = LlamaTokenizer.from_pretrained(model_name_or_id)
 model = LlamaForCausalLM.from_pretrained(model_name_or_id, torch_dtype=torch.float16, device_map="auto")
 def get_response(input_text):
-    input_text = '"Please give me the SMILES of the following name:'+input_text
+    input_text = '"Please give me the answers of the following question:'+input_text
     input_text = f"[Round 0]\nHuman: {input_text}\nAssistant:"
     inputs = tokenizer(input_text, return_tensors="pt").to("cuda")
     generation_config = GenerationConfig(

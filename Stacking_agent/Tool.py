@@ -24,12 +24,16 @@ class Tools:
             tool_list.append(dict)
         return tool_list
     
-    def __call__(self, tool_name: str, **tool_args):
+    def __call__(self, tool_name: str,data_index=0,**tool_args):
         for tool in self.toolConfig:
             if tool["tool_name"] == tool_name:
-                if "Query2SMILES" in tool_name:
+                if "Query2SMILES" in tool_name or "SMILES2Query" in tool_name:
                     tool_name = 'Agent_tool'
                     tool_args['next_n'] = False
+                    tool_args['data_index'] = data_index
+                    tool_class = globals()[tool_name]
+                    tool_instance = tool_class(**tool_args)
+                    return tool_instance.test_run(**tool_args)
                 tool_class = globals()[tool_name]
                 tool_instance = tool_class(**tool_args)
                 return tool_instance._run(**tool_args)

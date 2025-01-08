@@ -30,7 +30,7 @@ class Stacking:
             smiles = i['SMILES']
             description = i['description']
             query = self.query + description
-            final_answer, response, history = test_agent._run(query,[],debug=True)
+            final_answer, response, history = test_agent._run(query,[],debug=False)
             i['answer'] = final_answer
             i['blue2'] = calculate_BLEU(final_answer,smiles,2)
             time.sleep(5)

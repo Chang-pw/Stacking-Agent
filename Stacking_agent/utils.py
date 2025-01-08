@@ -120,10 +120,14 @@ def sorted_tools(list):
 
 def task2query(task:str):
     if task == "Query2SMILES":
-        return "Please try to infer the SMILES of this molecule:\nDescription:"
-    pass
+        query="Question: Please try to infer the SMILES of this molecule:\nDescription:"
+        description = "Input a molecule's description ,returns a SMILES. Note:1.the results returned by this tool may not necessarily be correct. 2.The input description try to be the same with the original description."
+    elif task == "SMILES2Query":
+        query="Question: Please show me a description of this molecule::\nSMILES:"
+        description = "Description:"
+    
 
-
+    return query, description
 
 
 if __name__=='__main__':

@@ -1,8 +1,0 @@
-[
-    {
-        "SMILES": "CCNC(=O)C",
-        "description": "The molecule is a member of the class of acetamides that is the N-ethyl derivative of acetamide. It has a role as a metabolite.",
-        "answer": "\u001b[0m CCNC(C)=O",
-        "blue2": 0.4972451580988469
-    }
-]

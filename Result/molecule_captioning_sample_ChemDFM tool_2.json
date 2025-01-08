@@ -1,8 +1,0 @@
-[
-    {
-        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)CO)O[C@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO)O)O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O)O)O)O)NC(=O)C)O)O)NC(=O)C)O)O",
-        "description": "The molecule is beta-D-Galp-(1->4)-beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-D-GlcpNAc in which the configuration of the anomeric centre of the reducing-end N-acetylglucosamine residue is beta. It has a role as an epitope.",
-        "answer": "\u001b[0m CC(=O)N[C@H]1[C@H](O[C@H]2[C@@H](O)[C@@H](CO)O[C@@H](O[C@H]3[C@H](O)[C@@H](NC(C)=O)[C@H](O[C@H]4[C@@H](O)[C@@H](CO)O[C@@H](O[C@H]5[C@H](O)[C@@H](NC(C)=O)[C@H](O[C@H]6[C@@H](O)[C@@H](CO)O[C@@H](O[C@H]7[C@H](O)[C@@H](O)[C@H](O)O[C@@H]7CO)[C@@H]6O)O[C@@H]5CO)[C@@H]4O)O[C@@H]3CO)[C@@H]2O)O[C@H](CO)[C@@H](O)[C@@H]1O",
-        "blue2": 0.7706740075462771
-    }
-]

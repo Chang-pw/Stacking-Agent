@@ -20,39 +20,38 @@ def largest_mol(smiles):
         ss.remove(rm)
     return ss[-1]
 
-class Name2SMILES:
-    name: str = "Name2SMILES"
-    description: str = "Input only one molecule name, returns SMILES. Note: the results returned by this tool may not necessarily be correct."
+class Name2Description:
+    name: str = "Name2Description"
+    description: str = "Input only one molecule name, returns Description. Note: the results returned by this tool may not necessarily be correct."
     def __init__(self, **tool_args):
         pass
     
     def _run(self, query: str,**tool_args) -> str:
-        """Input only one molecule name, returns SMILES. Note: the results returned by this tool may not necessarily be correct."""
-
         url = "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/{}/{}"
         # Query the PubChem database
-        r = requests.get(url.format(query, "property/SMILES/JSON"))
+        r = requests.get(url.format(query, "Description/JSON"))
         # Convert the response to a JSON object
         data = r.json()
         try:
-            smi = data['PropertyTable']['Properties'][0]['SMILES']
+            smi = data['InformationList']['Information'][1]['Description']
         except KeyError:
             return "Could not find a molecule matching the text. One possible cause is that the input is incorrect, please modify your input."
     
-        return Chem.CanonSmiles(smi)
+        return str(smi)
     
     def __str__(self):
-        return "Name2SMILES tool"
+        return "Name2Description tool"
 
     def __repr__(self):
         return self.__str__()
 
     def wo_run(self,query,debug=False):
         model = ChatModel()
-        prompt = "Please output only one molecule name for use in generating SMILES based on the question:" + query
+        prompt = "Please output only one molecule name for use in generating Description based on the question:" + query
         response,history = model.chat(prompt=prompt,history=[])
         answer = self._run(response)
         if answer == "Could not find a molecule matching the text. One possible cause is that the input is incorrect, please modify your input.":
             return ""
         return answer
+
 

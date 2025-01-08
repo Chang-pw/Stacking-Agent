@@ -18,9 +18,7 @@ def get_ChemDFM(input_text):
 
 class ChemDFM():
     name: str = "ChemDFM"
-    description: str = (
-        "Input one question, returns answers. Note: the results returned by this tool may not necessarily be correct.",
-    )
+    description: str = 'Input the question, returns answers. Note: 1.Utilize the results returned by this tool as much as possible 2. The input should be the same with the Question'
     def __init__(
         self,
         **tool_args

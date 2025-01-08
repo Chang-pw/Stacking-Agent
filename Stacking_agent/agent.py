@@ -14,6 +14,7 @@ class Agent:
         self.model = ChatModel()
         self.system_prompt = self.build_system_input()
         self.initcon = self.tool.initConfig
+        self.index =0
     def build_system_input(self):
         """construct system prompt for agent"""
         tool_descs, tool_names = [], []
@@ -62,7 +63,7 @@ class Agent:
             return f"\n\033[96mObservation: \033[0m Tool call failed with error: {str(e)}"
 
         try:
-            return "\n\033[96mObservation: \033[0m" + self.tool(plugin_name, **plugin_args)
+            return "\n\033[96mObservation: \033[0m" + self.tool(tool_name=plugin_name, data_index=self.index,**plugin_args)
         except Exception as e:
             # Catch the exception and return error message
             return f"\n\033[96mObservation: \033[0m Tool call failed with error: {str(e)}"
@@ -83,8 +84,8 @@ class Agent:
         # response, his = self.model.chat(response, history, self.system_prompt)
         return response, his
     
-    def _run(self, text, history=[],debug=True):
-        
+    def _run(self, text, history=[],debug=True,index=0):
+        self.index = index
         if debug == True:
             print('\033[91m ============================START============================ \033[0m')
         max_iter = 10

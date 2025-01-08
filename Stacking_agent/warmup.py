@@ -26,7 +26,7 @@ class Warmup:
         agent = Agent(tool)
         sample_data = self.sample_data
         score = 0
-        for i in sample_data:
+        for index,i in enumerate(sample_data):
             smiles = i["SMILES"]
             description = i["description"]
             query = self.task_query + description
@@ -34,7 +34,7 @@ class Warmup:
                 final_answer = tool[0].wo_run(query)
                 agent = tool[0]
             else:
-                final_answer, response, history = agent._run(query,[],debug=False)
+                final_answer, response, history = agent._run(query,[],debug=False,index=index)
             i["answer"] = final_answer
             i["blue2"] = calculate_BLEU(final_answer,smiles,2)
             score += i["blue2"]
