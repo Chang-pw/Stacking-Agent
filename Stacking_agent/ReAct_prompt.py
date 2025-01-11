@@ -13,7 +13,7 @@ Answer the following questions as best you can. You have access to the following
 Importantly: You should have your own reasoning logic and judgment. please note that the results returned by this tool may not necessarily be correct. You need to use them as a basis for inference along with the context I provide.
 
 ### FORMAT
-Use the following format, the name of the chain (Thought,Action,Action Input,Observation,Final Answer) needs to be stated before:
+Use the following format, the name of the chain (Thought,Action,Action Input,Observation,Final Answer) needs to be stated before each part:
 
 Thought: reflect on your progress, think and deduct from your observation, then decide what to do next
 Action: the action to take, should be one of [{tool_names}]

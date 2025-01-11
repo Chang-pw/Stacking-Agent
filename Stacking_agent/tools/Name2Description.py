@@ -34,7 +34,7 @@ class Name2Description:
         data = r.json()
         try:
             smi = data['InformationList']['Information'][1]['Description']
-        except KeyError:
+        except:
             return "Could not find a molecule matching the text. One possible cause is that the input is incorrect, please modify your input."
     
         return str(smi)
@@ -50,7 +50,7 @@ class Name2Description:
         prompt = "Please output only one molecule name for use in generating Description based on the question:" + query
         response,history = model.chat(prompt=prompt,history=[])
         answer = self._run(response)
-        if answer == "Could not find a molecule matching the text. One possible cause is that the input is incorrect, please modify your input.":
+        if answer == "Could not find a molecule matching the text. One possible cause is that the input is incorrect, please modify your input and the input needs to be a moleculer name not a SMILES.":
             return ""
         return answer
 

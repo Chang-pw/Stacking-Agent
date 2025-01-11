@@ -12,11 +12,12 @@ import math
 import re
 
 class Stacking:
-    def __init__(self,tools:list,top_n:int,tool_number=2,train_data=[],train_data_number=10,query=""):
+    def __init__(self,tools:list,top_n:int,tool_number=2,train_data=[],train_data_number=10,task="",query=""):
         self.all_tools = tools
         self.tool_number = tool_number
+        self.task = task
         self.query = query
-        self.Warmup = Warmup(self.all_tools,tool_number=self.tool_number,data=train_data,train_data_number=train_data_number,query=self.query)
+        self.Warmup = Warmup(self.all_tools,tool_number=self.tool_number,data=train_data,train_data_number=train_data_number,task=self.task,query=self.query)
         self.data = self.Warmup.sample_data
         self.warmup = sorted_tools(self.Warmup._run())
         self.top_n = top_n
@@ -26,17 +27,47 @@ class Stacking:
         test_agent = Agent(tool_list)
         test_data = self.data
         score =0 
-        for i in tqdm(test_data):
-            smiles = i['SMILES']
-            description = i['description']
-            query = self.query + description
-            final_answer, response, history = test_agent._run(query,[],debug=False)
-            i['answer'] = final_answer
-            i['blue2'] = calculate_BLEU(final_answer,smiles,2)
-            time.sleep(5)
-            score += i['blue2']
-        blue2 = score/len(test_data)
-        return test_agent,blue2,test_data
+        if self.task in ['Query2SMILES', 'SMILES2Query']:
+            for i in tqdm(test_data):
+                smiles = i['SMILES']
+                description = i['description']
+                if self.task =='Query2SMILES':
+                    query = self.query + description
+                    reference = smiles
+                else:
+                    query = self.query + smiles
+                    reference = description
+                final_answer, response, history = test_agent._run(query,[],debug=False)
+                i['answer'] = final_answer
+                i['blue2'] = calculate_BLEU(final_answer,reference,2)
+                time.sleep(5)
+                score += i['blue2']
+        elif 'MolecularPropertyPrediction' in self.task:
+            for i in tqdm(test_data):
+                smiles = i['SMILES']
+                gold_answer = i['gold_answer']
+                query = self.query + smiles
+                final_answer, response, history = test_agent._run(query,[],debug=False)
+                i['answer'] = final_answer
+                if gold_answer in i['answer']:
+                    i['acc'] = 1
+                else:
+                    i['acc'] = 0
+                score += i['acc']
+
+        elif self.task=='ReactionPrediction':
+            for i in tqdm(test_data):
+                smiles = i['SMILES']
+                reaction = i['reaction']
+                query = self.query + reaction
+                final_answer, response, history = test_agent._run(query,[],debug=False)
+                i['answer'] = final_answer
+                i['blue2'] = calculate_BLEU(final_answer,smiles,2)
+                time.sleep(5)
+                score += i['blue2']
+
+        score = score/len(test_data)
+        return test_agent,score,test_data
 
 
     def one_Stacking(self,tool_list):

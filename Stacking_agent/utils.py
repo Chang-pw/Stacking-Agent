@@ -118,15 +118,33 @@ def calculate_BLEU(generated_summary, reference_summary, n):
 def sorted_tools(list):
     return sorted(list, key=lambda x: x['score'], reverse=True)
 
+
 def task2query(task:str):
     if task == "Query2SMILES":
         query="Question: Please try to infer the SMILES of this molecule:\nDescription:"
         description = "Input a molecule's description ,returns a SMILES. Note:1.the results returned by this tool may not necessarily be correct. 2.The input description try to be the same with the original description."
     elif task == "SMILES2Query":
-        query="Question: Please show me a description of this molecule::\nSMILES:"
-        description = "Description:"
-    
-
+        query="Question: Please show me the detailed description of more than 20 words of the given SMILES:\nSMILES:"
+        description = "Input a molecule's SMILES ,returns a description. Note:1.the results returned by this tool may not necessarily be correct. 2.The input description try to be the same with the original SMILES."
+    elif 'MolecularPropertyPrediction' in task:
+        task_name = task.split('_')[1]
+        description="Input a molecule's SMILES ,returns the answer. Note:1.the results returned by this tool may not necessarily be correct. 2.The input SMILES try to be the same with the original SMILES."
+        if task_name == 'bace':
+            query="Given a molecular structure represented by a SMILES string, please analyze whether this compound can act as a BACE1 (Beta-site Amyloid Precursor Protein Cleaving Enzyme 1) inhibitor. Considering the molecule's structural features including molecular weight, atom composition, bond types, and functional groups to determine its potential BACE1 inhibitory activity. This prediction is crucial for identifying potential therapeutic agents for Alzheimer's disease treatment. Please provide your prediction as a simple Yes (can inhibit BACE1) or No (cannot inhibit BACE1).\nSMILES:"
+        elif task_name == 'bbbp':
+            query="Given a molecular structure represented by a SMILES string, please analyze whether this compound can penetrate the blood-brain barrier (BBB). Considering the molecule's structural features including molecular weight, atom composition, bond types, functional groups, lipophilicity, and other physicochemical properties that influence BBB penetration. This prediction is crucial for developing drugs that need to reach the central nervous system. Please provide your prediction as a simple Yes (can penetrate BBB) or No (cannot penetrate BBB).\nSMILES:"
+        elif task_name == 'clintox':
+            query="Given a molecular structure represented by a SMILES string, please analyze whether this compound has received FDA approval or failed in clinical trials specifically due to toxicity issues. Considering the molecule's structural features including molecular weight, atom composition, bond types, functional groups, and potential toxicophores that might influence its safety profile. This prediction is crucial for early assessment of drug candidates' potential success in clinical trials. Please provide your prediction as a simple Yes (FDA approved) or No (failed due to toxicity).\nSMILES:"
+        elif task_name == 'hiv':
+            query="Given a molecular structure represented by a SMILES string, please analyze whether this compound has the ability to inhibit HIV replication. Considering the molecule's structural features including molecular weight, atom composition, bond types, functional groups, and other physicochemical properties that might influence its anti-HIV activity. This prediction is crucial for identifying potential therapeutic agents for HIV treatment. Please provide your prediction as a simple Yes (can inhibit HIV replication) or No (cannot inhibit HIV replication).\nSMILES:"
+        elif task_name == 'tox21':
+            query="Given a molecular structure represented by a SMILES string, please analyze whether this compound acts as an agonist or antagonist of the nuclear receptor androgen receptor (NR-AR). Considering the molecule's structural features including molecular weight, atom composition, bond types, functional groups, and structural characteristics that determine its interaction with NR-AR. This prediction is crucial for understanding the compound's potential endocrine-related activities. Please provide your prediction as a simple Yes (agonist) or No (antagonist)."
+    elif task == "ReactionPrediction":
+        query = "Given an incomplete chemical reaction equation in SMILES notation (format: reactants>>products, where multiple reactants are separated by dots '.'), predict and complete the missing products marked as '___'. The response should only contain the SMILES representation of the missing molecule, without any additional explanation. Several examples will be provided \nExample1:{'reaction':'BrBr.c1ccc2cc3ccccc3cc2c1>>___','answer':'Brc1c2ccccc2cc2ccccc12'}.\nExample2:{'reaction':'CN.O=C(O)c1ccc(Cl)c([N+](=O)[O-])c1>>___','answer':'CNc1ccc(C(=O)O)cc1[N+](=O)[O-]'}\nChemical reaction equation:"
+        description = "Input an incomplete chemical reaction ,returns the answer. Note:1.the results returned by this tool may not necessarily be correct. 2.The input reaction try to be the same with the original reaction."
+    elif task == "YieldPrediction":
+        query= "Given the SMILES string representation of a Buchwald-Hartwig reaction (format: reactants>>products, where multiple reactants are separated by dots '.'), can you predict if the reaction is High-yielding (Yes) or Not High-yielding (No) based on whether the yield rate is above 70%? Answer with only Yes or No. Example will be provided.\nExample:{'reaction':'FC(F)(F)c1ccc(Br)cc1.Cc1ccc(N)cc1.O=S(=O)(O[Pd]1c2ccccc2-c2ccccc2N-1)C(F)(F)F.CC(C)c1cc(C(C)C)c(-c2ccccc2P(C(C)(C)C)C(C)(C)C)c(C(C)C)c1.CCN=P(N=P(N(C)C)(N(C)C)N(C)C)(N(C)C)N(C)C.CCOC(=O)c1cnoc1C>>Cc1ccc(Nc2ccc(C(F)(F)F)cc2)cc1','answer':'No'} \nReaction:"
+        description = "Input a Buchwald-Hartwig reaction ,returns the answer. Note:1.the results returned by this tool may not necessarily be correct. 2.The input reaction try to be the same with the original reaction."
     return query, description
 
 

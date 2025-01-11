@@ -9,14 +9,16 @@ import concurrent.futures
 
 
 class Warmup:
-    def __init__(self,tools=[],tool_number=2,data=[],train_data_number=10,query=""):
+    def __init__(self,tools=[],tool_number=2,data=[],train_data_number=10,task="",query=""):
         self.seed = 2025
         self.tool = tools
         self.tool_number = tool_number
         self.data = data
         self.train_data_number = train_data_number
+        self.task = task
         self.task_query = query
         self.sample_data = self.sample()
+        self.debug = True
     def sample(self):
         # random.seed(self.seed)
         sample_data = random.sample(self.data,self.train_data_number)
@@ -26,22 +28,59 @@ class Warmup:
         agent = Agent(tool)
         sample_data = self.sample_data
         score = 0
-        for index,i in enumerate(sample_data):
-            smiles = i["SMILES"]
-            description = i["description"]
-            query = self.task_query + description
-            if wo_agent:
-                final_answer = tool[0].wo_run(query)
-                agent = tool[0]
-            else:
-                final_answer, response, history = agent._run(query,[],debug=False,index=index)
-            i["answer"] = final_answer
-            i["blue2"] = calculate_BLEU(final_answer,smiles,2)
-            score += i["blue2"]
-            time.sleep(5)
-        blue2 = score/len(sample_data)
+        if self.task in ['Query2SMILES', 'SMILES2Query']:
+            for index,i in enumerate(sample_data):
+                smiles = i["SMILES"]
+                description = i["description"]
+                if self.task =='Query2SMILES':
+                    query = self.task_query + description
+                    reference = smiles
+                else:
+                    query = self.task_query + smiles
+                    reference = description
 
-        return agent,blue2,sample_data
+                if wo_agent:
+                    final_answer = tool[0].wo_run(query)
+                    agent = tool[0]
+                else:
+                    final_answer, response, history = agent._run(query,[],debug=self.debug,index=index)
+                i["answer"] = final_answer
+                i["blue2"] = calculate_BLEU(final_answer,reference,2)
+                score += i["blue2"]
+                time.sleep(5)
+        elif 'MolecularPropertyPrediction' in self.task:
+            for index,i in enumerate(sample_data):
+                smiles = i["SMILES"]
+                gold_answer = i['gold_answer']
+                query = self.task_query + smiles
+                if wo_agent:
+                    final_answer = tool[0].wo_run(query)
+                    agent = tool[0]
+                else:
+                    final_answer, response, history = agent._run(query,[],debug=self.debug,index=index)
+                i["answer"] = final_answer
+                if gold_answer in i["answer"]:
+                    i["acc"] = 1
+                else:
+                    i["acc"] = 0
+                score += i["acc"]
+                time.sleep(5)
+        elif self.task == 'ReactionPrediction':
+            for index,i in enumerate(sample_data):
+                smiles = i["SMILES"]
+                reaction = i["reaction"]
+                query = self.task_query + reaction
+                if wo_agent:
+                    final_answer = tool[0].wo_run(query)
+                    agent = tool[0]
+                else:
+                    final_answer, response, history = agent._run(query,[],debug=self.debug,index=index)
+                i["answer"] = final_answer
+                i["blue2"] = calculate_BLEU(final_answer,smiles,2)
+                score += i["blue2"]
+                time.sleep(5)
+        score = score/len(sample_data)
+        return agent,score,sample_data
     
     def one_tool_stacking(self,tool:dict):
         name = str(tool[0])

@@ -4,7 +4,7 @@ import os
 import torch
 from transformers import LlamaTokenizer, LlamaForCausalLM, GenerationConfig
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "5"
 app = Flask(__name__)
 
 model_name_or_id = "/data2/ChemDFM/ChemDFM-v1.0-13B"

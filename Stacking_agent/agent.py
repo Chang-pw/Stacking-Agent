@@ -15,6 +15,7 @@ class Agent:
         self.system_prompt = self.build_system_input()
         self.initcon = self.tool.initConfig
         self.index =0
+        self.test = False
     def build_system_input(self):
         """construct system prompt for agent"""
         tool_descs, tool_names = [], []
@@ -63,7 +64,7 @@ class Agent:
             return f"\n\033[96mObservation: \033[0m Tool call failed with error: {str(e)}"
 
         try:
-            return "\n\033[96mObservation: \033[0m" + self.tool(tool_name=plugin_name, data_index=self.index,**plugin_args)
+            return "\n\033[96mObservation: \033[0m" + self.tool(tool_name=plugin_name, data_index=self.index,test=self.test,**plugin_args)
         except Exception as e:
             # Catch the exception and return error message
             return f"\n\033[96mObservation: \033[0m Tool call failed with error: {str(e)}"
@@ -78,20 +79,18 @@ class Agent:
             break
         plugin_name, plugin_args, response = self.parse_latest_plugin_call(response)
         if plugin_name:
-            # print(plugin_name,plugin_args)
             response += self.call_plugin(plugin_name, plugin_args)
-            # print('\033[91m' + 'Tool call:' + '\033[0m', plugin_name, '\033[91m' + 'Tool Para:'+ '\033[0m',plugin_args)        # # print(response)
-        # response, his = self.model.chat(response, history, self.system_prompt)
         return response, his
     
-    def _run(self, text, history=[],debug=True,index=0):
+    def _run(self, text, history=[],debug=True,index=0,test=False):
         self.index = index
+        self.test = test
         if debug == True:
             print('\033[91m ============================START============================ \033[0m')
-        max_iter = 10
+        max_iter = 5
         n=0
         while n<=max_iter:
-            time.sleep(2)
+            time.sleep(3)
             n+=1
             response, his = self.text_completion(text, history)
             if debug == True:
@@ -106,7 +105,7 @@ class Agent:
                 return final_answer, response, history
             text += '\n' + response
             
-        return 'Error','Error','Error'
+        return response,'Error','Error'
 
     
 if __name__ == '__main__':

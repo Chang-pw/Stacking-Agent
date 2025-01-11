@@ -20,8 +20,9 @@ class Agent_tool:
     def _run(self,query:str,**tool_args)->str:
         return  self.data[self.index]["answer"]
     def test_run(self,query:str,debug=True,**tool_args)->str:
-        final,response,hs = self.agent._run(query,[],debug=debug)
+        final,response,hs = self.agent._run(query,[],debug=debug,test=True)
         return final
+    
     def __str__(self):
         return self.name
 
