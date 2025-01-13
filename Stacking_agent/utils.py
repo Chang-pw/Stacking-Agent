@@ -140,14 +140,9 @@ def task2query(task:str):
         elif task_name == 'tox21':
             query="Given a molecular structure represented by a SMILES string, please analyze whether this compound acts as an agonist or antagonist of the nuclear receptor androgen receptor (NR-AR). Considering the molecule's structural features including molecular weight, atom composition, bond types, functional groups, and structural characteristics that determine its interaction with NR-AR. This prediction is crucial for understanding the compound's potential endocrine-related activities. Please provide your prediction as a simple Yes (agonist) or No (antagonist)."
     elif task == "ReactionPrediction":
-        query = "Given an incomplete chemical reaction equation in SMILES notation (format: reactants>>products, where multiple reactants are separated by dots '.'), predict and complete the missing products marked as '___'. The response should only contain the SMILES representation of the missing molecule, without any additional explanation. Several examples will be provided \nExample1:{'reaction':'BrBr.c1ccc2cc3ccccc3cc2c1>>___','answer':'Brc1c2ccccc2cc2ccccc12'}.\nExample2:{'reaction':'CN.O=C(O)c1ccc(Cl)c([N+](=O)[O-])c1>>___','answer':'CNc1ccc(C(=O)O)cc1[N+](=O)[O-]'}\nChemical reaction equation:"
+        query = "Given an incomplete chemical reaction equation in SMILES notation (format: reactants>>products, where multiple reactants are separated by dots '.'), predict and complete the missing products marked as '___'. The response should only contain the SMILES representation of the missing molecule, without any additional explanation.\nPlease Answer the quetion based on the following Chemical reaction equation:"
         description = "Input an incomplete chemical reaction ,returns the answer. Note:1.the results returned by this tool may not necessarily be correct. 2.The input reaction try to be the same with the original reaction."
     elif task == "YieldPrediction":
-        query= "Given the SMILES string representation of a Buchwald-Hartwig reaction (format: reactants>>products, where multiple reactants are separated by dots '.'), can you predict if the reaction is High-yielding (Yes) or Not High-yielding (No) based on whether the yield rate is above 70%? Answer with only Yes or No. Example will be provided.\nExample:{'reaction':'FC(F)(F)c1ccc(Br)cc1.Cc1ccc(N)cc1.O=S(=O)(O[Pd]1c2ccccc2-c2ccccc2N-1)C(F)(F)F.CC(C)c1cc(C(C)C)c(-c2ccccc2P(C(C)(C)C)C(C)(C)C)c(C(C)C)c1.CCN=P(N=P(N(C)C)(N(C)C)N(C)C)(N(C)C)N(C)C.CCOC(=O)c1cnoc1C>>Cc1ccc(Nc2ccc(C(F)(F)F)cc2)cc1','answer':'No'} \nReaction:"
+        query= "Given the SMILES string representation of a Buchwald-Hartwig reaction (format: reactants>>products, where multiple reactants are separated by dots '.'), can you predict if the reaction is High-yielding (Yes) or Not High-yielding (No) based on whether the yield rate is above 70%? Answer with only Yes or No. Please Answer the quetion based on the following Chemical reaction equation:"
         description = "Input a Buchwald-Hartwig reaction ,returns the answer. Note:1.the results returned by this tool may not necessarily be correct. 2.The input reaction try to be the same with the original reaction."
     return query, description
-
-
-if __name__=='__main__':
-    list = [{'score':0.5},{'score':0.6},{'score':0.7}]
-    print(sorted_tools(list))

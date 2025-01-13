@@ -4,7 +4,7 @@
 ## Tool Number: Number of tools each agent can call
 ## Train data number: Number of training data
 
-Task='ReactionPrediction'
+Task='YieldPrediction'
 tools='''
 [
 SMILES2Property(),

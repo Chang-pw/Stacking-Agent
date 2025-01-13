@@ -66,6 +66,19 @@ class Stacking:
                 time.sleep(5)
                 score += i['blue2']
 
+        elif 'YieldPrediction' in self.task:
+            for i in tqdm(test_data):
+                reaction = i['reaction']
+                gold_answer = i['gold_answer']
+                query = self.query + reaction
+                final_answer, response, history = test_agent._run(query,[],debug=False)
+                i['answer'] = final_answer
+                if gold_answer in i['answer']:
+                    i['acc'] = 1
+                else:
+                    i['acc'] = 0
+                score += i['acc']
+
         score = score/len(test_data)
         return test_agent,score,test_data
 

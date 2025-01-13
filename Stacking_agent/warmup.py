@@ -79,6 +79,23 @@ class Warmup:
                 i["blue2"] = calculate_BLEU(final_answer,smiles,2)
                 score += i["blue2"]
                 time.sleep(5)
+        elif self.task == 'YieldReaction':
+            for index,i in enumerate(sample_data):
+                gold_answer = i["gold_answer"]
+                reaction = i["reaction"]
+                query = self.task_query + reaction
+                if wo_agent:
+                    final_answer = tool[0].wo_run(query)
+                    agent = tool[0]
+                else:
+                    final_answer, response, history = agent._run(query,[],debug=self.debug,index=index)
+                i["answer"] = final_answer
+                if gold_answer in i["answer"]:
+                    i["acc"] = 1
+                else:
+                    i["acc"] = 0
+                score += i["acc"]
+                time.sleep(5)
         score = score/len(sample_data)
         return agent,score,sample_data
     

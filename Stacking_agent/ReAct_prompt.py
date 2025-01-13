@@ -6,7 +6,7 @@ Parameters: {parameters} Format the arguments as a JSON object.
 REACT_PROMPT = """
 ### QUESTION
 You are an expert chemist with critical thinking and your task is to respond to the question or solve the problem to the best of your ability.
-Answer the following questions as best you can. You have access to the following tools. And you must call the following tools at least once:
+Answer the following questions. You have access to the following tools. And you must call the following tools at least once:
 
 {tool_descs}
 
@@ -22,7 +22,7 @@ Observation: the result of the action
 ... (this Thought/Action/Action Input/Observation can be repeated multiple times)
 
 Thought: I now know the final answer
-Final Answer: the final answer to the original input question, NO OTHER INFORMATION or EXPAINATION!
+Final Answer: the final answer to the original input question, Noth that Please stated 'Final Answer:' before answering the question , NO OTHER INFORMATION or EXPAINATION!
 
-### Begin!
+### Begin! Utilize the results returned by this tool as much as possible!
 """

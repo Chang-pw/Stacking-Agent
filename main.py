@@ -160,7 +160,38 @@ def main():
             score += blue2
         final_score = score/len(test_data)
         print(f"\033[34m 在{task}任务测试集上BLEU-2分数为：'{final_score}'\033[0m")
-        
+    elif task == "YieldPrediction":
+        if not no_train:
+            with open(f'./Dataset/ReactionPrediction/ReactionPrediction_train_data.json','r',encoding='utf-8')    as f:
+                train_data = json.load(f)
+            result,_ = Stacking(tools=tools, top_n=topN, tool_number=tool_number,train_data=train_data,
+                                train_data_number=train_data_number,task=task,query=task_query)._run()
+            final_agent = result[0]['agent_tool']
+            print('\n\033[31m ----最终结果---- \033[0m\n')
+            print(f"\033[34m 在训练集上表现最优的是 {result[0]['tool']} , 其分数为 {result[0]['score']} 。接下来开始在{task}任务测试集上运行 \033[0m")
+            
+        with open('./Dataset/YieldPrediction/YieldPrediction_test.json','r',encoding='utf-8')    as f:
+            test_data = json.load(f)
+        for i in tqdm(test_data):
+            gold_answer = i['gold_answer']
+            reaction = i['reaction']
+            query = task_query + reaction 
+            print(query)
+            if len(result)>1:
+                final_answer= final_agent.test_run(query,debug=True)
+            else:
+                final_answer = final_agent.wo_run(query)
+            i['answer'] = final_answer
+            if gold_answer in i['answer']:
+                i['acc'] = 1
+            else:
+                i['acc'] = 0
+            print('Final answer:'+ final_answer)
+            print('Acc:'+ str(i['acc']))
+            time.sleep(5)
+            score += i['acc']
+        final_score = score/len(test_data)
+        print(f"\033[34m 在{task}任务测试集上BLEU-2分数为：'{final_score}'\033[0m")
     try:
         with open(f"./Result/{task}/{result[0]['tool']}_{topN}_{tool_number}_{train_data_number}.json",'w',encoding='utf-8') as f:
             json.dump(test_data,f,ensure_ascii=False,indent=4)
