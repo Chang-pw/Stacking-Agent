@@ -1,0 +1,1 @@
+[{'agent_tool': ReagentSelection_reactant_1, 'score': 0.3, 'tool': 'SMILES2Description_1'}, {'agent_tool': ChemDFM, 'score': 0.2, 'tool': 'ChemDFM_0'}, {'agent_tool': SMILES2Description, 'score': 0.0, 'tool': 'SMILES2Description_0'}]

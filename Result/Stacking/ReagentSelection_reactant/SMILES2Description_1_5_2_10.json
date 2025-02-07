@@ -1,0 +1,902 @@
+[
+    {
+        "Reaction": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.___>CN(C)C=O.Ic1ccc2ncccc2c1.[OH-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 3738,
+        "time": 25.732,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2.[OH-].[K+].C1CCOC1>Unknown product",
+        "gold_answer": "Brc1ccc2ncccc2c1",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 3920,
+        "time": 38.382,
+        "acc": 0
+    },
+    {
+        "Reaction": "C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1.___>CO.Clc1ccc2ncccc2c1.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "all_tokens": 5029,
+        "time": 30.969,
+        "acc": 0
+    },
+    {
+        "Reaction": "CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2.___>CO.Brc1ccc2ncccc2c1.[OH-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\n> Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "all_tokens": 3820,
+        "time": 36.288,
+        "acc": 1
+    },
+    {
+        "Reaction": "CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2.___>C1CCOC1.Brc1ccc2ncccc2c1.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 3716,
+        "time": 38.764,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>Cc1ccccc1P(c1ccccc1C)c1ccccc1C.[Li+].CC(C)(C)[O-].C1CCOC1>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 2504,
+        "time": 18.392,
+        "acc": 1
+    },
+    {
+        "Reaction": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.___>CN(C)C=O.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.[Li+].CC(C)(C)[O-]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 3930,
+        "time": 31.339,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1.[OH-].[Na+].CO>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "Brc1ccc2ncccc2c1",
+        "all_tokens": 2594,
+        "time": 18.201,
+        "acc": 0
+    },
+    {
+        "Reaction": "COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.___>CC#N.Clc1ccc2ncccc2c1.[OH-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "all_tokens": 2624,
+        "time": 22.657,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1Br.___>c1ccc(P(c2ccccc2)c2ccccc2)cc1.[OH-].[Na+].CO>Unknown product",
+        "gold_answer": "CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "choices": "> F[B-](F)(F)c1ccc2ncccc2c1\n> CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "answer": "CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "all_tokens": 2542,
+        "time": 28.714,
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.___>CC#N.Brc1ccc2ncccc2c1.[OH-].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\n> Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "all_tokens": 3828,
+        "time": 25.247,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.[O-]P(=O)([O-])[O-].[K+].[K+].[K+].CN(C)C=O>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 10108,
+        "time": 50.698,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.[OH-].[Na+].C1CCOC1>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 3601,
+        "time": 30.754,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C.CCN(CC)CC.C1CCOC1>Unknown product",
+        "gold_answer": "Brc1ccc2ncccc2c1",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "Brc1ccc2ncccc2c1",
+        "all_tokens": 3484,
+        "time": 23.768,
+        "acc": 1
+    },
+    {
+        "Reaction": "CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2.___>CC#N.Ic1ccc2ncccc2c1.[OH-].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 3883,
+        "time": 25.654,
+        "acc": 0
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.___>CN(C)C=O.Ic1ccc2ncccc2c1.[F-].[Cs+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2640,
+        "time": 21.041,
+        "acc": 0
+    },
+    {
+        "Reaction": "c1ccc(P(c2ccccc2)c2ccccc2)cc1.___>CC#N.Brc1ccc2ncccc2c1.C(=O)(O)[O-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\n> Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "all_tokens": 3635,
+        "time": 25.321,
+        "acc": 0
+    },
+    {
+        "Reaction": "COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.___>CN(C)C=O.Brc1ccc2ncccc2c1.[Li+].CC(C)(C)[O-]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\n> Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "all_tokens": 3878,
+        "time": 24.383,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1Br.___>Cc1ccccc1P(c1ccccc1C)c1ccccc1C.[Li+].CC(C)(C)[O-].CO>Unknown product",
+        "gold_answer": "F[B-](F)(F)c1ccc2ncccc2c1",
+        "choices": "> F[B-](F)(F)c1ccc2ncccc2c1\n> CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "answer": "CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "all_tokens": 3542,
+        "time": 31.726,
+        "acc": 0
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.___>C1CCOC1.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2635,
+        "time": 19.357,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>Cc1ccccc1P(c1ccccc1C)c1ccccc1C.[OH-].[Na+].CN(C)C=O>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "Brc1ccc2ncccc2c1",
+        "all_tokens": 11923,
+        "time": 66.211,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.[Li+].CC(C)(C)[O-].CO>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 4697,
+        "time": 30.969,
+        "acc": 1
+    },
+    {
+        "Reaction": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.___>CC#N.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "all_tokens": 2680,
+        "time": 20.82,
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.___>CC#N.Ic1ccc2ncccc2c1.[OH-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2863,
+        "time": 23.407,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1.[F-].[Cs+].C1CCOC1>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Clc1ccc2ncccc2c1",
+        "all_tokens": 7853,
+        "time": 46.322,
+        "acc": 0
+    },
+    {
+        "Reaction": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.___>C1CCOC1.Brc1ccc2ncccc2c1.C(=O)(O)[O-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 3732,
+        "time": 41.777,
+        "acc": 1
+    },
+    {
+        "Reaction": "CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1.___>CC#N.Clc1ccc2ncccc2c1.[OH-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "all_tokens": 3779,
+        "time": 29.496,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1.[O-]P(=O)([O-])[O-].[K+].[K+].[K+].CO>Unknown product",
+        "gold_answer": "O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 2916,
+        "time": 22.547,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C.C(=O)(O)[O-].[Na+].CC#N>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 2819,
+        "time": 21.62,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>CC(C)(C)P(C(C)(C)C)C(C)(C)C.CCN(CC)CC.C1CCOC1>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 3732,
+        "time": 25.197,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1Br.___>CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C.[O-]P(=O)([O-])[O-].[K+].[K+].[K+].CC#N>Unknown product",
+        "gold_answer": "F[B-](F)(F)c1ccc2ncccc2c1",
+        "choices": "> F[B-](F)(F)c1ccc2ncccc2c1\n> CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "answer": "F[B-](F)(F)c1ccc2ncccc2c1",
+        "all_tokens": 2671,
+        "time": 20.107,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C.[O-]P(=O)([O-])[O-].[K+].[K+].[K+].C1CCOC1>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 3666,
+        "time": 25.187,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1.C(=O)(O)[O-].[Na+].CO>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "\u001b[92mThought:\u001b[0m I will proceed to evaluate the remaining SMILES options from the CHOICE LIST to see if I can obtain useful information for the decision.\n\n\u001b[93mAction:\u001b[0m SMILES2Description\n\u001b[94mAction Input:\u001b[0m {\"query\": \"Ic1ccc2ncccc2c1\"}\n\u001b[96mObservation: \u001b[0mCould not find a molecule matching the text. One possible cause is that the input is incorrect, please modify your input.",
+        "all_tokens": 10987,
+        "time": 59.424,
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C.___>CN(C)C=O.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.[Li+].CC(C)(C)[O-]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 4023,
+        "time": 30.675,
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(C)(C)P(C(C)(C)C)C(C)(C)C.___>C1CCOC1.Clc1ccc2ncccc2c1.[OH-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2623,
+        "time": 22.901,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1Br.___>CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1.[OH-].[Na+].CO>Unknown product",
+        "gold_answer": "F[B-](F)(F)c1ccc2ncccc2c1",
+        "choices": "> F[B-](F)(F)c1ccc2ncccc2c1\n> CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "answer": "CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "all_tokens": 2600,
+        "time": 20.349,
+        "acc": 0
+    },
+    {
+        "Reaction": "C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1.___>CN(C)C=O.Brc1ccc2ncccc2c1.[O-]P(=O)([O-])[O-].[K+].[K+].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\n> Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 6837,
+        "time": 43.505,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1Br.___>CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1.CCN(CC)CC.CN(C)C=O>Unknown product",
+        "gold_answer": "CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "choices": "> F[B-](F)(F)c1ccc2ncccc2c1\n> CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "answer": "F[B-](F)(F)c1ccc2ncccc2c1",
+        "all_tokens": 7211,
+        "time": 43.143,
+        "acc": 0
+    },
+    {
+        "Reaction": "CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1.___>CO.Brc1ccc2ncccc2c1.[OH-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\n> Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "all_tokens": 5825,
+        "time": 36.252,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>Cc1ccccc1P(c1ccccc1C)c1ccccc1C.[O-]P(=O)([O-])[O-].[K+].[K+].[K+].CN(C)C=O>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 9021,
+        "time": 51.44,
+        "acc": 1
+    },
+    {
+        "Reaction": "COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.___>CC#N.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.C(=O)(O)[O-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 3674,
+        "time": 31.59,
+        "acc": 0
+    },
+    {
+        "Reaction": "c1ccc(P(c2ccccc2)c2ccccc2)cc1.___>C1CCOC1.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.[OH-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2815,
+        "time": 22.476,
+        "acc": 0
+    },
+    {
+        "Reaction": "C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1.___>CO.Clc1ccc2ncccc2c1.[F-].[Cs+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 3577,
+        "time": 24.7,
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C.___>CN(C)C=O.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.[OH-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 5710,
+        "time": 34.143,
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C.___>CC#N.Clc1ccc2ncccc2c1.[F-].[Cs+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 5602,
+        "time": 33.943,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C.C(=O)(O)[O-].[Na+].C1CCOC1>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 2616,
+        "time": 25.213,
+        "acc": 1
+    },
+    {
+        "Reaction": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.___>CN(C)C=O.Clc1ccc2ncccc2c1.[Li+].CC(C)(C)[O-]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 3762,
+        "time": 24.984,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccccc1P(c1ccccc1C)c1ccccc1C.___>CC#N.Brc1ccc2ncccc2c1.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\n> Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "all_tokens": 3732,
+        "time": 31.505,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1.[Li+].CC(C)(C)[O-].CC#N>Unknown product",
+        "gold_answer": "Brc1ccc2ncccc2c1",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "{\"query\":\"Ic1ccc2ncccc2c1\"}",
+        "all_tokens": 11218,
+        "time": 63.388,
+        "acc": 0
+    },
+    {
+        "Reaction": "C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1.___>CN(C)C=O.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "all_tokens": 3552,
+        "time": 22.72,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.[O-]P(=O)([O-])[O-].[K+].[K+].[K+].CN(C)C=O>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 5095,
+        "time": 30.645,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1.[F-].[Cs+].C1CCOC1>Unknown product",
+        "gold_answer": "Brc1ccc2ncccc2c1",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 5588,
+        "time": 50.568,
+        "acc": 0
+    },
+    {
+        "Reaction": "c1ccc(P(c2ccccc2)c2ccccc2)cc1.___>CO.Ic1ccc2ncccc2c1.[Li+].CC(C)(C)[O-]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 7987,
+        "time": 44.636,
+        "acc": 0
+    },
+    {
+        "Reaction": "COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.___>C1CCOC1.Ic1ccc2ncccc2c1.[OH-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 3733,
+        "time": 27.06,
+        "acc": 0
+    },
+    {
+        "Reaction": "CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1.___>C1CCOC1.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.[F-].[Cs+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 3146,
+        "time": 22.185,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.[OH-].[K+].CC#N>Unknown product",
+        "gold_answer": "Clc1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 2817,
+        "time": 35.903,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1Br.___>C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.[Li+].CC(C)(C)[O-].CN(C)C=O>Unknown product",
+        "gold_answer": "CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "choices": "> F[B-](F)(F)c1ccc2ncccc2c1\n> CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "answer": "F[B-](F)(F)c1ccc2ncccc2c1",
+        "all_tokens": 4634,
+        "time": 30.321,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>c1ccc(P(c2ccccc2)c2ccccc2)cc1.C(=O)(O)[O-].[Na+].C1CCOC1>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 2449,
+        "time": 20.241,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccccc1P(c1ccccc1C)c1ccccc1C.___>C1CCOC1.Clc1ccc2ncccc2c1.[OH-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2536,
+        "time": 18.518,
+        "acc": 1
+    },
+    {
+        "Reaction": "CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2.___>CC#N.Ic1ccc2ncccc2c1.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2600,
+        "time": 19.491,
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.___>CC#N.Clc1ccc2ncccc2c1.[OH-].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2578,
+        "time": 27.183,
+        "acc": 0
+    },
+    {
+        "Reaction": "CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1.___>CN(C)C=O.Ic1ccc2ncccc2c1.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "all_tokens": 2774,
+        "time": 26.334,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.[OH-].[K+].CC#N>Unknown product",
+        "gold_answer": "Clc1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Brc1ccc2ncccc2c1",
+        "all_tokens": 6862,
+        "time": 41.615,
+        "acc": 0
+    },
+    {
+        "Reaction": "c1ccc(P(c2ccccc2)c2ccccc2)cc1.___>CN(C)C=O.Brc1ccc2ncccc2c1.[F-].[Cs+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\n> Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "all_tokens": 3876,
+        "time": 26.326,
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C.___>CC#N.Brc1ccc2ncccc2c1.[OH-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\n> Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "all_tokens": 6812,
+        "time": 41.963,
+        "acc": 0
+    },
+    {
+        "Reaction": "C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1.___>CC#N.Brc1ccc2ncccc2c1.C(=O)(O)[O-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\n> Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "all_tokens": 3882,
+        "time": 28.084,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1Br.___>C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.CCN(CC)CC.CN(C)C=O>Unknown product",
+        "gold_answer": "CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "choices": "> F[B-](F)(F)c1ccc2ncccc2c1\n> CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "answer": "F[B-](F)(F)c1ccc2ncccc2c1",
+        "all_tokens": 2425,
+        "time": 19.339,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>c1ccc(P(c2ccccc2)c2ccccc2)cc1.C(=O)(O)[O-].[Na+].CO>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 3938,
+        "time": 23.386,
+        "acc": 1
+    },
+    {
+        "Reaction": "c1ccc(P(c2ccccc2)c2ccccc2)cc1.___>CN(C)C=O.Clc1ccc2ncccc2c1.[OH-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "all_tokens": 5520,
+        "time": 35.163,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.[O-]P(=O)([O-])[O-].[K+].[K+].[K+].CO>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 2732,
+        "time": 23.796,
+        "acc": 1
+    },
+    {
+        "Reaction": "c1ccc(P(c2ccccc2)c2ccccc2)cc1.___>C1CCOC1.Clc1ccc2ncccc2c1.C(=O)(O)[O-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2707,
+        "time": 22.785,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C.[F-].[Cs+].CC#N>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Brc1ccc2ncccc2c1",
+        "all_tokens": 5003,
+        "time": 30.912,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>Cc1ccccc1P(c1ccccc1C)c1ccccc1C.C(=O)(O)[O-].[Na+].CN(C)C=O>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 5965,
+        "time": 43.133,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2.[F-].[Cs+].CC#N>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 4621,
+        "time": 31.204,
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(C)(C)P(C(C)(C)C)C(C)(C)C.___>CC#N.Ic1ccc2ncccc2c1.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 4030,
+        "time": 27.516,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>CC(C)(C)P(C(C)(C)C)C(C)(C)C.[OH-].[Na+].C1CCOC1>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 5055,
+        "time": 36.098,
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.___>CC#N.Clc1ccc2ncccc2c1.[F-].[Cs+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2630,
+        "time": 20.847,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>CC(C)(C)P(C(C)(C)C)C(C)(C)C.C(=O)(O)[O-].[Na+].CN(C)C=O>Unknown product",
+        "gold_answer": "Clc1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Brc1ccc2ncccc2c1",
+        "all_tokens": 2660,
+        "time": 17.899,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>CC(C)(C)P(C(C)(C)C)C(C)(C)C.[F-].[Cs+].C1CCOC1>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 2520,
+        "time": 18.262,
+        "acc": 1
+    },
+    {
+        "Reaction": "C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1.___>CN(C)C=O.Clc1ccc2ncccc2c1.[Li+].CC(C)(C)[O-]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 8719,
+        "time": 45.849,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.C(=O)(O)[O-].[Na+].CN(C)C=O>Unknown product",
+        "gold_answer": "Clc1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 11289,
+        "time": 66.402,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>c1ccc(P(c2ccccc2)c2ccccc2)cc1.[F-].[Cs+].CC#N>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 2741,
+        "time": 22.694,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccccc1P(c1ccccc1C)c1ccccc1C.___>CC#N.Ic1ccc2ncccc2c1.[O-]P(=O)([O-])[O-].[K+].[K+].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2646,
+        "time": 22.098,
+        "acc": 0
+    },
+    {
+        "Reaction": "CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1.___>CN(C)C=O.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.[Li+].CC(C)(C)[O-]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2676,
+        "time": 20.007,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C.[Li+].CC(C)(C)[O-].CO>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Clc1ccc2ncccc2c1",
+        "all_tokens": 2496,
+        "time": 28.9,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.CCN(CC)CC.CC#N>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 5842,
+        "time": 34.368,
+        "acc": 1
+    },
+    {
+        "Reaction": "c1ccc(P(c2ccccc2)c2ccccc2)cc1.___>CC#N.Ic1ccc2ncccc2c1.[F-].[Cs+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2484,
+        "time": 18.086,
+        "acc": 0
+    },
+    {
+        "Reaction": "COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.___>CC#N.Clc1ccc2ncccc2c1.C(=O)(O)[O-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 3637,
+        "time": 27.637,
+        "acc": 0
+    },
+    {
+        "Reaction": "C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1.___>CN(C)C=O.Ic1ccc2ncccc2c1.[O-]P(=O)([O-])[O-].[K+].[K+].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2813,
+        "time": 21.636,
+        "acc": 1
+    },
+    {
+        "Reaction": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.___>CN(C)C=O.Ic1ccc2ncccc2c1.[OH-].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "all_tokens": 3710,
+        "time": 25.003,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>CC(C)(C)P(C(C)(C)C)C(C)(C)C.[OH-].[K+].CN(C)C=O>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 3417,
+        "time": 27.737,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.___>CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.[Li+].CC(C)(C)[O-].CN(C)C=O>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 2710,
+        "time": 19.617,
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(C)(C)P(C(C)(C)C)C(C)(C)C.___>CC#N.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "{\"query\": \"Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\"}",
+        "all_tokens": 11236,
+        "time": 60.663,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.C(=O)(O)[O-].[Na+].C1CCOC1>Unknown product",
+        "gold_answer": "O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 8727,
+        "time": 43.777,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>CC(C)(C)P(C(C)(C)C)C(C)(C)C.[OH-].[K+].CN(C)C=O>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 3604,
+        "time": 34.294,
+        "acc": 1
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.[OH-].[K+].CN(C)C=O>Unknown product",
+        "gold_answer": "Clc1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "all_tokens": 2754,
+        "time": 19.617,
+        "acc": 0
+    },
+    {
+        "Reaction": "CN(C)Cc1ccc(P(C(C)(C)C)C(C)(C)C)cc1.___>CC#N.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.[Li+].CC(C)(C)[O-]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2649,
+        "time": 20.551,
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(C)(C)P(C(C)(C)C)C(C)(C)C.___>CO.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.[OH-].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2634,
+        "time": 18.886,
+        "acc": 1
+    },
+    {
+        "Reaction": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.___>CC#N.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.[OH-].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2579,
+        "time": 19.024,
+        "acc": 0
+    },
+    {
+        "Reaction": "Cc1ccccc1P(c1ccccc1C)c1ccccc1C.___>CC#N.O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F.[Li+].CC(C)(C)[O-]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "all_tokens": 2663,
+        "time": 20.073,
+        "acc": 0
+    }
+]

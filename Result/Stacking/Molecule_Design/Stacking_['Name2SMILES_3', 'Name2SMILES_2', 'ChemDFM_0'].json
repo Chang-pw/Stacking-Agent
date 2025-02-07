@@ -1,0 +1,37 @@
+[
+    {
+        "SMILES": "C1=CC=C(C(=C1)C(=O)NCC(=O)O)O",
+        "description": "The molecule is an N-acylglycine in which the acyl group is specified as 2-hydroxybenzoyl. It has a role as a uremic toxin and a human xenobiotic metabolite. It is a N-acylglycine and a secondary carboxamide. It derives from a glycine. It is a conjugate acid of a salicylurate.",
+        "answer": "O=C(O)CNC(=O)c1ccccc1O",
+        "all_tokens": 4140,
+        "blue2": 0.4061398933065805
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCCCC(C(=O)N[C@@H](COP(=O)([O-])O[C@@H]1[C@@H]([C@@H]([C@H]([C@@H]([C@H]1OC2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)O)O)[C@@H](CCCCCCCCCCCCCCC)O)O",
+        "description": "The molecule is a mannosylinositol phosphorylceramide(1-) having a hexacosanoyl group amide-linked to a C18 sphinganine base, with hydroxylation at C-2 of the C26 very-long-chain fatty acid. It is a conjugate base of a Man-1-2-Ins-1-P-Cer(d18:0/2-OH-26:0).",
+        "answer": "CCCCCCCCCCCCCCCCCCCCCCCCC(O)C(=O)N[C@@H](COP(=O)([O-])O[C@@H]1[C@H](O)[C@H](O)[C@@H](O)[C@H](O)[C@H]1OC1O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]1O)[C@H](O)CCCCCCCCCCCCCCC",
+        "all_tokens": 6082,
+        "blue2": 0.9047188761395956
+    },
+    {
+        "SMILES": "CC/C=C\\\\CCCCC=O",
+        "description": "The molecule is a monounsaturated fatty aldehyde that is (3Z)-non-3-ene which is carrying an oxo group at position 1. It has a role as a plant metabolite. It is a monounsaturated fatty aldehyde, an olefinic compound and a medium-chain fatty aldehyde.",
+        "answer": "CCCC/C=C\\CC(=O)C=O",
+        "all_tokens": 4036,
+        "blue2": 0.7409585736349484
+    },
+    {
+        "SMILES": "CCCCC1C(=O)N(N(C1=O)C2=CC=C(C=C2)O)C3=CC=CC=C3",
+        "description": "The molecule is a metabolite of phenylbutazone obtained by hydroxylation at position 4 of one of the phenyl rings. Commonly used (as its hydrate) to treat pain, swelling and stiffness associated with arthritis and gout, it was withdrawn from the market 1984 following association with blood dyscrasis and Stevens-Johnson syndrome. It has a role as a non-steroidal anti-inflammatory drug, a non-narcotic analgesic, an antipyretic, a gout suppressant, a drug metabolite, a xenobiotic metabolite, an antineoplastic agent and an antimicrobial agent. It is a member of pyrazolidines and a member of phenols. It derives from a phenylbutazone.",
+        "answer": "CCCCC1C(=O)N(c2ccccc2)N(c2ccc(O)cc2)C1=O",
+        "all_tokens": 5262,
+        "blue2": 0.48434743371799827
+    },
+    {
+        "SMILES": "CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC",
+        "description": "The molecule is a tertiary amino compound that is 3,4-dimethoxyphenylethylamine in which the hydrogens attached to the nitrogen are replaced by a methyl group and a 4-cyano-4-(3,4-dimethoxyphenyl)-5-methylhexyl group. It is a tertiary amino compound, an aromatic ether, a polyether and a nitrile.",
+        "answer": "COc1ccc(CCN(C)CCCC(C#N)(c2ccc(OC)c(OC)c2)C(C)C)cc1OC",
+        "all_tokens": 4174,
+        "blue2": 0.5571956481301077
+    }
+]

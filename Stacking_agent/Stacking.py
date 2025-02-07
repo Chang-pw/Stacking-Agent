@@ -10,6 +10,8 @@ import itertools
 import dill
 import math
 import re
+from sklearn.metrics import f1_score
+from sklearn.metrics import roc_curve, auc
 
 class Stacking:
     def __init__(self,tools:list,top_n:int,tool_number=2,train_data=[],train_data_number=10,task="",query=""):
@@ -21,65 +23,122 @@ class Stacking:
         self.data = self.Warmup.sample_data
         self.warmup = sorted_tools(self.Warmup._run())
         self.top_n = top_n
+        self.debug = False
 
 
     def test(self,tool_list,name1,name2):
         test_agent = Agent(tool_list)
         test_data = self.data
         score =0 
-        if self.task in ['Query2SMILES', 'SMILES2Query']:
+        if self.task in ['Molecule_Design', 'Molecule_captioning']:
             for i in tqdm(test_data):
                 smiles = i['SMILES']
                 description = i['description']
-                if self.task =='Query2SMILES':
+                if self.task =='Molecule_Design':
                     query = self.query + description
                     reference = smiles
                 else:
                     query = self.query + smiles
                     reference = description
-                final_answer, response, history = test_agent._run(query,[],debug=False)
+                final_answer, response, history,all_tokens = test_agent._run(query,[],debug=self.debug)
                 i['answer'] = final_answer
+                i['all_tokens'] = all_tokens
                 i['blue2'] = calculate_BLEU(final_answer,reference,2)
                 time.sleep(5)
                 score += i['blue2']
+            
+            score = score/len(test_data)
+            
         elif 'MolecularPropertyPrediction' in self.task:
             for i in tqdm(test_data):
                 smiles = i['SMILES']
                 gold_answer = i['gold_answer']
                 query = self.query + smiles
-                final_answer, response, history = test_agent._run(query,[],debug=False)
+                final_answer, response, history,all_tokens = test_agent._run(query,[],debug=self.debug)
                 i['answer'] = final_answer
-                if gold_answer in i['answer']:
-                    i['acc'] = 1
-                else:
-                    i['acc'] = 0
-                score += i['acc']
+                i['all_tokens'] = all_tokens
 
+
+            y_true = [1 if i['gold_answer']=='Yes' else 0 for i in test_data]
+            y_pred = [1 if i['answer']=='Yes' else 0 for i in test_data]
+            fpr, tpr, thresholds = roc_curve(y_true, y_pred)
+            score = auc(fpr, tpr)
+            # score = f1_score(y_true, y_pred,zero_division=1.0)
         elif self.task=='ReactionPrediction':
             for i in tqdm(test_data):
                 smiles = i['SMILES']
                 reaction = i['reaction']
                 query = self.query + reaction
-                final_answer, response, history = test_agent._run(query,[],debug=False)
+                final_answer, response, history,all_tokens = test_agent._run(query,[],debug=self.debug)
                 i['answer'] = final_answer
                 i['blue2'] = calculate_BLEU(final_answer,smiles,2)
+                i['all_tokens'] = all_tokens
+
                 time.sleep(5)
                 score += i['blue2']
 
-        elif 'YieldPrediction' in self.task:
+            score = score/len(test_data)
+
+        elif 'ReagentSelection' in self.task:
             for i in tqdm(test_data):
-                reaction = i['reaction']
+                reaction = i['Reaction']
+                choices = i['choices']
+                query = self.query.format(reaction=reaction, choices=choices)
                 gold_answer = i['gold_answer']
-                query = self.query + reaction
-                final_answer, response, history = test_agent._run(query,[],debug=False)
+                final_answer, response, history,all_tokens = test_agent._run(query,[],debug=self.debug)
                 i['answer'] = final_answer
+                i['all_tokens'] = all_tokens
+
                 if gold_answer in i['answer']:
                     i['acc'] = 1
                 else:
                     i['acc'] = 0
                 score += i['acc']
 
-        score = score/len(test_data)
+            score = score/len(test_data)
+
+        elif 'YieldPrediction' in self.task:
+            for i in tqdm(test_data):
+                reaction = i['Reaction']
+                gold_answer = i['gold_answer']
+                query = self.query + reaction
+                final_answer, response, history,all_tokens = test_agent._run(query,[],debug=self.debug)
+                i['answer'] = final_answer
+                i['all_tokens'] = all_tokens
+
+                if gold_answer in i['answer']:
+                    i['acc'] = 1
+                else:
+                    i['acc'] = 0
+                score += i['acc']
+
+            score = score/len(test_data)
+
+
+        elif self.task == 'Retrosynthesis':
+            for i in tqdm(test_data):
+                input = i['input']
+                gold_answer = str(i['gold_answer'])
+                query = self.query + input
+                final_answer, response, history,all_tokens = test_agent._run(query,[],debug=self.debug)
+                i['answer'] = final_answer
+                i['all_tokens'] = all_tokens
+
+                try:
+                    final_answer_list = eval(final_answer)
+                    if set(gold_answer) == set(final_answer_list):
+                        i['acc'] = 1
+                    else:
+                        i['acc'] = 0
+                except:
+                    i['acc']=0
+
+                score += i['acc']
+
+                time.sleep(5)
+                score += i['acc']
+            score = score/len(test_data)
+
         return test_agent,score,test_data
 
 
@@ -125,9 +184,12 @@ class Stacking:
 
             # Call the test function with the current combination of tools
             test_agent, blue2 ,sample_data= self.test(tool_combination, tool_1['tool'], tool_names[-1])
-            
-            with open(f'./Result/molecule_captioning_sample_{tool_names}.json','w',encoding='utf-8') as f:
-                json.dump(sample_data,f,indent=4)
+            try:
+                with open(f'./Result/Stacking/{self.task}/Stacking_{tool_names}.json','w',encoding='utf-8') as f:
+                    json.dump(sample_data,f,indent=4)
+            except:
+                with open(f'./Result/Stacking/{self.task}/Stacking_error.json','w',encoding='utf-8') as f:
+                    json.dump(sample_data,f,indent=4)
 
             # Append the result to the result list
             result_list.append({'agent_tool': test_agent, 'score': blue2, 'tool':tool_names})
@@ -170,7 +232,7 @@ class Stacking:
             print(f'第{layer}层最高分数为{top_score},结束叠加进入下一层')
 
             for i in result_list:
-                with open(f'./Result/molecule_captioning_sample_{i["tool"]}.json','r',encoding='utf-8') as f:
+                with open(f'./Result/Stacking/{self.task}/Stacking_{i["tool"]}.json','r',encoding='utf-8') as f:
                     sample_data = json.load(f)
                 i['agent_tool'] = Agent_tool([i['agent_tool']],data=sample_data)
 

@@ -27,16 +27,18 @@ class Tools:
     def __call__(self, tool_name: str,data_index=0,test=False,**tool_args):
         for tool in self.toolConfig:
             if tool["tool_name"] == tool_name:
-                if "Query2SMILES" in tool_name:
+                tool_names = ("Molecule_Design", "Molecule_captioning", "MolecularPropertyPrediction","ReactionPrediction","YieldPrediction","Retrosynthesis","ReagentSelection")
+                if any(name in tool_name for name in tool_names):
                     tool_name = 'Agent_tool'
                     tool_args['next_n'] = False
                     tool_args['data_index'] = data_index
                     if test:
                         tool_class = globals()[tool_name]
                         tool_instance = tool_class(**tool_args)  
-                        return tool_instance.test_run(**tool_args)
+                        result,tokens = tool_instance.test_run(**tool_args)
+                        return result,tokens
                 tool_class = globals()[tool_name]
                 tool_instance = tool_class(**tool_args)
-                return tool_instance._run(**tool_args)
-        return "Tool not found, please only input the tool name"
+                return tool_instance._run(**tool_args),0
+        return "Tool not found, please only input the tool name",0
 

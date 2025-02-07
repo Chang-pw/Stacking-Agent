@@ -1,0 +1,37 @@
+[
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC1=C(C=CC(=C1)C(=O)O)O)/C)/C)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is a monohydroxybenzoic acid that is 4-hydroxybenzoic acid substituted at position 3 by a nonaprenyl group. It is a monohydroxybenzoic acid and an olefinic compound. It is a conjugate acid of a 4-hydroxy-3-all-trans-nonaprenylbenzoate.",
+        "answer": "The molecule is a natural product found in Acanthocystis turbinata with data available.",
+        "all_tokens": 4693,
+        "blue2": 0.11891085261376771
+    },
+    {
+        "SMILES": "CCCCCCCCCCCC[C@@H](C(=O)[O-])O",
+        "description": "The molecule is a (2S)-2-hydroxy fatty acid anion that is the conjugate base of (2S)-2-hydroxytetradecanoic acid, obtained by deprotonation of the carboxy group; major species at pH 7.3. It is a (2S)-2-hydroxy monocarboxylic acid anion and a 2-hydroxymyristate. It is a conjugate base of a (2S)-2-hydroxytetradecanoic acid. It is an enantiomer of a (2R)-2-hydroxytetradecanoate.",
+        "answer": "The molecule is a natural product found in Acanthocystis turbinata with data available.",
+        "all_tokens": 4753,
+        "blue2": 0.026964375960280538
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](COP(=O)([O-])O[C@@H]1[C@@H]([C@@H]([C@H]([C@@H]([C@H]1OC2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)O)O)[C@@H](CCCCCCCCCCCCCCCCC)O",
+        "description": "The molecule is a mannosylinositol phosphorylceramide(1-) having a hexacosanoyl group amide-linked to a C20 sphinganine base, with no hydroxylation at C-4 of the long-chain base or on the C26 very-long-chain fatty acid. It is a conjugate base of a Man-1-2-Ins-1-P-Cer(d20:0/26:0).",
+        "answer": "The molecule is a natural product found in Acanthocystis turbinata with data available.",
+        "all_tokens": 4526,
+        "blue2": 0.08231538125220782
+    },
+    {
+        "SMILES": "COC1=C(C=CC(=C1)/C=C/C(=O)OCCCCCCCCCCCCCCCC(=O)[O-])O",
+        "description": "The molecule is a monocarboxylic acid anion that is the conjugate base of 16-feruloyloxypalmitic acid obtained by deprotonation of the carboxy group. It is a conjugate base of a 16-feruloyloxypalmitic acid.",
+        "answer": "The molecule is a natural product found in Acanthocystis turbinata with data available.",
+        "all_tokens": 3877,
+        "blue2": 0.18498850349012977
+    },
+    {
+        "SMILES": "[C@H]1([C@H](C([C@H]([C@@H](C1O)OP(=O)(O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)OP(=O)(O)O",
+        "description": "The molecule is a myo-inositol bis(diphosphate) trisphosphate having the three phospho groups located at positions 4, 5 and 6 and the two diphospho groups at positions 1 and 3. It derives from a myo-inositol.",
+        "answer": "The molecule is a complex natural product with multiple phosphate groups and chiral centers, found in Acanthocystis turbinata.",
+        "all_tokens": 4613,
+        "blue2": 0.369668011427796
+    }
+]

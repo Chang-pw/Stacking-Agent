@@ -1,0 +1,62 @@
+[
+    {
+        "SMILES": "CCCCC/C=C\\\\C/C=C\\\\CC1C(O1)C/C=C\\\\CCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)OP(=O)(O)O)O",
+        "description": "The molecule is an unsaturated fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of 8,9-epoxy-(5Z,11Z,14Z)-icosatrienoic acid. It is a long-chain fatty acyl-CoA and an unsaturated fatty acyl-CoA. It derives from an 8,9-EET. It is a conjugate acid of an 8,9-epoxy-(5Z,11Z,14Z)-icosatrienoyl-CoA(4-).",
+        "answer": "",
+        "blue2": 0
+    },
+    {
+        "SMILES": "CCCCC1C(=O)N(N(C1=O)C2=CC=C(C=C2)O)C3=CC=CC=C3.O",
+        "description": "The molecule is a hydrate obtained by combining oxyphenbutazone with one molar equivalent of water. Commonly used to treat pain, swelling and stiffness associated with arthritis and gout, it was withdrawn from the market 1984 following association with blood dyscrasis and Stevens-Johnson syndrome. It has a role as a non-steroidal anti-inflammatory drug, a non-narcotic analgesic, a gout suppressant, an antipyretic, an antimicrobial agent and an antineoplastic agent. It contains an oxyphenbutazone.",
+        "answer": "",
+        "blue2": 0
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)[N+]2=C3C=C(C=CC3=NC4=C2C=C(C=C4)N)N.[Cl-]",
+        "description": "The molecule is an organic chloride salt having 3,7-diamino-5-phenylphenazin-5-ium as the counterion. It is commonly used for staining Gram negative bacteria red in smears to contrast with the blue Gram positive organisms. It has a role as a fluorochrome, a histological dye and a photosensitizing agent. It contains a 3,7-diamino-5-phenylphenazin-5-ium.",
+        "answer": "The molecule is the organic chloride salt of 1,16-diazoniapentacyclo[10.6.1.02,7.09,19.015,19]nonadeca-1,3,5,7,9(19),10,12,14,17-nonaene-17,18-diide. It is a conjugate base of a 1,16-diazoniapentacyclo[10.6.1.02,7.09,19.015,19]nonadeca-1,3,5,7,9(19),10,12,14,17-nonaene-17,18-diium.",
+        "blue2": 0.3691291219184264
+    },
+    {
+        "SMILES": "CCCCCCCCCCCC[C@@H](C(=O)[O-])O",
+        "description": "The molecule is a (2S)-2-hydroxy fatty acid anion that is the conjugate base of (2S)-2-hydroxytetradecanoic acid, obtained by deprotonation of the carboxy group; major species at pH 7.3. It is a (2S)-2-hydroxy monocarboxylic acid anion and a 2-hydroxymyristate. It is a conjugate base of a (2S)-2-hydroxytetradecanoic acid. It is an enantiomer of a (2R)-2-hydroxytetradecanoate.",
+        "answer": "The molecule is a (2R)-2-hydroxy fatty acid anion resulting from the deprotonation of the carboxy group of (2R)-2-hydroxytridecanoic acid. The major species at pH 7.3. It is a (2R)-2-hydroxy fatty acid anion and a 2-hydroxytridecanoate. It is a conjugate base of a (R)-2-hydroxytridecanoic acid.",
+        "blue2": 0.7077842124191044
+    },
+    {
+        "SMILES": "CC(C)C[C@H]1C(=O)N2CCC[C@H]2[C@]3(N1C(=O)[C@](O3)(C(C)C)NC(=O)[C@H]4CN([C@@H]5CC6=C(NC7=CC=CC(=C67)C5=C4)Br)C)O",
+        "description": "The molecule is an indole alkaloid. It has a role as an antiparkinson drug, a hormone antagonist, a dopamine agonist and an antidyskinesia agent. It derives from a hydride of an ergotaman.",
+        "answer": "",
+        "blue2": 0
+    },
+    {
+        "SMILES": "C(CC(O)(P(=O)(O)O)P(=O)(O)O)CN",
+        "description": "The molecule is a 1,1-bis(phosphonic acid) that is methanebis(phosphonic acid) in which the two methylene hydrogens are replaced by hydroxy and 3-aminopropyl groups. It has a role as an EC 2.5.1.1 (dimethylallyltranstransferase) inhibitor and a bone density conservation agent. It is a 1,1-bis(phosphonic acid) and a primary amino compound. It is a conjugate acid of an alendronate(1-).",
+        "answer": "",
+        "blue2": 0
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCC[C@H]([C@@H]([C@H](CO)N)O)O",
+        "description": "The molecule is a sphingoid having the structure of phytosphingosine but with R-configuration at C-3. It is a sphingoid, a triol and an amino alcohol.",
+        "answer": "",
+        "blue2": 0
+    },
+    {
+        "SMILES": "CN(C)C1=CC2=C(C=C1)NC3=C(O2)C(=O)C(=O)C=C3C(=O)[NH3+]",
+        "description": "The molecule is an organic cation that is 3,4-dihydroxyphenoxazin-5-ium carrying additional carbamoyl and dimethylamino groups at positions 1 and 7 respectively. The chloride salt is the histological dye 'Gallamin blue'. It has a role as a fluorochrome and a histological dye.",
+        "answer": "",
+        "blue2": 0
+    },
+    {
+        "SMILES": "C[C@]12CC[C@@H](C([C@@H]1CC[C@@]3([C@@H]2CC=C4[C@]3(CC[C@@]5([C@H]4CC(CC5)(C)C)C(=O)O)C)C)(C)C)O",
+        "description": "The molecule is a pentacyclic triterpenoid that is olean-12-en-28-oic acid substituted by a beta-hydroxy group at position 3. It has a role as a plant metabolite. It is a pentacyclic triterpenoid and a hydroxy monocarboxylic acid. It is a conjugate acid of an oleanolate. It derives from a hydride of an oleanane.",
+        "answer": "",
+        "blue2": 0
+    },
+    {
+        "SMILES": "C[C@]12[C@H]3[C@@H]([C@@]45C[C@@H](CC[C@H]4[C@@]3(C[C@@H]([C@@H]1O)O)OC2=O)C(=C)C5)C(=O)O",
+        "description": "The molecule is a lactone, a C19-gibberellin and a gibberellin monocarboxylic acid. It is a conjugate acid of a gibberellin A34(1-).",
+        "answer": "",
+        "blue2": 0
+    }
+]

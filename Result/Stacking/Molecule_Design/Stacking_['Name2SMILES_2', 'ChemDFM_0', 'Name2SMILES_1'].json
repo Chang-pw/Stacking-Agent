@@ -1,0 +1,177 @@
+[
+    {
+        "SMILES": "C[C@H]1[C@H]([C@@](C[C@H](O1)OP(=O)([O-])OP(=O)([O-])OC[C@@H]2[C@H](C[C@@H](O2)N3C=C(C(=O)NC3=O)C)O)(C)[NH3+])O",
+        "description": "The molecule is a nucleotide-sugar oxoanion that is the conjugate base of dTDP-beta-L-vancosamine, arising from deprotonation of the diphosphate group and protonation of the amino group; major species at pH 7.3. It is a conjugate base of a dTDP-beta-L-vancosamine.",
+        "answer": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])O[C@@H]3C[C@](C)([NH3+])[C@H](O)[C@H](C)O3)O2)c(=O)[nH]c1=O",
+        "all_tokens": 4513,
+        "blue2": 0.8538654631065886
+    },
+    {
+        "SMILES": "COC1=CC(=CC2=C1OC(C2CO)C3=CC(=C(C(=C3)OC)O)OC)/C=C/CO",
+        "description": "The molecule is a guaiacyl lignin that is found in Arabidopsis thaliana. It has a role as a plant metabolite. It is a member of 1-benzofurans, a guaiacyl lignin, a member of phenols, a primary alcohol and a dimethoxybenzene. It derives from a coniferol and a sinapyl alcohol.",
+        "answer": "COc1cc(C2Oc3c(OC)cc(/C=C/CO)cc3C2CO)cc(OC)c1O",
+        "all_tokens": 4438,
+        "blue2": 0.47107848251393886
+    },
+    {
+        "SMILES": "C1=C(NC=N1)C[C@@H](C(=O)[O-])NC(=O)CC[C@@H](C(=O)[O-])[NH3+]",
+        "description": "The molecule is a peptide anion that is the conjugate base of gamma-Glu-His, obtained by removal of protons from the two carboxy groups as well as protonation of the amino group; major species at pH 7.3. It is a conjugate base of a member of gamma-Glu-His.",
+        "answer": "[NH3+][C@@H](CCC(=O)N[C@@H](Cc1cnc[nH]1)C(=O)[O-])C(=O)[O-]",
+        "all_tokens": 4326,
+        "blue2": 0.8051752539233873
+    },
+    {
+        "SMILES": "CC(C)(C)C1=CC(=CC=C1)OC(=S)N(C)C2=NC(=CC=C2)OC",
+        "description": "The molecule is a monothiocarbamic ester that is carbamic acid in which the oxygen of the oxo group is replaced by sulfur, the hydrogens attached to the nitrogen are replaced by methyl and 6-methoxypyridin-2-yl groups, and the hydrogen of the hydroxy group is replaced by a p-tert-butylphenyl group. It has fungicidal and herbicidal activity and is used in paddy rice and turf production. It has a role as a sterol biosynthesis inhibitor, a herbicide and an antifungal agrochemical. It is a member of pyridines, an aromatic ether and a monothiocarbamic ester.",
+        "answer": "COC1=CC=CC(=N1)NC(=S)OC2=CC=C(C=C2)C(C)(C)C",
+        "all_tokens": 5380,
+        "blue2": 0.8986861389000348
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@@H]1O[C@H]2[C@H](O[C@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H]([C@@H](O[C@@H]([C@H]3O)CO)O)NC(=O)C)CO)CO)O)O",
+        "description": "The molecule is an amino trisaccharide consisting of N-acetyl-alpha-D-glucosamine, beta-D-galactose and N-acetyl-D-glucosamine residues linked sequentially (1->4) and (1->3). It has a role as an epitope. It is an amino trisaccharide and a glucosamine oligosaccharide.",
+        "answer": "CC(=O)N[C@H]1[C@@H](O[C@H]2[C@@H](O)[C@@H](CO)O[C@@H](O[C@H]3[C@H](O)[C@@H](NC(C)=O)C(O)O[C@@H]3CO)[C@@H]2O)O[C@H](CO)[C@@H](O)[C@@H]1O",
+        "all_tokens": 4510,
+        "blue2": 0.9172591533857809
+    },
+    {
+        "SMILES": "CCCCCCCCCC(C(C(=O)[O-])O)O",
+        "description": "The molecule is a medium-chain fatty acid anion resulting from the deprotonation of the carboxy group of 2,3-dihydroxydodecanoic acid. Major microspecies at pH 7.3 It is a 2-hydroxy fatty acid anion, a 3-hydroxy fatty acid anion and a medium-chain fatty acid anion. It derives from a dodecanoate. It is a conjugate base of a 2,3-dihydroxydodecanoic acid.",
+        "answer": "CCCCCCCCCC(O)C(O)C(=O)[O-]",
+        "all_tokens": 3227,
+        "blue2": 0.8944271909999159
+    },
+    {
+        "SMILES": "CN[C@@H](CCSC)C(=O)O",
+        "description": "The molecule is a methyl-L-methionine having the methyl group attached to the alpha-amino function. It is a methyl-L-methionine and a N-methyl-L-alpha-amino acid. It is a tautomer of a N-methyl-L-methionine zwitterion.",
+        "answer": "CN[C@@H](CCSC)C(=O)O",
+        "all_tokens": 2845,
+        "blue2": 1.0
+    },
+    {
+        "SMILES": "CCNC(=O)C",
+        "description": "The molecule is a member of the class of acetamides that is the N-ethyl derivative of acetamide. It has a role as a metabolite.",
+        "answer": "CCNC(C)=O",
+        "all_tokens": 3850,
+        "blue2": 0.7905694150420948
+    },
+    {
+        "SMILES": "CN1CCC2=C3[C@H]1CC4=C(C3=CC=C2)C(=C(C=C4)O)O",
+        "description": "The molecule is an aporphine alkaloid. It has a role as an alpha-adrenergic drug, a serotonergic drug, an antidyskinesia agent, a dopamine agonist, an antiparkinson drug and an emetic. It derives from a hydride of an aporphine.",
+        "answer": "CN1CCc2cccc3c2[C@H]1Cc1ccc(O)c(O)c1-3",
+        "all_tokens": 4178,
+        "blue2": 0.3527700849532666
+    },
+    {
+        "SMILES": "C[C@@H]([C@H]1[C@H]([C@H]([C@@H](O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O",
+        "description": "The molecule is a quercetin O-glycoside that is quercetin attached to a alpha-L-rhamnofuranosyl moiety at position 3 via a glycosidic linkage. It has a role as a metabolite. It is an alpha-L-rhamnofuranoside, a monosaccharide derivative, a tetrahydroxyflavone and a quercetin O-glycoside.",
+        "answer": "C[C@H](O)[C@@H]1O[C@@H](Oc2c(-c3ccc(O)c(O)c3)oc3cc(O)cc(O)c3c2=O)[C@H](O)[C@@H]1O",
+        "all_tokens": 4748,
+        "blue2": 0.5485769947597297
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)CNC(=O)/C(=C/C2=CC(=C(C=C2)O)O)/C#N",
+        "description": "The molecule is a monocarboxylic acid amide obtained by formal condensation of the carboxy group of (2E)-2-cyano-3-(3,4-dihydroxyphenyl)prop-2-enoic acid with the amino group of benzylamine. It has a role as an EC 2.7.10.2 (non-specific protein-tyrosine kinase) inhibitor, an antioxidant, a STAT3 inhibitor, an anti-inflammatory agent and an apoptosis inducer. It is an enamide, a monocarboxylic acid amide, a nitrile, a member of catechols and a secondary carboxamide.",
+        "answer": "N#C/C(=C\\c1ccc(O)c(O)c1)C(=O)NCc1ccccc1",
+        "all_tokens": 5106,
+        "blue2": 0.378027795228404
+    },
+    {
+        "SMILES": "CC(C)COC1=CC(=CC=C1)OCC(=O)NC2=CC=C(C=C2)OC",
+        "description": "The molecule is a monocarboxylic acid amide obtained by formal condensation of the carboxy group of 3-isobutoxyphenoxyacetic acid with the amino group of 4-methoxyaniline. It has a role as an antifungal agent and a glycerophosphoinositol synthesis inhibitor. It is a monocarboxylic acid amide, an aromatic ether and an aromatic amide. It derives from a phenylacetic acid.",
+        "answer": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])O[C@@H]3C[C@](C)([NH3+])[C@H](O)[C@H](C)O3)O2)c(=O)[nH]c1=O",
+        "all_tokens": 4732,
+        "blue2": 0.18115886072321397
+    },
+    {
+        "SMILES": "CCCCCC(=O)/C=C/[C@H]1[C@@H](C[C@@H]([C@@H]1CC(=O)CCCCC(=O)O)O)O",
+        "description": "The molecule is a prostaglandin Falpha that is prostaglandin F1alpha bearing keto substituents at positions 6 and 15. It has a role as a metabolite. It derives from a prostaglandin F1alpha.",
+        "answer": "CCCCCCC(=O)/C=C/[C@@H]1[C@@H](CC(=O)CCCCC(=O)O)[C@@H](O)C[C@H]1O",
+        "all_tokens": 4052,
+        "blue2": 0.9519716382329885
+    },
+    {
+        "SMILES": "CCCCC[C@H]1[C@H](O1)C[C@@H](/C=C/C=C\\\\C/C=C\\\\CCCC(=O)O)OO",
+        "description": "The molecule is a hydroperoxy fatty acid that is (14R,15S)-epoxy-(5Z,8Z,10E)-icosatrienoic acid in which the hydroperoxy group is located at position 12S. It has a role as a human xenobiotic metabolite and a mouse metabolite. It is a conjugate acid of a (12S)-hydroperoxy-(14R,15S)-epoxy-(5Z,8Z,10E)-icosatrienoate.",
+        "answer": "CCCCC[C@@H]1O[C@@H]1C[C@@H](/C=C/C=C\\C/C=C\\CCCC(=O)O)OO",
+        "all_tokens": 3209,
+        "blue2": 0.892458031438771
+    },
+    {
+        "SMILES": "CCCSP(=S)(OCC)OC1=CC=C(C=C1)SC",
+        "description": "The molecule is an organic thiophosphate, an organothiophosphate insecticide and an organosulfur compound. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor and an agrochemical. It derives from a 4-(methylsulfanyl)phenol.",
+        "answer": "COP(=S)(OC)Oc1ccc(SC)cc1",
+        "all_tokens": 4281,
+        "blue2": 0.43219655550762887
+    },
+    {
+        "SMILES": "CC(CCO)O",
+        "description": "The molecule is a butanediol compound having two hydroxy groups in the 1- and 3-positions. It is a butanediol and a glycol. It derives from a hydride of a butane.",
+        "answer": "CC(O)CCO",
+        "all_tokens": 2788,
+        "blue2": 0.8451542547285166
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC1=C(C=CC(=C1)C(=O)O)O)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is a monohydroxybenzoic acid that is 4-hydroxybenzoic acid substituted at position 3 by a heptaprenyl group. It is a monohydroxybenzoic acid and an olefinic compound. It is a conjugate acid of a 4-hydroxy-3-all-trans-heptaprenylbenzoate.",
+        "answer": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/Cc1cc(C(=O)O)ccc1O",
+        "all_tokens": 6318,
+        "blue2": 0.6076832569166732
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@H]([C@H](O[C@@H]1OC[C@@H](C(=O)O)N)CO)O)O",
+        "description": "The molecule is a non-proteinogenic L-amino acid that is N-acetyl-alpha-D-galactosamine linked via an alpha glycosidic bond to the O at position 3 of L-serine. It is a L-serine derivative and a non-proteinogenic L-alpha-amino acid.",
+        "answer": "CC(=O)N[C@H]1[C@@H](OC[C@H](N)C(=O)O)O[C@H](CO)[C@H](O)[C@@H]1O",
+        "all_tokens": 4192,
+        "blue2": 0.9519729074826495
+    },
+    {
+        "SMILES": "C[C@](CCO)(CC(=O)O)O",
+        "description": "The molecule is the (S)-enantiomer of mevalonic acid. It is a conjugate acid of a (S)-mevalonate. It is an enantiomer of a (R)-mevalonic acid.",
+        "answer": "C[C@](O)(CCO)CC(=O)O",
+        "all_tokens": 2655,
+        "blue2": 0.9459053029269173
+    },
+    {
+        "SMILES": "CCCCCCCCCC[C@H]([C@H]([C@H](CO)N)O)O",
+        "description": "The molecule is a sphingoid that is the C14-analogue of phytosphingosine. It is a sphingoid, an amino alcohol and a triol. It is a conjugate base of a tetradecaphytosphingosine(1+).",
+        "answer": "CCCCCCCCCC[C@@H](O)[C@@H](O)[C@@H](N)CO",
+        "all_tokens": 5845,
+        "blue2": 0.8393172471095459
+    },
+    {
+        "SMILES": "C[C@]12CC[C@](C[C@H]1C3=CC(=O)[C@@H]4[C@]5(CC[C@@H](C([C@@H]5CC[C@]4([C@@]3(CC2)C)C)(C)C)O)C)(C)C(=O)O",
+        "description": "The molecule is a pentacyclic triterpenoid that is olean-12-ene substituted by a hydroxy group at position 3, an oxo group at position 11 and a carboxy group at position 30. It has a role as an immunomodulator and a plant metabolite. It is a pentacyclic triterpenoid, a cyclic terpene ketone and a hydroxy monocarboxylic acid. It is a conjugate acid of a glycyrrhetinate. It derives from a hydride of an oleanane.",
+        "answer": "CC1(C)[C@@H](O)CC[C@]2(C)[C@H]3C(=O)C=C4[C@@H]5C[C@@](C)(C(=O)O)CC[C@]5(C)CC[C@@]4(C)[C@]3(C)CC[C@@H]12",
+        "all_tokens": 3254,
+        "blue2": 0.9243207949834489
+    },
+    {
+        "SMILES": "C1=C(O[C@H]([C@@H]([C@H]1O)OS(=O)(=O)O)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)NS(=O)(=O)O)O[C@H]3[C@@H]([C@H]([C@@H](O[C@H]3C(=O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)NS(=O)(=O)O)O[C@H]5[C@@H]([C@H]([C@@H](O[C@H]5C(=O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)NS(=O)(=O)O)O[C@H]7[C@@H]([C@H]([C@@H](O[C@@H]7C(=O)O)O[C@@H]8[C@H](O[C@@H]([C@@H]([C@H]8O)NS(=O)(=O)O)O)COS(=O)(=O)O)O)O)COS(=O)(=O)O)OS(=O)(=O)O)O)COS(=O)(=O)O)OS(=O)(=O)O)O)COS(=O)(=O)O)C(=O)O",
+        "description": "The molecule is a heparin octasaccharide consisting of 4-deoxy-2-O-sulfo-alpha-L-threo-hex-4-enopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, beta-D-glucopyranuronosyl, and 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranose units joined in sequence by (1->4) linkages. Sequence: DUA2S-GlcNS6S-IdoA2S-GlcNS6S-IdoA2S-GlcNS6S-GlcA-GlcNS6S. It is a heparin octasaccharide, an oligosaccharide sulfate and an amino octasaccharide.",
+        "answer": "O=C(O)C1=C[C@H](O)[C@@H](OS(=O)(=O)O)[C@H](O[C@H]2[C@H](O)[C@@H](NS(=O)(=O)O)[C@@H](O[C@H]3[C@H](O)[C@@H](OS(=O)(=O)O)[C@H](O[C@H]4[C@H](O)[C@@H](NS(=O)(=O)O)[C@@H](O[C@H]5[C@H](O)[C@@H](OS(=O)(=O)O)[C@H](O[C@H]6[C@H](O)[C@@H](NS(=O)(=O)O)[C@@H](O[C@H]7[C@H](O)[C@@H](O)[C@H](O[C@H]8[C@H](O)[C@@H](NS(=O)(=O)O)[C@@H](O)O[C@@H]8COS(=O)(=O)O)O[C@@H]7C(=O)O)O[C@@H]6COS(=O)(=O)O)O[C@H]5C(=O)O)O[C@@H]4COS(=O)(=O)O)O[C@H]3C(=O)O)O[C@@H]2COS(=O)(=O)O)O1",
+        "all_tokens": 7888,
+        "blue2": 0.9455086972772344
+    },
+    {
+        "SMILES": "CCCCC1C(=O)N(N(C1=O)C2=CC=C(C=C2)O)C3=CC=CC=C3",
+        "description": "The molecule is a metabolite of phenylbutazone obtained by hydroxylation at position 4 of one of the phenyl rings. Commonly used (as its hydrate) to treat pain, swelling and stiffness associated with arthritis and gout, it was withdrawn from the market 1984 following association with blood dyscrasis and Stevens-Johnson syndrome. It has a role as a non-steroidal anti-inflammatory drug, a non-narcotic analgesic, an antipyretic, a gout suppressant, a drug metabolite, a xenobiotic metabolite, an antineoplastic agent and an antimicrobial agent. It is a member of pyrazolidines and a member of phenols. It derives from a phenylbutazone.",
+        "answer": "CC1C(=O)N(c2ccccc2)N(c2ccc(O)cc2)C1=O",
+        "all_tokens": 3525,
+        "blue2": 0.41212845274879284
+    },
+    {
+        "SMILES": "CCN(CC)C1=CC2=C(C=C1)NC3=C(O2)C(=O)C(=O)C=C3C(=O)[NH3+]",
+        "description": "The molecule is an organic cation that is 3,4-dihydroxyphenoxazin-5-ium carrying additional carbamoyl and diethylamino groups at positions 1 and 7 respectively. The chloride salt is the histological dye 'Celestin blue B'.",
+        "answer": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])O[C@@H]3C[C@](C)([NH3+])[C@H](O)[C@H](C)O3)O2)c(=O)[nH]c1=O",
+        "all_tokens": 4224,
+        "blue2": 0.28853577898225335
+    },
+    {
+        "SMILES": "C[C@@]1(CC[C@H]2C(=CC[C@@H]3[C@@]2(CCC[C@]3(C)C(=O)O)C)C1)CCO",
+        "description": "The molecule is a diterpenoid that is isopimar-7-ene substituted by a carboxy group at position 19 and a hydroxy group at position 16. It has been isolated from the fungus, Xylaria species. It has a role as a fungal metabolite. It is a diterpenoid and a hydroxy monocarboxylic acid. It derives from a hydride of an isopimarane.",
+        "answer": "C=C[C@@]1(C)CC[C@H]2C(=CC[C@@H]3[C@]2(C)CCC[C@]3(C)C(=O)O)C1",
+        "all_tokens": 4604,
+        "blue2": 0.9501236904301139
+    }
+]

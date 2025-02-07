@@ -4,7 +4,7 @@ import os
 import torch
 from transformers import LlamaTokenizer, LlamaForCausalLM, GenerationConfig
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 app = Flask(__name__)
 
 model_name_or_id = "/data2/ChemDFM/ChemDFM-v1.0-13B"
@@ -36,4 +36,4 @@ def generate():
     return [generated_text]
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=4040)

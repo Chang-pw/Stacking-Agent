@@ -1,0 +1,72 @@
+[
+    {
+        "SMILES": "CC(=C)C(CCC(C)(C)O)CC1=C(C(=C(C=C1O)OC)C(=O)/C=C/C2=C(C=C(C=C2)O)O)O",
+        "description": "The molecule is a member of the class of chalcones that is trans-chalcone substituted by hydroxy groups at positions 2, 4, 2' and 4', a methoxy group at position 6' and a 5-hydroxy-5-methyl-2-(prop-1-en-2-yl)hexyl group at position 3 respectively. It has a role as a plant metabolite. It is a member of chalcones, a member of resorcinols and a monomethoxybenzene. It derives from a trans-chalcone.",
+        "answer": "C=C(C)C(CCC(C)(C)O)Cc1c(O)cc(OC)c(C(=O)/C=C/c2ccc(O)cc2O)c1O",
+        "all_tokens": 2923,
+        "blue2": 0.6029024919645974
+    },
+    {
+        "SMILES": "CCN(CC)C1=CC2=C(C=C1)NC3=C(O2)C(=O)C(=O)C=C3C(=O)[NH3+]",
+        "description": "The molecule is an organic cation that is 3,4-dihydroxyphenoxazin-5-ium carrying additional carbamoyl and diethylamino groups at positions 1 and 7 respectively. The chloride salt is the histological dye 'Celestin blue B'.",
+        "answer": "[H+].CCN(CC)c1ccc2c(c1)nc(=O)c3c([o+]2)cc(c(c3)O)O",
+        "all_tokens": 2553,
+        "blue2": 0.366978002727532
+    },
+    {
+        "SMILES": "[39K]",
+        "description": "The molecule is the stable isotope of potassium with relative atomic mass 38.963707, 93.3 atom percent natural abundance and nuclear spin 3/2.",
+        "answer": "K",
+        "all_tokens": 2435,
+        "blue2": 2.73208551083605e-156
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCC(=O)N[C@@H](CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)[C@@H]([C@@H](CCCCCCCCCCC(C)C)O)O",
+        "description": "The molecule is an N-acyl-1-O-beta-D-glucosyl-4-hydroxy-15-methylhexadecasphinganine in which the acyl group has 17 carbons and 0 double bonds. It derives from a 15-methylhexadecaphytosphingosine.",
+        "answer": "C=C(C)C(CCC(C)(C)O)Cc1c(O)cc(OC)c(C(=O)/C=C/c2ccc(O)cc2O)c1O",
+        "all_tokens": 2496,
+        "blue2": 0.21887815865845278
+    },
+    {
+        "SMILES": "CCCCC/C=C\\\\C/C=C\\\\C/C=C\\\\CC1C(O1)CCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)OP(=O)(O)O)O",
+        "description": "The molecule is an unsaturated fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of 5,6-epoxy-(8Z,11Z,14Z)-icosatrienoic acid. It is a long-chain fatty acyl-CoA and an unsaturated fatty acyl-CoA. It derives from a 5,6-EET. It is a conjugate acid of a 5,6-epoxy-(8Z,11Z,14Z)-icosatrienoyl-CoA(4-).",
+        "answer": "C=C(C)C(CCC(C)(C)O)Cc1c(O)cc(OC)c(C(=O)/C=C/c2ccc(O)cc2O)c1O",
+        "all_tokens": 3024,
+        "blue2": 0.1307930190086606
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCC(=O)O[C@H](COC(=O)CCCCCCC/C=C\\\\CCCCCCCC)COP(=O)([O-])[O-]",
+        "description": "The molecule is a 1,2-diacyl-sn-glycero-3-phosphate(2-) obtained by deprotonation of the phosphate OH groups of 1-oleoyl-2-icosanoyl-sn-glycero-3-phosphate. It is a 1,2-diacyl-sn-glycerol 3-phosphate(2-) and a 1-oleoyl-2-acyl-sn-glycero-3-phosphate(2-). It is a conjugate base of a 1-oleoyl-2-icosanoyl-sn-glycero-3-phosphate.",
+        "answer": "CCCCCCCCCCCCC=CCCCCCCCC(=O)OCC(COC(=O)CCCCCCCCCCCCCCCCCCCCC)COP([O-])(=O)[O-]",
+        "all_tokens": 3240,
+        "blue2": 0.8817663872718715
+    },
+    {
+        "SMILES": "CC(CCO)O",
+        "description": "The molecule is a butanediol compound having two hydroxy groups in the 1- and 3-positions. It is a butanediol and a glycol. It derives from a hydride of a butane.",
+        "answer": "OCC(O)CC",
+        "all_tokens": 2506,
+        "blue2": 0.7559289460184544
+    },
+    {
+        "SMILES": "COC1=C(C(=C2C=CC(=O)OC2=C1)OC)OC",
+        "description": "The molecule is a member of the class of coumarins that is coumarin substituted by methoxy groups at positions 5, 6 and 7. It has a role as an antibacterial agent and a metabolite. It is an aromatic ether and a member of coumarins. It derives from a coumarin.",
+        "answer": "C1=CC2=C(C=C1OC)C(=O)C=C(O2)OC",
+        "all_tokens": 2675,
+        "blue2": 0.8148156766165996
+    },
+    {
+        "SMILES": "CCCCCCCC/C=C\\\\CCCCCCCCCC(=O)N",
+        "description": "The molecule is a primary fatty amide resulting from the formal condensation of the carboxy group of (11Z)-icos-11-enoic acid with ammonia. It has a role as a human metabolite. It derives from an (11Z)-icos-11-enoic acid.",
+        "answer": "CCCCCCCCC\\C=C/CCCCCCCC(=O)N",
+        "all_tokens": 2675,
+        "blue2": 0.9286029058931802
+    },
+    {
+        "SMILES": "CCCCC[C@H]1[C@H](O1)C[C@@H](/C=C/C=C\\\\C/C=C\\\\CCCC(=O)O)OO",
+        "description": "The molecule is a hydroperoxy fatty acid that is (14R,15S)-epoxy-(5Z,8Z,10E)-icosatrienoic acid in which the hydroperoxy group is located at position 12S. It has a role as a human xenobiotic metabolite and a mouse metabolite. It is a conjugate acid of a (12S)-hydroperoxy-(14R,15S)-epoxy-(5Z,8Z,10E)-icosatrienoate.",
+        "answer": "C=C(C)C(CCC(C)(C)O)Cc1c(O)cc(OC)c(C(=O)/C=C/c2ccc(O)cc2O)c1O",
+        "all_tokens": 2946,
+        "blue2": 0.38030615083322267
+    }
+]

@@ -1,0 +1,1 @@
+[{'agent_tool': MolecularPropertyPrediction_clintox_1, 'score': 0.5625, 'tool': 'ChemDFM_1'}, {'agent_tool': MolecularPropertyPrediction_clintox_2, 'score': 0.53125, 'tool': 'SMILES2Property_1'}, {'agent_tool': ChemDFM, 'score': 0.4375, 'tool': 'ChemDFM_0'}, {'agent_tool': SMILES2Property, 'score': 0, 'tool': 'SMILES2Property_0'}]

@@ -64,7 +64,7 @@ class Name2Property:
         return str(smi)
     
     def __str__(self):
-        return "Name2Property tool"
+        return "Name2Property"
 
     def __repr__(self):
         return self.__str__()
@@ -77,4 +77,4 @@ class Name2Property:
         # if answer == "Could not find a molecule matching the text. One possible cause is that the input is incorrect, please modify your input and the input needs to be a moleculer name not a SMILES.":
         #     return ""
         # return answer
-        return ""  ## It can not solve the question without agent
+        return "",0  ## It can not solve the question without agent

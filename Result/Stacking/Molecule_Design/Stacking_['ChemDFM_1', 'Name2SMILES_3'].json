@@ -1,0 +1,72 @@
+[
+    {
+        "SMILES": "CCN(CC)C1=CC2=C(C=C1)NC3=C(O2)C(=O)C(=O)C=C3C(=O)[NH3+]",
+        "description": "The molecule is an organic cation that is 3,4-dihydroxyphenoxazin-5-ium carrying additional carbamoyl and diethylamino groups at positions 1 and 7 respectively. The chloride salt is the histological dye 'Celestin blue B'.",
+        "answer": "CCN(CC)c1ccc2[nH]c3c(C([NH3+])=O)cc(=O)c(=O)c=3oc2c1.[Cl-]",
+        "all_tokens": 2479,
+        "blue2": 0.47819989138032276
+    },
+    {
+        "SMILES": "CC(CCO)O",
+        "description": "The molecule is a butanediol compound having two hydroxy groups in the 1- and 3-positions. It is a butanediol and a glycol. It derives from a hydride of a butane.",
+        "answer": "OCCCO",
+        "all_tokens": 2494,
+        "blue2": 0.4752848187499276
+    },
+    {
+        "SMILES": "CN[C@@H](CCSC)C(=O)O",
+        "description": "The molecule is a methyl-L-methionine having the methyl group attached to the alpha-amino function. It is a methyl-L-methionine and a N-methyl-L-alpha-amino acid. It is a tautomer of a N-methyl-L-methionine zwitterion.",
+        "answer": "CCN(CC)c1ccc2[nH]c3c(C([NH3+])=O)cc(=O)c(=O)c=3oc2c1.[Cl-]",
+        "all_tokens": 2686,
+        "blue2": 0.22676343971693602
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)CNC(=O)/C(=C/C2=CC(=C(C=C2)O)O)/C#N",
+        "description": "The molecule is a monocarboxylic acid amide obtained by formal condensation of the carboxy group of (2E)-2-cyano-3-(3,4-dihydroxyphenyl)prop-2-enoic acid with the amino group of benzylamine. It has a role as an EC 2.7.10.2 (non-specific protein-tyrosine kinase) inhibitor, an antioxidant, a STAT3 inhibitor, an anti-inflammatory agent and an apoptosis inducer. It is an enamide, a monocarboxylic acid amide, a nitrile, a member of catechols and a secondary carboxamide.",
+        "answer": "CCN(CC)c1ccc2[nH]c3c(C([NH3+])=O)cc(=O)c(=O)c=3oc2c1.[Cl-]",
+        "all_tokens": 3079,
+        "blue2": 0.32444284226152503
+    },
+    {
+        "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H]([C@@H](O2)O[C@@H]3[C@H](OC([C@@H]([C@H]3O)O)O)CO)O)O)O)O)O)O)O",
+        "description": "The molecule is a glucotriose consisting of two beta-D-glucopyranose residues and a D-glucopyranose residue joined in sequence by (1->6) and (1->4) glycosidic bonds. It derives from a cellobiose and a beta-D-Glcp-(1->6)-beta-D-Glcp.",
+        "answer": "OC1C(O)C(O)C(OC2C(O)C(O)C(OC3C(O)C(O)COC3O)OC2O)COC1O",
+        "all_tokens": 2649,
+        "blue2": 0.14682752074897834
+    },
+    {
+        "SMILES": "C1=CC=NC(=C1)CCl",
+        "description": "The molecule is an organochlorine compound that is pyridine substituted at position 2 by a chloromethyl group. It is a member of pyridines and an organochlorine compound. It is a conjugate base of a 2-(chloromethyl)pyridinium.",
+        "answer": "ClCc1ccccn1",
+        "all_tokens": 2503,
+        "blue2": 0.13532625921506297
+    },
+    {
+        "SMILES": "C[C@]12[C@H]3[C@@H]([C@@]45C[C@@H](CC[C@H]4[C@@]3(C[C@@H]([C@@H]1O)O)OC2=O)C(=C)C5)C(=O)OC",
+        "description": "The molecule is a gibberellin ester that is the methyl ester of gibberellin A34. It is a gibberellin ester, a lactone and a methyl ester. It derives from a gibberellin A1 methyl ester.",
+        "answer": "CC(=O)OC1C(CC2C1CCC3C2(CCC(C3)C(=O)OC)C)C(=O)OC",
+        "all_tokens": 2542,
+        "blue2": 0.27701237780219673
+    },
+    {
+        "SMILES": "C1=NC2=C(N1[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)NC(=O)NC2=O",
+        "description": "The molecule is trianion of xanthosine 5'-diphosphate arising from deprotonation of all three OH groups of the diphosphate. It is an organophosphate oxoanion and a xanthosine 5'-phosphate. It is a conjugate base of a XDP.",
+        "answer": "C1=NC2=C(C(=N1)N)N=C(NC2=O)C3C(C(C(O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O",
+        "all_tokens": 2674,
+        "blue2": 0.7016807892722619
+    },
+    {
+        "SMILES": "C1[C@H]2C(=O)N[C@@H](C3=CC(=CC(=C3)OC4=C(C=CC(=C4)[C@H](C(=O)N2)N)O)O)C(=O)N[C@@H]5C6=CC(=C(C(=C6)OC7=C(C=C(C=C7)[C@H]([C@H]8C(=O)N[C@H](C9=C(C(=CC(=C9)O)O)C2=C(C(=CC(=C2)[C@H](C(=O)N8)NC5=O)Cl)O)C(=O)O)O)Cl)O)OC2=C(C=C1C=C2)Cl",
+        "description": "The molecule is a cyclic peptide antibiotic that is A47934 lacking the O-sulfo group; it is produced by a strain of Streptomyces toyocaensis. It has a role as a fungal metabolite. It is a cyclic ether, a heterodetic cyclic peptide, an organochlorine compound, a peptide antibiotic and a polyphenol. It is a conjugate acid of an A41030A(1-).",
+        "answer": "CCN(CC)c1ccc2[nH]c3c(C([NH3+])=O)cc(=O)c(=O)c=3oc2c1.[Cl-]",
+        "all_tokens": 2754,
+        "blue2": 0.024612672077989766
+    },
+    {
+        "SMILES": "CN(C)C1=CC2=C(C=C1)N=C3C=CC(=[N+](C)C)C(=C3S2)[N+](=O)[O-].[Cl-]",
+        "description": "The molecule is an organic chloride salt having 3,7-bis(dimethylamino)-4-nitrophenothiazin-5-ium as the counterion. It stains nuclei green and is sometimes used as a counterstain to red or purple primary stains. It has a role as a fluorochrome and a histological dye. It contains a 3,7-bis(dimethylamino)-4-nitrophenothiazin-5-ium.",
+        "answer": "CCN(CC)c1ccc2[nH]c3c(C([NH3+])=O)cc(=O)c(=O)c=3oc2c1.[Cl-]",
+        "all_tokens": 2845,
+        "blue2": 0.43234292472075986
+    }
+]

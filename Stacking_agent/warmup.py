@@ -6,6 +6,8 @@ import json
 import time
 from tqdm import tqdm
 import concurrent.futures
+from sklearn.metrics import f1_score
+from sklearn.metrics import roc_curve, auc
 
 
 class Warmup:
@@ -18,21 +20,28 @@ class Warmup:
         self.task = task
         self.task_query = query
         self.sample_data = self.sample()
-        self.debug = True
+        self.debug = False
     def sample(self):
         # random.seed(self.seed)
         sample_data = random.sample(self.data,self.train_data_number)
+        if 'MolecularPropertyPrediction' in self.task:
+            if len([i for i in sample_data if i['gold_answer']=='Yes']) >= 0:
+                p_data = [i for i in self.data if i ['gold_answer']=='Yes']
+                add_data = random.sample(p_data,3)
+                sample_data.append(add_data[0])
+
         return sample_data
 
     def test(self,tool=[],wo_agent=False):
         agent = Agent(tool)
         sample_data = self.sample_data
         score = 0
-        if self.task in ['Query2SMILES', 'SMILES2Query']:
+        if self.task in ['Molecule_Design', 'Molecule_captioning']:
             for index,i in enumerate(sample_data):
                 smiles = i["SMILES"]
                 description = i["description"]
-                if self.task =='Query2SMILES':
+                
+                if self.task =='Molecule_Design':
                     query = self.task_query + description
                     reference = smiles
                 else:
@@ -40,65 +49,140 @@ class Warmup:
                     reference = description
 
                 if wo_agent:
-                    final_answer = tool[0].wo_run(query)
+                    final_answer,all_tokens = tool[0].wo_run(query)
                     agent = tool[0]
                 else:
-                    final_answer, response, history = agent._run(query,[],debug=self.debug,index=index)
+                    final_answer, response, history,all_tokens = agent._run(query,[],debug=self.debug,index=index)
                 i["answer"] = final_answer
+                i['all_tokens'] = all_tokens
+
                 i["blue2"] = calculate_BLEU(final_answer,reference,2)
                 score += i["blue2"]
                 time.sleep(5)
+            score = score/len(sample_data)
+
         elif 'MolecularPropertyPrediction' in self.task:
             for index,i in enumerate(sample_data):
                 smiles = i["SMILES"]
                 gold_answer = i['gold_answer']
                 query = self.task_query + smiles
                 if wo_agent:
-                    final_answer = tool[0].wo_run(query)
+                    final_answer,all_tokens = tool[0].wo_run(query)
                     agent = tool[0]
                 else:
-                    final_answer, response, history = agent._run(query,[],debug=self.debug,index=index)
+                    final_answer, response, history,all_tokens = agent._run(query,[],debug=self.debug,index=index)
                 i["answer"] = final_answer
-                if gold_answer in i["answer"]:
-                    i["acc"] = 1
+                i['all_tokens'] = all_tokens
+
+                if i['answer']=='':
+                    s2p_0 = True
                 else:
-                    i["acc"] = 0
-                score += i["acc"]
+                    s2p_0 = False
+
                 time.sleep(5)
+            y_true = [1 if i['gold_answer']=='Yes' else 0 for i in sample_data]
+            y_pred = [1 if i['answer']=='Yes' else 0 for i in sample_data]
+            # score = f1_score(y_true, y_pred,zero_division=1.0)
+            fpr, tpr, thresholds = roc_curve(y_true, y_pred)
+            score = auc(fpr, tpr)
+            if s2p_0:
+                score = 0
+    
+
         elif self.task == 'ReactionPrediction':
             for index,i in enumerate(sample_data):
                 smiles = i["SMILES"]
                 reaction = i["reaction"]
                 query = self.task_query + reaction
                 if wo_agent:
-                    final_answer = tool[0].wo_run(query)
+                    final_answer,all_tokens = tool[0].wo_run(query)
                     agent = tool[0]
                 else:
-                    final_answer, response, history = agent._run(query,[],debug=self.debug,index=index)
+                    final_answer, response, history,all_tokens = agent._run(query,[],debug=self.debug,index=index)
                 i["answer"] = final_answer
                 i["blue2"] = calculate_BLEU(final_answer,smiles,2)
                 score += i["blue2"]
+                i['all_tokens'] = all_tokens
+
                 time.sleep(5)
-        elif self.task == 'YieldReaction':
+            score = score/len(sample_data)
+
+        elif  'YieldPrediction' in self.task:
             for index,i in enumerate(sample_data):
                 gold_answer = i["gold_answer"]
-                reaction = i["reaction"]
+                reaction = i["Reaction"]
                 query = self.task_query + reaction
+
                 if wo_agent:
-                    final_answer = tool[0].wo_run(query)
+                    final_answer,all_tokens = tool[0].wo_run(query)
                     agent = tool[0]
                 else:
-                    final_answer, response, history = agent._run(query,[],debug=self.debug,index=index)
+                    final_answer, response, history,all_tokens = agent._run(query,[],debug=self.debug,index=index)
                 i["answer"] = final_answer
+
                 if gold_answer in i["answer"]:
                     i["acc"] = 1
                 else:
                     i["acc"] = 0
                 score += i["acc"]
+                i['all_tokens'] = all_tokens
+
                 time.sleep(5)
-        score = score/len(sample_data)
+            score = score/len(sample_data)
+
+        elif  'ReagentSelection' in self.task:
+            for index,i in enumerate(sample_data):
+                gold_answer = i["gold_answer"]
+                reaction = i['Reaction']
+                choices = i['choices']
+                query = self.task_query.format(reaction=reaction, choices=choices)
+                # print(query)
+                if wo_agent:
+                    final_answer,all_tokens = tool[0].wo_run(query)
+                    agent = tool[0]
+                else:
+                    final_answer, response, history,all_tokens = agent._run(query,[],debug=self.debug,index=index)
+                i["answer"] = final_answer
+
+                if gold_answer in i["answer"]:
+                    i["acc"] = 1
+                else:
+                    i["acc"] = 0
+                score += i["acc"]
+                i['all_tokens'] = all_tokens
+
+                time.sleep(5)
+            score = score/len(sample_data)
+
+        elif self.task == 'Retrosynthesis':
+            for index,i in enumerate(sample_data):
+                input = i["input"]
+                gold_answer = str(i["gold_answer"])
+                query = self.task_query + input
+                if wo_agent:
+                    final_answer,all_tokens = tool[0].wo_run(query)
+                    agent = tool[0]
+                else:
+                    final_answer, response, history,all_tokens = agent._run(query,[],debug=self.debug,index=index)
+                i["answer"] = final_answer
+
+                try:
+                    final_answer_list = eval(final_answer)
+                    if set(gold_answer) == set(final_answer_list):
+                        i['acc'] = 1
+                    else:
+                        i['acc'] = 0
+                except:
+                    i['acc']=0
+                i['all_tokens'] = all_tokens
+                score += i["acc"]
+                time.sleep(5)
+            score = score/len(sample_data)
+
+
+
         return agent,score,sample_data
-    
+
     def one_tool_stacking(self,tool:dict):
         name = str(tool[0])
         layer = 0
@@ -116,9 +200,9 @@ class Warmup:
             else:
                 Tool_agent_list = Tool_agent[1:][-(self.tool_number-1):]
                 test_agent,blue2,sample_data = self.test(tool_list+Tool_agent_list)
-            print(f"{name}叠加的第{layer}层的blue2为{blue2}")
+            print(f"{name}叠加的第{layer}层的分数为{blue2}")
             if blue2 > score:
-                with open(f"./Result/molecule_captioning_sample_{name}_{layer}.json","w",encoding="utf-8") as f:
+                with open(f"./Result/Stacking/{self.task}/warmup_{name}_{layer}.json","w",encoding="utf-8") as f:
                     json.dump(sample_data,f,indent=4)
                 score = blue2
                 if wo_agent:
@@ -151,7 +235,7 @@ class Warmup:
                     
                     tool_name = tool_list[futures.index(future)]
                     print(f"{tool_name}的叠加完成")
-                    print(f"{tool_name}的最高blue2为{score_list[-1]}")
+                    print(f"{tool_name}的最高分数为{score_list[-1]}")
                     
                     layer = 0
                     for agent, score in zip(tool_agent, score_list):

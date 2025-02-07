@@ -1,0 +1,37 @@
+[
+    {
+        "SMILES": "C([C@@H](C(=O)NCC(=O)[O-])[NH3+])S",
+        "description": "The molecule is the zwitterion of L-cysteinylglycine resulting from the transfer of a proton from the hydroxy group of glycine to the amino group of cysteine. Major microspecies at pH 7.3. It has a role as an Escherichia coli metabolite, a Saccharomyces cerevisiae metabolite and a human metabolite. It is a tautomer of a L-cysteinylglycine.",
+        "answer": "The molecule is an amino acid zwitterion obtained by transfer of a proton from the carboxy to the amino group of L-methionine N-glycyl derivative; major species at pH 7.3. It is a tautomer of a N-glycyl-L-methionine.",
+        "all_tokens": 1581,
+        "blue2": 0.4934927631709374
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](COP(=O)([O-])O[C@@H]1[C@@H]([C@@H]([C@H]([C@@H]([C@H]1OC2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)O)O)[C@@H](CCCCCCCCCCCCCCCCC)O",
+        "description": "The molecule is a mannosylinositol phosphorylceramide(1-) having a hexacosanoyl group amide-linked to a C20 sphinganine base, with no hydroxylation at C-4 of the long-chain base or on the C26 very-long-chain fatty acid. It is a conjugate base of a Man-1-2-Ins-1-P-Cer(d20:0/26:0).",
+        "answer": "The molecule is an amino acid zwitterion obtained by transfer of a proton from the carboxy to the amino group of L-methionine N-glycyl derivative; major species at pH 7.3. It is a tautomer of a N-glycyl-L-methionine.",
+        "all_tokens": 1855,
+        "blue2": 0.533781533542836
+    },
+    {
+        "SMILES": "CC(=CCC1=CC(=C(C=C1OC)O)C(=O)/C=C/C2=CC=C(C=C2)OC)C",
+        "description": "The molecule is a member if the class of chalcones that is trans-chalcone substituted by a prenyl group at position 5', a hydroxy group at position 2' and methoxy groups at positions 4' and 4 respectively. It has a role as a plant metabolite. It is a member of chalcones, a member of phenols and an aromatic ether.",
+        "answer": "The molecule is a natural product found in Boreostereum vibrans with data available.",
+        "all_tokens": 4149,
+        "blue2": 0.04979769666555716
+    },
+    {
+        "SMILES": "C(CC(=O)N[C@@H](CSCCO)C(=O)NCC(=O)O)[C@@H](C(=O)O)N",
+        "description": "The molecule is a Glu-Cys-Gly tripeptide derivative of glutathione containing a 2-hydroxyethyl substituent on the S of the Cys residue. It derives from a glutathione.",
+        "answer": "The molecule is an amino acid zwitterion obtained by transfer of a proton from the carboxy to the amino group of L-methionine N-glycyl derivative; major species at pH 7.3. It is a tautomer of a N-glycyl-L-methionine.",
+        "all_tokens": 1663,
+        "blue2": 0.5701443672292169
+    },
+    {
+        "SMILES": "CC1=NC(=CC=C1)CC(=O)N2CCC3=C2C=CC(=C3F)C4=CN(C5=NC=NC(=C45)N)C",
+        "description": "The molecule is a pyrrolopyrimidine that is 7-methyl-7H-pyrrolo[2,3-d]pyrimidin-4-amine which has been substituted at position 5 by a 4-fluoro-2,3-dihydro-1H-indol-5-yl group, the nitrogen of which has been acylated by a (6-methylpyridin-2-yl)acetyl group. An orally bioavailable PERK inhibitor. It has a role as an EC 3.1.3.48 (protein-tyrosine-phosphatase) inhibitor, a PERK inhibitor and an antineoplastic agent. It is a pyrrolopyrimidine, a biaryl, a member of indoles, a member of methylpyridines, an organofluorine compound and a tertiary carboxamide.",
+        "answer": "The molecule is a natural product found in Streptomyces albidoflavus with data available.",
+        "all_tokens": 4370,
+        "blue2": 0.004421546027286493
+    }
+]

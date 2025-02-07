@@ -1,0 +1,1 @@
+[{'agent_tool': MolecularPropertyPrediction_tox21_1, 'score': 0.9500000000000001, 'tool': 'Name2SMILES_1'}, {'agent_tool': ChemDFM, 'score': 0.5, 'tool': 'ChemDFM_0'}, {'agent_tool': Name2SMILES, 'score': 0.5, 'tool': 'Name2SMILES_0'}]

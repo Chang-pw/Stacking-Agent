@@ -1,0 +1,62 @@
+[
+    {
+        "SMILES": "CCC(C)SP(=O)(N1CCSC1=O)OCC",
+        "description": "The molecule is a phosphonic ester, an organic phosphonate and an organothiophosphate insecticide. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor, an agrochemical and a nematicide.",
+        "answer": "The molecule is a phosphoramidate ester resulting from the formal condensation of the amino group of 2-methyl-1,3-thiazolidine-4-carboxylic acid with the oxygen of ethyl(propylsulfanyl)phosphoryl chloride. It is an organothiophosphate insecticide with acaricidal and nematicidal activities. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor, an acaricide, an agrochemical, an antinematodal drug and a nematicide. It is a phosphoramidate ester and a thiazolidinone.",
+        "blue2": 0.4041018859821886
+    },
+    {
+        "SMILES": "C1COC(=O)C2=CC=CC=C21",
+        "description": "The molecule is the simplest member of the class of dihydroisocoumarins that is the 3,4-dihydro derivative of isocoumarin. It derives from an isocoumarin.",
+        "answer": "The molecule is a natural product found in Tubipora musicola with data available.",
+        "blue2": 0.24244726387367635
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)C(=O)NCC(=O)O",
+        "description": "The molecule is an N-acylglycine in which the acyl group is specified as benzoyl. It has a role as a uremic toxin and a human blood serum metabolite. It is a conjugate acid of a N-benzoylglycinate.",
+        "answer": "The molecule is an N-acylglycine in which the acyl group is specified as 2-carboxyethenyl-4-carbonylcyclohexa-1,3-dien-1-yl. It is functionally related to a N-acetylglycine.",
+        "blue2": 0.6409259948630333
+    },
+    {
+        "SMILES": "C[C@H]1C[C@]2([C@H]([C@H]1O)[C@H](/C(=C\\\\C[C@H]3[C@H](C3(C)C)/C=C(/C2=O)\\\\C)/C)OC(=O)C)OC(=O)C4=CC=CC=C4",
+        "description": "The molecule is a lathyrane diterpenoid isolated from the roots of Euphorbia micractina. It has a role as a vasodilator agent. It is an acetate ester, a benzoate ester and a lathyrane diterpenoid.",
+        "answer": "[(1R,2S,3E,5S,7S,8S,9R,10E,14S)-13-[(2R)-2-[(2R,3R,4S)-3-hydroxy-4-methyl-5-oxooxolan-2-yl]-10-methyl-8-[(2R)-3-methyl-5-oxooxolan-2-yl]-2,6-dioxaspiro[4.5]dec-9-en-7-yl]-5,14-dimethyl-2-oxo-6-oxatricyclo[10.3.0.05,7]pentadeca-3,10,12-trien-8-yl] 2,4-cyclohexa-2,5-dien-1-ylidene]methanone is a natural product found in Schizothrix calcicola with data available.",
+        "blue2": 0.27573881521558585
+    },
+    {
+        "SMILES": "C[C@@H]([C@H]1[C@H]([C@H]([C@H](O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O",
+        "description": "The molecule is a quercetin O-glycoside that is quercetin attached to a beta-L-rhamnofuranosyl moiety at position 3 via a glycosidic linkage. It has a role as a metabolite. It is a beta-L-rhamnofuranoside, a monosaccharide derivative, a tetrahydroxyflavone and a quercetin O-glycoside.",
+        "answer": "(1S,8S)-6-[(1S,2R,3R,4R)-3-[(1S,2R,3R,4R)-3-[(2S,3R,5R)-2,5-dimethyloxolan-3-yl]-4-methyl-2,3-dihydroxyoxolan-3-yl]-2,4-dihydroxyoxolan-2-yl]-2-hydroxy-7-oxaindole-5,6-dione is a natural product found in Streptomyces with data available.",
+        "blue2": 0.3021429128802055
+    },
+    {
+        "SMILES": "CC(=O)N(CCCN)O",
+        "description": "The molecule is a member of the class of acetohydroxamic acids that is trimethylenediamine bearing N-hydroxy and N-acetyl substituents. It has a role as a metabolite. It derives from a trimethylenediamine.",
+        "answer": "The molecule is a red-orange powder. (NTP, 1992)",
+        "blue2": 0.024316241658704628
+    },
+    {
+        "SMILES": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCSC(=O)CC(=O)CCCCCCC(=O)O)O",
+        "description": "The molecule is an acyl-CoA resulting from the formal condensation of the thiol group of coenzyme A with the 1-carboxy group of 3-oxodecanedioic acid. It is a conjugate acid of a 3-oxodecanedioyl-CoA(5-).",
+        "answer": "The molecule is an acyl-CoA resulting from the formal condensation of the thiol group of coenzyme A with the 1-carboxy group of 8-carboxyhexahydrocyclopenta[b]pyrrolo[2,1-f][1,3]diazine-1,4-dione.",
+        "blue2": 0.7351048388644835
+    },
+    {
+        "SMILES": "CC1=NN(C(=O)N1C(F)F)C2=C(C=C(C(=C2)NS(=O)(=O)C)Cl)Cl",
+        "description": "The molecule is a member of the class of triazoles that is 5-oxo-1,2,4-triazole which is substituted at positions 1, 3, and 4 by 2,4-dichloro-5-[(methylsulfonyl)amino]phenyl, methyl, and difluoromethyl groups, respectively. A protoporphyrinogen oxidase inhibitor, it is used as a herbicide to control broad-leaved weeds in soya and tobacco crops. Not approved for use within the European Union. It has a role as an EC 1.3.3.4 (protoporphyrinogen oxidase) inhibitor, a herbicide and an agrochemical. It is a sulfonamide, a dichlorobenzene, an organofluorine compound and a member of triazoles.",
+        "answer": "Sulfamethoxazole is an isoxazole (1,2-oxazole) compound having a methyl substituent at the 5-position and a 4-aminobenzenesulfonamido group at the 3-position. It has a role as an antibacterial agent, an antiinfective agent, an epitope, an EC 2.5.1.15 (dihydropteroate synthase) inhibitor, an antimicrobial agent, a P450 inhibitor, an EC 1.1.1.153 [sepiapterin reductase (L-erythro-7,8-dihydrobiopterin forming)] inhibitor, an environmental contaminant, a xenobiotic and a drug allergen. It is a sulfonamide, a member of isoxazoles, a substituted aniline and a sulfonamide antibiotic. It is functionally related to a sulfanilamide.",
+        "blue2": 0.6982452075734649
+    },
+    {
+        "SMILES": "CC1=CC2=C(C=C1NC)N(C3=NC(=NC(=O)C3=N2)[O-])C[C@@H]([C@@H]([C@@H](CO)O)O)O",
+        "description": "The molecule is an organic anion that is the conjugate base of 8-demethyl-8-(methylamino)riboflavin, obtained by removal of the imide proton at position 3. It is the major microspecies at pH 7.3 (according to Marvin v 6.2.0.). It is a conjugate base of an 8-demethyl-8-(methylamino)riboflavin.",
+        "answer": "Azithromycin is a macrolide antibiotic useful for the treatment of bacterial infections. It has a role as an antibacterial drug, an environmental contaminant and a xenobiotic.",
+        "blue2": 0.37715326971088586
+    },
+    {
+        "SMILES": "C[C@]12CC[C@@H](C([C@@H]1CC[C@@]3([C@@H]2CC=C4[C@]3(CC[C@@]5([C@H]4CC(CC5)(C)C)C(=O)O)C)C)(C)C)O",
+        "description": "The molecule is a pentacyclic triterpenoid that is olean-12-en-28-oic acid substituted by a beta-hydroxy group at position 3. It has a role as a plant metabolite. It is a pentacyclic triterpenoid and a hydroxy monocarboxylic acid. It is a conjugate acid of an oleanolate. It derives from a hydride of an oleanane.",
+        "answer": "Isosteviol is a diterpenoid.",
+        "blue2": 3.3491173123212104e-05
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "SMILES": "O1c2c(cc(cc2)CC)[C@@H]([NH2+]C[C@@H](O)[C@H]2NC(=O)C=3C=CC(=O)N(CCCCc4cc(C2)ccc4)C=3)CC12CCC2",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: O1c2c(cc(cc2)CC)[C@@H]([NH2+]C[C@@H](O)[C@H]2NC(=O)C=3C=CC(=O)N(CCCCc4cc(C2)ccc4)C=3)CC12CCC2\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "SMILES": "O1C[C@H](NC(=O)c2cc(cc(c2)[C@@H](O)[NH2+][C@H](C\\C=C\\C1)c1ccccc1)C)[C@H](O)C[NH2+]Cc1cc(ccc1)C(C)C",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: O1C[C@H](NC(=O)c2cc(cc(c2)[C@@H](O)[NH2+][C@H](C\\C=C\\C1)c1ccccc1)C)[C@H](O)C[NH2+]Cc1cc(ccc1)C(C)C\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "SMILES": "Fc1cc(cc(F)c1)C[C@H](NC(=O)C)[C@H](O)C[NH2+]C1(CCCCC1)c1cc(-n2nccc2)ccc1",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: Fc1cc(cc(F)c1)C[C@H](NC(=O)C)[C@H](O)C[NH2+]C1(CCCCC1)c1cc(-n2nccc2)ccc1\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "SMILES": "[nH]1c2cc(ccc2cc1)-c1cc(ccc1)CNc1cccnc1N",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: [nH]1c2cc(ccc2cc1)-c1cc(ccc1)CNc1cccnc1N\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "SMILES": "O=C1NC(=NC(=C1)CCC)N",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: O=C1NC(=NC(=C1)CCC)N\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "SMILES": "Brc1cc(ccc1O)C[C@@H]1CS(=O)(=O)C[C@H]([NH2+]Cc2cc(ccc2)C2CC2)[C@H]1O",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: Brc1cc(ccc1O)C[C@@H]1CS(=O)(=O)C[C@H]([NH2+]Cc2cc(ccc2)C2CC2)[C@H]1O\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "SMILES": "S(=O)(=O)(N(C)c1cc(cc(c1)C(=O)N[C@H]([C@@H](O)CC(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N([C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(OC)=O)C)C)Cc1ccccc1)C(=O)N[C@H](C)c1ccccc1)C",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: S(=O)(=O)(N(C)c1cc(cc(c1)C(=O)N[C@H]([C@@H](O)CC(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N([C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(OC)=O)C)C)Cc1ccccc1)C(=O)N[C@H](C)c1ccccc1)C\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "SMILES": "Fc1cc(cc(F)c1)C[C@H](NC(=O)c1cc(cc(c1)C)C(=O)N(CCC)CCC)[C@H](O)[C@@H]1[NH2+]CCN(Cc2ccccc2)C1=O",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: Fc1cc(cc(F)c1)C[C@H](NC(=O)c1cc(cc(c1)C)C(=O)N(CCC)CCC)[C@H](O)[C@@H]1[NH2+]CCN(Cc2ccccc2)C1=O\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "SMILES": "O=C(N[C@H]([C@H](O)C[NH2+][C@H]1CC(Cc2nn(cc12)CC(C)(C)C)(C)C)Cc1ccccc1)C",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: O=C(N[C@H]([C@H](O)C[NH2+][C@H]1CC(Cc2nn(cc12)CC(C)(C)C)(C)C)Cc1ccccc1)C\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "SMILES": "S(=O)(=O)(N1CC([NH2+]CC1)C(O)C(NC(=O)c1cc(cc(c1)C)C(=O)N1CCCC1COC)Cc1cc(F)cc(F)c1)c1cc(ccc1)C",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: S(=O)(=O)(N1CC([NH2+]CC1)C(O)C(NC(=O)c1cc(cc(c1)C)C(=O)N1CCCC1COC)Cc1cc(F)cc(F)c1)c1cc(ccc1)C\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "SMILES": "S1(=O)(=O)C[C@@H](Cc2cc(C[C@@H]3N(CCC)C(OC3)=O)c(O)cc2)[C@H](O)[C@@H]([NH2+]Cc2cc(ccc2)C(C)C)C1",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: S1(=O)(=O)C[C@@H](Cc2cc(C[C@@H]3N(CCC)C(OC3)=O)c(O)cc2)[C@H](O)[C@@H]([NH2+]Cc2cc(ccc2)C(C)C)C1\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "SMILES": "S(=O)(=O)(CCCCC)C[C@@H](NC(=O)c1cccnc1)C(=O)N[C@H]([C@H](O)C[NH2+]Cc1cc(ccc1)CC)Cc1cc(F)cc(F)c1",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: S(=O)(=O)(CCCCC)C[C@@H](NC(=O)c1cccnc1)C(=O)N[C@H]([C@H](O)C[NH2+]Cc1cc(ccc1)CC)Cc1cc(F)cc(F)c1\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "SMILES": "S(Oc1cc(cc(OCC(=O)NCCCCC[NH3+])c1)C(=O)N[C@H](C)c1ccc(F)cc1)(=O)(=O)Cc1ccccc1",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: S(Oc1cc(cc(OCC(=O)NCCCCC[NH3+])c1)C(=O)N[C@H](C)c1ccc(F)cc1)(=O)(=O)Cc1ccccc1\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "SMILES": "S(=O)(=O)(N(C)c1cc(cc(c1)C(=O)NC(C(O)CC(C(=O)NC(C(C)C)C(=O)NC(C)C)C)CC(C)C)C(=O)NC(C)c1ccccc1)C",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: S(=O)(=O)(N(C)c1cc(cc(c1)C(=O)NC(C(O)CC(C(=O)NC(C(C)C)C(=O)NC(C)C)C)CC(C)C)C(=O)NC(C)c1ccccc1)C\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "SMILES": "O=C1N[C@@H](C[C@@H](CCCCCCCCC(=O)N(C)[C@H]1C)C)[C@H](O)C[NH2+]Cc1cc(ccc1)C(C)C",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: O=C1N[C@@H](C[C@@H](CCCCCCCCC(=O)N(C)[C@H]1C)C)[C@H](O)C[NH2+]Cc1cc(ccc1)C(C)C\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "SMILES": "O=C1N(Cc2ccc(cc2)CNC(=O)Nc2ccc(cc2)C#N)C(N[C@@]1(CC(C)C)C)=N",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: O=C1N(Cc2ccc(cc2)CNC(=O)Nc2ccc(cc2)C#N)C(N[C@@]1(CC(C)C)C)=N\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "SMILES": "O=C1N(C)C(N[C@](C1)(C)[C@@H]1C[C@H]1c1ccccc1)=N",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: O=C1N(C)C(N[C@](C1)(C)[C@@H]1C[C@H]1c1ccccc1)=N\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "SMILES": "[nH]1c2cc(ccc2cc1)CCc1nc(N)ccc1",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: [nH]1c2cc(ccc2cc1)CCc1nc(N)ccc1\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "SMILES": "S(=O)(=O)(N(C)c1cc(cc(c1)C(=O)N[C@H]([C@H](O)[C@@H]1[NH2+]C(N(C)C1=O)(C)C)Cc1ccccc1)C(=O)N[C@H](C)c1ccc(F)cc1)C",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: S(=O)(=O)(N(C)c1cc(cc(c1)C(=O)N[C@H]([C@H](O)[C@@H]1[NH2+]C(N(C)C1=O)(C)C)Cc1ccccc1)C(=O)N[C@H](C)c1ccc(F)cc1)C\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "SMILES": "Fc1cc(cc(F)c1)C[C@H](NC(=O)c1cc(cc(c1)C)C(=O)N(CCC)CCC)[C@H](O)[C@@H]1[NH2+]CC[N@@H+](C1)Cc1ccccc1",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, predict the molecular properties of a given chemical compound based on its structure, by analyzing whether it can inhibit(Yes) the Beta-site Amyloid Precursor Protein Cleaving Enzyme 1 (BACE1) or cannot inhibit(No) BACE1. Consider factors such as molecular weight, atom count, bond types, and functional groups in order to assess the compound's drug-likeness and its potential to serve as an effective therapeutic agent for Alzheimer's disease, please answer with only Yes or No.\nSMILES: Fc1cc(cc(F)c1)C[C@H](NC(=O)c1cc(cc(c1)C)C(=O)N(CCC)CCC)[C@H](O)[C@@H]1[NH2+]CC[N@@H+](C1)Cc1ccccc1\nBACE-1 Inhibit:",
+        "answer": "No",
+        "acc": 1
+    }
+]

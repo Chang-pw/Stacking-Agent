@@ -2,21 +2,16 @@ import os
 from openai import AzureOpenAI
 from typing import List, Dict
 import time
+import random
 class ChatModel():
     def __init__(self, model="gpt-4o", temperature=0.7):
         self.model = model
         self.temperature = temperature
+
         os.environ["OPENAI_API_TYPE"] = "azure"
-        os.environ["OPENAI_API_VERSION"] = "2024-08-01-preview"
-        os.environ["OPENAI_API_BASE"] = "https://xiaojin.openai.azure.com/openai"
-        os.environ["OPENAI_API_ENDPOINT"] = "https://xiaojin.openai.azure.com/openai/deployments/gpt4o/chat/completions?api-version=2024-08-01-preview"
-        os.environ["OPENAI_API_KEY"] = "8f09ac0303fd4a8584796c08a5013fea"
-        os.environ["OPENAI_GPT4O_DEPLOYMENT_NAME"] = "gpt4o"
-        self.client = AzureOpenAI(
-            api_key=os.getenv("OPENAI_API_KEY"),
-            api_version=os.getenv("OPENAI_API_VERSION"),
-            azure_endpoint=os.getenv("OPENAI_API_ENDPOINT"),
-        )
+        self.api_keys = ['42006d324d8f491f9d8ff82a15cd41f8','42006d324d8f491f9d8ff82a15cd41f8','8f09ac0303fd4a8584796c08a5013fea','8f09ac0303fd4a8584796c08a5013fea']
+        self.api_endpoints = ['https://dexter0808.openai.azure.com/openai/deployments/Dexter0808/chat/completions?api-version=2024-08-01-preview','https://dexter0808.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-08-01-preview','https://xiaojin.openai.azure.com/openai/deployments/gpt4o/chat/completions?api-version=2024-08-01-preview','https://xiaojin.openai.azure.com/openai/deployments/gpt4ohigh/chat/completions?api-version=2024-08-01-preview']
+
     def chat(self, prompt: str, history: List[Dict[str, str]], system_prompt: str = 'You are a helpful assistant',stop_word:str='') -> str:
         """
         Get response with the prompt,history and system prompt.
@@ -27,7 +22,15 @@ class ChatModel():
             system_prompt (str)
 
         """
-
+        chosen_index = random.randint(0, len(self.api_keys) - 1)
+        chosen_key = self.api_keys[chosen_index]
+        chosen_endpoint = self.api_endpoints[chosen_index]
+        
+        client = AzureOpenAI(
+            api_key=chosen_key,
+            api_version="2024-08-01-preview",
+            azure_endpoint=chosen_endpoint
+        )
 
         messages = []
         if system_prompt:
@@ -39,7 +42,7 @@ class ChatModel():
 
         messages.append({"role": "user", "content": prompt})
         try:
-            response = self.client.chat.completions.create(
+            response = client.chat.completions.create(
                 model=self.model,
                 messages=messages,
                 temperature=self.temperature,
@@ -48,7 +51,7 @@ class ChatModel():
         except Exception as e:
             print(e)
             return "Run Again",history
-
+        total_tokens = response.usage.total_tokens
         response = response.choices[0].message.content
         history.append({"role": "assistant", "content": response})
         try:
@@ -62,12 +65,14 @@ class ChatModel():
         except:
             pass
         
-        return response,history
+        return response,total_tokens
     def test(self):
         print('test')
 
 if __name__ == '__main__':
     gpt4o = ChatModel()
-    print(gpt4o.chat('Please tell me the food of china', []))
+    a,b = gpt4o.chat('Hello', [])
+    
+    
     
 

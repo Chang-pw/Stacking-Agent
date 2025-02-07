@@ -1,0 +1,142 @@
+[
+    {
+        "SMILES": "CC1=CC(=O)[C@H]([C@]2([C@H]1C[C@@H]3[C@]45[C@@H]2[C@H]([C@@H]([C@]([C@@H]4[C@H](C(=O)O3)O)(OC5)C)O)O)C)O",
+        "description": "The molecule is a quassinoid isolated from Quassia indica and has been shown to exhibit antimalarial and antineoplastic activity. It has a role as a metabolite, an antimalarial and an antineoplastic agent. It is a delta-lactone, a cyclic ether, an enone, an organic heteropentacyclic compound, a quassinoid, a secondary alcohol, a tetrol and a secondary alpha-hydroxy ketone.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 1803,
+        "blue2": 0.15477388793773303
+    },
+    {
+        "SMILES": "C[C@@]12CC[C@@]3(C(=C[C@H]([C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)O)[C@@H]1CC(CC2)(C)C)C",
+        "description": "The molecule is the pentacyclic triterpenoid that is the 11alpha-hydroxy derivative of beta-amyrin. It is a pentacyclic triterpenoid and a secondary alcohol. It derives from a beta-amyrin.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 1749,
+        "blue2": 0.3196002284077115
+    },
+    {
+        "SMILES": "CCCCCC(=O)N[C@H](C(=O)[O-])O",
+        "description": "The molecule is an N-acyl-(2S)-hydroxyglycinate resulting from the deprotonation of the carboxy group of N-hexanoyl-(2S)-hydroxyglycine. The major species at pH 7.3. It is a conjugate base of a N-hexanoyl-(2S)-hydroxyglycine.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 2766,
+        "blue2": 0.39174189041974056
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCC(=O)N[C@@H](COP(=O)(O)OCCN)[C@@H](/C=C/CCCCCCCCCC)O",
+        "description": "The molecule is a ceramide phosphoethanolamine (33:1) in which the sphingoid and acyl components are pentadecasphing-4-enine and octadecanoyl respectively. It derives from an octadecanoic acid.",
+        "answer": "The molecule is (2S)-2-amino-3-[(2S,3R)-2-hydroxy-3-(octadec-9-enyl)oxy]propyl]phosphonic acid 2-[2-(amino)ethoxy]ethyl ester.",
+        "all_tokens": 4098,
+        "blue2": 0.3249141256362266
+    },
+    {
+        "SMILES": "CC[C@H](C)[C@H]1C(=O)OC2N1C3=C(C4=C2C=C(C=C4O)C)C(=O)C5=C(C3=O)C(=CC=C5)O",
+        "description": "The molecule is a organic heteropentacyclic compound that is 1,2,8,13-tetrahydro-3aH-benzo[b][1,3]oxazolo[3,2-f]phenanthridine which carries oxo groups at positions 2, 8 and 13, methyl group at position 5, hydroxy groups at positions 7 and 12, and a (2R)-butan-2-yl group at position 1. It is a mixture of epimers at the hemiaminal carbon (position 3a). It is a jadomycin, an organic heteropentacyclic compound, a member of p-quinones and a polyphenol.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 1697,
+        "blue2": 0.1589908874201545
+    },
+    {
+        "SMILES": "CSCCC/C=[N+](\\\\O)/[O-]",
+        "description": "The molecule is an aci-nitro compound resulting from the formal oxidation of the oxime nitrogen of an omega-(methylsulfany)-(E)-alkanal oxime. It is an aci-nitro compound and a methyl sulfide. It derives from an omega-(methylsulfanyl)-(E)-alkanal oxime.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 2656,
+        "blue2": 0.2937461949457772
+    },
+    {
+        "SMILES": "CC(=O)N(CCCN)O",
+        "description": "The molecule is a member of the class of acetohydroxamic acids that is trimethylenediamine bearing N-hydroxy and N-acetyl substituents. It has a role as a metabolite. It derives from a trimethylenediamine.",
+        "answer": "The molecule is N-(2-hydroxyethyl)acetamide.",
+        "all_tokens": 2539,
+        "blue2": 0.02306265135873484
+    },
+    {
+        "SMILES": "C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)OC2=CC3=CC4=C(C(=C3C(=C2C(=O)OC)C)O)C(=O)[C@@]5(C(=O)C=C([C@H]([C@@]5(C4=O)O)O)OC)OC)OC)OC)OC",
+        "description": "The molecule is a member of the class of tetracenomycins that is 8-demethyltetracenomycin C in which the hydroxyl hydrogens at position 8 and 10 a are replaced by a 2,3,4-tri-O-methyl-alpha-L-rhamnosyl and methyl groups respectively. It has a role as a bacterial metabolite and an antimicrobial agent. It is an alpha-L-rhamnoside, a carboxylic ester, an enol ether, an enone, a monosaccharide derivative, a member of phenols, a tetracenomycin, a methyl ester and a tertiary alpha-hydroxy ketone. It derives from a tetracenomycin C.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 3337,
+        "blue2": 0.09953731132409573
+    },
+    {
+        "SMILES": "CC1=CC=C(C=C1)N(CC2=NCCN2)C3=CC(=CC=C3)O",
+        "description": "The molecule is a substituted aniline that is 3-aminophenol in which the hydrogens of the amino group are replaced by 4-methylphenyl and 4,5-dihydro-1H-imidazol-2-ylmethyl groups respectively. An alpha-adrenergic antagonist, it is used for the treatment of hypertension. It has a role as an alpha-adrenergic antagonist and a vasodilator agent. It is a member of imidazoles, a member of phenols, a tertiary amino compound and a substituted aniline.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 2771,
+        "blue2": 0.1349253718738456
+    },
+    {
+        "SMILES": "CN(C)C1=CC2=C(C=C1)NC3=C(O2)C(=O)C(=O)C=C3C(=O)[NH3+]",
+        "description": "The molecule is an organic cation that is 3,4-dihydroxyphenoxazin-5-ium carrying additional carbamoyl and dimethylamino groups at positions 1 and 7 respectively. The chloride salt is the histological dye 'Gallamin blue'. It has a role as a fluorochrome and a histological dye.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 2866,
+        "blue2": 0.26944190369909005
+    },
+    {
+        "SMILES": "COC1=C(C=CC(=C1)/C=C/C(=O)OCCCCCCCCCCCCCCCC(=O)[O-])O",
+        "description": "The molecule is a monocarboxylic acid anion that is the conjugate base of 16-feruloyloxypalmitic acid obtained by deprotonation of the carboxy group. It is a conjugate base of a 16-feruloyloxypalmitic acid.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 2780,
+        "blue2": 0.31158105009878845
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)CO)O[C@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)NC(=O)C)O)O)O)O",
+        "description": "The molecule is an amino trisaccharide consisting of N-acetyl-alpha-D-glucosamine, beta-D-galactose and N-acetyl-beta-D-glucosamine residues linked sequentially (1->6) and (1->4). It has a role as an epitope. It is an amino trisaccharide and a glucosamine oligosaccharide.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 5012,
+        "blue2": 0.23646144596186028
+    },
+    {
+        "SMILES": "C[C@H]1[C@H]([C@H](C[C@H](O1)OP(=O)([O-])OP(=O)([O-])OC[C@@H]2[C@H](C[C@@H](O2)N3C=C(C(=O)NC3=O)C)O)[NH+](C)C)O",
+        "description": "The molecule is a nucleotide-sugar oxoanion that is the conjugate base of dTDP-beta-L-rhodosamine, arising from deprotonation of the diphosphate group and protonation of the amino group; major species at pH 7.3. It is a conjugate base of a dTDP-beta-L-rhodosamine.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 3203,
+        "blue2": 0.2181505065959225
+    },
+    {
+        "SMILES": "COC1=CC(=CC2=C1OC(C2CO)C3=CC(=C(C=C3)O)OC)/C=C/CO",
+        "description": "The molecule is a guaiacyl lignin obtained by cyclodimerisation of coniferol. It has a role as a plant metabolite and an anti-inflammatory agent. It is a member of 1-benzofurans, a primary alcohol, a guaiacyl lignin and a member of guaiacols. It derives from a coniferol.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 2804,
+        "blue2": 0.2313497444330102
+    },
+    {
+        "SMILES": "CC1(CC/C(=C\\\\C2=CC=C(C=C2)Cl)/C1(CN3C=NC=N3)O)C",
+        "description": "The molecule is a member of the class of cyclopentanols carrying 1,2,4-triazol-1-ylmethyl and 4-chlorobenzylidene and geminal dimethyl substituents at positions 1, 2 and 5 respectively. It is a member of triazoles, a member of monochlorobenzenes, a member of cyclopentanols, a tertiary alcohol and an olefinic compound.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 4100,
+        "blue2": 0.2311468378071153
+    },
+    {
+        "SMILES": "CCCCCCCCCCCC[C@@H](C(=O)[O-])O",
+        "description": "The molecule is a (2S)-2-hydroxy fatty acid anion that is the conjugate base of (2S)-2-hydroxytetradecanoic acid, obtained by deprotonation of the carboxy group; major species at pH 7.3. It is a (2S)-2-hydroxy monocarboxylic acid anion and a 2-hydroxymyristate. It is a conjugate base of a (2S)-2-hydroxytetradecanoic acid. It is an enantiomer of a (2R)-2-hydroxytetradecanoate.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 3899,
+        "blue2": 0.21191379515832012
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)C2=NOC(=N2)C3=CC=CS3",
+        "description": "The molecule is a 1,2,4-oxadizole in which the hydrogens at positions 3 and 5 have been replaced by phenyl and thiophen-2-yl groups, respectively. It is used as a broad spectrum nematicidal seed treatment. It has a role as a nematicide and an agrochemical. It is a member of thiophenes and a 1,2,4-oxadiazole.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 4043,
+        "blue2": 0.2447416191559458
+    },
+    {
+        "SMILES": "C[C@H](CC(=O)[O-])O",
+        "description": "The molecule is the conjugate base of (R)-3-hydroxybutyric acid. It has a role as a human metabolite. It is a conjugate base of a (R)-3-hydroxybutyric acid. It is an enantiomer of a (S)-3-hydroxybutyrate.",
+        "answer": "The molecule is (S)-2-Hydroxybutanoate.",
+        "all_tokens": 2540,
+        "blue2": 0.012997266329550887
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/C=C/C(=C/C=C/C=C(\\\\C)/C=C/C=C(\\\\C)/C=C/C=C(\\\\C)/C=C/C(C(C)(C)OC)O)/C)/C)/C)C",
+        "description": "The molecule is a carotenoid ether that is spheroidene substituted at position 2 by a hydroxy group. It is a carotenoid ether and a carotenol. It derives from a spheroidene.",
+        "answer": "The molecule is (1S,3S,4S,5R,6R,7R,8R,11R)-7-[(2S,5R)-5-[(2S,5S)-5-methyl-4-oxo-2,5-dihydrofuran-2-yl]-2-methyloxolan-2-yl]-4-hydroxy-11-methyl-2,5-dioxa-9-oxatetracyclo[8.4.0.03,8.04,6]tetradecan-10-one.",
+        "all_tokens": 4188,
+        "blue2": 0.2759737289714214
+    },
+    {
+        "SMILES": "[Be+2].O.O.O.O.[O-]S(=O)(=O)[O-]",
+        "description": "The molecule is a hydrate of beryllium sulfate containing beryllium (in +2 oxidation state), sulfate and water moieties in the ratio 1:1:4. It contains a beryllium sulfate.",
+        "answer": "The molecule is beryllium sulfate tetrahydrate.",
+        "all_tokens": 2632,
+        "blue2": 0.06843982757163398
+    }
+]

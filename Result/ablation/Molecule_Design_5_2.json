@@ -1,0 +1,26 @@
+[
+  {
+    "train_data_number": 5,
+    "result": "[{'agent_tool': Molecule_Design_1, 'score': 0.6390058601118828, 'tool': 'Name2SMILES_1'}, {'agent_tool': Molecule_Design_2, 'score': 0.5870477458113598, 'tool': 'ChemDFM_1'}, {'agent_tool': ChemDFM, 'score': 0.5603078024174787, 'tool': 'ChemDFM_0'}, {'agent_tool': Name2SMILES, 'score': 0.4927606836203333, 'tool': 'Name2SMILES_0'}]"
+  },
+  {
+    "train_data_number": 10,
+    "result": "[{'agent_tool': ChemDFM, 'score': 0.7416100831539328, 'tool': 'ChemDFM_0'}, {'agent_tool': Name2SMILES, 'score': 0.6806395938086617, 'tool': 'Name2SMILES_0'}]"
+  },
+  {
+    "train_data_number": 15,
+    "result": "[{'agent_tool': Molecule_Design_3, 'score': 0.731334950873038, 'tool': 'ChemDFM_1'}, {'agent_tool': Molecule_Design_2, 'score': 0.7217278158378779, 'tool': 'Name2SMILES_2'}, {'agent_tool': ChemDFM, 'score': 0.710868279931318, 'tool': 'ChemDFM_0'}, {'agent_tool': Molecule_Design_1, 'score': 0.5400867413353104, 'tool': 'Name2SMILES_1'}, {'agent_tool': Name2SMILES, 'score': 0.4377393305290863, 'tool': 'Name2SMILES_0'}]"
+  },
+  {
+    "train_data_number": 20,
+    "result": "[{'agent_tool': Molecule_Design_4, 'score': 0.8206813386844198, 'tool': 'Name2SMILES_4'}, {'agent_tool': ChemDFM, 'score': 0.818228891169575, 'tool': 'ChemDFM_0'}, {'agent_tool': Molecule_Design_3, 'score': 0.8016214563935048, 'tool': 'Name2SMILES_3'}, {'agent_tool': Molecule_Design_2, 'score': 0.7146214166352476, 'tool': 'Name2SMILES_2'}, {'agent_tool': Molecule_Design_1, 'score': 0.6947693430144213, 'tool': 'Name2SMILES_1'}, {'agent_tool': Name2SMILES, 'score': 0.42339014004555625, 'tool': 'Name2SMILES_0'}]"
+  },
+  {
+    "train_data_number": 25,
+    "result": "[{'agent_tool': ChemDFM, 'score': 0.7308972065995674, 'tool': 'ChemDFM_0'}, {'agent_tool': Molecule_Design_4, 'score': 0.7221024801637951, 'tool': 'Name2SMILES_4'}, {'agent_tool': Molecule_Design_3, 'score': 0.6735647280029127, 'tool': 'Name2SMILES_3'}, {'agent_tool': Molecule_Design_2, 'score': 0.6399868832377981, 'tool': 'Name2SMILES_2'}, {'agent_tool': Molecule_Design_1, 'score': 0.5849209047275085, 'tool': 'Name2SMILES_1'}, {'agent_tool': Name2SMILES, 'score': 0.4506066755791174, 'tool': 'Name2SMILES_0'}]"
+  },
+  {
+    "train_data_number": 30,
+    "result": "[{'agent_tool': ChemDFM, 'score': 0.7633847589306063, 'tool': 'ChemDFM_0'}, {'agent_tool': Molecule_Design_3, 'score': 0.7578789316705979, 'tool': 'Name2SMILES_3'}, {'agent_tool': Molecule_Design_2, 'score': 0.7401318012415151, 'tool': 'Name2SMILES_2'}, {'agent_tool': Molecule_Design_1, 'score': 0.7048864808612844, 'tool': 'Name2SMILES_1'}, {'agent_tool': Name2SMILES, 'score': 0.4180055181846424, 'tool': 'Name2SMILES_0'}]"
+  }
+]

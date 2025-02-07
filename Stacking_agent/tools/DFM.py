@@ -7,7 +7,7 @@ def get_ChemDFM(input_text):
     max_retries = 10
     backoff_factor = 1
     while attempt < max_retries:
-        response = requests.post("http://10.176.40.139:8080/generate", json=data_to_send)
+        response = requests.post("http://10.176.40.139:4040/generate", json=data_to_send)
         if response.status_code == 200:
             return response.json()[0]
         attempt += 1
@@ -18,7 +18,7 @@ def get_ChemDFM(input_text):
 
 class ChemDFM():
     name: str = "ChemDFM"
-    description: str = 'Input the question, returns answers. Note: Input the complete question you have heard to the tool will result in better outcomes'
+    description: str = 'Input the question, returns answers. Note: Input the complete original question you have heard to the tool will result in better outcomes'
     def __init__(
         self,
         **tool_args
@@ -29,10 +29,10 @@ class ChemDFM():
         return get_ChemDFM(query)
     
     def __str__(self):
-        return "ChemDFM tool"
+        return "ChemDFM"
 
     def __repr__(self):
         return self.__str__()
     
     def wo_run(self,query):
-        return get_ChemDFM(query)
+        return get_ChemDFM(query),0

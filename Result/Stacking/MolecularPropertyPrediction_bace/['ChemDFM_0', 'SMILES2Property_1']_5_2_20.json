@@ -1,0 +1,702 @@
+[
+    {
+        "SMILES": "O1[C@@H]2COCC[C@@]2(N=C1N)c1cc(ccc1)-c1cncnc1",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2858,
+        "time": 56.898
+    },
+    {
+        "SMILES": "S(=O)(=O)(N(C)c1cc(cc(c1)C(=O)N[C@H]([C@@H](O)CC(=O)N[C@@H](C(C)C)C(=O)Nc1cc(cc(c1)C(=O)[O-])C(=O)[O-])COc1cc(F)cc(F)c1)C(=O)N[C@H](C)c1ccccc1)C",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 5333,
+        "time": 41.381
+    },
+    {
+        "SMILES": "Fc1cc(cc(F)c1)CC(NC(=O)C(N1CCC(NC(=O)C)(C(CC)C)C1=O)CCc1ccccc1)C(O)C1[NH2+]CC(OCc2ncccc2)C1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 3071,
+        "time": 96.344
+    },
+    {
+        "SMILES": "Fc1cc(cc(F)c1)CC(NC(=O)C(N1CCC(NC(=O)C)(C(CC)C)C1=O)CCc1ccccc1)C(O)C1[NH2+]CC(Oc2cccnc2)C1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 3014,
+        "time": 54.88
+    },
+    {
+        "SMILES": "Clc1cc2CC([NH+]=C(N[C@@H](Cc3ccccc3)C=3NC(=O)c4c(N=3)ccnc4)c2cc1)(C)C",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2823,
+        "time": 36.736
+    },
+    {
+        "SMILES": "O1c2c(cc(cc2)CC)C([NH2+]CC(O)C2NC(=O)C=3C=C(N4CCCC4)C(=O)N(CCCCc4cc(C2)ccc4)C=3)CC12CCC2",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1663,
+        "time": 30.56
+    },
+    {
+        "SMILES": "O1CCC(CC1)CNC(=O)C(Cc1cc2cc(ccc2nc1N)-c1ccccc1C)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 2891,
+        "time": 19.174
+    },
+    {
+        "SMILES": "S1(=O)(=O)N(c2cc(cc3N(CCN(CC1)c23)CC)C(=O)N[C@H]([C@H](O)C[NH2+]Cc1cc(OC)ccc1)Cc1ccccc1)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 6508,
+        "time": 65.936
+    },
+    {
+        "SMILES": "Clc1cc2CC([NH+]=C(N[C@@H](Cc3cscc3-c3cn[nH]c3)C(=O)[O-])c2cc1)(C)C",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2922,
+        "time": 48.095
+    },
+    {
+        "SMILES": "Clc1cc(sc1C1(NC(=[NH2+])N(C)C(=O)C1)C)-c1cc(cnc1)C#CC",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 2575,
+        "time": 62.234
+    },
+    {
+        "SMILES": "S1(=O)(=O)N(c2cc(cc3c2n(cc3CC)C1)C(=O)NC(Cc1ccccc1)C(O)C[NH2+]Cc1cc(OC)ccc1)C",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 1654,
+        "time": 33.21
+    },
+    {
+        "SMILES": "S(=O)(=O)(N(c1cc(cc(N2CCCC2=O)c1)C(=O)NC(Cc1ccccc1)C(O)C[NH2+]Cc1cc(ccc1)C(F)(F)F)c1ccccc1)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1661,
+        "time": 12.379
+    },
+    {
+        "SMILES": "n1cccc(NCc2ccccc2)c1N",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2558,
+        "time": 35.474
+    },
+    {
+        "SMILES": "S(=O)(=O)(N(C)c1cc(cc(c1)C(=O)NC(C)c1ccc(F)cc1)-c1oc(cn1)C([NH3+])(Cc1ccccc1)C)C",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 1631,
+        "time": 34.878
+    },
+    {
+        "SMILES": "[NH+]=1[C@](N=C(c2ccccc2)C=1N)(C)c1cc(ccc1)-c1cccnc1",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2742,
+        "time": 54.765
+    },
+    {
+        "SMILES": "Fc1ccc(NC(=O)C(CC([NH3+])C(NC(=O)c2cc(ccc2)C(=O)N(CCC)CCC)Cc2ccccc2)C)cc1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 2952,
+        "time": 43.82
+    },
+    {
+        "SMILES": "O1Cc2cc(cc(c2)C(=O)N[C@H](CCc2cc(C[C@]([NH3+])(C)C1=O)ccc2)c1ccccc1)-c1ccccc1C#N",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 2913,
+        "time": 38.059
+    },
+    {
+        "SMILES": "O1CCCCCCNC(=O)CC(NC(=O)C(NC1=O)C(C)C)C(=O)NC(C(O)CC(C(=O)NC(C(C)C)C(=O)NCc1ccccc1)C)CC(C)C",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 3129,
+        "time": 34.317
+    },
+    {
+        "SMILES": "Fc1cc(cc(F)c1)CC(NC(=O)C)C(O)C[NH2+]C1(CC\\C(=N\\O)\\CC1)c1cc(ccc1)C(C)(C)C",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 4105,
+        "time": 24.719
+    },
+    {
+        "SMILES": "s1cncc1-c1cc(ccc1)CC(NC(=O)COC)C(O)C[NH2+]C1CC2(Oc3ncc(cc13)CC(C)(C)C)CCC2",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 3926,
+        "time": 89.533
+    },
+    {
+        "SMILES": "S(=O)(=O)(N(C)c1cc(cc(c1)C(=O)NC(Cc1ccccc1)C(O)C[NH2+]Cc1cc(OC)ccc1)C(=O)NC(C)c1ccccc1)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 3120,
+        "time": 46.425
+    },
+    {
+        "SMILES": "S(=O)(=O)(CCCCC)c1cc(ccc1)C(=O)N[C@H]([C@H](O)C[NH2+][C@H](C(=O)NC1CCCCC1)C)Cc1ccccc1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "all_tokens": 3031,
+        "time": 34.34
+    },
+    {
+        "SMILES": "S1(=O)(=O)C[C@@H](Cc2cc(F)c3NCC4(CCC(F)(F)CC4)c3c2)[C@H](O)[C@@H]([NH2+]Cc2cc(ccc2)C(C)(C)C)C1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "all_tokens": 3162,
+        "time": 82.339
+    },
+    {
+        "SMILES": "S(=O)(=O)(N(C)c1cc(cc(c1)C(=O)N[C@H]([C@H](O)C[NH2+]C1CC1)Cc1ccccc1)C(=O)N[C@H](C)c1ccccc1)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 3250,
+        "time": 51.851
+    },
+    {
+        "SMILES": "O1CCC(OC(=O)[C@@H]2[NH2+]C[C@]3(C2)c2c(NC3=O)cccc2)CC1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "all_tokens": 2854,
+        "time": 32.409
+    },
+    {
+        "SMILES": "n1ccc2c(cccc2)c1N",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 1443,
+        "time": 14.144
+    },
+    {
+        "SMILES": "Brc1cc2c(S(=O)(=O)CC[C@@H]2OC(=O)[C@@H]2[NH2+]C[C@]3(C2)c2c(NC3=O)cccc2)cc1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "all_tokens": 1631,
+        "time": 28.851
+    },
+    {
+        "SMILES": "FC(F)(F)c1cc(ccc1)C[NH2+]C[C@@H](O)[C@@H](NC(=O)C=1C=C(N2CCCC2=O)C(=O)N(C=1)C1CCCC1)Cc1ccccc1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 3076,
+        "time": 34.583
+    },
+    {
+        "SMILES": "S(=O)(=O)(N(C)c1cc(cc(c1)C(=O)N[C@H]([C@H](O)C[NH2+]C1CC1)Cc1ccccc1)C(=O)c1ccccc1)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1645,
+        "time": 15.081
+    },
+    {
+        "SMILES": "Fc1ccc(cc1)CC1CC[NH2+]CC1",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 4183,
+        "time": 26.456
+    },
+    {
+        "SMILES": "Fc1cc(cc(F)c1)CC(NC(=O)C(N1CCC(NC(=O)C)(C(CC)C)C1=O)CCc1ccccc1)C(O)C1[NH2+]CC(Oc2ccccc2)C1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 1647,
+        "time": 11.059
+    },
+    {
+        "SMILES": "S(=O)(=O)(N(C)c1nc2CC[C@@H](CCc3cc(C[C@]([NH3+])(C)C(OCc(c1)c2)=O)ccc3)C)C",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "all_tokens": 2841,
+        "time": 41.139
+    },
+    {
+        "SMILES": "O=C1N(CC[C@]12[N@H+](CCC2)CCC)[C@H](C(=O)N[C@H]([C@H](O)C[NH2+]Cc1cc(ccc1)C(C)C)Cc1ccccc1)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 2775,
+        "time": 34.486
+    },
+    {
+        "SMILES": "s1c2c(nc1C)C(=[NH+][C@@]2(c1cc(ccc1)-c1cncnc1)c1ccc(OC)cc1)N",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "all_tokens": 2781,
+        "time": 50.6
+    },
+    {
+        "SMILES": "s1cc(nc1)-c1cc(ccc1)CC(NC(=O)COC)C(O)C[NH2+]C1CC2(Oc3ncc(cc13)CC(C)(C)C)CCC2",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 3188,
+        "time": 40.35
+    },
+    {
+        "SMILES": "O1CC[NH+](CC1)CC(O)COc1cc(ccc1C)C",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2511,
+        "time": 40.411
+    },
+    {
+        "SMILES": "Clc1cc(ccc1)-c1cc(ccc1)[C@@]1(OCCC(=[NH+]1)N)C",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2775,
+        "time": 34.281
+    },
+    {
+        "SMILES": "Clc1cc(cc(Cl)c1NC(=O)C)C\\N=C(\\NC(=O)Cn1c2c(cccc2)cc1)/N",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 1579,
+        "time": 31.155
+    },
+    {
+        "SMILES": "Fc1cc(cc(F)c1)C[C@H](NC(=O)c1cc(cc(c1)C)C(=O)N(CCC)CCC)[C@H](O)[C@@H]1[NH2+]C[C@H](OCc2ccccc2)C1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 4730,
+        "time": 37.627
+    },
+    {
+        "SMILES": "O=C(N(C)C1CCCCC1)CCc1cc2c(nc1N)cccc2",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1549,
+        "time": 26.708
+    },
+    {
+        "SMILES": "s1cc(cc1)-c1cc2c(nc(N)cc2)cc1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 2689,
+        "time": 35.795
+    },
+    {
+        "SMILES": "[NH+]=1[C@](N=C(C)C=1N)(C1CC1)c1cc(ccc1)-c1cc(cnc1)C#CC",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 2796,
+        "time": 39.871
+    },
+    {
+        "SMILES": "S1(=O)(=O)N(c2cc(cc3n(cc(CC1)c23)CC)C(=O)NC([C@H](O)CNc1ccccc1)Cc1ccccc1)C",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 2871,
+        "time": 45.058
+    },
+    {
+        "SMILES": "O=C1N(CCC1)c1cc(cc(NCC)c1)C(=O)N[C@H]([C@H](O)C[NH2+]C1CCCCC1)Cc1ccccc1",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 3028,
+        "time": 42.414
+    },
+    {
+        "SMILES": "S1(=O)(=O)CC(Cc2cc(OC(C(F)(F)F)C(F)(F)F)c(N)c(F)c2)C(O)C([NH2+]Cc2noc(c2)CC(C)(C)C)C1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1643,
+        "time": 12.366
+    },
+    {
+        "SMILES": "Fc1c2c(ccc1)C(N=C2N)(C=1C=C(C)C(=O)N(C=1)CC)c1cc(NC(=O)c2ncccc2)ccc1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1597,
+        "time": 13.24
+    },
+    {
+        "SMILES": "Fc1cc(cc(F)c1)C[C@H](NC(=O)C)[C@H](O)C[NH2+][C@]1(CCc2n[nH]cc2C1)c1cc(ccc1)C(C)(C)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 3181,
+        "time": 32.522
+    },
+    {
+        "SMILES": "O=C(N[C@H](C(=O)[O-])C)[C@@H]1CCC[C@H]1[C@H](O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H]([NH3+])CCC(=O)[O-])C(C)C)CC(=O)N)CC(C)C",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 3251,
+        "time": 50.626
+    },
+    {
+        "SMILES": "S1CC[C@@](N=C1N)(C)c1ccc(OC)cc1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "all_tokens": 4180,
+        "time": 38.188
+    },
+    {
+        "SMILES": "O=C([O-])[C@@H](\\[NH+]=C\\1/NC(Cc2c/1cccc2)(C)C)Cc1ccccc1",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2914,
+        "time": 19.69
+    },
+    {
+        "SMILES": "S1(=O)(=O)N(c2cc(cc3n(cc(CC1)c23)CC)C(=O)NC([C@H](O)C[NH2+]C1CC1)Cc1ccccc1)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 3118,
+        "time": 52.289
+    },
+    {
+        "SMILES": "s1c(ccc1-c1cc(C#N)c(F)cc1)C12N=C(N)N(C)C(=O)C1CN(C2)c1ccccc1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1585,
+        "time": 39.391
+    },
+    {
+        "SMILES": "S1C[C@H](NC(OC(C)(C)C)=O)C(=O)N[C@@H](C)C(=O)N[C@@H](CSC\\C=C\\C1)[C@@H](O)C[C@H](C(=O)N[C@@H](C(C)C)C(=O)NCCCC)C",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 1896,
+        "time": 26.803
+    },
+    {
+        "SMILES": "O=C1N(C)C(N[C@@]1(CC1CCCCC1)CCC1CCCCC1)=N",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2661,
+        "time": 36.627
+    },
+    {
+        "SMILES": "Clc1ccccc1-c1scc(-c2ccc(OCCC)cc2)c1CC(=O)NC(=[NH2+])N",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "all_tokens": 2944,
+        "time": 44.947
+    },
+    {
+        "SMILES": "Clc1cc2CC([NH+]=C(N[C@@H](C[C@H]3[C@H](SC=C3c3cn[nH]c3)CCC)C(=O)[O-])c2cc1)(C)C",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 2808,
+        "time": 46.195
+    },
+    {
+        "SMILES": "Brc1cc(ccc1)C(=O)Nc1ccc(cc1)-c1n(CC(=O)NC(=[NH2+])N)c(cc1)-c1ccccc1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "all_tokens": 1641,
+        "time": 12.925
+    },
+    {
+        "SMILES": "O=C1N[C@@H](C[C@@H](CCCCCCCC(=O)N[C@H]1C)C)[C@@H](O)C[C@H](C(=O)NCCCC)C",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 1615,
+        "time": 24.88
+    },
+    {
+        "SMILES": "O1c2ncc(cc2C([NH2+]CC(O)C2NC(=O)C=3C=CC(=O)N(CCCCc4cc(C2)ccc4)C=3)CC12CCC2)CC(C)(C)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 3153,
+        "time": 19.132
+    },
+    {
+        "SMILES": "S(=O)(=O)(N1C[C@@H]([NH2+]CC1)[C@@H](O)[C@@H](NC(=O)c1cc(cc(c1)C)C(=O)N(CCC)CCC)Cc1cc(F)cc(F)c1)c1ccccc1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 3024,
+        "time": 30.425
+    },
+    {
+        "SMILES": "Clc1cc(cc(Cl)c1NC(=O)C)CNC(NC(=O)Cn1c2cc(ccc2cc1)C#N)=N",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1567,
+        "time": 11.157
+    },
+    {
+        "SMILES": "S(=O)(=O)(Nc1cc(Nc2ncnc(c2)-c2ccccc2)ccc1C)C",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 1542,
+        "time": 29.576
+    },
+    {
+        "SMILES": "s1c2OC(C[C@H]([NH2+]C[C@@H](O)[C@@H](NC(=O)C)Cc3ccccc3)c2cc1CC(C)(C)C)(C)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1615,
+        "time": 11.936
+    },
+    {
+        "SMILES": "O(C)c1ccc(cc1)[C@@]1([NH+]=C(N)CC1)c1cc(ccc1)-c1cncnc1",
+        "gold_answer": "No",
+        "answer": "No.",
+        "all_tokens": 1569,
+        "time": 30.917
+    },
+    {
+        "SMILES": "Clc1ccc(nc1)C(=O)Nc1cc(ccc1)[C@]1([NH+]=C(N)CN(C)C1=O)C",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "all_tokens": 2924,
+        "time": 24.451
+    },
+    {
+        "SMILES": "O(C(=O)[C@@H]1[NH2+]C[C@]2(C1)c1c(NC2=O)cccc1)C1(CCCCC1)C#N",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 4058,
+        "time": 48.114
+    },
+    {
+        "SMILES": "s1cc(cc1)C[C@H](NC(=O)c1cc(nc(NC[C@H]2C[C@@H]2C)c1)N(S(=O)(=O)C)C)[C@@H]([NH3+])CCCC",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 3068,
+        "time": 18.49
+    },
+    {
+        "SMILES": "O=C(N)CC[C@H](N(C(=O)[C@@H](NC(=O)[C@@H](O)C)C(C)C)C)C(=O)N[C@H]([C@@H](O)CC(=O)N[C@@H](CC(C)C)C(=O)N[C@H](C(=O)N([C@H](CC1CCCCC1)C(=O)[O-])C)C)CC1CCCCC1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1883,
+        "time": 27.872
+    },
+    {
+        "SMILES": "FC(F)(F)c1cc(ccc1)C[NH2+]C[C@@H](O)[C@@H](NC(=O)c1cc(N2CCCC2=O)c2nccc(c2c1)CC)Cc1ccccc1",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2920,
+        "time": 32.351
+    },
+    {
+        "SMILES": "OC(C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C([NH3+])Cc1c2c([nH]c1)cccc2)Cc1c2c([nH]c1)cccc2)CO)CCC(=O)[O-])C(C)C)CC(=O)N)CC(C)C)CC(C(=O)NC(C(=O)NC(CCC(=O)[O-])C(=O)NC(Cc1ccccc1)C(=O)[O-])C)C",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 2003,
+        "time": 11.877
+    },
+    {
+        "SMILES": "Clc1ccccc1-c1n(CC(=O)NC(=[NH2+])N)c(cc1)-c1ccc(Oc2ccc(cc2)C(=O)C)cc1",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2899,
+        "time": 39.579
+    },
+    {
+        "SMILES": "O1c2ncc(cc2C([NH2+]CC(O)C(NC(=O)COC)Cc2cc(ccc2)-c2occn2)CC12CCC2)CC(C)(C)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 2983,
+        "time": 44.689
+    },
+    {
+        "SMILES": "Clc1cc2nc(n(c2cc1)[C@H](CC(=O)NC1C2CC3CC1CC(C2)C3)CC)N",
+        "gold_answer": "No",
+        "answer": "\u001b[91m",
+        "all_tokens": 1619,
+        "time": 25.511
+    },
+    {
+        "SMILES": "Oc1ccc(cc1C1CCCCC1)CC[NH3+]",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 4040,
+        "time": 69.13
+    },
+    {
+        "SMILES": "Fc1cc(N2C3(CC[NH+](CC3)Cc3ccc(NC(=O)C)cc3)C(=NC2=O)NC2CCCCC2)ccc1",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2948,
+        "time": 31.701
+    },
+    {
+        "SMILES": "o1cccc1C[N@H+](Cc1cc(ccc1)CCc1cccnc1N)C",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "all_tokens": 2664,
+        "time": 28.393
+    },
+    {
+        "SMILES": "O(C)c1cc(ccc1)-c1cc(ccc1)CCc1nc(N)ccc1",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 1505,
+        "time": 27.738
+    },
+    {
+        "SMILES": "O1CCCCOc2cc(CC(NC(=O)c3cc(N4CCCC4=O)cc1c3)C(O)C[NH2+]C1(CC1)c1cc(ccc1)C(C)C)ccc2",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 2936,
+        "time": 18.096
+    },
+    {
+        "SMILES": "n1c2c(nc(N)c1N1CCCC1)cccc2",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2604,
+        "time": 29.142
+    },
+    {
+        "SMILES": "O(C)c1ccc(cc1)[C@@]1([NH+]=C(N)[C@H](OC)C1)c1cc(ccc1)-c1cccnc1",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 1583,
+        "time": 13.09
+    },
+    {
+        "SMILES": "O1c2c(cc(cc2)CC)[C@@H]([NH2+]C[C@@H](O)[C@H]2NC(=O)CCCCCCc3cc(C2)ccc3)CC12CCC2",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 2857,
+        "time": 37.822
+    },
+    {
+        "SMILES": "S1(Oc2cc(cc3c2n(cc3CC)CC1)C(=O)NC([C@H](O)C[NH2+]Cc1cc(ccc1)C(F)(F)F)Cc1ccccc1)(=O)=O",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1692,
+        "time": 24.96
+    },
+    {
+        "SMILES": "O=C1N(CCC1)c1cc(cc(NCC)c1)C(=O)N[C@H]([C@H](O)C[NH2+]C(CCCC(C)C)(C)C)Cc1ccccc1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 3024,
+        "time": 29.411
+    },
+    {
+        "SMILES": "Fc1cc(cc(F)c1)C[C@H](NC(=O)c1cc(cc(c1)C)C(=O)N(CCC)CCC)[C@H](O)[C@@H]1[NH2+]CCN(C1)C(=O)c1ccccc1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "all_tokens": 4880,
+        "time": 34.076
+    },
+    {
+        "SMILES": "s1cc(cc1C1(N=C(N)N(C)C(=O)C1)C)-c1cc(ccc1)C#N",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 1543,
+        "time": 11.863
+    },
+    {
+        "SMILES": "O=C(NC(=[NH2+])N)Cn1c(ccc1-c1ccccc1)-c1ccccc1",
+        "gold_answer": "No",
+        "answer": "No",
+        "all_tokens": 2630,
+        "time": 34.063
+    },
+    {
+        "SMILES": "Fc1cc(cc(F)c1)CC(NC(=O)C(N1CCC(NC(=O)C)(C(CC)C)C1=O)CCc1ccccc1)C(O)C1[NH2+]CC(Oc2ncccc2)C1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1667,
+        "time": 12.62
+    },
+    {
+        "SMILES": "O(C)c1c(cc(cc1C)[C@@]1([NH+]=C(N)C(=N1)C)c1cc(ccc1)-c1cncnc1)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1619,
+        "time": 24.199
+    },
+    {
+        "SMILES": "S(=O)(=O)(N(c1cc(cc(c1)C(=O)NC(Cc1ccccc1)C(O)C[NH2+]Cc1cc(ccc1)C(F)(F)F)C1CCCC1)c1ccccc1)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1649,
+        "time": 15.884
+    },
+    {
+        "SMILES": "O(c1cc2CN(C(CCC(=O)N(C)C3CCCCC3)C3CCCCC3)C(=[NH+]c2cc1)N)c1ccccc1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 2977,
+        "time": 81.283
+    },
+    {
+        "SMILES": "Fc1c2c(ccc1)C(N=C2N)(C=1C=C(C)C(=O)N(C=1)C)c1cc(ccc1)C#CC1CC1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1497,
+        "time": 21.514
+    },
+    {
+        "SMILES": "O=C1N(C)C(=[NH2+])NC1(c1ccccc1)c1ccccc1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 2537,
+        "time": 52.479
+    },
+    {
+        "SMILES": "O=C(NCC1CCCCC1)CCc1cc2c(nc1N)cccc2",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 2786,
+        "time": 20.365
+    },
+    {
+        "SMILES": "O1CC[C@@H](NC(=O)[C@@H](Cc2cc3cc(ccc3nc2N)-c2ccccc2C)C)CC1(C)C",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1577,
+        "time": 14.678
+    },
+    {
+        "SMILES": "Fc1c2c(ccc1)[C@@]([NH+]=C2N)(C=1C=C(C)C(=O)N(C=1)CC)c1cc(ccc1)-c1cc(cnc1)C#CC",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 2939,
+        "time": 37.316
+    },
+    {
+        "SMILES": "O1c2c(cc(cc2)CC)[C@@H]([NH2+]C[C@@H](O)[C@H]2NC(=O)CCCCCCCc3cc(C2)ccc3)CC12CCC2",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 2914,
+        "time": 49.605
+    },
+    {
+        "SMILES": "S(=O)(=O)(CC(NC(OCn1nc(cc1C)C)=O)C(=O)NC(C(O)CC(C(=O)NC(C(C)C)C(=O)NCC(C)C)C)CC(C)C)C",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 4735,
+        "time": 39.56
+    },
+    {
+        "SMILES": "O(Cc1ncccc1)c1ccc(cc1CNc1cccnc1N)-c1cc2[nH]ccc2cc1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "all_tokens": 2721,
+        "time": 31.639
+    },
+    {
+        "SMILES": "O=C(c1cc2CN(CCC(=O)N(C)C3CCCCC3)C(=[NH+]c2cc1)N)c1ccccc1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "all_tokens": 2808,
+        "time": 40.885
+    },
+    {
+        "SMILES": "Fc1cc(cc(F)c1)C[C@H](NC(=O)c1cc(cc(c1)C)C(=O)N(CCC)CCC)[C@H](O)[C@@H]1[NH2+]C[C@H](Oc2ccccc2)C1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 1703,
+        "time": 17.676
+    }
+]

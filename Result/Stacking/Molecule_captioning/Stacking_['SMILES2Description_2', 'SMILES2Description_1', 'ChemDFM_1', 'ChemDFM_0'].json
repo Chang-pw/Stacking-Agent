@@ -1,0 +1,37 @@
+[
+    {
+        "SMILES": "C[C@]12CC[C@@H](C([C@@H]1CC[C@@]3([C@@H]2CC=C4[C@]3(CC[C@@]5([C@H]4CC(CC5)(C)C)C(=O)O)C)C)(C)C)O",
+        "description": "The molecule is a pentacyclic triterpenoid that is olean-12-en-28-oic acid substituted by a beta-hydroxy group at position 3. It has a role as a plant metabolite. It is a pentacyclic triterpenoid and a hydroxy monocarboxylic acid. It is a conjugate acid of an oleanolate. It derives from a hydride of an oleanane.",
+        "answer": "The molecule is a natural product found in Petunia integrifolia with data available.",
+        "all_tokens": 1843,
+        "blue2": 0.05020462860920867
+    },
+    {
+        "SMILES": "CC1(CC/C(=C\\\\C2=CC=C(C=C2)Cl)/C1(CN3C=NC=N3)O)C",
+        "description": "The molecule is a member of the class of cyclopentanols carrying 1,2,4-triazol-1-ylmethyl and 4-chlorobenzylidene and geminal dimethyl substituents at positions 1, 2 and 5 respectively. It is a member of triazoles, a member of monochlorobenzenes, a member of cyclopentanols, a tertiary alcohol and an olefinic compound.",
+        "answer": "The molecule is a natural product found in Chondria atropurpurea with data available.",
+        "all_tokens": 1699,
+        "blue2": 0.04942471530789391
+    },
+    {
+        "SMILES": "CCCCCCCC/C=C\\\\CCCCCCCC(=O)N",
+        "description": "The molecule is a fatty amide derived from oleic acid. It has a role as a human metabolite and a plant metabolite.",
+        "answer": "The molecule is a fatty amide resulting from the formal condensation of the carboxy group of (9Z)-hexadec-9-enoic acid with ammonia. It has a role as a human metabolite. It is a conjugate base of a hexadec-9-enoylammonium.",
+        "all_tokens": 5626,
+        "blue2": 0.45528972830550596
+    },
+    {
+        "SMILES": "CCC(C)CCCCCCCCCCCCCCCCCCCCCCC(=O)O",
+        "description": "The molecule is a methyl-branched fatty acid that is cerotic acid substituted by a methyl group at position 24. It is a branched-chain saturated fatty acid, a methyl-branched fatty acid and a very long-chain fatty acid. It derives from a hexacosanoic acid.",
+        "answer": "The molecule is a natural product found in Petunia integrifolia with data available.",
+        "all_tokens": 1543,
+        "blue2": 0.09695700735718771
+    },
+    {
+        "SMILES": "C[C@@H]([C@H]1[C@H]([C@H]([C@H](O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O",
+        "description": "The molecule is a quercetin O-glycoside that is quercetin attached to a beta-L-rhamnofuranosyl moiety at position 3 via a glycosidic linkage. It has a role as a metabolite. It is a beta-L-rhamnofuranoside, a monosaccharide derivative, a tetrahydroxyflavone and a quercetin O-glycoside.",
+        "answer": "The molecule is a natural product found in Punica granatum with data available.",
+        "all_tokens": 1843,
+        "blue2": 0.05708750231573391
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "SMILES": "CCCCCCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCCOP(=O)([O-])[O-]",
+        "description": "The molecule is an anionic phospholipid that is the conjugate base of phosphomycoketide C32 obtained by deprotonation of the phosphate OH groups; major species at pH 7.3. It is a conjugate base of a phosphomycoketide C32.",
+        "answer": "CCCCCCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCCOP(=O)([O-])[O-]",
+        "all_tokens": 1389,
+        "blue2": 1.0
+    },
+    {
+        "SMILES": "CC1=CC(=O)[C@H]([C@]2([C@H]1C[C@@H]3[C@]45[C@@H]2[C@H]([C@@H]([C@]([C@@H]4[C@H](C(=O)O3)OC(=O)C)(OC5)C)O)O)C)O",
+        "description": "The molecule is a quassinoid isolated from Quassia indica and has been shown to exhibit antimalarial and cytotoxic activity. It has a role as a metabolite, an antimalarial and an antineoplastic agent. It is an acetate ester, a delta-lactone, a cyclic ether, an enone, an organic heteropentacyclic compound, a quassinoid, a secondary alcohol, a triol and a secondary alpha-hydroxy ketone.",
+        "answer": "CC(=O)O[C@H]1C(=O)O[C@@H]2C[C@H]3C(C)=CC(=O)[C@@H](O)[C@]3(C)[C@H]3[C@@H](O)[C@H](O)[C@@]4(C)OC[C@]32[C@@H]14",
+        "all_tokens": 9264,
+        "blue2": 0.856608735781472
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)OC1[C@@H]([C@H](C([C@H]([C@H]1O)O)O)O)O)OC(=O)CCC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCCCC",
+        "description": "The molecule is a 1-hexadecanoyl-2-acyl-sn-glycero-3-phospho-1D-myo-inositol in which the 2-acyl group is specified as (5Z,8Z,11Z,14Z)-icosatetraenoyl (arachidonyl). It has a role as a mouse metabolite. It is a 1-hexadecanoyl-2-acyl-sn-glycero-3-phospho-1D-myo-inositol and a phosphatidylinositol(16:0/20:4). It is a conjugate acid of a 1-hexadecanoyl-2-(5Z,8Z,11Z,14Z-icosatetraenoyl)-sn-glycero-3-phospho-D-myo-inositol(1-).",
+        "answer": "CCCCC/C=C\\C/C=C\\C/C=C\\C/C=C\\CCCC(=O)O[C@H](COC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OC1[C@H](O)[C@H](O)C(O)[C@H](O)[C@H]1O",
+        "all_tokens": 1569,
+        "blue2": 0.9048434804141742
+    },
+    {
+        "SMILES": "C[C@]12[C@H]3[C@@H]([C@@]45C[C@@H](CC[C@H]4[C@@]3(C[C@@H]([C@@H]1O)O)OC2=O)C(=C)C5)C(=O)OC",
+        "description": "The molecule is a gibberellin ester that is the methyl ester of gibberellin A34. It is a gibberellin ester, a lactone and a methyl ester. It derives from a gibberellin A1 methyl ester.",
+        "answer": "C=C1C[C@]23C[C@@]1(O)CC[C@H]2[C@@]12C[C@H](O)[C@H](O)[C@@](C)(C(=O)O1)[C@H]2[C@@H]3C(=O)OC",
+        "all_tokens": 1217,
+        "blue2": 0.8269795227731714
+    },
+    {
+        "SMILES": "C[C@@H]1C[C@@](C(=O)O[C@@H]2CCN3[C@@H]2C(=CC3)COC(=O)[C@]1(C)O)([C@@H](C)O)O",
+        "description": "The molecule is a pyrrolizine alkaloid obtained from senecionine by formal addition of hydrogen peroxide across the ethylidene double bond. It has a role as a Jacobaea metabolite. It is a macrocyclic lactone, an organic heterotricyclic compound, a pyrrolizine alkaloid, a triol and a tertiary amino compound. It derives from a senecionine.",
+        "answer": "C[C@@H]1C[C@](O)([C@@H](C)O)C(=O)O[C@@H]2CCN3CC=C(COC(=O)[C@]1(C)O)[C@H]23",
+        "all_tokens": 1359,
+        "blue2": 0.9324773307887835
+    },
+    {
+        "SMILES": "CCN(CC)C1=CC2=C(C=C1)NC3=C(O2)C(=O)C(=O)C=C3C(=O)[NH3+]",
+        "description": "The molecule is an organic cation that is 3,4-dihydroxyphenoxazin-5-ium carrying additional carbamoyl and diethylamino groups at positions 1 and 7 respectively. The chloride salt is the histological dye 'Celestin blue B'.",
+        "answer": "CCN(CC)c1ccc2[nH]c3c(C([NH3+])=O)cc(=O)c(=O)c=3oc2c1.[Cl-]",
+        "all_tokens": 1242,
+        "blue2": 0.47819989138032276
+    },
+    {
+        "SMILES": "CCCCC/C=C\\\\C/C=C\\\\C/C=C\\\\CC1C(O1)CCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)OP(=O)(O)O)O",
+        "description": "The molecule is an unsaturated fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of 5,6-epoxy-(8Z,11Z,14Z)-icosatrienoic acid. It is a long-chain fatty acyl-CoA and an unsaturated fatty acyl-CoA. It derives from a 5,6-EET. It is a conjugate acid of a 5,6-epoxy-(8Z,11Z,14Z)-icosatrienoyl-CoA(4-).",
+        "answer": "CCCCC/C=C\\C/C=C\\C/C=C\\CC1OC1CCCC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O",
+        "all_tokens": 1580,
+        "blue2": 0.807860107024353
+    },
+    {
+        "SMILES": "CC1=C(C(=CC=C1)C)N(C(=O)COC)N2CCOC2=O",
+        "description": "The molecule is an oxazolidinone that is N-(2,6-dimethylphenyl)-2-methoxyacetamide in which the amide hydrogen is replaced by a 2-oxo-1,3-oxazolidin-3-yl group. A systemic fungicide used to treat seeds of a variety of food crops, as well as lawns. It has a role as an agrochemical. It is an aromatic amide, an oxazolidinone, a carbohydrazide, an ether and an anilide fungicide.",
+        "answer": "COCC(=O)N(c1c(C)cccc1C)N1CCOC1=O",
+        "all_tokens": 1387,
+        "blue2": 0.5799199809231094
+    },
+    {
+        "SMILES": "C[C@H]1[C@H]([C@@](C[C@H](O1)OP(=O)([O-])OP(=O)([O-])OC[C@@H]2[C@H](C[C@@H](O2)N3C=C(C(=O)NC3=O)C)O)(C)[NH3+])O",
+        "description": "The molecule is a nucleotide-sugar oxoanion that is the conjugate base of dTDP-beta-L-vancosamine, arising from deprotonation of the diphosphate group and protonation of the amino group; major species at pH 7.3. It is a conjugate base of a dTDP-beta-L-vancosamine.",
+        "answer": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])O[C@@H]3C[C@](C)([NH3+])[C@H](O)[C@H](C)O3)O2)c(=O)[nH]c1=O",
+        "all_tokens": 1440,
+        "blue2": 0.8538654631065886
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])[O-])OC(=O)CCCCCCCCCCCCCCCCC",
+        "description": "The molecule is a 1-acyl-2-octadecanoyl-sn-glycerol-3-phosphate(2-) in which the 1-acyl group is also octadecanoyl; major species at pH 7.3. It is a conjugate base of a 1,2-dioctadecanoyl-sn-glycerol-3-phosphate.",
+        "answer": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])[O-])OC(=O)CCCCCCCCCCCCCCCCC",
+        "all_tokens": 1267,
+        "blue2": 1.0
+    },
+    {
+        "SMILES": "CCCCCC(=O)/C=C/[C@H]1[C@@H](C[C@@H]([C@@H]1CC(=O)CCCCC(=O)O)O)O",
+        "description": "The molecule is a prostaglandin Falpha that is prostaglandin F1alpha bearing keto substituents at positions 6 and 15. It has a role as a metabolite. It derives from a prostaglandin F1alpha.",
+        "answer": "CCCCCCC(=O)/C=C/[C@@H]1[C@@H](CC(=O)CCCCC(=O)O)[C@@H](O)C[C@H]1O",
+        "all_tokens": 1294,
+        "blue2": 0.9519716382329885
+    },
+    {
+        "SMILES": "C(Cl)(Cl)Cl",
+        "description": "The molecule is a one-carbon compound that is methane in which three of the hydrogens are replaced by chlorines. It has a role as an inhalation anaesthetic, a non-polar solvent, a carcinogenic agent, a central nervous system drug and a refrigerant. It is a one-carbon compound and a member of chloromethanes.",
+        "answer": "ClC(Cl)Cl",
+        "all_tokens": 1208,
+        "blue2": 0.749021254622464
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O[C@H]2[C@H]([C@H](O[C@H]([C@@H]2O)O[C@@H]3[C@H]([C@@H](O[C@@H]([C@H]3O)CO)O)NC(=O)C)CO)O)CO)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O",
+        "description": "The molecule is a linear amino tetrasaccharide consisting of a sequence of beta-D-galactose, N-acetyl-beta-D-glucosamine, beta-D-galactose and N-acetyl-beta-D-glucosamine residues linked (1->4), (1->3) and (1->3). It has a role as an epitope. It is an amino tetrasaccharide and a glucosamine oligosaccharide.",
+        "answer": "CC(=O)N[C@@H]1[C@@H](O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O[C@@H]3O[C@H](CO)[C@@H](O[C@@H]4O[C@H](CO)[C@H](O)[C@H](O)[C@H]4O)[C@H](O)[C@H]3NC(C)=O)[C@H]2O)[C@H](O)[C@@H](CO)O[C@H]1O",
+        "all_tokens": 1545,
+        "blue2": 0.9092360964660477
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)CO)O[C@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO)O)O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O)O)O)O)NC(=O)C)O)O)NC(=O)C)O)O",
+        "description": "The molecule is beta-D-Galp-(1->4)-beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-D-GlcpNAc in which the configuration of the anomeric centre of the reducing-end N-acetylglucosamine residue is beta. It has a role as an epitope.",
+        "answer": "CC(=O)N[C@@H]1[C@@H](O)[C@H](O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O[C@@H]3O[C@H](CO)[C@@H](O[C@@H]4O[C@H](CO)[C@H](O)[C@H](O[C@@H]5O[C@H](CO)[C@@H](O[C@@H]6O[C@H](CO)[C@H](O)[C@H](O)[C@H]6O)[C@H](O)[C@H]5NC(C)=O)[C@H]4O)[C@H](O)[C@H]3NC(C)=O)[C@H]2O)[C@@H](CO)O[C@H]1O",
+        "all_tokens": 1639,
+        "blue2": 0.8593933818579523
+    },
+    {
+        "SMILES": "C[C@@H](/C=C\\\\C/C=C\\\\C[C@@H](/C=C/C=C\\\\C/C=C\\\\C/C=C\\\\CCC(=O)[O-])O)O",
+        "description": "The molecule is a dihydroxydocosahexaenoate that is the conjugate base of (4Z,7Z,10Z,12E,14S,16Z,19Z,21S)-dihydroxydocosahexaenoic acid, obtained by deprotonation of the carboxy group; major species at pH 7.3. It is a conjugate base of a (4Z,7Z,10Z,12E,14S,16Z,19Z,21S)-dihydroxydocosahexaenoic acid. It is an enantiomer of a (4Z,7Z,10Z,12E,14R,16Z,19Z,21R)-dihydroxydocosahexaenoate.",
+        "answer": "C[C@H](O)/C=C\\C/C=C\\C[C@@H](O)/C=C/C=C\\C/C=C\\C/C=C\\CCC(=O)[O-]",
+        "all_tokens": 1750,
+        "blue2": 0.8697623372152062
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)CNC(=O)/C(=C/C2=CC(=C(C=C2)O)O)/C#N",
+        "description": "The molecule is a monocarboxylic acid amide obtained by formal condensation of the carboxy group of (2E)-2-cyano-3-(3,4-dihydroxyphenyl)prop-2-enoic acid with the amino group of benzylamine. It has a role as an EC 2.7.10.2 (non-specific protein-tyrosine kinase) inhibitor, an antioxidant, a STAT3 inhibitor, an anti-inflammatory agent and an apoptosis inducer. It is an enamide, a monocarboxylic acid amide, a nitrile, a member of catechols and a secondary carboxamide.",
+        "answer": "N#C/C(=C\\c1ccc(O)c(O)c1)C(=O)NCc1ccccc1",
+        "all_tokens": 1507,
+        "blue2": 0.378027795228404
+    },
+    {
+        "SMILES": "CCCSP(=S)(OCC)OC1=CC=C(C=C1)SC",
+        "description": "The molecule is an organic thiophosphate, an organothiophosphate insecticide and an organosulfur compound. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor and an agrochemical. It derives from a 4-(methylsulfanyl)phenol.",
+        "answer": "COP(=S)(OC)Oc1ccc(SC)cc1",
+        "all_tokens": 1186,
+        "blue2": 0.43219655550762887
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCCCC(C(=O)N[C@@H](COP(=O)([O-])O[C@@H]1[C@@H]([C@@H]([C@H]([C@@H]([C@H]1OC2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)O)O)[C@@H](CCCCCCCCCCCCCCC)O)O",
+        "description": "The molecule is a mannosylinositol phosphorylceramide(1-) having a hexacosanoyl group amide-linked to a C18 sphinganine base, with hydroxylation at C-2 of the C26 very-long-chain fatty acid. It is a conjugate base of a Man-1-2-Ins-1-P-Cer(d18:0/2-OH-26:0).",
+        "answer": "CCCCCCCCCCCCCCCCCCCCCCCCC(O)C(=O)N[C@@H](COP(=O)([O-])O[C@@H]1[C@H](O)[C@H](O)[C@@H](O)[C@H](O)[C@H]1OC1O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]1O)[C@H](O)CCCCCCCCCCCCCCC",
+        "all_tokens": 1423,
+        "blue2": 0.9047188761395956
+    },
+    {
+        "SMILES": "CCOP(=S)(C1=CC=CC=C1)OC2=CC=C(C=C2)[N+](=O)[O-]",
+        "description": "The molecule is an organic phosphonate, a phosphonic ester and an organothiophosphate insecticide. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor, an acaricide and an agrochemical.",
+        "answer": "CCOP(=S)(Oc1ccc([N+](=O)[O-])cc1)c1ccccc1",
+        "all_tokens": 1149,
+        "blue2": 0.4957008525606222
+    },
+    {
+        "SMILES": "C[C@@H]1[C@H]([C@@H]([C@@H](C(O1)OC\\\\2CC(C(C(CC(=O)CC(C(CCC(CC(CC(CC(=O)OC(C(C(C(/C=C/C=C/CC/C=C/C=C/C=C/C=C2)C)O)C)C)O)O)O)O)O)O)C(=O)O)O)O)N)O",
+        "description": "The molecule is a polyene macrolide antibiotic; part of the nystatin complex produced by several Streptococcus species. The keto-form of nystatin A1. It is a member of nystatins and a carboxylic acid.",
+        "answer": "CC1/C=C/C=C/CC/C=C/C=C/C=C/C=C/C(O[C@@H]2O[C@H](C)[C@@H](O)[C@H](N)[C@@H]2O)CC(O)C(C(=O)O)C(O)CC(=O)CC(O)C(O)CCC(O)CC(O)CC(O)CC(=O)OC(C)C(C)C1O",
+        "all_tokens": 1323,
+        "blue2": 0.8428363556052888
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "SMILES": "CC/C=C\\\\CCCCC=O",
+        "description": "The molecule is a monounsaturated fatty aldehyde that is (3Z)-non-3-ene which is carrying an oxo group at position 1. It has a role as a plant metabolite. It is a monounsaturated fatty aldehyde, an olefinic compound and a medium-chain fatty aldehyde.",
+        "answer": "CC/C=C\\CCCCC=O",
+        "all_tokens": 2493,
+        "blue2": 0.9310627797040228
+    },
+    {
+        "SMILES": "C[C@H]1CC[C@H]2[C@H](CC[C@H]([C@@H]2C1)C(C)C)C",
+        "description": "The molecule is a sesquiterpene consisting of decalin having two methyl substituents at the 1- and 6-positions, an isopropyl substituent at the 4-position and (1S,4S,4aS,6S,8aS)-configuration. It is a terpenoid fundamental parent and a sesquiterpene.",
+        "answer": "C[C@H]1CC[C@H]2[C@@H](C1)[C@H](CC[C@H]2C(C)C)C",
+        "all_tokens": 2659,
+        "blue2": 0.9775252199076787
+    },
+    {
+        "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H]([C@@H](O2)O[C@@H]3[C@H](OC([C@@H]([C@H]3O)O)O)CO)O)O)O)O)O)O)O",
+        "description": "The molecule is a glucotriose consisting of two beta-D-glucopyranose residues and a D-glucopyranose residue joined in sequence by (1->6) and (1->4) glycosidic bonds. It derives from a cellobiose and a beta-D-Glcp-(1->6)-beta-D-Glcp.",
+        "answer": "OC[C@@H]1O[C@H](O[C@@H]2[C@H](O)[C@@H](O)[C@H](O)[C@H](O)[C@H]2O[C@@H]3[C@H](O)[C@@H](O)[C@H](O)[C@H](O)[C@H]3O)[C@H](O)[C@H](O)[C@H]1O",
+        "all_tokens": 2913,
+        "blue2": 0.8091516348368852
+    },
+    {
+        "SMILES": "CCN(CC)C1=CC2=C(C=C1)NC3=C(O2)C(=O)C(=O)C=C3C(=O)[NH3+]",
+        "description": "The molecule is an organic cation that is 3,4-dihydroxyphenoxazin-5-ium carrying additional carbamoyl and diethylamino groups at positions 1 and 7 respectively. The chloride salt is the histological dye 'Celestin blue B'.",
+        "answer": "[O-]C1=C(N=C2C=CC(=[N+](C)C2=C1)C(=O)N)OC3=CC(=CC=C3)N(C)C",
+        "all_tokens": 2477,
+        "blue2": 0.7731113434850684
+    },
+    {
+        "SMILES": "CCCCCCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCCOP(=O)([O-])[O-]",
+        "description": "The molecule is an anionic phospholipid that is the conjugate base of phosphomycoketide C32 obtained by deprotonation of the phosphate OH groups; major species at pH 7.3. It is a conjugate base of a phosphomycoketide C32.",
+        "answer": "CC/C=C\\CCCCC=O",
+        "all_tokens": 2370,
+        "blue2": 0.006228594684410782
+    }
+]

@@ -1,0 +1,1 @@
+[{'agent_tool': SMILES2Property, 'score': 0.0, 'tool': 'SMILES2Property_0'}, {'agent_tool': ChemDFM, 'score': 0.0, 'tool': 'ChemDFM_0'}]

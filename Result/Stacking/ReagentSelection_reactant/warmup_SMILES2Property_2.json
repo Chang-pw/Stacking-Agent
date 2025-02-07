@@ -1,0 +1,162 @@
+[
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1Br.___>CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.[F-].[Cs+].CN(C)C=O>Unknown product",
+        "gold_answer": "CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "choices": "> F[B-](F)(F)c1ccc2ncccc2c1\n> CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "answer": "CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "acc": 1,
+        "all_tokens": 1773
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1.[F-].[Cs+].CN(C)C=O>Unknown product",
+        "gold_answer": "Clc1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "acc": 0,
+        "all_tokens": 1759
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.[O-]P(=O)([O-])[O-].[K+].[K+].[K+].CO>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "acc": 1,
+        "all_tokens": 1832
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.___>CO.Ic1ccc2ncccc2c1.C(=O)(O)[O-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 0,
+        "all_tokens": 1731
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1.[O-]P(=O)([O-])[O-].[K+].[K+].[K+].CO>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Clc1ccc2ncccc2c1",
+        "acc": 0,
+        "all_tokens": 2789
+    },
+    {
+        "Reaction": "COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.___>CO.Ic1ccc2ncccc2c1.[O-]P(=O)([O-])[O-].[K+].[K+].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 0,
+        "all_tokens": 3443
+    },
+    {
+        "Reaction": "CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.___>CO.Ic1ccc2ncccc2c1.[F-].[Cs+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 1,
+        "all_tokens": 3360
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.___>CO.Ic1ccc2ncccc2c1.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 0,
+        "all_tokens": 2767
+    },
+    {
+        "Reaction": "CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C.___>CO.Brc1ccc2ncccc2c1.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]\n> Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1Br",
+        "acc": 1,
+        "all_tokens": 3095
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.___>CO.Ic1ccc2ncccc2c1.[OH-].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 0,
+        "all_tokens": 1791
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.[O-]P(=O)([O-])[O-].[K+].[K+].[K+].CO>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Brc1ccc2ncccc2c1",
+        "acc": 0,
+        "all_tokens": 3149
+    },
+    {
+        "Reaction": "Cc1ccccc1P(c1ccccc1C)c1ccccc1C.___>CO.Ic1ccc2ncccc2c1.[O-]P(=O)([O-])[O-].[K+].[K+].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "acc": 1,
+        "all_tokens": 5358
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.[F-].[Cs+].CO>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Brc1ccc2ncccc2c1",
+        "acc": 0,
+        "all_tokens": 1744
+    },
+    {
+        "Reaction": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.___>CO.Ic1ccc2ncccc2c1.[Li+].CC(C)(C)[O-]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 0,
+        "all_tokens": 1843
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>Cc1ccccc1P(c1ccccc1C)c1ccccc1C.[F-].[Cs+].CO>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "acc": 1,
+        "all_tokens": 1684
+    },
+    {
+        "Reaction": "CC(C)(C)P([C]1C=C[CH][C@@H]1[Fe]C1C=CC=C1P(C(C)(C)C)C(C)(C)C)C(C)(C)C.___>CO.Ic1ccc2ncccc2c1.[Li+].CC(C)(C)[O-]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 0,
+        "all_tokens": 1930
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>CC(C)(C)P(C(C)(C)C)C(C)(C)C.[F-].[Cs+].CO>Unknown product",
+        "gold_answer": "Brc1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "\u001b[92mThought:\u001b[0m I have gathered information about the properties of the first two choices. Now, I need to gather information about the third choice to complete my analysis.\n\n\u001b[93mAction:\u001b[0m SMILES2Property\n\u001b[94mAction Input:\u001b[0m {\"query\": \"Clc1ccc2ncccc2c1\"}\n\u001b[96mObservation: \u001b[0m{'Compound_Canonicalized': 1, 'Compound Complexity': 138, 'Count_Hydrogen Bond Acceptor': 1, 'Count_Hydrogen Bond Donor': 0, 'Count_Rotatable Bond': 0, 'Log P_XLogP3': 2.7, 'Mass_Exact': '163.0188769', 'Molecular Formula': 'C9H6ClN', 'Molecular Weight': '163.60', 'Topological_Polar Surface Area': 12.9, 'Weight_MonoIsotopic': '163.0188769'}",
+        "acc": 0,
+        "all_tokens": 11032
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.___>C1=C[C@H]2[Fe][C@@H]1[C]2P(c1ccccc1)c1ccccc1.CCN(CC)CC.CO>Unknown product",
+        "gold_answer": "O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F",
+        "choices": "> Brc1ccc2ncccc2c1\n> O=S(=O)(Oc1cnc2ccccc2c1)C(F)(F)F\n> Ic1ccc2ncccc2c1",
+        "answer": "Brc1ccc2ncccc2c1",
+        "acc": 0,
+        "all_tokens": 9897
+    },
+    {
+        "Reaction": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.___>CO.Ic1ccc2ncccc2c1.[OH-].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "acc": 1,
+        "all_tokens": 1873
+    },
+    {
+        "Reaction": "c1ccc(P(c2ccccc2)c2ccccc2)cc1.___>CO.Ic1ccc2ncccc2c1.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "{\"query\":\"You are an expert chemist. Here is an incomplete chemical reaction: c1ccc(P(c2ccccc2)c2ccccc2)cc1.___>CO.Ic1ccc2ncccc2c1.CCN(CC)CC>Unknown product.\"}",
+        "acc": 0,
+        "all_tokens": 14191
+    }
+]

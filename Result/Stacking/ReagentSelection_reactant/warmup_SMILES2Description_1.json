@@ -1,0 +1,82 @@
+[
+    {
+        "Reaction": "CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.___>CO.Ic1ccc2ncccc2c1.[Li+].CC(C)(C)[O-]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 0,
+        "all_tokens": 5674
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.___>CO.Ic1ccc2ncccc2c1.[OH-].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 0,
+        "all_tokens": 2524
+    },
+    {
+        "Reaction": "CC(C)(C)P(C(C)(C)C)C(C)(C)C.___>CO.Ic1ccc2ncccc2c1.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 0,
+        "all_tokens": 2347
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1Br.___>CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.[F-].[Cs+].CN(C)C=O>Unknown product",
+        "gold_answer": "CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "choices": "> F[B-](F)(F)c1ccc2ncccc2c1\n> CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C",
+        "answer": "F[B-](F)(F)c1ccc2ncccc2c1",
+        "acc": 0,
+        "all_tokens": 3586
+    },
+    {
+        "Reaction": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.___>CO.Ic1ccc2ncccc2c1.[OH-].[K+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 0,
+        "all_tokens": 2393
+    },
+    {
+        "Reaction": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+].___>CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.C(=O)(O)[O-].[Na+].CO>Unknown product",
+        "gold_answer": "Ic1ccc2ncccc2c1",
+        "choices": "> Ic1ccc2ncccc2c1\n> Brc1ccc2ncccc2c1\n> Clc1ccc2ncccc2c1",
+        "answer": "Ic1ccc2ncccc2c1",
+        "acc": 1,
+        "all_tokens": 1668
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.___>CO.Ic1ccc2ncccc2c1.C(=O)(O)[O-].[Na+]>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 0,
+        "all_tokens": 0
+    },
+    {
+        "Reaction": "CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.___>CO.Ic1ccc2ncccc2c1.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 0,
+        "all_tokens": 7214
+    },
+    {
+        "Reaction": "c1ccc(P(c2ccccc2)c2ccccc2)cc1.___>CO.Ic1ccc2ncccc2c1.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 1,
+        "all_tokens": 0
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.___>CO.Ic1ccc2ncccc2c1.CCN(CC)CC>Unknown product",
+        "gold_answer": "Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1",
+        "choices": "> Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\n> Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "answer": "Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.[K+]",
+        "acc": 0,
+        "all_tokens": 3188
+    }
+]

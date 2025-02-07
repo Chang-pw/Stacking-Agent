@@ -1,0 +1,26 @@
+[
+  {
+    "train_data_number": 5,
+    "result": "[{'agent_tool': Molecule_captioning_1, 'score': 0.6084065245677415, 'tool': 'SMILES2Description_1'}, {'agent_tool': Molecule_captioning_2, 'score': 0.21800078645588905, 'tool': 'ChemDFM_1'}, {'agent_tool': ChemDFM, 'score': 0.06983347862929963, 'tool': 'ChemDFM_0'}, {'agent_tool': SMILES2Description, 'score': 0.0, 'tool': 'SMILES2Description_0'}]"
+  },
+  {
+    "train_data_number": 10,
+    "result": "[{'agent_tool': Molecule_captioning_3, 'score': 0.6574392127027189, 'tool': 'SMILES2Description_3'}, {'agent_tool': Molecule_captioning_2, 'score': 0.622908296212136, 'tool': 'SMILES2Description_2'}, {'agent_tool': Molecule_captioning_1, 'score': 0.6157303179560847, 'tool': 'SMILES2Description_1'}, {'agent_tool': ChemDFM, 'score': 0.26234696349933884, 'tool': 'ChemDFM_0'}, {'agent_tool': SMILES2Description, 'score': 0.18428536451858846, 'tool': 'SMILES2Description_0'}]"
+  },
+  {
+    "train_data_number": 15,
+    "result": "[{'agent_tool': ChemDFM, 'score': 0.32437172086925703, 'tool': 'ChemDFM_0'}]"
+  },
+  {
+    "train_data_number": 20,
+    "result": "[{'agent_tool': ChemDFM, 'score': 0.20660417205209258, 'tool': 'ChemDFM_0'}]"
+  },
+  {
+    "train_data_number": 25,
+    "result": "[{'agent_tool': Molecule_captioning_3, 'score': 0.6945596881415105, 'tool': 'SMILES2Description_3'}, {'agent_tool': Molecule_captioning_2, 'score': 0.6668827258119663, 'tool': 'SMILES2Description_2'}, {'agent_tool': Molecule_captioning_1, 'score': 0.5370365875277325, 'tool': 'SMILES2Description_1'}, {'agent_tool': ChemDFM, 'score': 0.2944334312348971, 'tool': 'ChemDFM_0'}, {'agent_tool': SMILES2Description, 'score': 0.10445710374580433, 'tool': 'SMILES2Description_0'}]"
+  },
+  {
+    "train_data_number": 30,
+    "result": "[{'agent_tool': Molecule_captioning_1, 'score': 0.615391555218381, 'tool': 'SMILES2Description_1'}, {'agent_tool': Molecule_captioning_5, 'score': 0.40121693370138717, 'tool': 'ChemDFM_4'}, {'agent_tool': Molecule_captioning_4, 'score': 0.35476403633674575, 'tool': 'ChemDFM_3'}, {'agent_tool': Molecule_captioning_3, 'score': 0.3131086825628609, 'tool': 'ChemDFM_2'}, {'agent_tool': Molecule_captioning_2, 'score': 0.3088100924643836, 'tool': 'ChemDFM_1'}, {'agent_tool': ChemDFM, 'score': 0.29038433242301026, 'tool': 'ChemDFM_0'}, {'agent_tool': SMILES2Description, 'score': 0.08132640405187938, 'tool': 'SMILES2Description_0'}]"
+  }
+]

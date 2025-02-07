@@ -22,23 +22,17 @@ def largest_mol(smiles):
 def extract_property(data):
     compound = data['PC_Compounds'][0]
     properties = {}
-    for i in compound:
-
-        if i == 'props':
-            for prop in compound['props']:
-                label = prop['urn']['label']
-                name = prop['urn'].get('name', '')
-                if label in ['SMILES','IUPAC Name','Fingerprint','InChI','InChIKey']:
-                    continue
-                # 获取值
-                value = next((v for k, v in prop['value'].items()), None)
-
-                # 创建属性键名
-                key = f"{label}_{name}" if name else label
-                properties[key] = value
+    for prop in compound['props']:
+        label = prop['urn']['label']
+        name = prop['urn'].get('name', '')
+        if label in ['SMILES','IUPAC Name','Fingerprint','InChI','InChIKey']:
             continue
-        properties[i] = compound[i]
+        # 获取值
+        value = next((v for k, v in prop['value'].items()), None)
 
+        # 创建属性键名
+        key = f"{label}_{name}" if name else label
+        properties[key] = value
     return properties
 
 
@@ -65,14 +59,14 @@ class SMILES2Property:
         return str(smi)
     
     def __str__(self):
-        return "SMILES2Property tool"
+        return "SMILES2Property"
 
     def __repr__(self):
         return self.__str__()
 
     def wo_run(self,query,debug=False):
         
-        return ""
+        return "",0
     
 if __name__ == "__main__":
     tool = SMILES2Property()

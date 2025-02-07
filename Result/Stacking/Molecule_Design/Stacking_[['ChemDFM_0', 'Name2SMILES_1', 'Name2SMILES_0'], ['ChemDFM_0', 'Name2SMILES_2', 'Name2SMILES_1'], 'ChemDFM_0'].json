@@ -1,0 +1,107 @@
+[
+    {
+        "SMILES": "C1=C(O[C@H]([C@@H]([C@H]1O)OS(=O)(=O)O)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)NS(=O)(=O)O)O[C@H]3[C@@H]([C@H]([C@@H](O[C@H]3C(=O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)NS(=O)(=O)O)O[C@H]5[C@@H]([C@H]([C@@H](O[C@H]5C(=O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)NS(=O)(=O)O)O[C@H]7[C@@H]([C@H]([C@@H](O[C@@H]7C(=O)O)O[C@@H]8[C@H](O[C@@H]([C@@H]([C@H]8O)NS(=O)(=O)O)O)COS(=O)(=O)O)O)O)COS(=O)(=O)O)OS(=O)(=O)O)O)COS(=O)(=O)O)OS(=O)(=O)O)O)COS(=O)(=O)O)C(=O)O",
+        "description": "The molecule is a heparin octasaccharide consisting of 4-deoxy-2-O-sulfo-alpha-L-threo-hex-4-enopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, beta-D-glucopyranuronosyl, and 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranose units joined in sequence by (1->4) linkages. Sequence: DUA2S-GlcNS6S-IdoA2S-GlcNS6S-IdoA2S-GlcNS6S-GlcA-GlcNS6S. It is a heparin octasaccharide, an oligosaccharide sulfate and an amino octasaccharide.",
+        "answer": "O=C(O)C1=C[C@H](O)[C@@H](OS(=O)(=O)O)[C@H](O[C@H]2[C@H](O)[C@@H](NS(=O)(=O)O)[C@@H](O[C@H]3[C@H](O)[C@@H](OS(=O)(=O)O)[C@H](O[C@H]4[C@H](O)[C@@H](NS(=O)(=O)O)[C@@H](O[C@H]5[C@H](O)[C@@H](OS(=O)(=O)O)[C@H](O[C@H]6[C@H](O)[C@@H](NS(=O)(=O)O)[C@@H](O[C@H]7[C@H](O)[C@@H](O)[C@H](O[C@H]8[C@H](O)[C@@H](NS(=O)(=O)O)[C@@H](O)O[C@@H]8COS(=O)(=O)O)O[C@@H]7C(=O)O)O[C@@H]6COS(=O)(=O)O)O[C@H]5C(=O)O)O[C@@H]4COS(=O)(=O)O)O[C@H]3C(=O)O)O[C@@H]2COS(=O)(=O)O)O1",
+        "all_tokens": 8045,
+        "blue2": 0.9455086972772344
+    },
+    {
+        "SMILES": "CC(=C)C(CCC(C)(C)O)CC1=C(C(=C(C=C1O)OC)C(=O)/C=C/C2=C(C=C(C=C2)O)O)O",
+        "description": "The molecule is a member of the class of chalcones that is trans-chalcone substituted by hydroxy groups at positions 2, 4, 2' and 4', a methoxy group at position 6' and a 5-hydroxy-5-methyl-2-(prop-1-en-2-yl)hexyl group at position 3 respectively. It has a role as a plant metabolite. It is a member of chalcones, a member of resorcinols and a monomethoxybenzene. It derives from a trans-chalcone.",
+        "answer": "OC1=C(C=CC(=C1)O)C(=O)C2=CC(=C(C=C2)O)OC3=C(C=CC=C3)C(C)(C)CC=C",
+        "all_tokens": 6019,
+        "blue2": 0.8186414722138806
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](COP(=O)(O)OCCN)[C@@H](/C=C/C=C/CCCCCCC)O",
+        "description": "The molecule is a ceramide phosphoethanolamine (37:2) in which the acyl and sphingoid base specified is tricosanoyl and (4E,6E)-tetradecasphingadienine respectively. It derives from a tricosanoic acid.",
+        "answer": "CCCCCCC/C=C/C=C/[C@@H](O)[C@H](COP(=O)(O)OCCN)NC(=O)CCCCCCCCCCCCCCCCCCCCCC",
+        "all_tokens": 5007,
+        "blue2": 0.945163902818063
+    },
+    {
+        "SMILES": "CN1CCC2=C3[C@H]1CC4=C(C3=CC=C2)C(=C(C=C4)O)O",
+        "description": "The molecule is an aporphine alkaloid. It has a role as an alpha-adrenergic drug, a serotonergic drug, an antidyskinesia agent, a dopamine agonist, an antiparkinson drug and an emetic. It derives from a hydride of an aporphine.",
+        "answer": "CN1CCc2cccc3c2[C@H]1Cc1ccc(O)c(O)c1-3",
+        "all_tokens": 4857,
+        "blue2": 0.3527700849532666
+    },
+    {
+        "SMILES": "[39K]",
+        "description": "The molecule is the stable isotope of potassium with relative atomic mass 38.963707, 93.3 atom percent natural abundance and nuclear spin 3/2.",
+        "answer": "[K]",
+        "all_tokens": 8241,
+        "blue2": 0.3630407264452067
+    },
+    {
+        "SMILES": "CC/C=C\\\\CCCCC=O",
+        "description": "The molecule is a monounsaturated fatty aldehyde that is (3Z)-non-3-ene which is carrying an oxo group at position 1. It has a role as a plant metabolite. It is a monounsaturated fatty aldehyde, an olefinic compound and a medium-chain fatty aldehyde.",
+        "answer": "CC/C=C\\CCCCC=O",
+        "all_tokens": 4839,
+        "blue2": 0.9310627797040228
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)OC1[C@@H]([C@H](C([C@H]([C@H]1O)O)O)O)O)OC(=O)CCC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCCCC",
+        "description": "The molecule is a 1-hexadecanoyl-2-acyl-sn-glycero-3-phospho-1D-myo-inositol in which the 2-acyl group is specified as (5Z,8Z,11Z,14Z)-icosatetraenoyl (arachidonyl). It has a role as a mouse metabolite. It is a 1-hexadecanoyl-2-acyl-sn-glycero-3-phospho-1D-myo-inositol and a phosphatidylinositol(16:0/20:4). It is a conjugate acid of a 1-hexadecanoyl-2-(5Z,8Z,11Z,14Z-icosatetraenoyl)-sn-glycero-3-phospho-D-myo-inositol(1-).",
+        "answer": "CCCCC/C=C\\C/C=C\\C/C=C\\C/C=C\\CCCC(=O)O[C@H](COC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OC1[C@H](O)[C@H](O)C(O)[C@H](O)[C@H]1O",
+        "all_tokens": 6679,
+        "blue2": 0.9048434804141742
+    },
+    {
+        "SMILES": "C1CN=C(N1)CC2=CC=CC=C2",
+        "description": "The molecule is a member of the class of imidazoles that is 4,5-dihydro-1H-imidazole substituted by a benzyl group. It has a role as an alpha-adrenergic antagonist, an antihypertensive agent and a vasodilator agent.",
+        "answer": "C1CN=C(N1)Cc2ccccc2",
+        "all_tokens": 6751,
+        "blue2": 0.5264847671340664
+    },
+    {
+        "SMILES": "CC(C)(C)C1=CC(=CC=C1)OC(=S)N(C)C2=NC(=CC=C2)OC",
+        "description": "The molecule is a monothiocarbamic ester that is carbamic acid in which the oxygen of the oxo group is replaced by sulfur, the hydrogens attached to the nitrogen are replaced by methyl and 6-methoxypyridin-2-yl groups, and the hydrogen of the hydroxy group is replaced by a p-tert-butylphenyl group. It has fungicidal and herbicidal activity and is used in paddy rice and turf production. It has a role as a sterol biosynthesis inhibitor, a herbicide and an antifungal agrochemical. It is a member of pyridines, an aromatic ether and a monothiocarbamic ester.",
+        "answer": "CN(C)C(=S)O[C@@H]1CC=CC=C1OC2=CC=CC=C2C(C)(C)C",
+        "all_tokens": 6029,
+        "blue2": 0.7863570994927848
+    },
+    {
+        "SMILES": "C[C@@H](C(=O)NCC(=O)N[C@@H](C)C(=O)NCC(=O)O)N",
+        "description": "The molecule is a tetrapeptide composed of L-alanine, glycine, L-alanine, and glycine residues joined in sequence by peptide linkages. It derives from a L-alanine and a glycine.",
+        "answer": "C[C@H](N)C(=O)NCC(=O)N[C@@H](C)C(=O)NCC(=O)O",
+        "all_tokens": 4825,
+        "blue2": 0.9428127320371884
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\COP(=O)([O-])OP(=O)([O-])O[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O[C@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO)O)O)O)NC(=O)C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is an organophosphate oxoanion arising from deprotonation of both free diphosphate OH groups of beta-D-Gal-(1->3)-alpha-D-GlcNAc-diphospho-ditrans,octacis-undecaprenol It is a conjugate base of a beta-D-Gal-(1->3)-alpha-D-GlcNAc-diphospho-ditrans,octacis-undecaprenol.",
+        "answer": "CC(=O)N[C@H]1[C@@H](OP(=O)([O-])OP(=O)([O-])OC/C=C(/C)CC/C=C(/C)CC/C=C(/C)CC/C=C(/C)CC/C=C(/C)CC/C=C(/C)CC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C)O[C@H](CO)[C@@H](O)[C@@H]1O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O",
+        "all_tokens": 5486,
+        "blue2": 0.7198864068290192
+    },
+    {
+        "SMILES": "C(C=O)S(=O)[O-]",
+        "description": "The molecule is an organosulfinate oxoanion resulting from the deprotonation of the sulfino group of sulfinoacetaldehyde. The major species at pH 7.3. It is a conjugate base of a sulfinoacetaldehyde.",
+        "answer": "O=CCS(=O)[O-]",
+        "all_tokens": 1466,
+        "blue2": 0.7000673684685328
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)CNC(=O)/C(=C/C2=CC(=C(C=C2)O)O)/C#N",
+        "description": "The molecule is a monocarboxylic acid amide obtained by formal condensation of the carboxy group of (2E)-2-cyano-3-(3,4-dihydroxyphenyl)prop-2-enoic acid with the amino group of benzylamine. It has a role as an EC 2.7.10.2 (non-specific protein-tyrosine kinase) inhibitor, an antioxidant, a STAT3 inhibitor, an anti-inflammatory agent and an apoptosis inducer. It is an enamide, a monocarboxylic acid amide, a nitrile, a member of catechols and a secondary carboxamide.",
+        "answer": "OC(=O)\\C=C\\C#N.Oc1ccc(cc1O)C(=O)NCCc2ccccc2",
+        "all_tokens": 6176,
+        "blue2": 0.41368909431702444
+    },
+    {
+        "SMILES": "C1=CC=C(C(=C1)C(=O)NCC(=O)O)O",
+        "description": "The molecule is an N-acylglycine in which the acyl group is specified as 2-hydroxybenzoyl. It has a role as a uremic toxin and a human xenobiotic metabolite. It is a N-acylglycine and a secondary carboxamide. It derives from a glycine. It is a conjugate acid of a salicylurate.",
+        "answer": "O=C(O)CNC(=O)c1ccccc1O",
+        "all_tokens": 8952,
+        "blue2": 0.4061398933065805
+    },
+    {
+        "SMILES": "C1CC1C2=NC(=C(C(=N2)N)Cl)C(=O)O",
+        "description": "The molecule is an organochlorine herbicide, the structure of which is that of pyrimidine-4-carboxylic acid substituted at positions 2, 5 and 6 by cyclopropyl, chloro and amino groups respectively. It has a role as a herbicide and a synthetic auxin. It is a member of pyrimidines, a member of cyclopropanes and an organochlorine pesticide. It contains a primary amino group. It is a conjugate acid of an aminocyclopyrachlor(1-).",
+        "answer": "Nc1nc(C2CC2)nc(C(=O)O)c1Cl",
+        "all_tokens": 5647,
+        "blue2": 0.47999475579049466
+    }
+]

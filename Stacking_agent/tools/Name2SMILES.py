@@ -42,7 +42,7 @@ class Name2SMILES:
         return Chem.CanonSmiles(smi)
     
     def __str__(self):
-        return "Name2SMILES tool"
+        return "Name2SMILES"
 
     def __repr__(self):
         return self.__str__()
@@ -50,9 +50,9 @@ class Name2SMILES:
     def wo_run(self,query,debug=False):
         model = ChatModel()
         prompt = "Please output only one molecule name for use in generating SMILES based on the question:" + query
-        response,history = model.chat(prompt=prompt,history=[])
+        response,all_tokens = model.chat(prompt=prompt,history=[])
         answer = self._run(response)
         if answer == "Could not find a molecule matching the text. One possible cause is that the input is incorrect, please modify your input.":
-            return ""
-        return answer
+            return "",all_tokens
+        return answer,all_tokens
 

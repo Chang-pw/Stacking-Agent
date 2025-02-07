@@ -1,0 +1,107 @@
+[
+    {
+        "SMILES": "C(P(=O)(O)O)P(=O)(O)O",
+        "description": "The molecule is a 1,1-bis(phosphonic acid) consisting of methane substituted by two phosphonic acid groups. It has a role as a bone density conservation agent and a chelator.",
+        "answer": "O=P(O)(O)CP(=O)(O)O",
+        "all_tokens": 2204,
+        "blue2": 0.7649273950339465
+    },
+    {
+        "SMILES": "C[C@]12[C@H]3[C@@H]([C@@]45C[C@@H](CC[C@H]4[C@@]3(C[C@@H]([C@@H]1O)O)OC2=O)C(=C)C5)C(=O)OC",
+        "description": "The molecule is a gibberellin ester that is the methyl ester of gibberellin A34. It is a gibberellin ester, a lactone and a methyl ester. It derives from a gibberellin A1 methyl ester.",
+        "answer": "The correct SMILES for the methyl ester of gibberellin A34 based on the description cannot be inferred from the provided tool outputs.",
+        "all_tokens": 2450,
+        "blue2": 1.8223626859015186e-155
+    },
+    {
+        "SMILES": "CN(C)C1=CC2=C(C=C1)N=C3C=CC(=[N+](C)C)C(=C3S2)[N+](=O)[O-].[Cl-]",
+        "description": "The molecule is an organic chloride salt having 3,7-bis(dimethylamino)-4-nitrophenothiazin-5-ium as the counterion. It stains nuclei green and is sometimes used as a counterstain to red or purple primary stains. It has a role as a fluorochrome and a histological dye. It contains a 3,7-bis(dimethylamino)-4-nitrophenothiazin-5-ium.",
+        "answer": "CN(C)c1cc2nc3cc(cc(c3[s+]c2c1[N+](=O)[O-])N(C)C)N(C)C.[Cl-]",
+        "all_tokens": 2784,
+        "blue2": 0.56365493245837
+    },
+    {
+        "SMILES": "CCCCCCCCCC[C@H]([C@H]([C@H](CO)N)O)O",
+        "description": "The molecule is a sphingoid that is the C14-analogue of phytosphingosine. It is a sphingoid, an amino alcohol and a triol. It is a conjugate base of a tetradecaphytosphingosine(1+).",
+        "answer": "O=P(O)(O)CP(=O)(O)O",
+        "all_tokens": 2350,
+        "blue2": 0.12105097757863938
+    },
+    {
+        "SMILES": "CCCCCCCCCC(=O)N[C@H](C(=O)[O-])O",
+        "description": "The molecule is an N-acyl-(2S)-hydroxyglycinate resulting from the deprotonation of the carboxy group of N-decanoyl-(2S)-hydroxyglycine. The major species at pH 7.3. It is a conjugate base of a N-decanoyl-(2S)-hydroxyglycine.",
+        "answer": "CCCCCCCCCC(=O)N[C@H](CO)C([O-])=O",
+        "all_tokens": 2682,
+        "blue2": 0.9211323729436766
+    },
+    {
+        "SMILES": "CC1=CC(=O)[C@H]([C@]2([C@H]1C[C@@H]3[C@]45[C@@H]2[C@H]([C@@H]([C@]([C@@H]4[C@H](C(=O)O3)OC(=O)C)(OC5)C)O)O)C)O",
+        "description": "The molecule is a quassinoid isolated from Quassia indica and has been shown to exhibit antimalarial and cytotoxic activity. It has a role as a metabolite, an antimalarial and an antineoplastic agent. It is an acetate ester, a delta-lactone, a cyclic ether, an enone, an organic heteropentacyclic compound, a quassinoid, a secondary alcohol, a triol and a secondary alpha-hydroxy ketone.",
+        "answer": "\u001b[91m",
+        "all_tokens": 2757,
+        "blue2": 7.15349192749534e-164
+    },
+    {
+        "SMILES": "CCCCC[C@H]1[C@H](O1)C[C@@H](/C=C/C=C\\\\C/C=C\\\\CCCC(=O)O)OO",
+        "description": "The molecule is a hydroperoxy fatty acid that is (14R,15S)-epoxy-(5Z,8Z,10E)-icosatrienoic acid in which the hydroperoxy group is located at position 12S. It has a role as a human xenobiotic metabolite and a mouse metabolite. It is a conjugate acid of a (12S)-hydroperoxy-(14R,15S)-epoxy-(5Z,8Z,10E)-icosatrienoate.",
+        "answer": "CCCCC/C=C\\C/C=C\\C=C/C[C@@H](O)C[C@@H]1OC1CCCCC(=O)O",
+        "all_tokens": 2857,
+        "blue2": 0.8081067030112863
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](CO[C@@H]1[C@@H]([C@H]([C@H]([C@H](O1)CO)OCC2=CC=C(C=C2)Cl)O)O)[C@@H]([C@@H](CCCCCCCCCCCCCC)O)O",
+        "description": "The molecule is a glycophytoceramide having a 4-O-(4-chlorobenzyl)-alpha-D-galactosyl residue at the O-1 position and a hexacosanoyl group attached to the nitrogen. One of a series of an extensive set of 4\"-O-alkylated alpha-GalCer analogues evaluated (PMID:30556652) as invariant natural killer T-cell (iNKT) antigens. It derives from an alpha-D-galactose.",
+        "answer": "C(Cl)1=CC=C(CO[C@@H]2O[C@H](CO[C@H]3O[C@@H](CN(CCCCCCCCCCCCCCCCCCCCCCCC)C=O)[C@H](O)[C@@H](O)[C@H]3O)[C@@H](O)[C@H](O)[C@H]2O)C=C1",
+        "all_tokens": 2860,
+        "blue2": 0.7956451311246199
+    },
+    {
+        "SMILES": "CN1CCC2=C3[C@H]1CC4=C(C3=CC=C2)C(=C(C=C4)O)O",
+        "description": "The molecule is an aporphine alkaloid. It has a role as an alpha-adrenergic drug, a serotonergic drug, an antidyskinesia agent, a dopamine agonist, an antiparkinson drug and an emetic. It derives from a hydride of an aporphine.",
+        "answer": "CN1CCc2c3ccccc3c3c(O)c4cccc(O)c4c3c2C1",
+        "all_tokens": 2515,
+        "blue2": 0.2219710464022149
+    },
+    {
+        "SMILES": "C1=CC=NC(=C1)CCl",
+        "description": "The molecule is an organochlorine compound that is pyridine substituted at position 2 by a chloromethyl group. It is a member of pyridines and an organochlorine compound. It is a conjugate base of a 2-(chloromethyl)pyridinium.",
+        "answer": "C1=CC=NC(=C1)CCl",
+        "all_tokens": 2447,
+        "blue2": 1.0
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](COP(=O)(O)OCCN)[C@@H](/C=C/C=C/CCCCCCC)O",
+        "description": "The molecule is a ceramide phosphoethanolamine (37:2) in which the acyl and sphingoid base specified is tricosanoyl and (4E,6E)-tetradecasphingadienine respectively. It derives from a tricosanoic acid.",
+        "answer": "CCCCCCCCCCCCCCCCCCCCCCCCC(=O)NC(COC1=CC=CC=C1)(COP(=O)(O)O)C=CCCCCCCCCCCC=C[NH2+]C2CCC(C(O)C2O)OP(=O)(O)O",
+        "all_tokens": 2539,
+        "blue2": 0.5509731650193397
+    },
+    {
+        "SMILES": "COC1=CC(=CC2=C1OC(C2CO)C3=CC(=C(C(=C3)OC)O)OC)/C=C/CO",
+        "description": "The molecule is a guaiacyl lignin that is found in Arabidopsis thaliana. It has a role as a plant metabolite. It is a member of 1-benzofurans, a guaiacyl lignin, a member of phenols, a primary alcohol and a dimethoxybenzene. It derives from a coniferol and a sinapyl alcohol.",
+        "answer": "O=P(O)(O)CP(=O)(O)O",
+        "all_tokens": 2722,
+        "blue2": 0.08327945286708385
+    },
+    {
+        "SMILES": "C[C@@H](C(=O)NCC(=O)N[C@@H](C)C(=O)NCC(=O)O)N",
+        "description": "The molecule is a tetrapeptide composed of L-alanine, glycine, L-alanine, and glycine residues joined in sequence by peptide linkages. It derives from a L-alanine and a glycine.",
+        "answer": "N[C@@H](C)C(=O)NCC(=O)N[C@@H](C)C(=O)NCC(=O)O",
+        "all_tokens": 2622,
+        "blue2": 0.9653072991634227
+    },
+    {
+        "SMILES": "C(Cl)(Cl)Cl",
+        "description": "The molecule is a one-carbon compound that is methane in which three of the hydrogens are replaced by chlorines. It has a role as an inhalation anaesthetic, a non-polar solvent, a carcinogenic agent, a central nervous system drug and a refrigerant. It is a one-carbon compound and a member of chloromethanes.",
+        "answer": "CCl3",
+        "all_tokens": 2539,
+        "blue2": 0.08688697172522256
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\COP(=O)([O-])OP(=O)([O-])O[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O[C@@H]2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)NC(=O)C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is an organophosphate oxoanion obtained by deprotonation of the diphosphate OH groups of alpha-D-mannosyl-(1->3)-N-acetyl-alpha-D-glucosaminyl-1-diphospho-ditrans,polycis-undecaprenol. Major species at pH 7.3. It is a conjugate base of an alpha-D-mannosyl-(1->3)-N-acetyl-alpha-D-glucosaminyl-1-diphospho-ditrans,polycis-undecaprenol.",
+        "answer": "Unable to provide the accurate SMILES for the described complex molecule with the available tools.",
+        "all_tokens": 3148,
+        "blue2": 0
+    }
+]

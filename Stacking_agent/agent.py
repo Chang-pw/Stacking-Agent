@@ -1,6 +1,6 @@
 from .Basemodel import ChatModel
 from .Tool import Tools
-from .ReAct_prompt import REACT_PROMPT, TOOL_DESC
+from .prompt.ReAct_prompt import REACT_PROMPT, TOOL_DESC
 from .utils import *
 from typing import Dict, List, Optional, Tuple, Union
 import json5
@@ -64,7 +64,8 @@ class Agent:
             return f"\n\033[96mObservation: \033[0m Tool call failed with error: {str(e)}"
 
         try:
-            return "\n\033[96mObservation: \033[0m" + self.tool(tool_name=plugin_name, data_index=self.index,test=self.test,**plugin_args)
+            result,tokens = self.tool(tool_name=plugin_name, data_index=self.index,test=self.test,**plugin_args)
+            return "\n\033[96mObservation: \033[0m" + str(result)
         except Exception as e:
             # Catch the exception and return error message
             return f"\n\033[96mObservation: \033[0m Tool call failed with error: {str(e)}"
@@ -87,12 +88,14 @@ class Agent:
         self.test = test
         if debug == True:
             print('\033[91m ============================START============================ \033[0m')
-        max_iter = 5
+        max_iter = 10
         n=0
+        all_tokens = 0
         while n<=max_iter:
             time.sleep(3)
             n+=1
             response, his = self.text_completion(text, history)
+            all_tokens+=his
             if debug == True:
                 print(response)
             if 'Final Answer:' in response:
@@ -102,10 +105,10 @@ class Agent:
                     final_answer =final_answer.split('\u001b[0m')[-1].strip()
                 if debug == True:
                     print("\033[91m =============================END=============================\033[0m")
-                return final_answer, response, history
+                return final_answer, response, history,all_tokens
             text += '\n' + response
             
-        return response,'Error','Error'
+        return response,'Error','Error',all_tokens
 
     
 if __name__ == '__main__':

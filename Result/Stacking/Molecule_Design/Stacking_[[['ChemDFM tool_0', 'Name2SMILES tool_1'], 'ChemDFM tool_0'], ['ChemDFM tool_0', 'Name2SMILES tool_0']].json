@@ -1,0 +1,62 @@
+[
+    {
+        "SMILES": "CCOP(=S)(C1=CC=CC=C1)OC2=CC=C(C=C2)[N+](=O)[O-]",
+        "description": "The molecule is an organic phosphonate, a phosphonic ester and an organothiophosphate insecticide. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor, an acaricide and an agrochemical.",
+        "answer": "CCOP(=S)(Oc1ccc([N+](=O)[O-])cc1)c1ccccc1",
+        "blue2": 0.4957008525606222
+    },
+    {
+        "SMILES": "[39K]",
+        "description": "The molecule is the stable isotope of potassium with relative atomic mass 38.963707, 93.3 atom percent natural abundance and nuclear spin 3/2.",
+        "answer": "There is no SMILES representation for the stable isotope of potassium with relative atomic mass 38.963707.",
+        "blue2": 2.0489637779182655e-155
+    },
+    {
+        "SMILES": "CCCCCCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCCOP(=O)([O-])[O-]",
+        "description": "The molecule is an anionic phospholipid that is the conjugate base of phosphomycoketide C32 obtained by deprotonation of the phosphate OH groups; major species at pH 7.3. It is a conjugate base of a phosphomycoketide C32.",
+        "answer": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCOP(=O)(O)[O-]",
+        "blue2": 0.35527261149157474
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@@H]1O[C@H]2[C@H](O[C@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H]([C@@H](O[C@@H]([C@H]3O)CO)O)NC(=O)C)CO)CO)O)O",
+        "description": "The molecule is an amino trisaccharide consisting of N-acetyl-alpha-D-glucosamine, beta-D-galactose and N-acetyl-D-glucosamine residues linked sequentially (1->4) and (1->3). It has a role as an epitope. It is an amino trisaccharide and a glucosamine oligosaccharide.",
+        "answer": "The SMILES for the described molecule, which is an amino trisaccharide consisting of N-acetyl-alpha-D-glucosamine, beta-D-galactose, and N-acetyl-D-glucosamine, linked sequentially (1->4) and (1->3), is likely \"CC(=O)NC1C(C(C(OC1OC2C(C(C(C(O2)CO)O)O)O)O)O)NC(=O)C3C(C(C(C(O3)CO)O)O)O\".",
+        "blue2": 0.16900996617995415
+    },
+    {
+        "SMILES": "CC(C)CCCCCCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O",
+        "description": "The molecule is a saturated fatty acyl-CoA(4-) arising from deprotonation of the phosphate and diphosphate functions of isoheptadecanoyl-CoA. Major species at pH 7.3. It is a saturated fatty acyl-CoA(4-), a long-chain fatty acyl-CoA(4-) and a 3-substituted propionyl-CoA(4-). It is a conjugate base of an isoheptadecanoyl-CoA.",
+        "answer": "COP(=O)(OC)C(N)=O",
+        "blue2": 0.0003653618952522889
+    },
+    {
+        "SMILES": "C1=C(O[C@H]([C@@H]([C@H]1O)OS(=O)(=O)O)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)NS(=O)(=O)O)O[C@H]3[C@@H]([C@H]([C@@H](O[C@H]3C(=O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)NS(=O)(=O)O)O[C@H]5[C@@H]([C@H]([C@@H](O[C@H]5C(=O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)NS(=O)(=O)O)O[C@H]7[C@@H]([C@H]([C@@H](O[C@@H]7C(=O)O)O[C@@H]8[C@H](O[C@@H]([C@@H]([C@H]8O)NS(=O)(=O)O)O)COS(=O)(=O)O)O)O)COS(=O)(=O)O)OS(=O)(=O)O)O)COS(=O)(=O)O)OS(=O)(=O)O)O)COS(=O)(=O)O)C(=O)O",
+        "description": "The molecule is a heparin octasaccharide consisting of 4-deoxy-2-O-sulfo-alpha-L-threo-hex-4-enopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, beta-D-glucopyranuronosyl, and 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranose units joined in sequence by (1->4) linkages. Sequence: DUA2S-GlcNS6S-IdoA2S-GlcNS6S-IdoA2S-GlcNS6S-GlcA-GlcNS6S. It is a heparin octasaccharide, an oligosaccharide sulfate and an amino octasaccharide.",
+        "answer": "The SMILES for the described heparin octasaccharide cannot be accurately determined using the provided tool responses.",
+        "blue2": 1.1551874448055787e-156
+    },
+    {
+        "SMILES": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCSC(=O)CC(=O)CCCCCCCCC(=O)O)O",
+        "description": "The molecule is an acyl-CoA resulting from the formal condensation of the thiol group of coenzyme A with the 1-carboxy group of 3-oxododecanedioic acid. It is a conjugate acid of a 3-oxododecanedioyl-CoA(5-).",
+        "answer": "No valid SMILES string was provided by the tools for the described acyl-CoA molecule.",
+        "blue2": 1.4672675191403027e-155
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)CNC(=O)/C(=C/C2=CC(=C(C=C2)O)O)/C#N",
+        "description": "The molecule is a monocarboxylic acid amide obtained by formal condensation of the carboxy group of (2E)-2-cyano-3-(3,4-dihydroxyphenyl)prop-2-enoic acid with the amino group of benzylamine. It has a role as an EC 2.7.10.2 (non-specific protein-tyrosine kinase) inhibitor, an antioxidant, a STAT3 inhibitor, an anti-inflammatory agent and an apoptosis inducer. It is an enamide, a monocarboxylic acid amide, a nitrile, a member of catechols and a secondary carboxamide.",
+        "answer": "O=C(NCc1ccccc1)C=C(C#N)c2ccc(O)c(O)c2",
+        "blue2": 0.3669230478916439
+    },
+    {
+        "SMILES": "C(P(=O)(O)O)P(=O)(O)O",
+        "description": "The molecule is a 1,1-bis(phosphonic acid) consisting of methane substituted by two phosphonic acid groups. It has a role as a bone density conservation agent and a chelator.",
+        "answer": "C(P(=O)(O)O)P(=O)(O)O",
+        "blue2": 1.0
+    },
+    {
+        "SMILES": "CC/C=C\\\\CCCCC=O",
+        "description": "The molecule is a monounsaturated fatty aldehyde that is (3Z)-non-3-ene which is carrying an oxo group at position 1. It has a role as a plant metabolite. It is a monounsaturated fatty aldehyde, an olefinic compound and a medium-chain fatty aldehyde.",
+        "answer": "O=CCCC=CCCCCC",
+        "blue2": 0.6291624691812853
+    }
+]

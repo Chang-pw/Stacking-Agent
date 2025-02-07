@@ -1,0 +1,775 @@
+[
+    {
+        "product": "Nc1nc(NCc2ccc3c(c2)OCO3)c2cc(Cl)ccc2n1",
+        "input": "___>>Nc1nc(NCc2ccc3c(c2)OCO3)c2cc(Cl)ccc2n1",
+        "gold_answer": [
+            "Clc1ccc2nc(Cl)nc(NCc3ccc4c(c3)OCO4)c2c1",
+            "N"
+        ]
+    },
+    {
+        "product": "Cc1cncc(C=O)c1",
+        "input": "___>>Cc1cncc(C=O)c1",
+        "gold_answer": [
+            "Cc1cncc(CO)c1"
+        ]
+    },
+    {
+        "product": "C[C@@H]1CN(C(=O)OC(C)(C)C)CCN1c1cc(-c2ccc(F)cc2)nc(Cl)n1",
+        "input": "___>>C[C@@H]1CN(C(=O)OC(C)(C)C)CCN1c1cc(-c2ccc(F)cc2)nc(Cl)n1",
+        "gold_answer": [
+            "C[C@@H]1CN(C(=O)OC(C)(C)C)CCN1",
+            "Fc1ccc(-c2cc(Cl)nc(Cl)n2)cc1"
+        ]
+    },
+    {
+        "product": "O=C1CCN(CCC2(F)C=CC=CC2)CC1",
+        "input": "___>>O=C1CCN(CCC2(F)C=CC=CC2)CC1",
+        "gold_answer": [
+            "COC(=O)C1CN(CCC2(F)C=CC=CC2)CCC1=O"
+        ]
+    },
+    {
+        "product": "Clc1cc(Cl)c(OC2CCCCO2)cc1Cl",
+        "input": "___>>Clc1cc(Cl)c(OC2CCCCO2)cc1Cl",
+        "gold_answer": [
+            "C1=COCCC1",
+            "Oc1cc(Cl)c(Cl)cc1Cl"
+        ]
+    },
+    {
+        "product": "NC(=O)c1ccc(N2CCC[C@@H](NC(=O)c3ccccc3)C2)nc1Nc1ccc(N2CCNCC2)cc1",
+        "input": "___>>NC(=O)c1ccc(N2CCC[C@@H](NC(=O)c3ccccc3)C2)nc1Nc1ccc(N2CCNCC2)cc1",
+        "gold_answer": [
+            "NC(=O)c1ccc(N2CCC[C@@H](NC(=O)c3ccccc3)C2)nc1Nc1ccc(N2CCN(C(=O)OCc3ccccc3)CC2)cc1"
+        ]
+    },
+    {
+        "product": "COCOc1ccc(Cc2c(C)cc(CO)cc2C)cc1Cc1ccc(F)cc1",
+        "input": "___>>COCOc1ccc(Cc2c(C)cc(CO)cc2C)cc1Cc1ccc(F)cc1",
+        "gold_answer": [
+            "COCOc1ccc(Cc2c(C)cc(C(=O)OC)cc2C)cc1Cc1ccc(F)cc1"
+        ]
+    },
+    {
+        "product": "CCC1(CC)OC(=O)N(C)c2ccc(Nc3cccc(Cl)c3Cl)cc21",
+        "input": "___>>CCC1(CC)OC(=O)N(C)c2ccc(Nc3cccc(Cl)c3Cl)cc21",
+        "gold_answer": [
+            "CCC1(CC)OC(=O)N(C)c2ccc(N)cc21",
+            "Clc1cccc(I)c1Cl"
+        ]
+    },
+    {
+        "product": "CC(=O)NCc1cc(-c2c(C)noc2C)c2c3c1[nH]c(=O)n3[C@@H](c1ccccn1)CO2",
+        "input": "___>>CC(=O)NCc1cc(-c2c(C)noc2C)c2c3c1[nH]c(=O)n3[C@@H](c1ccccn1)CO2",
+        "gold_answer": [
+            "CC(=O)Cl",
+            "Cc1noc(C)c1-c1cc(CN)c2[nH]c(=O)n3c2c1OC[C@@H]3c1ccccn1"
+        ]
+    },
+    {
+        "product": "CCc1ccc(CCOc2cccc(O)c2)nc1",
+        "input": "___>>CCc1ccc(CCOc2cccc(O)c2)nc1",
+        "gold_answer": [
+            "CCc1ccc(CCOc2cccc(OC(=O)c3ccccc3)c2)nc1"
+        ]
+    },
+    {
+        "product": "C=CCOc1ccc(C[C@@H](NC(C)=O)C(=O)OC)cc1",
+        "input": "___>>C=CCOc1ccc(C[C@@H](NC(C)=O)C(=O)OC)cc1",
+        "gold_answer": [
+            "C=CCBr",
+            "COC(=O)[C@@H](Cc1ccc(O)cc1)NC(C)=O"
+        ]
+    },
+    {
+        "product": "CC(C)NC(=O)N1CCc2ccc(OCCCN3CCCCC3)cc2C1",
+        "input": "___>>CC(C)NC(=O)N1CCc2ccc(OCCCN3CCCCC3)cc2C1",
+        "gold_answer": [
+            "CC(C)N=C=O",
+            "c1cc2c(cc1OCCCN1CCCCC1)CNCC2"
+        ]
+    },
+    {
+        "product": "CCCNC(=O)c1ccc(C)c(-c2nc(NCCCN(CC)CC)nc3c2ccc(=O)n3-c2c(F)cccc2F)c1",
+        "input": "___>>CCCNC(=O)c1ccc(C)c(-c2nc(NCCCN(CC)CC)nc3c2ccc(=O)n3-c2c(F)cccc2F)c1",
+        "gold_answer": [
+            "CCCN",
+            "CCN(CC)CCCNc1nc(-c2cc(C(=O)O)ccc2C)c2ccc(=O)n(-c3c(F)cccc3F)c2n1"
+        ]
+    },
+    {
+        "product": "CC1(c2ccc(Cn3ncc([N+](=O)[O-])n3)o2)OCCO1",
+        "input": "___>>CC1(c2ccc(Cn3ncc([N+](=O)[O-])n3)o2)OCCO1",
+        "gold_answer": [
+            "CC1(c2ccc(CCl)o2)OCCO1",
+            "O=[N+]([O-])c1cn[nH]n1"
+        ]
+    },
+    {
+        "product": "CCOC(=O)CCCOc1ccc(CCNCC(O)COc2ccccc2)cc1",
+        "input": "___>>CCOC(=O)CCCOc1ccc(CCNCC(O)COc2ccccc2)cc1",
+        "gold_answer": [
+            "CCOC(=O)CCCBr",
+            "Oc1ccc(CCNCC(O)COc2ccccc2)cc1"
+        ]
+    },
+    {
+        "product": "COC(=O)c1cc(O)ccc1Br",
+        "input": "___>>COC(=O)c1cc(O)ccc1Br",
+        "gold_answer": [
+            "COC(=O)c1cc(OC)ccc1Br"
+        ]
+    },
+    {
+        "product": "O=C(OCc1ccccc1)N1CC=C(c2ccc(CO)nc2)CC1",
+        "input": "___>>O=C(OCc1ccccc1)N1CC=C(c2ccc(CO)nc2)CC1",
+        "gold_answer": [
+            "CC1(C)OB(C2=CCN(C(=O)OCc3ccccc3)CC2)OC1(C)C",
+            "OCc1ccc(Br)cn1"
+        ]
+    },
+    {
+        "product": "O=C(NCc1ccc(Cl)cc1)c1cccc(-c2cnc3c(c2)N(Cc2cc(Cl)ccc2C(F)(F)F)CCN3)c1",
+        "input": "___>>O=C(NCc1ccc(Cl)cc1)c1cccc(-c2cnc3c(c2)N(Cc2cc(Cl)ccc2C(F)(F)F)CCN3)c1",
+        "gold_answer": [
+            "NCc1ccc(Cl)cc1",
+            "O=C(O)c1cccc(-c2cnc3c(c2)N(Cc2cc(Cl)ccc2C(F)(F)F)CCN3)c1"
+        ]
+    },
+    {
+        "product": "CCCCOc1ccc(C=O)cc1C",
+        "input": "___>>CCCCOc1ccc(C=O)cc1C",
+        "gold_answer": [
+            "CCCCBr",
+            "Cc1cc(C=O)ccc1O"
+        ]
+    },
+    {
+        "product": "O=C(O)CCc1ccc(OCc2cccc(-c3csc4ccccc34)c2)cc1",
+        "input": "___>>O=C(O)CCc1ccc(OCc2cccc(-c3csc4ccccc34)c2)cc1",
+        "gold_answer": [
+            "COC(=O)CCc1ccc(OCc2cccc(-c3csc4ccccc34)c2)cc1"
+        ]
+    },
+    {
+        "product": "CC(C)C[C@H](NC(=O)OC12CC3CC(CC(C3)C1)C2)C(=O)O",
+        "input": "___>>CC(C)C[C@H](NC(=O)OC12CC3CC(CC(C3)C1)C2)C(=O)O",
+        "gold_answer": [
+            "CC(C)C[C@H](N)C(=O)O",
+            "O=C(F)OC12CC3CC(CC(C3)C1)C2"
+        ]
+    },
+    {
+        "product": "CC1(C)OC2CN(C(=O)COc3ccc(CNC(=O)c4ccc(C#N)cc4)cc3)CC2O1",
+        "input": "___>>CC1(C)OC2CN(C(=O)COc3ccc(CNC(=O)c4ccc(C#N)cc4)cc3)CC2O1",
+        "gold_answer": [
+            "CC1(C)OC2CNCC2O1",
+            "N#Cc1ccc(C(=O)NCc2ccc(OCC(=O)O)cc2)cc1"
+        ]
+    },
+    {
+        "product": "CC(C)(C)OC(=O)N1CCOC[C@H]1C(=O)Nc1cc(Cl)cc2c1[nH]c1cnccc12",
+        "input": "___>>CC(C)(C)OC(=O)N1CCOC[C@H]1C(=O)Nc1cc(Cl)cc2c1[nH]c1cnccc12",
+        "gold_answer": [
+            "CC(C)(C)OC(=O)N1CCOC[C@H]1C(=O)O",
+            "Nc1cc(Cl)cc2c1[nH]c1cnccc12"
+        ]
+    },
+    {
+        "product": "COCCOCCOS(=O)(=O)c1ccc(C)cc1",
+        "input": "___>>COCCOCCOS(=O)(=O)c1ccc(C)cc1",
+        "gold_answer": [
+            "COCCOCCO",
+            "Cc1ccc(S(=O)(=O)Cl)cc1"
+        ]
+    },
+    {
+        "product": "Cc1ccc(-c2cn(S(=O)(=O)c3ccc(C)cc3)nc2OCc2ccccc2)cc1",
+        "input": "___>>Cc1ccc(-c2cn(S(=O)(=O)c3ccc(C)cc3)nc2OCc2ccccc2)cc1",
+        "gold_answer": [
+            "Cc1ccc(B(O)O)cc1",
+            "Cc1ccc(S(=O)(=O)n2cc(I)c(OCc3ccccc3)n2)cc1"
+        ]
+    },
+    {
+        "product": "COC(=O)Cc1cccc(OCCCCl)c1",
+        "input": "___>>COC(=O)Cc1cccc(OCCCCl)c1",
+        "gold_answer": [
+            "COC(=O)Cc1cccc(O)c1",
+            "ClCCCBr"
+        ]
+    },
+    {
+        "product": "Nc1ccc(-c2c(F)cccc2C(F)(F)F)cc1[N+](=O)[O-]",
+        "input": "___>>Nc1ccc(-c2c(F)cccc2C(F)(F)F)cc1[N+](=O)[O-]",
+        "gold_answer": [
+            "CC1(C)OB(c2ccc(N)c([N+](=O)[O-])c2)OC1(C)C",
+            "Fc1cccc(C(F)(F)F)c1Br"
+        ]
+    },
+    {
+        "product": "Cc1cc(C(=O)N2CCOCC2)ncc1C(c1cc(F)ccc1F)S(=O)(=O)c1ccc(F)cc1",
+        "input": "___>>Cc1cc(C(=O)N2CCOCC2)ncc1C(c1cc(F)ccc1F)S(=O)(=O)c1ccc(F)cc1",
+        "gold_answer": [
+            "C1COCCN1",
+            "Cc1cc(C(=O)O)ncc1C(c1cc(F)ccc1F)S(=O)(=O)c1ccc(F)cc1"
+        ]
+    },
+    {
+        "product": "Brc1ccc(-c2cn(CCN3CCCCC3)nc2OCc2ccccc2)cc1",
+        "input": "___>>Brc1ccc(-c2cn(CCN3CCCCC3)nc2OCc2ccccc2)cc1",
+        "gold_answer": [
+            "Brc1ccc(-c2c[nH]nc2OCc2ccccc2)cc1",
+            "ClCCN1CCCCC1"
+        ]
+    },
+    {
+        "product": "Cc1ncccc1COc1ccc2cc(Cn3cc(CCC(=O)O)c(-c4ccccc4)c3)ccc2c1",
+        "input": "___>>Cc1ncccc1COc1ccc2cc(Cn3cc(CCC(=O)O)c(-c4ccccc4)c3)ccc2c1",
+        "gold_answer": [
+            "CCOC(=O)CCc1cn(Cc2ccc3cc(OCc4cccnc4C)ccc3c2)cc1-c1ccccc1"
+        ]
+    },
+    {
+        "product": "CC(C)(C)OC(=O)NC1(c2ccc(C#Cc3ccccc3)cc2)CCC1",
+        "input": "___>>CC(C)(C)OC(=O)NC1(c2ccc(C#Cc3ccccc3)cc2)CCC1",
+        "gold_answer": [
+            "C#Cc1ccccc1",
+            "CC(C)(C)OC(=O)NC1(c2ccc(Br)cc2)CCC1"
+        ]
+    },
+    {
+        "product": "Cc1csc(-c2cc3nccc(Nc4ccc5[nH]c(C)cc5c4)c3s2)c1",
+        "input": "___>>Cc1csc(-c2cc3nccc(Nc4ccc5[nH]c(C)cc5c4)c3s2)c1",
+        "gold_answer": [
+            "Cc1cc2cc(Nc3ccnc4cc(Br)sc34)ccc2[nH]1",
+            "Cc1csc(B(O)O)c1"
+        ]
+    },
+    {
+        "product": "COc1nn(C)c(=O)n1-c1ccccc1C",
+        "input": "___>>COc1nn(C)c(=O)n1-c1ccccc1C",
+        "gold_answer": [
+            "C[O-]",
+            "Cc1ccccc1-n1c(Cl)nn(C)c1=O"
+        ]
+    },
+    {
+        "product": "C=CCNc1nc(NC(C)C)nc2ccc([N+](=O)[O-])cc12",
+        "input": "___>>C=CCNc1nc(NC(C)C)nc2ccc([N+](=O)[O-])cc12",
+        "gold_answer": [
+            "C=CCNc1nc(Cl)nc2ccc([N+](=O)[O-])cc12",
+            "CC(C)N"
+        ]
+    },
+    {
+        "product": "COc1ccc(-c2nn(C3CCCCO3)c3ccc(C#N)cc23)cc1",
+        "input": "___>>COc1ccc(-c2nn(C3CCCCO3)c3ccc(C#N)cc23)cc1",
+        "gold_answer": [
+            "COc1ccc(B(O)O)cc1",
+            "N#Cc1ccc2c(c1)c(Br)nn2C1CCCCO1"
+        ]
+    },
+    {
+        "product": "C=CCC(C#C[Si](C(C)C)(C(C)C)C(C)C)(OC(=O)c1ccc([N+](=O)[O-])cc1)C(F)(F)F",
+        "input": "___>>C=CCC(C#C[Si](C(C)C)(C(C)C)C(C)C)(OC(=O)c1ccc([N+](=O)[O-])cc1)C(F)(F)F",
+        "gold_answer": [
+            "C=CCC(O)(C#C[Si](C(C)C)(C(C)C)C(C)C)C(F)(F)F",
+            "O=C(Cl)c1ccc([N+](=O)[O-])cc1"
+        ]
+    },
+    {
+        "product": "CC(=O)c1ccc(N)cc1",
+        "input": "___>>CC(=O)c1ccc(N)cc1",
+        "gold_answer": [
+            "CC(=O)c1ccc([N+](=O)[O-])cc1"
+        ]
+    },
+    {
+        "product": "Cc1cnc(N2CCN(C(=O)c3ccc(N4CC(C)(C)OC4=O)cc3F)CC2)c(C)c1",
+        "input": "___>>Cc1cnc(N2CCN(C(=O)c3ccc(N4CC(C)(C)OC4=O)cc3F)CC2)c(C)c1",
+        "gold_answer": [
+            "CC1(C)CNC(=O)O1",
+            "Cc1cnc(N2CCN(C(=O)c3ccc(Br)cc3F)CC2)c(C)c1"
+        ]
+    },
+    {
+        "product": "CC(C)c1ccc(C(O)c2c(C3CCCC3)nc3c(c2I)[C@@H](O[Si](C)(C)C(C)(C)C)CC(C)(C)C3)cc1",
+        "input": "___>>CC(C)c1ccc(C(O)c2c(C3CCCC3)nc3c(c2I)[C@@H](O[Si](C)(C)C(C)(C)C)CC(C)(C)C3)cc1",
+        "gold_answer": [
+            "CC(C)c1ccc([Mg+])cc1",
+            "CC1(C)Cc2nc(C3CCCC3)c(C=O)c(I)c2[C@@H](O[Si](C)(C)C(C)(C)C)C1"
+        ]
+    },
+    {
+        "product": "OCCN(Cc1ccccc1)c1ccc2c(-c3[nH]ncc3-c3cccc(Cl)c3)c[nH]c2n1",
+        "input": "___>>OCCN(Cc1ccccc1)c1ccc2c(-c3[nH]ncc3-c3cccc(Cl)c3)c[nH]c2n1",
+        "gold_answer": [
+            "CC(C)(C)[Si](C)(C)OCCN(Cc1ccccc1)c1ccc2c(-c3[nH]ncc3-c3cccc(Cl)c3)c[nH]c2n1"
+        ]
+    },
+    {
+        "product": "O=C(O)COc1ccc([C@@H]2CCC(=O)C2)cc1",
+        "input": "___>>O=C(O)COc1ccc([C@@H]2CCC(=O)C2)cc1",
+        "gold_answer": [
+            "CCOC(=O)COc1ccc([C@@H]2CCC(=O)C2)cc1"
+        ]
+    },
+    {
+        "product": "CC(=O)c1ccc(OCc2ccccc2)cc1C",
+        "input": "___>>CC(=O)c1ccc(OCc2ccccc2)cc1C",
+        "gold_answer": [
+            "BrCc1ccccc1",
+            "CC(=O)c1ccc(O)cc1C"
+        ]
+    },
+    {
+        "product": "COCCOC1CCN(C(=O)OC(C)(C)C)CC1",
+        "input": "___>>COCCOC1CCN(C(=O)OC(C)(C)C)CC1",
+        "gold_answer": [
+            "CC(C)(C)OC(=O)N1CCC(OCCO)CC1",
+            "CI"
+        ]
+    },
+    {
+        "product": "CNc1cc2c(c(C)c1F)c(=O)c(C(=O)O)cn2-c1cc(N)c(F)cc1F",
+        "input": "___>>CNc1cc2c(c(C)c1F)c(=O)c(C(=O)O)cn2-c1cc(N)c(F)cc1F",
+        "gold_answer": [
+            "CN",
+            "Cc1c(F)c(F)cc2c1c(=O)c(C(=O)O)cn2-c1cc(N)c(F)cc1F"
+        ]
+    },
+    {
+        "product": "CC(OC(=O)CC(C)(C)C)c1ccc([C@H]2C[C@@]3(C)[C@@H](CC[C@@]3(O)C(F)(F)C(F)(F)F)[C@@H]3CCC4=CC(=O)CCC4=C32)cc1",
+        "input": "___>>CC(OC(=O)CC(C)(C)C)c1ccc([C@H]2C[C@@]3(C)[C@@H](CC[C@@]3(O)C(F)(F)C(F)(F)F)[C@@H]3CCC4=CC(=O)CCC4=C32)cc1",
+        "gold_answer": [
+            "CC(C)(C)CC(=O)Cl",
+            "CC(O)c1ccc([C@H]2C[C@@]3(C)[C@@H](CC[C@@]3(O)C(F)(F)C(F)(F)F)[C@@H]3CCC4=CC(=O)CCC4=C32)cc1"
+        ]
+    },
+    {
+        "product": "CCCCOCCOc1ccc(-c2cc3c4c(c2)OCCN4CCCC(C(=O)O)=C3)cc1",
+        "input": "___>>CCCCOCCOc1ccc(-c2cc3c4c(c2)OCCN4CCCC(C(=O)O)=C3)cc1",
+        "gold_answer": [
+            "CCCCOCCOc1ccc(-c2cc3c4c(c2)OCCN4CCCC(C(=O)OCC)=C3)cc1"
+        ]
+    },
+    {
+        "product": "O=C1CCCN1c1ccc(CBr)cn1",
+        "input": "___>>O=C1CCCN1c1ccc(CBr)cn1",
+        "gold_answer": [
+            "Cc1ccc(N2CCCC2=O)nc1",
+            "O=C1CCC(=O)N1Br"
+        ]
+    },
+    {
+        "product": "O=[N+]([O-])c1cccnc1OCCO",
+        "input": "___>>O=[N+]([O-])c1cccnc1OCCO",
+        "gold_answer": [
+            "O=[N+]([O-])c1cccnc1Cl",
+            "OCCO"
+        ]
+    },
+    {
+        "product": "CCCCc1cn(C(C)(C)C)s/c1=N\\C(=O)C1(C)CCC(C(=O)O)C1(C)C",
+        "input": "___>>CCCCc1cn(C(C)(C)C)s/c1=N\\C(=O)C1(C)CCC(C(=O)O)C1(C)C",
+        "gold_answer": [
+            "CCCCc1cn(C(C)(C)C)s/c1=N\\C(=O)C1(C)CCC(C(=O)OC)C1(C)C"
+        ]
+    },
+    {
+        "product": "Cc1cc(N2CCN(C(=O)OC(C)(C)C)CC2)ccc1[N+](=O)[O-]",
+        "input": "___>>Cc1cc(N2CCN(C(=O)OC(C)(C)C)CC2)ccc1[N+](=O)[O-]",
+        "gold_answer": [
+            "CC(C)(C)OC(=O)N1CCNCC1",
+            "Cc1cc(F)ccc1[N+](=O)[O-]"
+        ]
+    },
+    {
+        "product": "CCOC(=O)C1CCN(Cc2ccccc2)CC1",
+        "input": "___>>CCOC(=O)C1CCN(Cc2ccccc2)CC1",
+        "gold_answer": [
+            "CCOC(=O)C1CCNCC1",
+            "ClCc1ccccc1"
+        ]
+    },
+    {
+        "product": "CNC(=O)c1ncc(Br)cc1N",
+        "input": "___>>CNC(=O)c1ncc(Br)cc1N",
+        "gold_answer": [
+            "CN",
+            "Nc1cc(Br)cnc1C(=O)O"
+        ]
+    },
+    {
+        "product": "CC(=O)c1cc(C)c(Br)cc1O",
+        "input": "___>>CC(=O)c1cc(C)c(Br)cc1O",
+        "gold_answer": [
+            "CC(=O)Cl",
+            "Cc1ccc(O)cc1Br"
+        ]
+    },
+    {
+        "product": "Cc1cc(O)ccc1-c1ccc(CC2CCN(C3CCCCC3)C2=O)c(Cl)c1",
+        "input": "___>>Cc1cc(O)ccc1-c1ccc(CC2CCN(C3CCCCC3)C2=O)c(Cl)c1",
+        "gold_answer": [
+            "COc1ccc(-c2ccc(CC3CCN(C4CCCCC4)C3=O)c(Cl)c2)c(C)c1"
+        ]
+    },
+    {
+        "product": "COCC(=O)N(C)c1cc(Br)ccc1[N+](=O)[O-]",
+        "input": "___>>COCC(=O)N(C)c1cc(Br)ccc1[N+](=O)[O-]",
+        "gold_answer": [
+            "CNc1cc(Br)ccc1[N+](=O)[O-]",
+            "COCC(=O)Cl"
+        ]
+    },
+    {
+        "product": "CC(C)(C)OC(=O)N1CCC(CCN=[N+]=[N-])CC1",
+        "input": "___>>CC(C)(C)OC(=O)N1CCC(CCN=[N+]=[N-])CC1",
+        "gold_answer": [
+            "CC(C)(C)OC(=O)N1CCC(CCI)CC1",
+            "[N-]=[N+]=[N-]"
+        ]
+    },
+    {
+        "product": "COC=C1CCC(c2cccc(F)c2F)CC1",
+        "input": "___>>COC=C1CCC(c2cccc(F)c2F)CC1",
+        "gold_answer": [
+            "CC(C)(C)[O-]",
+            "O=C1CCC(c2cccc(F)c2F)CC1"
+        ]
+    },
+    {
+        "product": "COc1ccccc1C1CCN(CC2CCC3(CC2)OCCO3)C1",
+        "input": "___>>COc1ccccc1C1CCN(CC2CCC3(CC2)OCCO3)C1",
+        "gold_answer": [
+            "BrCC1CCC2(CC1)OCCO2",
+            "COc1ccccc1C1CCNC1"
+        ]
+    },
+    {
+        "product": "CCOC(=O)c1cnc(N)c2c(COc3cccc(-c4nnn(C)n4)c3)csc12",
+        "input": "___>>CCOC(=O)c1cnc(N)c2c(COc3cccc(-c4nnn(C)n4)c3)csc12",
+        "gold_answer": [
+            "CCOC(=O)c1cnc(Cl)c2c(COc3cccc(-c4nnn(C)n4)c3)csc12",
+            "N"
+        ]
+    },
+    {
+        "product": "CCOC(=O)c1[nH]c2cc(Cl)cc(Cl)c2c1C=O",
+        "input": "___>>CCOC(=O)c1[nH]c2cc(Cl)cc(Cl)c2c1C=O",
+        "gold_answer": [
+            "CCOC(=O)c1cc2c(Cl)cc(Cl)cc2[nH]1",
+            "CN(C)C=O"
+        ]
+    },
+    {
+        "product": "COc1nc(N)nc2oc(-c3ccc(C4(N)CCC4)cc3)c(-c3ccccc3)c12",
+        "input": "___>>COc1nc(N)nc2oc(-c3ccc(C4(N)CCC4)cc3)c(-c3ccccc3)c12",
+        "gold_answer": [
+            "COc1nc(N)nc2oc(-c3ccc(C4(NC(=O)OC(C)(C)C)CCC4)cc3)c(-c3ccccc3)c12"
+        ]
+    },
+    {
+        "product": "Nc1ccc(N2CCCC2)cc1N1CCNCC1",
+        "input": "___>>Nc1ccc(N2CCCC2)cc1N1CCNCC1",
+        "gold_answer": [
+            "O=[N+]([O-])c1ccc(N2CCCC2)cc1N1CCNCC1"
+        ]
+    },
+    {
+        "product": "CNC(=O)c1ccc2c(c1N)OCO2",
+        "input": "___>>CNC(=O)c1ccc2c(c1N)OCO2",
+        "gold_answer": [
+            "CN",
+            "Nc1c(C(=O)O)ccc2c1OCO2"
+        ]
+    },
+    {
+        "product": "CC(C)CN(C(=O)c1nc2ccccc2n1CCC#N)[C@H]1C[C@@H](C(=O)N2CCOCC2)CN(C(=O)OC(C)(C)C)C1",
+        "input": "___>>CC(C)CN(C(=O)c1nc2ccccc2n1CCC#N)[C@H]1C[C@@H](C(=O)N2CCOCC2)CN(C(=O)OC(C)(C)C)C1",
+        "gold_answer": [
+            "CC(C)CN(C(=O)c1nc2ccccc2n1CCC(N)=O)[C@H]1C[C@@H](C(=O)N2CCOCC2)CN(C(=O)OC(C)(C)C)C1"
+        ]
+    },
+    {
+        "product": "Oc1ccc2cc(-c3ccccc3)ccc2c1",
+        "input": "___>>Oc1ccc2cc(-c3ccccc3)ccc2c1",
+        "gold_answer": [
+            "COc1ccc2cc(-c3ccccc3)ccc2c1"
+        ]
+    },
+    {
+        "product": "CN1C(=O)CC[C@]2(C)c3ccc(-c4ccc(Cl)cc4)cc3CC[C@@H]12",
+        "input": "___>>CN1C(=O)CC[C@]2(C)c3ccc(-c4ccc(Cl)cc4)cc3CC[C@@H]12",
+        "gold_answer": [
+            "CN1C(=O)CC[C@]2(C)c3ccc(Br)cc3CC[C@@H]12",
+            "OB(O)c1ccc(Cl)cc1"
+        ]
+    },
+    {
+        "product": "CC(=O)CC(O)c1ccc(-c2ccc(N3C[C@H](Cn4ccnn4)OC3=O)cc2F)cn1",
+        "input": "___>>CC(=O)CC(O)c1ccc(-c2ccc(N3C[C@H](Cn4ccnn4)OC3=O)cc2F)cn1",
+        "gold_answer": [
+            "CC(C)=O",
+            "O=Cc1ccc(-c2ccc(N3C[C@H](Cn4ccnn4)OC3=O)cc2F)cn1"
+        ]
+    },
+    {
+        "product": "COCOc1cc2c(cc1Cl)CCN(C)CC2c1cccc2ccoc12",
+        "input": "___>>COCOc1cc2c(cc1Cl)CCN(C)CC2c1cccc2ccoc12",
+        "gold_answer": [
+            "CN1CCc2cc(Cl)c(O)cc2C(c2cccc3ccoc23)C1",
+            "COCCl"
+        ]
+    },
+    {
+        "product": "N#Cc1cc(Oc2ccc(N)cc2)ccn1",
+        "input": "___>>N#Cc1cc(Oc2ccc(N)cc2)ccn1",
+        "gold_answer": [
+            "N#Cc1cc(Cl)ccn1",
+            "Nc1ccc(O)cc1"
+        ]
+    },
+    {
+        "product": "O=C(NCCCCN1CCOCC1)Nc1ccc(-c2ccccc2Cl)cc1",
+        "input": "___>>O=C(NCCCCN1CCOCC1)Nc1ccc(-c2ccccc2Cl)cc1",
+        "gold_answer": [
+            "O=C(NCCCCN1CCOCC1)Nc1ccc(Br)cc1",
+            "OB(O)c1ccccc1Cl"
+        ]
+    },
+    {
+        "product": "C(=C/C1CCCCC1)\\c1nc(COc2ccc(CCCn3ccnc3)cc2)co1",
+        "input": "___>>C(=C/C1CCCCC1)\\c1nc(COc2ccc(CCCn3ccnc3)cc2)co1",
+        "gold_answer": [
+            "ClCc1coc(/C=C/C2CCCCC2)n1",
+            "Oc1ccc(CCCn2ccnc2)cc1"
+        ]
+    },
+    {
+        "product": "Cc1cn(-c2ccc3c(N)nc(N)nc3c2)c2c1C(=O)CC(C)(C)C2",
+        "input": "___>>Cc1cn(-c2ccc3c(N)nc(N)nc3c2)c2c1C(=O)CC(C)(C)C2",
+        "gold_answer": [
+            "Cc1c[nH]c2c1C(=O)CC(C)(C)C2",
+            "Nc1nc(N)c2ccc(F)cc2n1"
+        ]
+    },
+    {
+        "product": "N#CC1(c2ccc(I)cc2)CCNCC1",
+        "input": "___>>N#CC1(c2ccc(I)cc2)CCNCC1",
+        "gold_answer": [
+            "CC(C)(C)OC(=O)N1CCC(C#N)(c2ccc(I)cc2)CC1"
+        ]
+    },
+    {
+        "product": "CC(C)C1(C)Cc2cc(O)c(Cl)c(Cl)c2C1=O",
+        "input": "___>>CC(C)C1(C)Cc2cc(O)c(Cl)c(Cl)c2C1=O",
+        "gold_answer": [
+            "COc1cc2c(c(Cl)c1Cl)C(=O)C(C)(C(C)C)C2"
+        ]
+    },
+    {
+        "product": "CC(C)(C)OC(=O)N1CCC(Oc2ccncc2)CC1",
+        "input": "___>>CC(C)(C)OC(=O)N1CCC(Oc2ccncc2)CC1",
+        "gold_answer": [
+            "CC(C)(C)OC(=O)N1CCC(O)CC1",
+            "Oc1ccncc1"
+        ]
+    },
+    {
+        "product": "COCCN1CCN(c2ccc3ncn(-c4cc(C(=O)Nc5ccon5)ccc4C)c(=O)c3c2)CC1",
+        "input": "___>>COCCN1CCN(c2ccc3ncn(-c4cc(C(=O)Nc5ccon5)ccc4C)c(=O)c3c2)CC1",
+        "gold_answer": [
+            "COCCN1CCN(c2ccc3ncn(-c4cc(C(=O)O)ccc4C)c(=O)c3c2)CC1",
+            "Nc1ccon1"
+        ]
+    },
+    {
+        "product": "Cc1cccc(-c2nccnc2N2CCNCC2)c1",
+        "input": "___>>Cc1cccc(-c2nccnc2N2CCNCC2)c1",
+        "gold_answer": [
+            "Cc1cccc(-c2nccnc2N2CCN(C(=O)OC(C)(C)C)CC2)c1"
+        ]
+    },
+    {
+        "product": "O=C(O)Cc1ccc(OCc2ccc3oc([N+](=O)[O-])c(-c4ccccc4)c3c2)cc1",
+        "input": "___>>O=C(O)Cc1ccc(OCc2ccc3oc([N+](=O)[O-])c(-c4ccccc4)c3c2)cc1",
+        "gold_answer": [
+            "O=C(O)Cc1ccc(O)cc1",
+            "O=[N+]([O-])c1oc2ccc(CBr)cc2c1-c1ccccc1"
+        ]
+    },
+    {
+        "product": "N#Cc1ccc(C#Cc2ccc(C=O)cc2)cc1",
+        "input": "___>>N#Cc1ccc(C#Cc2ccc(C=O)cc2)cc1",
+        "gold_answer": [
+            "C#Cc1ccc(C#N)cc1",
+            "O=Cc1ccc(I)cc1"
+        ]
+    },
+    {
+        "product": "Nc1ccccc1Nc1ccc(CCO)cc1",
+        "input": "___>>Nc1ccccc1Nc1ccc(CCO)cc1",
+        "gold_answer": [
+            "O=[N+]([O-])c1ccccc1Nc1ccc(CCO)cc1"
+        ]
+    },
+    {
+        "product": "COCCOc1cccc(Oc2ccc([N+](=O)[O-])cc2C)c1",
+        "input": "___>>COCCOc1cccc(Oc2ccc([N+](=O)[O-])cc2C)c1",
+        "gold_answer": [
+            "COCCBr",
+            "Cc1cc([N+](=O)[O-])ccc1Oc1cccc(O)c1"
+        ]
+    },
+    {
+        "product": "CCCn1cnc2c1c(=O)n(CC1CCC1)c(=O)n2CC1CCC1",
+        "input": "___>>CCCn1cnc2c1c(=O)n(CC1CCC1)c(=O)n2CC1CCC1",
+        "gold_answer": [
+            "CCCCl",
+            "O=c1c2[nH]cnc2n(CC2CCC2)c(=O)n1CC1CCC1"
+        ]
+    },
+    {
+        "product": "O=C(c1cnc2ccc(Br)cc2c1Nc1ccc(CN2CCCC2)cc1)C1CC1",
+        "input": "___>>O=C(c1cnc2ccc(Br)cc2c1Nc1ccc(CN2CCCC2)cc1)C1CC1",
+        "gold_answer": [
+            "Nc1ccc(CN2CCCC2)cc1",
+            "O=C(c1cnc2ccc(Br)cc2c1Cl)C1CC1"
+        ]
+    },
+    {
+        "product": "COC(=O)CCCCCNC(=O)C=C1c2ccccc2-c2ccccc21",
+        "input": "___>>COC(=O)CCCCCNC(=O)C=C1c2ccccc2-c2ccccc21",
+        "gold_answer": [
+            "COC(=O)CCCCCN",
+            "O=C(O)C=C1c2ccccc2-c2ccccc21"
+        ]
+    },
+    {
+        "product": "CC(O)(C#Cc1cc2c(cc1F)OCCn1cc(C(N)=O)nc1-2)C(F)(F)F",
+        "input": "___>>CC(O)(C#Cc1cc2c(cc1F)OCCn1cc(C(N)=O)nc1-2)C(F)(F)F",
+        "gold_answer": [
+            "C#CC(C)(O)C(F)(F)F",
+            "NC(=O)c1cn2c(n1)-c1cc(Br)c(F)cc1OCC2"
+        ]
+    },
+    {
+        "product": "Nc1ncnc(Oc2cccc(NC(=O)/C=C/CN3CCOCC3)c2)c1-c1ccc(Oc2ccccc2)cc1",
+        "input": "___>>Nc1ncnc(Oc2cccc(NC(=O)/C=C/CN3CCOCC3)c2)c1-c1ccc(Oc2ccccc2)cc1",
+        "gold_answer": [
+            "Nc1cccc(Oc2ncnc(N)c2-c2ccc(Oc3ccccc3)cc2)c1",
+            "O=C(O)/C=C/CN1CCOCC1"
+        ]
+    },
+    {
+        "product": "COC(=O)C[C@H](Nc1cc(Br)ccc1[N+](=O)[O-])C(=O)OC",
+        "input": "___>>COC(=O)C[C@H](Nc1cc(Br)ccc1[N+](=O)[O-])C(=O)OC",
+        "gold_answer": [
+            "COC(=O)C[C@H](N)C(=O)OC",
+            "O=[N+]([O-])c1ccc(Br)cc1F"
+        ]
+    },
+    {
+        "product": "O=C1C(=O)N(Cc2ccccc2)c2ccc(S(=O)(=O)N3CC[C@H]3COc3ccccc3)cc21",
+        "input": "___>>O=C1C(=O)N(Cc2ccccc2)c2ccc(S(=O)(=O)N3CC[C@H]3COc3ccccc3)cc21",
+        "gold_answer": [
+            "BrCc1ccccc1",
+            "O=C1Nc2ccc(S(=O)(=O)N3CC[C@H]3COc3ccccc3)cc2C1=O"
+        ]
+    },
+    {
+        "product": "Cc1ccc(CC2CCN(C(=O)C(=O)Nc3ccc4c(c3)OCC(=O)N4)CC2)cc1",
+        "input": "___>>Cc1ccc(CC2CCN(C(=O)C(=O)Nc3ccc4c(c3)OCC(=O)N4)CC2)cc1",
+        "gold_answer": [
+            "Cc1ccc(CC2CCNCC2)cc1",
+            "O=C1COc2cc(NC(=O)C(=O)O)ccc2N1"
+        ]
+    },
+    {
+        "product": "O=C1CCC(=O)c2ccccc21",
+        "input": "___>>O=C1CCC(=O)c2ccccc21",
+        "gold_answer": [
+            "O=C1C=CC(=O)c2ccccc21"
+        ]
+    },
+    {
+        "product": "CC(C)=CCNC(=O)c1ccc([N+](=O)[O-])o1",
+        "input": "___>>CC(C)=CCNC(=O)c1ccc([N+](=O)[O-])o1",
+        "gold_answer": [
+            "CC(C)=CCN",
+            "O=C(O)c1ccc([N+](=O)[O-])o1"
+        ]
+    },
+    {
+        "product": "CC1CCN(C(=O)Oc2noc3ncccc23)CC1",
+        "input": "___>>CC1CCN(C(=O)Oc2noc3ncccc23)CC1",
+        "gold_answer": [
+            "CC1CCN(C(=O)Cl)CC1",
+            "Oc1noc2ncccc12"
+        ]
+    },
+    {
+        "product": "COc1cc(OC)cc(C(=CC#N)c2ccc(OC)c(OC)c2)c1",
+        "input": "___>>COc1cc(OC)cc(C(=CC#N)c2ccc(OC)c(OC)c2)c1",
+        "gold_answer": [
+            "CCOP(=O)(CC#N)OCC",
+            "COc1cc(OC)cc(C(=O)c2ccc(OC)c(OC)c2)c1"
+        ]
+    },
+    {
+        "product": "Cc1cc(N)ccc1C(=O)N1CCOCC1",
+        "input": "___>>Cc1cc(N)ccc1C(=O)N1CCOCC1",
+        "gold_answer": [
+            "CC(=O)Nc1ccc(C(=O)N2CCOCC2)c(C)c1"
+        ]
+    },
+    {
+        "product": "COC(=O)CCCCCCCCCCCCCCO",
+        "input": "___>>COC(=O)CCCCCCCCCCCCCCO",
+        "gold_answer": [
+            "COC(=O)CCCCCCCCCCCCCC(=O)OC"
+        ]
+    },
+    {
+        "product": "CS(=O)(=O)c1cccc(-c2ccccc2N)c1",
+        "input": "___>>CS(=O)(=O)c1cccc(-c2ccccc2N)c1",
+        "gold_answer": [
+            "CS(=O)(=O)c1cccc(-c2ccccc2[N+](=O)[O-])c1"
+        ]
+    },
+    {
+        "product": "O=C1CC[C@H](N2Cc3c(OCc4ccc(CBr)cc4)cccc3C2=O)C(=O)N1",
+        "input": "___>>O=C1CC[C@H](N2Cc3c(OCc4ccc(CBr)cc4)cccc3C2=O)C(=O)N1",
+        "gold_answer": [
+            "COC(=O)CC[C@@H](C(N)=O)N1Cc2c(OCc3ccc(CBr)cc3)cccc2C1=O"
+        ]
+    },
+    {
+        "product": "O=C(NC1CCN(Cc2ccccc2)CC1)c1c[nH]c2ccc(F)cc12",
+        "input": "___>>O=C(NC1CCN(Cc2ccccc2)CC1)c1c[nH]c2ccc(F)cc12",
+        "gold_answer": [
+            "NC1CCN(Cc2ccccc2)CC1",
+            "O=C(O)c1c[nH]c2ccc(F)cc12"
+        ]
+    },
+    {
+        "product": "Nc1cnc(-c2ccc(C3CCC3)c(OCc3cc(F)ccc3Cl)c2F)cn1",
+        "input": "___>>Nc1cnc(-c2ccc(C3CCC3)c(OCc3cc(F)ccc3Cl)c2F)cn1",
+        "gold_answer": [
+            "Fc1ccc(Cl)c(CBr)c1",
+            "Nc1cnc(-c2ccc(C3CCC3)c(O)c2F)cn1"
+        ]
+    },
+    {
+        "product": "Cn1cc(-c2ccc(=O)n(Cc3cccc(-c4ncc(OCCN5CCOCC5)cn4)c3)n2)cn1",
+        "input": "___>>Cn1cc(-c2ccc(=O)n(Cc3cccc(-c4ncc(OCCN5CCOCC5)cn4)c3)n2)cn1",
+        "gold_answer": [
+            "Cn1cc(-c2ccc(=O)n(Cc3cccc(-c4ncc(O)cn4)c3)n2)cn1",
+            "OCCN1CCOCC1"
+        ]
+    }
+]

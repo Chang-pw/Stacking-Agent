@@ -1,0 +1,79 @@
+[
+    {
+        "gold_answer": "No",
+        "SMILES": "CC(=O)O[C@@H]1C(=O)O[C@H]2[C@@H](OC(C)=O)C(=O)O[C@@H]12",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether the molecule is an agonist or antagonist of the nuclear receptor androgen receptor (NR-AR), based on the SMILES string representation of each molecule. Please answer with only Yes (agonist) or No (antagonist).SMILES: CC(=O)O[C@@H]1C(=O)O[C@H]2[C@@H](OC(C)=O)C(=O)O[C@@H]12\nNR-AR:",
+        "answer": "No",
+        "all_tokens": 2287
+    },
+    {
+        "SMILES": "C=C1C[C@H]2[C@@H]3C=C(C)C4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]2(C)[C@@]1(OC(C)=O)C(C)=O",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether the molecule is an agonist or antagonist of the nuclear receptor androgen receptor (NR-AR), based on the SMILES string representation of each molecule. Please answer with only Yes (agonist) or No (antagonist).SMILES: C=C1C[C@H]2[C@@H]3C=C(C)C4=CC(=O)CC[C@]4(C)[C@H]3CC[C@]2(C)[C@@]1(OC(C)=O)C(C)=O\nNR-AR:",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "all_tokens": 703
+    },
+    {
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether the molecule is an agonist or antagonist of the nuclear receptor androgen receptor (NR-AR), based on the SMILES string representation of each molecule. Please answer with only Yes (agonist) or No (antagonist).SMILES: O=C1CCCC=CCCCCCCCCCC1\nNR-AR:",
+        "SMILES": "O=C1CCCC=CCCCCCCCCCC1",
+        "answer": "No",
+        "all_tokens": 732
+    },
+    {
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether the molecule is an agonist or antagonist of the nuclear receptor androgen receptor (NR-AR), based on the SMILES string representation of each molecule. Please answer with only Yes (agonist) or No (antagonist).SMILES: COP(=O)(OC)SCn1c(=O)oc2cc(Cl)cnc21\nNR-AR:",
+        "SMILES": "COP(=O)(OC)SCn1c(=O)oc2cc(Cl)cnc21",
+        "answer": "No",
+        "all_tokens": 752
+    },
+    {
+        "SMILES": "CCCCc1nc(Cl)c(CO)n1Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether the molecule is an agonist or antagonist of the nuclear receptor androgen receptor (NR-AR), based on the SMILES string representation of each molecule. Please answer with only Yes (agonist) or No (antagonist).SMILES: CCCCc1nc(Cl)c(CO)n1Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1\nNR-AR:",
+        "answer": "No",
+        "all_tokens": 1677
+    },
+    {
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether the molecule is an agonist or antagonist of the nuclear receptor androgen receptor (NR-AR), based on the SMILES string representation of each molecule. Please answer with only Yes (agonist) or No (antagonist).SMILES: [O-][n+]1ccccc1S[Zn]Sc1cccc[n+]1[O-]\nNR-AR:",
+        "SMILES": "[O-][n+]1ccccc1S[Zn]Sc1cccc[n+]1[O-]",
+        "answer": "No",
+        "all_tokens": 685
+    },
+    {
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether the molecule is an agonist or antagonist of the nuclear receptor androgen receptor (NR-AR), based on the SMILES string representation of each molecule. Please answer with only Yes (agonist) or No (antagonist).SMILES: ON=C1CCCC1\nNR-AR:",
+        "gold_answer": "No",
+        "SMILES": "ON=C1CCCC1",
+        "answer": "No",
+        "all_tokens": 579
+    },
+    {
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether the molecule is an agonist or antagonist of the nuclear receptor androgen receptor (NR-AR), based on the SMILES string representation of each molecule. Please answer with only Yes (agonist) or No (antagonist).SMILES: O=[N+]([O-])c1ccc2[nH]ncc2c1\nNR-AR:",
+        "SMILES": "O=[N+]([O-])c1ccc2[nH]ncc2c1",
+        "answer": "No",
+        "all_tokens": 686
+    },
+    {
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether the molecule is an agonist or antagonist of the nuclear receptor androgen receptor (NR-AR), based on the SMILES string representation of each molecule. Please answer with only Yes (agonist) or No (antagonist).SMILES: CCC(C)n1ncn(-c2ccc(N3CCN(c4ccc(OC[C@H]5CO[C@](Cn6cncn6)(c6ccc(Cl)cc6Cl)O5)cc4)CC3)cc2)c1=O\nNR-AR:",
+        "SMILES": "CCC(C)n1ncn(-c2ccc(N3CCN(c4ccc(OC[C@H]5CO[C@](Cn6cncn6)(c6ccc(Cl)cc6Cl)O5)cc4)CC3)cc2)c1=O",
+        "answer": "No",
+        "all_tokens": 785
+    },
+    {
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether the molecule is an agonist or antagonist of the nuclear receptor androgen receptor (NR-AR), based on the SMILES string representation of each molecule. Please answer with only Yes (agonist) or No (antagonist).SMILES: CCOC(=O)c1ccc(NC(=O)CN2CCCCC2)cc1\nNR-AR:",
+        "SMILES": "CCOC(=O)c1ccc(NC(=O)CN2CCCCC2)cc1",
+        "answer": "No",
+        "all_tokens": 800
+    },
+    {
+        "gold_answer": "Yes",
+        "SMILES": "O=C1Nc2cc(Cl)ccc2Oc2ccccc21",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether the molecule is an agonist or antagonist of the steroid receptor androgen response element (SR-ARE), based on the SMILES string representation of each molecule. Please answer with only Yes (agonist) or No (antagonist).SMILES: O=C1Nc2cc(Cl)ccc2Oc2ccccc21\nSR-ARE:",
+        "answer": "No",
+        "all_tokens": 1223
+    }
+]

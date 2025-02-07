@@ -1,0 +1,107 @@
+[
+    {
+        "SMILES": "C1=NC2=C(N1[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)([O-])OP(=O)([O-])OP(=O)(O)[O-])O)O)NC(=O)NC2=O",
+        "description": "The molecule is trianion of xanthosine 5'-triphosphate arising from deprotonation of three of the four free triphosphate OH groups. It is a xanthosine 5'-phosphate and a ribonucleoside triphosphate oxoanion. It is a conjugate base of a XTP. It is a conjugate acid of a XTP(4-).",
+        "answer": "The molecule is a ribose 5-triphosphate.",
+        "all_tokens": 1883,
+        "blue2": 0.002602398220121455
+    },
+    {
+        "SMILES": "CCCCCCCC/C=C\\\\CCCCCCCC(=O)N",
+        "description": "The molecule is a fatty amide derived from oleic acid. It has a role as a human metabolite and a plant metabolite.",
+        "answer": "The molecule is N-(9Z)-octadec-9-en-1-ylacetamide.",
+        "all_tokens": 5456,
+        "blue2": 0.17185332741867065
+    },
+    {
+        "SMILES": "CCCCC/C=C\\\\C/C=C\\\\CC1C(O1)C/C=C\\\\CCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)OP(=O)(O)O)O",
+        "description": "The molecule is an unsaturated fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of 8,9-epoxy-(5Z,11Z,14Z)-icosatrienoic acid. It is a long-chain fatty acyl-CoA and an unsaturated fatty acyl-CoA. It derives from an 8,9-EET. It is a conjugate acid of an 8,9-epoxy-(5Z,11Z,14Z)-icosatrienoyl-CoA(4-).",
+        "answer": "The molecule is a ribose 5-triphosphate.",
+        "all_tokens": 5284,
+        "blue2": 0.00027722570391613505
+    },
+    {
+        "SMILES": "CC1(CC(=O)C2=CC=CC=C2C1=O)S(=O)(=O)[O-]",
+        "description": "The molecule is an organosulfonate oxoanion that is the conjugate base of menadione sulfonic acid, arising from deprotonation of the sulfo group; major species at pH 7.3. It is a conjugate base of a menadione sulfonic acid.",
+        "answer": "The molecule is a sulfonated derivative of 1,3-cyclohexanedione with a phenyl group at the 2-position.",
+        "all_tokens": 5823,
+        "blue2": 0.2308504121522957
+    },
+    {
+        "SMILES": "CC[C@H](C)[C@H]1C(=O)OC2N1C3=C(C4=C2C=C(C=C4O)C)C(=O)C5=C(C3=O)C(=CC=C5)O",
+        "description": "The molecule is a organic heteropentacyclic compound that is 1,2,8,13-tetrahydro-3aH-benzo[b][1,3]oxazolo[3,2-f]phenanthridine which carries oxo groups at positions 2, 8 and 13, methyl group at position 5, hydroxy groups at positions 7 and 12, and a (2R)-butan-2-yl group at position 1. It is a mixture of epimers at the hemiaminal carbon (position 3a). It is a jadomycin, an organic heteropentacyclic compound, a member of p-quinones and a polyphenol.",
+        "answer": "The molecule is colchicine.",
+        "all_tokens": 7554,
+        "blue2": 1.401206367122777e-07
+    },
+    {
+        "SMILES": "CNC(=O)SC1=CC=C(C=C1)OS(=O)(=O)C",
+        "description": "The molecule is a monothiocarbamic ester that is phenyl methanesulfonate in which the hydrogen at position 4 is replaced by a (methylcarbamoyl)sulfanediyl group. It is a fungicide used for the treatment of a range of fungal diseases in rice. It is a monothiocarbamic ester and a methanesulfonate ester.",
+        "answer": "The molecule is a ribose 5-triphosphate.",
+        "all_tokens": 5725,
+        "blue2": 0.001181080932682765
+    },
+    {
+        "SMILES": "CC1(CCCCC1)C(=O)NC2=C(C(=C(C=C2)O)Cl)Cl",
+        "description": "The molecule is an aromatic amide resulting from the formal condensation of the carboxy group of 1-methylcyclohexanecarboxylic acid with the amino group of 4-amino-2,3-dichlorophenol. It has a role as an EC 1.14.13.72 (methylsterol monooxygenase) inhibitor, a sterol biosynthesis inhibitor and an antifungal agrochemical. It is a monocarboxylic acid amide, a member of phenols, an aromatic amide, a dichlorobenzene and an anilide fungicide.",
+        "answer": "The molecule is a ribose 5-triphosphate.",
+        "all_tokens": 5641,
+        "blue2": 3.865664724556379e-05
+    },
+    {
+        "SMILES": "C(CC(=O)N[C@@H](CSCCO)C(=O)NCC(=O)O)[C@@H](C(=O)O)N",
+        "description": "The molecule is a Glu-Cys-Gly tripeptide derivative of glutathione containing a 2-hydroxyethyl substituent on the S of the Cys residue. It derives from a glutathione.",
+        "answer": "The molecule is glutathione.",
+        "all_tokens": 6084,
+        "blue2": 0.007236834234988326
+    },
+    {
+        "SMILES": "C[C@H](CC(=O)[O-])O",
+        "description": "The molecule is the conjugate base of (R)-3-hydroxybutyric acid. It has a role as a human metabolite. It is a conjugate base of a (R)-3-hydroxybutyric acid. It is an enantiomer of a (S)-3-hydroxybutyrate.",
+        "answer": "The molecule is Lactic acid.",
+        "all_tokens": 5543,
+        "blue2": 0.0017245491488804623
+    },
+    {
+        "SMILES": "CCCCCCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCCOP(=O)([O-])O[C@H]1[C@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O",
+        "description": "The molecule is an anionic phospholipid that is the conjugate base of beta-D-mannosyl C32-phosphomycoketide obtained by deprotonation of the phosphate OH group; major species at pH 7.3. It derives from a phosphomycoketide C32(2-). It is a conjugate base of a beta-D-mannosyl C32-phosphomycoketide.",
+        "answer": "The molecule is a ribose 5-triphosphate.",
+        "all_tokens": 3262,
+        "blue2": 0.0014266216321362631
+    },
+    {
+        "SMILES": "C(=O)C(=O)O",
+        "description": "The molecule is a 2-oxo monocarboxylic acid that is acetic acid bearing an oxo group at the alpha carbon atom. It has a role as a human metabolite, an Escherichia coli metabolite, a Saccharomyces cerevisiae metabolite and a mouse metabolite. It is a 2-oxo monocarboxylic acid and an aldehydic acid. It is a conjugate acid of a glyoxylate.",
+        "answer": "The molecule is oxalic acid.",
+        "all_tokens": 5706,
+        "blue2": 1.525964592156631e-05
+    },
+    {
+        "SMILES": "[C@H]1([C@H](C([C@H]([C@@H](C1O)OP(=O)(O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)OP(=O)(O)O",
+        "description": "The molecule is a myo-inositol bis(diphosphate) trisphosphate having the three phospho groups located at positions 4, 5 and 6 and the two diphospho groups at positions 1 and 3. It derives from a myo-inositol.",
+        "answer": "{\"query\":\"Given the molecular SMILES, your task is to provide the detailed description of the molecule. Please strictly follow the format (The molecule is ...), no other information can be provided. Molecule SMILES: [C@H]1([C@H](C([C@H]([C@@H](C1O)OP(=O)(O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)OP(=O)(O)O\"}",
+        "all_tokens": 16314,
+        "blue2": 0.3365012675676437
+    },
+    {
+        "SMILES": "CC(=O)O[C@@H]1C[C@]2([C@@H](CCC2=O)C3=C1[C@]4([C@H](OC(=O)C5=COC(=C54)C3=O)COC)C)C",
+        "description": "The molecule is an organic heteropentacyclic compound, a delta-lactone, an acetate ester and a cyclic ketone. It has a role as an EC 2.7.1.137 (phosphatidylinositol 3-kinase) inhibitor and an anticoronaviral agent.",
+        "answer": "The molecule is a ribose 5-triphosphate.",
+        "all_tokens": 8149,
+        "blue2": 0.011362394268613282
+    },
+    {
+        "SMILES": "C/C=C\\\\1/C[C@H]([C@@](C(=O)OCC2=CCN3[C@H]2[C@@H](CC3)OC1=O)(C)O)C",
+        "description": "The molecule is a pyrrolizidine alkaloid isolated from the plant species of the genus Senecio. It has a role as a plant metabolite. It is a lactone, a pyrrolizidine alkaloid and a tertiary alcohol. It derives from a senecionan. It is a conjugate base of a senecionine(1+).",
+        "answer": "The molecule is a ribose 5-triphosphate.",
+        "all_tokens": 4503,
+        "blue2": 0.002500348354110327
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])[O-])OC(=O)CCCCCCC/C=C\\\\CCCCCCCC",
+        "description": "The molecule is a 1,2-diacyl-sn-glycerol 3-phosphate(2-) obtained by deprotonation of the phosphate OH groups of 1-icosanoyl-2-oleoyl-sn-glycero-3-phosphate. It is a conjugate base of a 1-icosanoyl-2-oleoyl-sn-glycero-3-phosphate.",
+        "answer": "The molecule is a phospholipid with a long-chain fatty acid esterified to a glycerol backbone, which is also attached to a phosphate group.",
+        "all_tokens": 6022,
+        "blue2": 0.37823620562418375
+    }
+]

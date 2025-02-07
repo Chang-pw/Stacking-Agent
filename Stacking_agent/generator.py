@@ -1,7 +1,20 @@
 from typing import Union, List
 from .agent import Agent
-from .utils import *
+import ast
 from .tools import *
+from .utils import * 
+
+def to_list(input_string):
+    try:
+        # 尝试解析字符串为一个字面量
+        result = ast.literal_eval(input_string)
+        # 检查解析结果是否为一个列表
+        if isinstance(result, list):
+            return result
+    except (ValueError, SyntaxError):
+        pass
+    # 如果解析失败或结果不是列表，则将输入字符串放入一个新的列表
+    return [input_string]
 
 class ToolGenerator:
     def __init__(self):
@@ -10,6 +23,10 @@ class ToolGenerator:
             'ChemDFM': 'ChemDFM()',
             'Name2Description': 'Name2Description()',
             'Reaction2Product': 'Reaction2Product()',
+            'SMILES2Property':'SMILES2Property()',
+            'SMILES2Description':'SMILES2Description()',
+            'Reaction2Product':'Reaction2Product()',
+            'FinalRefer_agent':'FinalRefer_agent()'
         }
 
     def parse_tool_string(self, tool_str: str) -> List[str]:
@@ -68,8 +85,10 @@ class ToolGenerator:
 
         return code_lines
 
-    def generate(self, spec: Union[List, str]) -> str:
+    def generate(self, spec):
         """主要生成方法"""
+        spec = to_list(spec)
+
         code_lines = self.generate_combined_tools(spec)
         code= '\n'.join(code_lines)
         if code.count('\n') + 1 > 2:
@@ -87,6 +106,5 @@ def generate_tool(spec):
 
 if __name__ == "__main__":
     generator = ToolGenerator()
-    spec = ["ChemDFM_0"]
-    code = generator.generate(spec)
-    print(code)
+    spec = "Name2SMILES_0"
+    code = generator.generate(spec)._run

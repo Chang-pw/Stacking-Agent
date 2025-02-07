@@ -1,0 +1,142 @@
+[
+    {
+        "SMILES": "C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)OC2=CC3=CC4=C(C(=C3C(=C2C(=O)OC)C)O)C(=O)[C@@]5(C(=O)C=C([C@H]([C@@]5(C4=O)O)O)OC)O)OC)OC)OC",
+        "description": "The molecule is a member of the class of tetracenomycins that is 8-demethyltetracenomycin C in which the hydroxyl hydrogen at position 8 is replaced by a 2,3,4-tri-O-methyl-alpha-L-rhamnosyl residue. It has a role as a bacterial metabolite. It is an alpha-L-rhamnoside, an enol ether, an enone, a monosaccharide derivative, a member of phenols, a member of tetracenequinones, a methyl ester and a tertiary alpha-hydroxy ketone. It derives from a tetracenomycin C.",
+        "answer": "COC(=O)c1c(O[C@@H]2O[C@@H](C)[C@H](O)[C@@H](OC)[C@H]2OC)cc2cc3c(c(O)c2c1C)C(=O)[C@]1(O)C(=O)C=C(OC)[C@@H](O)[C@]1(O)C3=O",
+        "all_tokens": 3245,
+        "blue2": 0.7072634677028756
+    },
+    {
+        "SMILES": "CCCCCCCCCC(=O)N[C@H](C(=O)[O-])O",
+        "description": "The molecule is an N-acyl-(2S)-hydroxyglycinate resulting from the deprotonation of the carboxy group of N-decanoyl-(2S)-hydroxyglycine. The major species at pH 7.3. It is a conjugate base of a N-decanoyl-(2S)-hydroxyglycine.",
+        "answer": "CCCCCCCCCC(=O)N[C@@H](O)C(=O)[O-]",
+        "all_tokens": 5337,
+        "blue2": 0.9211323729436766
+    },
+    {
+        "SMILES": "C(P(=O)(O)O)P(=O)(O)O",
+        "description": "The molecule is a 1,1-bis(phosphonic acid) consisting of methane substituted by two phosphonic acid groups. It has a role as a bone density conservation agent and a chelator.",
+        "answer": "O=P(O)(O)CP(=O)(O)O",
+        "all_tokens": 2406,
+        "blue2": 0.7649273950339465
+    },
+    {
+        "SMILES": "CCCSP(=S)(OCC)OC1=CC=C(C=C1)SC",
+        "description": "The molecule is an organic thiophosphate, an organothiophosphate insecticide and an organosulfur compound. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor and an agrochemical. It derives from a 4-(methylsulfanyl)phenol.",
+        "answer": "COP(=S)(OC)Oc1ccc(SC)cc1",
+        "all_tokens": 2576,
+        "blue2": 0.43219655550762887
+    },
+    {
+        "SMILES": "C[C@@H]1C[C@@](C(=O)O[C@@H]2CCN3[C@@H]2C(=CC3)COC(=O)[C@]1(C)O)([C@@H](C)O)O",
+        "description": "The molecule is a pyrrolizine alkaloid obtained from senecionine by formal addition of hydrogen peroxide across the ethylidene double bond. It has a role as a Jacobaea metabolite. It is a macrocyclic lactone, an organic heterotricyclic compound, a pyrrolizine alkaloid, a triol and a tertiary amino compound. It derives from a senecionine.",
+        "answer": "C[C@@H]1C[C@](O)([C@@H](C)O)C(=O)O[C@@H]2CCN3CC=C(COC(=O)[C@]1(C)O)[C@H]23",
+        "all_tokens": 2826,
+        "blue2": 0.9324773307887835
+    },
+    {
+        "SMILES": "CC(C)CC(=O)O",
+        "description": "The molecule is a C5, branched-chain saturated fatty acid. It has a role as a plant metabolite and a mammalian metabolite. It is a short-chain fatty acid, a methylbutyric acid and a branched-chain saturated fatty acid. It is a conjugate acid of an isovalerate.",
+        "answer": "CC(C)CC(=O)O",
+        "all_tokens": 2541,
+        "blue2": 1.0
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)CNC(=O)/C(=C/C2=CC(=C(C=C2)O)O)/C#N",
+        "description": "The molecule is a monocarboxylic acid amide obtained by formal condensation of the carboxy group of (2E)-2-cyano-3-(3,4-dihydroxyphenyl)prop-2-enoic acid with the amino group of benzylamine. It has a role as an EC 2.7.10.2 (non-specific protein-tyrosine kinase) inhibitor, an antioxidant, a STAT3 inhibitor, an anti-inflammatory agent and an apoptosis inducer. It is an enamide, a monocarboxylic acid amide, a nitrile, a member of catechols and a secondary carboxamide.",
+        "answer": "N#C/C(=C\\c1ccc(O)c(O)c1)C(=O)NCc1ccccc1",
+        "all_tokens": 4746,
+        "blue2": 0.378027795228404
+    },
+    {
+        "SMILES": "CCCCCCCCCC(C(C(=O)[O-])O)O",
+        "description": "The molecule is a medium-chain fatty acid anion resulting from the deprotonation of the carboxy group of 2,3-dihydroxydodecanoic acid. Major microspecies at pH 7.3 It is a 2-hydroxy fatty acid anion, a 3-hydroxy fatty acid anion and a medium-chain fatty acid anion. It derives from a dodecanoate. It is a conjugate base of a 2,3-dihydroxydodecanoic acid.",
+        "answer": "CCCCCCCCCC(O)C(O)C(=O)[O-]",
+        "all_tokens": 12095,
+        "blue2": 0.8944271909999159
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)OC1[C@@H]([C@H](C([C@H]([C@H]1O)O)O)O)O)OC(=O)CCC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCCCC",
+        "description": "The molecule is a 1-hexadecanoyl-2-acyl-sn-glycero-3-phospho-1D-myo-inositol in which the 2-acyl group is specified as (5Z,8Z,11Z,14Z)-icosatetraenoyl (arachidonyl). It has a role as a mouse metabolite. It is a 1-hexadecanoyl-2-acyl-sn-glycero-3-phospho-1D-myo-inositol and a phosphatidylinositol(16:0/20:4). It is a conjugate acid of a 1-hexadecanoyl-2-(5Z,8Z,11Z,14Z-icosatetraenoyl)-sn-glycero-3-phospho-D-myo-inositol(1-).",
+        "answer": "CC[C@H](COP(=O)(O)OC1[C@H](O)[C@H](O)[C@H](O)[C@H](O)[C@H]1O)OC(=O)CCCCCCCCCCCCCCC/C=C\\C/C=C\\C/C=C\\C/C=C\\CCCC(=O)O",
+        "all_tokens": 3578,
+        "blue2": 0.8884271836220906
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\COP(=O)([O-])OP(=O)([O-])O[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O[C@@H]2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)NC(=O)C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is an organophosphate oxoanion obtained by deprotonation of the diphosphate OH groups of alpha-D-mannosyl-(1->3)-N-acetyl-alpha-D-glucosaminyl-1-diphospho-ditrans,polycis-undecaprenol. Major species at pH 7.3. It is a conjugate base of an alpha-D-mannosyl-(1->3)-N-acetyl-alpha-D-glucosaminyl-1-diphospho-ditrans,polycis-undecaprenol.",
+        "answer": "CC(=O)N[C@H]1[C@@H](OP(=O)([O-])OP(=O)([O-])OC/C=C(/C)CC/C=C(/C)CC/C=C(/C)CC/C=C(/C)CC/C=C(/C)CC/C=C(/C)CC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C)O[C@H](CO)[C@@H](O)[C@@H]1O[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]1O",
+        "all_tokens": 3209,
+        "blue2": 0.7211115024595184
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@H]([C@H](O[C@@H]1OC[C@@H](C(=O)O)N)CO)O)O",
+        "description": "The molecule is a non-proteinogenic L-amino acid that is N-acetyl-alpha-D-galactosamine linked via an alpha glycosidic bond to the O at position 3 of L-serine. It is a L-serine derivative and a non-proteinogenic L-alpha-amino acid.",
+        "answer": "CC(=O)N[C@H]1[C@@H](OC[C@H](N)C(=O)O)O[C@H](CO)[C@H](O)[C@@H]1O",
+        "all_tokens": 2545,
+        "blue2": 0.9519729074826495
+    },
+    {
+        "SMILES": "CC1=CC(=O)[C@H]([C@]2([C@H]1C[C@@H]3[C@]45[C@@H]2[C@H]([C@@H]([C@]([C@@H]4[C@H](C(=O)O3)OC(=O)C)(OC5)C)O)O)C)O",
+        "description": "The molecule is a quassinoid isolated from Quassia indica and has been shown to exhibit antimalarial and cytotoxic activity. It has a role as a metabolite, an antimalarial and an antineoplastic agent. It is an acetate ester, a delta-lactone, a cyclic ether, an enone, an organic heteropentacyclic compound, a quassinoid, a secondary alcohol, a triol and a secondary alpha-hydroxy ketone.",
+        "answer": "COc1cc2c(c1)C(=O)OC3(CO)C(=O)C=C4[C@@H](OC(=O)C)C[C@H](O)[C@]4(C)C3Cc5c2cc(O)c5O",
+        "all_tokens": 2941,
+        "blue2": 0.47091204968820793
+    },
+    {
+        "SMILES": "C[C@@H](C(=O)NCC(=O)N[C@@H](C)C(=O)NCC(=O)O)N",
+        "description": "The molecule is a tetrapeptide composed of L-alanine, glycine, L-alanine, and glycine residues joined in sequence by peptide linkages. It derives from a L-alanine and a glycine.",
+        "answer": "C[C@H](N)C(=O)NCC(=O)N[C@@H](C)C(=O)NCC(=O)O",
+        "all_tokens": 2450,
+        "blue2": 0.9428127320371884
+    },
+    {
+        "SMILES": "C[C@]12[C@H]3[C@@H]([C@@]45C[C@@H](CC[C@H]4[C@@]3(C[C@@H]([C@@H]1O)O)OC2=O)C(=C)C5)C(=O)OC",
+        "description": "The molecule is a gibberellin ester that is the methyl ester of gibberellin A34. It is a gibberellin ester, a lactone and a methyl ester. It derives from a gibberellin A1 methyl ester.",
+        "answer": "COC(=O)c1c(O[C@@H]2O[C@@H](C)[C@H](O)[C@@H](OC)[C@H]2OC)cc2cc3c(c(O)c2c1C)C(=O)[C@]1(O)C(=O)C=C(OC)[C@@H](O)[C@]1(O)C3=O",
+        "all_tokens": 2481,
+        "blue2": 0.5686117548302114
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)CO)O[C@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO)O)O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O)O)O)O)NC(=O)C)O)O)NC(=O)C)O)O",
+        "description": "The molecule is beta-D-Galp-(1->4)-beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-D-GlcpNAc in which the configuration of the anomeric centre of the reducing-end N-acetylglucosamine residue is beta. It has a role as an epitope.",
+        "answer": "CC(=O)N[C@@H]1[C@@H](O)[C@H](O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O[C@@H]3O[C@H](CO)[C@@H](O[C@@H]4O[C@H](CO)[C@H](O)[C@H](O[C@@H]5O[C@H](CO)[C@@H](O[C@@H]6O[C@H](CO)[C@H](O)[C@H](O)[C@H]6O)[C@H](O)[C@H]5NC(C)=O)[C@H]4O)[C@H](O)[C@H]3NC(C)=O)[C@H]2O)[C@@H](CO)O[C@H]1O",
+        "all_tokens": 3131,
+        "blue2": 0.8593933818579523
+    },
+    {
+        "SMILES": "CSCCCCCCC/C=N/O",
+        "description": "The molecule is a 8-(methylsulfanyl)octanal oxime in which the oxime moiety has E configuration. It is an omega-(methylsulfanyl)-(E)-alkanal oxime and an 8-(methylsulfanyl)octanal oxime.",
+        "answer": "CSCCCCCCCC/C=N/O",
+        "all_tokens": 2505,
+        "blue2": 0.9354143466934853
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCC(=O)N[C@@H](CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)[C@@H]([C@@H](CCCCCCCCCCC(C)C)O)O",
+        "description": "The molecule is an N-acyl-1-O-beta-D-glucosyl-4-hydroxy-15-methylhexadecasphinganine in which the acyl group has 17 carbons and 0 double bonds. It derives from a 15-methylhexadecaphytosphingosine.",
+        "answer": "CCCCCCCCCCCCCCCCC(=O)N[C@@H](CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@H](O)[C@H](O)CCCCCCCCCCC(C)C",
+        "all_tokens": 2588,
+        "blue2": 0.9044789207183292
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O[C@H]2[C@H]([C@H](O[C@H]([C@@H]2O)O[C@@H]3[C@H]([C@@H](O[C@@H]([C@H]3O)CO)O)NC(=O)C)CO)O)CO)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O",
+        "description": "The molecule is a linear amino tetrasaccharide consisting of a sequence of beta-D-galactose, N-acetyl-beta-D-glucosamine, beta-D-galactose and N-acetyl-beta-D-glucosamine residues linked (1->4), (1->3) and (1->3). It has a role as an epitope. It is an amino tetrasaccharide and a glucosamine oligosaccharide.",
+        "answer": "CC(=O)N[C@@H]1[C@@H](O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O[C@@H]3O[C@H](CO)[C@@H](O[C@@H]4O[C@H](CO)[C@H](O)[C@H](O)[C@H]4O)[C@H](O)[C@H]3NC(C)=O)[C@H]2O)[C@H](O)[C@@H](CO)O[C@H]1O",
+        "all_tokens": 2937,
+        "blue2": 0.9092360964660477
+    },
+    {
+        "SMILES": "C[C@H]1CC[C@H]2[C@H](CC[C@H]([C@@H]2C1)C(C)C)C",
+        "description": "The molecule is a sesquiterpene consisting of decalin having two methyl substituents at the 1- and 6-positions, an isopropyl substituent at the 4-position and (1S,4S,4aS,6S,8aS)-configuration. It is a terpenoid fundamental parent and a sesquiterpene.",
+        "answer": "CC(C)[C@@H]1CC[C@H](C)[C@@H]2CC[C@H](C)C[C@H]21",
+        "all_tokens": 2656,
+        "blue2": 0.9109265799407509
+    },
+    {
+        "SMILES": "CC(=C)C(CCC(C)(C)O)CC1=C(C(=C(C=C1O)OC)C(=O)/C=C/C2=C(C=C(C=C2)O)O)O",
+        "description": "The molecule is a member of the class of chalcones that is trans-chalcone substituted by hydroxy groups at positions 2, 4, 2' and 4', a methoxy group at position 6' and a 5-hydroxy-5-methyl-2-(prop-1-en-2-yl)hexyl group at position 3 respectively. It has a role as a plant metabolite. It is a member of chalcones, a member of resorcinols and a monomethoxybenzene. It derives from a trans-chalcone.",
+        "answer": "C=C(C)C(CCC(C)(C)O)Cc1c(O)cc(OC)c(C(=O)/C=C/c2ccc(O)cc2O)c1O",
+        "all_tokens": 2985,
+        "blue2": 0.6029024919645974
+    }
+]

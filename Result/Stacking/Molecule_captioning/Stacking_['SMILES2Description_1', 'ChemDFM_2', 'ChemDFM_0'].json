@@ -1,0 +1,212 @@
+[
+    {
+        "SMILES": "[C@H]1([C@H](C([C@H]([C@@H](C1O)OP(=O)(O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)OP(=O)(O)O",
+        "description": "The molecule is a myo-inositol bis(diphosphate) trisphosphate having the three phospho groups located at positions 4, 5 and 6 and the two diphospho groups at positions 1 and 3. It derives from a myo-inositol.",
+        "answer": "The molecule is a myo-inositol tetrakisphosphate.",
+        "all_tokens": 4560,
+        "blue2": 0.03650857733971494
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)[N+]2=C3C=C(C=CC3=NC4=C2C=C(C=C4)N)N.[Cl-]",
+        "description": "The molecule is an organic chloride salt having 3,7-diamino-5-phenylphenazin-5-ium as the counterion. It is commonly used for staining Gram negative bacteria red in smears to contrast with the blue Gram positive organisms. It has a role as a fluorochrome, a histological dye and a photosensitizing agent. It contains a 3,7-diamino-5-phenylphenazin-5-ium.",
+        "answer": "The molecule is an organic chloride salt. It has a role as a metabolite.",
+        "all_tokens": 4042,
+        "blue2": 0.019047622844916033
+    },
+    {
+        "SMILES": "CC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O",
+        "description": "The molecule is an acyl-CoA(4-) arising from deprotonation of the phosphate and diphosphate functions of (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA. It is a polyunsaturated fatty acyl-CoA(4-), a very long-chain acyl-CoA(4-) and a (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl derivative. It is a conjugate base of a (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA.",
+        "answer": "The molecule is a myo-inositol tetrakisphosphate.",
+        "all_tokens": 5543,
+        "blue2": 0.0017087126497823206
+    },
+    {
+        "SMILES": "CC[C@H](C)[C@H]1C(=O)OC2N1C3=C(C4=C2C=C(C=C4O)C)C(=O)C5=C(C3=O)C(=CC=C5)O",
+        "description": "The molecule is a organic heteropentacyclic compound that is 1,2,8,13-tetrahydro-3aH-benzo[b][1,3]oxazolo[3,2-f]phenanthridine which carries oxo groups at positions 2, 8 and 13, methyl group at position 5, hydroxy groups at positions 7 and 12, and a (2R)-butan-2-yl group at position 1. It is a mixture of epimers at the hemiaminal carbon (position 3a). It is a jadomycin, an organic heteropentacyclic compound, a member of p-quinones and a polyphenol.",
+        "answer": "The molecule is a natural product found in Streptomyces with data available.",
+        "all_tokens": 5870,
+        "blue2": 0.00572201021782128
+    },
+    {
+        "SMILES": "CC(C)(C)C1=CN=C(O1)CSC2=CN=C(S2)NC(=O)C3CCOCC3",
+        "description": "The molecule is a secondary carboxamide resulting from the formal condensation of the carboxy group of tetrahydro-2H-pyran-4-carboxylic acid with the amino group of 5-{[(5-tert-butyl-1,3-oxazol-2-yl)methyl]sulfanyl}-1,3-thiazol-2-amine. It is a CDK18 kinase inhibitor. It has a role as an EC 2.7.11.22 (cyclin-dependent kinase) inhibitor. It is a member of 1,3-oxazoles, a member of 1,3-thiazoles, an organic sulfide, a secondary carboxamide and a member of oxanes.",
+        "answer": "The molecule is a derivative of 1,3,4-thiadiazole with a morpholinone substituent.",
+        "all_tokens": 3797,
+        "blue2": 0.008027632239210769
+    },
+    {
+        "SMILES": "C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)OC2=CC3=CC4=C(C(=C3C(=C2C(=O)OC)C)O)C(=O)[C@@]5(C(=O)C=C([C@H]([C@@]5(C4=O)O)O)OC)OC)OC)OC)OC",
+        "description": "The molecule is a member of the class of tetracenomycins that is 8-demethyltetracenomycin C in which the hydroxyl hydrogens at position 8 and 10 a are replaced by a 2,3,4-tri-O-methyl-alpha-L-rhamnosyl and methyl groups respectively. It has a role as a bacterial metabolite and an antimicrobial agent. It is an alpha-L-rhamnoside, a carboxylic ester, an enol ether, an enone, a monosaccharide derivative, a member of phenols, a tetracenomycin, a methyl ester and a tertiary alpha-hydroxy ketone. It derives from a tetracenomycin C.",
+        "answer": "The molecule is a myo-inositol tetrakisphosphate.",
+        "all_tokens": 1785,
+        "blue2": 4.940054181184934e-05
+    },
+    {
+        "SMILES": "CCOP(=S)(OCC)OC1=CC=C(C=C1)S(=O)C",
+        "description": "The molecule is an organic thiophosphate, a sulfoxide and an organothiophosphate insecticide. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor, an agrochemical, an avicide and a nematicide. It derives from a 4-(methylsulfinyl)phenol.",
+        "answer": "The molecule is a myo-inositol tetrakisphosphate.",
+        "all_tokens": 3716,
+        "blue2": 0.014970470035760618
+    },
+    {
+        "SMILES": "CCC(C)SP(=O)(N1CCSC1=O)OCC",
+        "description": "The molecule is a phosphonic ester, an organic phosphonate and an organothiophosphate insecticide. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor, an agrochemical and a nematicide.",
+        "answer": "The molecule is an organic thiophosphate, an organothiophosphate insecticide and an organosulfur compound. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor and an agrochemical. It is functionally related to a 2-oxo-1,3-thiazolidine.",
+        "all_tokens": 5167,
+        "blue2": 0.7342702227032308
+    },
+    {
+        "SMILES": "CC(C)CCCCCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O",
+        "description": "The molecule is an acyl-CoA(4-) arising from deprotonation of the phosphate and diphosphate functions of isopalmitoyl-CoA. Major species at pH 7.3. It is a saturated fatty acyl-CoA(4-) and a long-chain fatty acyl-CoA(4-). It is a conjugate base of an isopalmitoyl-CoA.",
+        "answer": "The molecule is an acyl-CoA(4-) arising from deprotonation of the phosphate and diphosphate OH groups of 12-methyltridecanoyl-CoA; major species at pH 7.3. It is a conjugate base of a 12-methyltridecanoyl-CoA.",
+        "all_tokens": 4869,
+        "blue2": 0.6447723715078595
+    },
+    {
+        "SMILES": "C([C@@H](C(=O)NCC(=O)[O-])[NH3+])S",
+        "description": "The molecule is the zwitterion of L-cysteinylglycine resulting from the transfer of a proton from the hydroxy group of glycine to the amino group of cysteine. Major microspecies at pH 7.3. It has a role as an Escherichia coli metabolite, a Saccharomyces cerevisiae metabolite and a human metabolite. It is a tautomer of a L-cysteinylglycine.",
+        "answer": "The molecule is a dipeptide zwitterion obtained by transfer of a proton from the carboxy to the amino terminus of Gly-Cys. Major species at pH 7.3. It has a role as a human metabolite. It is a tautomer of a Gly-Cys.",
+        "all_tokens": 3844,
+        "blue2": 0.5046259124746935
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])[O-])OC(=O)CCCCCCC/C=C\\\\CCCCCCCC",
+        "description": "The molecule is a 1,2-diacyl-sn-glycerol 3-phosphate(2-) obtained by deprotonation of the phosphate OH groups of 1-icosanoyl-2-oleoyl-sn-glycero-3-phosphate. It is a conjugate base of a 1-icosanoyl-2-oleoyl-sn-glycero-3-phosphate.",
+        "answer": "The molecule is a 1,2-diacyl-sn-glycerol 3-phosphate(2-) obtained by deprotonation of the phosphate OH groups of 1-octadecanoyl-2-(9Z)-octadecenoyl-sn-glycero-3-phosphate.",
+        "all_tokens": 2777,
+        "blue2": 0.6556372725276607
+    },
+    {
+        "SMILES": "CCCCCCCC/C=C\\\\CCCCCCCC(=O)N",
+        "description": "The molecule is a fatty amide derived from oleic acid. It has a role as a human metabolite and a plant metabolite.",
+        "answer": "The molecule is N-oleoyl-dodeca-2E,11Z-dienamide.",
+        "all_tokens": 6682,
+        "blue2": 0.16178271994360446
+    },
+    {
+        "SMILES": "CC1=CC=C(C=C1)N(CC2=NCCN2)C3=CC(=CC=C3)O",
+        "description": "The molecule is a substituted aniline that is 3-aminophenol in which the hydrogens of the amino group are replaced by 4-methylphenyl and 4,5-dihydro-1H-imidazol-2-ylmethyl groups respectively. An alpha-adrenergic antagonist, it is used for the treatment of hypertension. It has a role as an alpha-adrenergic antagonist and a vasodilator agent. It is a member of imidazoles, a member of phenols, a tertiary amino compound and a substituted aniline.",
+        "answer": "The molecule is a natural product found in Capnodium with data available.",
+        "all_tokens": 3767,
+        "blue2": 0.004978609840319949
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/C=C/C(=C/C=C/C=C(\\\\C)/C=C/C=C(\\\\C)/C=C/C=C(\\\\C)/C=C/C(C(C)(C)OC)O)/C)/C)/C)C",
+        "description": "The molecule is a carotenoid ether that is spheroidene substituted at position 2 by a hydroxy group. It is a carotenoid ether and a carotenol. It derives from a spheroidene.",
+        "answer": "The molecule is a natural product found in Rhodobacter capsulatus with data available.",
+        "all_tokens": 1631,
+        "blue2": 0.24498251263779475
+    },
+    {
+        "SMILES": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O[C@H]3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O)O[C@H]4[C@H]([C@@H]([C@@H]([C@@H](O4)C)O)O)O)NC(=O)C)O)CO)O)O)O",
+        "description": "The molecule is an alpha-L-Fucp-(1->2)-beta-D-Galp-(1->3)-[alpha-L-Fucp-(1->4)]-D-GlcNAc where the glucosamine at the reducing end has beta-configuration at its anomeric centre. It has a role as an epitope.",
+        "answer": "The molecule is a myo-inositol tetrakisphosphate.",
+        "all_tokens": 6922,
+        "blue2": 0.032463122217487206
+    },
+    {
+        "SMILES": "C[C@@H](C(=O)N[C@@H](C)C(=O)O)NC(=O)CN",
+        "description": "The molecule is a tripeptide composed of glycine, L-alanine and L-alanine residues joined in sequence by peptide linkages. It derives from a L-alanine and a glycine.",
+        "answer": "The molecule is a peptide.",
+        "all_tokens": 3789,
+        "blue2": 0.004766448283168313
+    },
+    {
+        "SMILES": "C1COC(=O)C2=CC=CC=C21",
+        "description": "The molecule is the simplest member of the class of dihydroisocoumarins that is the 3,4-dihydro derivative of isocoumarin. It derives from an isocoumarin.",
+        "answer": "The molecule is 2,3-benzofuran-1-one.",
+        "all_tokens": 4790,
+        "blue2": 0.02783873849104084
+    },
+    {
+        "SMILES": "CC1(CCCCC1)C(=O)NC2=C(C(=C(C=C2)O)Cl)Cl",
+        "description": "The molecule is an aromatic amide resulting from the formal condensation of the carboxy group of 1-methylcyclohexanecarboxylic acid with the amino group of 4-amino-2,3-dichlorophenol. It has a role as an EC 1.14.13.72 (methylsterol monooxygenase) inhibitor, a sterol biosynthesis inhibitor and an antifungal agrochemical. It is a monocarboxylic acid amide, a member of phenols, an aromatic amide, a dichlorobenzene and an anilide fungicide.",
+        "answer": "The molecule is 2,4-dichloro-6-(1-cyclohexyl-1-methylethyl)phenol.",
+        "all_tokens": 3811,
+        "blue2": 0.0030519505973830205
+    },
+    {
+        "SMILES": "CC(C)([C@@H]1CC2=C(O1)C=C3C(=C2)C=CC(=O)O3)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O",
+        "description": "The molecule is a member of the class of psoralens that is (-)-marmesin in which the hydroxy hydrogen is replaced by a beta-D-glucosyl residue. It has a role as a plant metabolite, a P450 inhibitor and an antioxidant. It is a beta-D-glucoside, a member of psoralens and a monosaccharide derivative. It derives from a nodakenetin.",
+        "answer": "The molecule is a myo-inositol tetrakisphosphate.",
+        "all_tokens": 5534,
+        "blue2": 0.0028565897791724467
+    },
+    {
+        "SMILES": "CN(C)C1=CC2=C(C=C1)NC3=C(O2)C(=O)C(=O)C=C3C(=O)[NH3+]",
+        "description": "The molecule is an organic cation that is 3,4-dihydroxyphenoxazin-5-ium carrying additional carbamoyl and dimethylamino groups at positions 1 and 7 respectively. The chloride salt is the histological dye 'Gallamin blue'. It has a role as a fluorochrome and a histological dye.",
+        "answer": "The molecule is a primary ammonium ion that is the conjugate acid of 7-amino-10-(dimethylamino)-7-azatricyclo[6.3.1.04,12]dodeca-1(11),2,4(12),9-tetraene-6,8,10-trione, obtained by protonation of the primary amino group. It is a conjugate acid of a 7-amino-10-(dimethylamino)-7-azatricyclo[6.3.1.04,12]dodeca-1(11),2,4(12),9-tetraene-6,8,10-trione.",
+        "all_tokens": 5816,
+        "blue2": 0.4817377753950845
+    },
+    {
+        "SMILES": "C[C@@H]1CCC[C@@H](CCC(CC1)C(C)C)C",
+        "description": "The molecule is the fundamental parent of a class of sesquiterpenes with a structure based upon a cyclodecane ring substituted with an isopropyl and two methyl groups. It is a terpenoid fundamental parent and a sesquiterpene.",
+        "answer": "The molecule is (1S,5S)-4,4-dimethyl-1-propan-2-ylcyclohexane.",
+        "all_tokens": 3779,
+        "blue2": 0.04485787760568133
+    },
+    {
+        "SMILES": "C1CCCCC1",
+        "description": "The molecule is an alicyclic hydrocarbon comprising a ring of six carbon atoms; the cyclic form of hexane, used as a raw material in the manufacture of nylon. It has a role as a non-polar solvent. It is a cycloalkane and a volatile organic compound.",
+        "answer": "The molecule is a cycloalkane that consists of a cyclohexane ring. It has a role as a non-polar solvent and a neurotoxin.",
+        "all_tokens": 4884,
+        "blue2": 0.32938384785206615
+    },
+    {
+        "SMILES": "C([C@@H]1[C@H]([C@@H]([C@@H]([C@H](O1)O[C@H]2[C@@H]([C@H](O[C@H]([C@H]2O)O[C@@H]3[C@H](O[C@H]([C@H]([C@H]3O)O)O)CO)CO)O)O)O)O)O",
+        "description": "The molecule is a mannotriose consisting of an alpha-D-mannopyranose residue and two beta-D-mannopyranose residues joined in sequence by (1->3) and (1->4) glycosidic bonds. It is a mannotriose and an alpha-D-Manp-(1->3)-beta-D-Manp-(1->4)-D-Manp.",
+        "answer": "The molecule is a myo-inositol tetrakisphosphate.",
+        "all_tokens": 4656,
+        "blue2": 0.014273869655497476
+    },
+    {
+        "SMILES": "CC(C)C[C@H]1C(=O)N2CCC[C@H]2[C@]3(N1C(=O)[C@](O3)(C(C)C)NC(=O)[C@H]4CN([C@@H]5CC6=C(NC7=CC=CC(=C67)C5=C4)Br)C)O",
+        "description": "The molecule is an indole alkaloid. It has a role as an antiparkinson drug, a hormone antagonist, a dopamine agonist and an antidyskinesia agent. It derives from a hydride of an ergotaman.",
+        "answer": "The molecule is a myo-inositol tetrakisphosphate.",
+        "all_tokens": 16650,
+        "blue2": 0.04102318321721601
+    },
+    {
+        "SMILES": "CC[C@H](/C=C/C=C\\\\CC(/C=C/C=C/C=C\\\\C(CCCC(=O)[O-])O)O)O",
+        "description": "The molecule is an icosanoid anion that is the conjugate base of (6Z,8E,10E,14Z,16E,18R)-5,12,18-trihydroxyicosapentaenoic acid, obtained by deprotonation of the carboxy group; major species at pH 7.3. It is an icosanoid anion, a hydroxy fatty acid anion, a polyunsaturated fatty acid anion and a long-chain fatty acid anion. It is a conjugate base of a (6Z,8E,10E,14Z,16E,18R)-5,12,18-trihydroxyicosapentaenoic acid.",
+        "answer": "The molecule is a myo-inositol tetrakisphosphate.",
+        "all_tokens": 1529,
+        "blue2": 0.00044928171023796495
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\COP(=O)([O-])OP(=O)([O-])O[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O[C@@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO)O)O)O)NC(=O)C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is an organophosphate oxoanion arising from deprotonation of both free diphosphate OH groups of alpha-D-Gal-(1->3)-alpha-D-GlcNAc-diphospho-ditrans,octacis-undecaprenol; major species at pH 7.3. It is a conjugate base of an alpha-D-Gal-(1->3)-alpha-D-GlcNAc-diphospho-ditrans,octacis-undecaprenol.",
+        "answer": "The molecule is a myo-inositol tetrakisphosphate.",
+        "all_tokens": 6072,
+        "blue2": 0.004291209535239843
+    },
+    {
+        "SMILES": "C[C@H]1/C=C/C=C/CC/C=C/C=C/C=C/C=C/C(CC2C(C(C[C@](O2)(CC(C(CCC(CC(CC(CC(=O)O[C@H]([C@@H]([C@@H]1O)C)C)O)O)O)O)O)O)O)C(=O)O)O[C@@H]3[C@H]([C@H]([C@@H]([C@H](O3)C)O)N)O",
+        "description": "The molecule is a polyene macrolide antibiotic; part of the nystatin complex produced by several Streptococcus species. It is a member of nystatins and a carboxylic acid.",
+        "answer": "The molecule is a myo-inositol tetrakisphosphate.",
+        "all_tokens": 1877,
+        "blue2": 0.06263221878005684
+    },
+    {
+        "SMILES": "C[C@@H]([C@H]1[C@H]([C@H]([C@H](O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O",
+        "description": "The molecule is a quercetin O-glycoside that is quercetin attached to a beta-L-rhamnofuranosyl moiety at position 3 via a glycosidic linkage. It has a role as a metabolite. It is a beta-L-rhamnofuranoside, a monosaccharide derivative, a tetrahydroxyflavone and a quercetin O-glycoside.",
+        "answer": "The molecule is a myo-inositol tetrakisphosphate.",
+        "all_tokens": 1689,
+        "blue2": 0.007035561873206557
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)C(=O)NCC(=O)O",
+        "description": "The molecule is an N-acylglycine in which the acyl group is specified as benzoyl. It has a role as a uremic toxin and a human blood serum metabolite. It is a conjugate acid of a N-benzoylglycinate.",
+        "answer": "The molecule is 2-phenylacetamide (also known as benzamide acetic acid or N-phenylglycine).",
+        "all_tokens": 10937,
+        "blue2": 0.23186642332954505
+    },
+    {
+        "SMILES": "C(=O)C(=O)O",
+        "description": "The molecule is a 2-oxo monocarboxylic acid that is acetic acid bearing an oxo group at the alpha carbon atom. It has a role as a human metabolite, an Escherichia coli metabolite, a Saccharomyces cerevisiae metabolite and a mouse metabolite. It is a 2-oxo monocarboxylic acid and an aldehydic acid. It is a conjugate acid of a glyoxylate.",
+        "answer": "The molecule is a 2-oxo monocarboxylic acid. It is a conjugate acid of a carbonate.",
+        "all_tokens": 3587,
+        "blue2": 0.046031736202896356
+    }
+]

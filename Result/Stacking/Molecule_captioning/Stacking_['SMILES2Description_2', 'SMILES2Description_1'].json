@@ -1,0 +1,37 @@
+[
+    {
+        "SMILES": "[C@H]1([C@H](C([C@H]([C@@H](C1O)OP(=O)(O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)OP(=O)(O)O",
+        "description": "The molecule is a myo-inositol bis(diphosphate) trisphosphate having the three phospho groups located at positions 4, 5 and 6 and the two diphospho groups at positions 1 and 3. It derives from a myo-inositol.",
+        "answer": "The molecule is a myo-inositol pentakisphosphate. It has a role as a mouse metabolite.",
+        "all_tokens": 2785,
+        "blue2": 0.203856010099072
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)[N+]2=C3C=C(C=CC3=NC4=C2C=C(C=C4)N)N.[Cl-]",
+        "description": "The molecule is an organic chloride salt having 3,7-diamino-5-phenylphenazin-5-ium as the counterion. It is commonly used for staining Gram negative bacteria red in smears to contrast with the blue Gram positive organisms. It has a role as a fluorochrome, a histological dye and a photosensitizing agent. It contains a 3,7-diamino-5-phenylphenazin-5-ium.",
+        "answer": "The molecule is a myo-inositol pentakisphosphate. It has a role as a mouse metabolite.",
+        "all_tokens": 3751,
+        "blue2": 0.039411451200224754
+    },
+    {
+        "SMILES": "CC(=O)O[C@@H]1C[C@]2([C@@H](CCC2=O)C3=C1[C@]4([C@H](OC(=O)C5=COC(=C54)C3=O)COC)C)C",
+        "description": "The molecule is an organic heteropentacyclic compound, a delta-lactone, an acetate ester and a cyclic ketone. It has a role as an EC 2.7.1.137 (phosphatidylinositol 3-kinase) inhibitor and an anticoronaviral agent.",
+        "answer": "The molecule is a myo-inositol pentakisphosphate. It has a role as a mouse metabolite.",
+        "all_tokens": 2620,
+        "blue2": 0.19807358809727615
+    },
+    {
+        "SMILES": "CC1=CC2=C(C=C1NC)N(C3=NC(=NC(=O)C3=N2)[O-])C[C@@H]([C@@H]([C@@H](CO)O)O)O",
+        "description": "The molecule is an organic anion that is the conjugate base of 8-demethyl-8-(methylamino)riboflavin, obtained by removal of the imide proton at position 3. It is the major microspecies at pH 7.3 (according to Marvin v 6.2.0.). It is a conjugate base of an 8-demethyl-8-(methylamino)riboflavin.",
+        "answer": "The molecule is a myo-inositol pentakisphosphate. It has a role as a mouse metabolite.",
+        "all_tokens": 2546,
+        "blue2": 0.07269559069678272
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)C2=NOC(=N2)C3=CC=CS3",
+        "description": "The molecule is a 1,2,4-oxadizole in which the hydrogens at positions 3 and 5 have been replaced by phenyl and thiophen-2-yl groups, respectively. It is used as a broad spectrum nematicidal seed treatment. It has a role as a nematicide and an agrochemical. It is a member of thiophenes and a 1,2,4-oxadiazole.",
+        "answer": "The molecule is a myo-inositol pentakisphosphate. It has a role as a mouse metabolite.",
+        "all_tokens": 2393,
+        "blue2": 0.06350543974873406
+    }
+]

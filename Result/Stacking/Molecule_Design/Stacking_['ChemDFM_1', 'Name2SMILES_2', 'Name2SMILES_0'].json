@@ -1,0 +1,177 @@
+[
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/C=C/C(=C/C=C/C=C(\\\\C)/C=C/C=C(\\\\C)/C=C/C=C(\\\\C)/C=C/C(C(C)(C)OC)(O)O)/C)/C)/C)C",
+        "description": "The molecule is a carotenoid ether that is spheroidene carrying two hydroxy groups, both at position 2. It is a carotenoid ether, a carotenol and a ketone hydrate. It derives from a spheroidene.",
+        "answer": "COC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(O)(O)C(C)(C)OC",
+        "all_tokens": 2778,
+        "blue2": 0.749138546253624
+    },
+    {
+        "SMILES": "CCCCC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCCCCCCCCCC/C=C/C(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+        "description": "The molecule is an unsaturated fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of (2E,15Z,18Z,21Z,24Z)-triacontapentaenoic acid. It is an unsaturated fatty acyl-CoA and an ultra-long-chain fatty acyl-CoA. It is a conjugate acid of a (2E,15Z,18Z,21Z,24Z)-triacontapentaenoyl-CoA(4-).",
+        "answer": "COC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(O)(O)C(C)(C)OC",
+        "all_tokens": 3220,
+        "blue2": 0.2736246406928442
+    },
+    {
+        "SMILES": "CC(C)(C)C(C(CC1=CC=C(C=C1)Cl)N2C=NC=N2)O",
+        "description": "The molecule is a member of the class of triazoles that is 2,2-dimethylpentane that is substituted at positions 2, 3, and 5 by hydroxy, 1,2,4-triazol-1-yl, and p-chlorophenyl groups, respectively. It is a member of triazoles, a member of monochlorobenzenes and a secondary alcohol.",
+        "answer": "CC(C)(O)C(C1=NN=CN1)C(C2=CC=C(Cl)C=C2)",
+        "all_tokens": 4326,
+        "blue2": 0.7952949186539059
+    },
+    {
+        "SMILES": "C[C@@H](/C=C\\\\C/C=C\\\\C[C@@H](/C=C/C=C\\\\C/C=C\\\\C/C=C\\\\CCC(=O)[O-])O)O",
+        "description": "The molecule is a dihydroxydocosahexaenoate that is the conjugate base of (4Z,7Z,10Z,12E,14S,16Z,19Z,21S)-dihydroxydocosahexaenoic acid, obtained by deprotonation of the carboxy group; major species at pH 7.3. It is a conjugate base of a (4Z,7Z,10Z,12E,14S,16Z,19Z,21S)-dihydroxydocosahexaenoic acid. It is an enantiomer of a (4Z,7Z,10Z,12E,14R,16Z,19Z,21R)-dihydroxydocosahexaenoate.",
+        "answer": "COC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(O)(O)C(C)(C)OC",
+        "all_tokens": 3633,
+        "blue2": 0.4251151509488518
+    },
+    {
+        "SMILES": "C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)OC2=CC3=CC4=C(C(=C3C(=C2C(=O)OC)C)O)C(=O)[C@@]5(C(=O)C=C([C@H]([C@@]5(C4=O)O)O)OC)O)OC)OC)OC",
+        "description": "The molecule is a member of the class of tetracenomycins that is 8-demethyltetracenomycin C in which the hydroxyl hydrogen at position 8 is replaced by a 2,3,4-tri-O-methyl-alpha-L-rhamnosyl residue. It has a role as a bacterial metabolite. It is an alpha-L-rhamnoside, an enol ether, an enone, a monosaccharide derivative, a member of phenols, a member of tetracenequinones, a methyl ester and a tertiary alpha-hydroxy ketone. It derives from a tetracenomycin C.",
+        "answer": "COC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(O)(O)C(C)(C)OC",
+        "all_tokens": 4849,
+        "blue2": 0.32843249198269625
+    },
+    {
+        "SMILES": "C[C@@]12CC[C@@]3(C(=CC(=O)[C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)[C@@H]1CC(CC2)(C)C)C",
+        "description": "The molecule is the pentacyclic triterpenoid that is the 11-oxo derivative of beta-amyrin. It is a pentacyclic triterpenoid and a cyclic terpene ketone. It derives from a beta-amyrin.",
+        "answer": "COC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(O)(O)C(C)(C)OC",
+        "all_tokens": 4024,
+        "blue2": 0.3743267969537478
+    },
+    {
+        "SMILES": "CC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O",
+        "description": "The molecule is an acyl-CoA(4-) arising from deprotonation of the phosphate and diphosphate functions of (10Z,13Z,16Z,19Z)-docosatetraenoyl-CoA. It is a polyunsaturated fatty acyl-CoA(4-) and a very long-chain acyl-CoA(4-). It is a conjugate base of a (10Z,13Z,16Z,19Z)-docosatetraenoyl-CoA.",
+        "answer": "COC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(O)(O)C(C)(C)OC",
+        "all_tokens": 3173,
+        "blue2": 0.24755179197609187
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCC(=O)O[C@H](COC(=O)CCCCCCC/C=C\\\\CCCCCCCC)COP(=O)([O-])[O-]",
+        "description": "The molecule is a 1,2-diacyl-sn-glycero-3-phosphate(2-) obtained by deprotonation of the phosphate OH groups of 1-oleoyl-2-icosanoyl-sn-glycero-3-phosphate. It is a 1,2-diacyl-sn-glycerol 3-phosphate(2-) and a 1-oleoyl-2-acyl-sn-glycero-3-phosphate(2-). It is a conjugate base of a 1-oleoyl-2-icosanoyl-sn-glycero-3-phosphate.",
+        "answer": "CCCCCCCCC=CCCCCCCCC(=O)OCC(CO[P](=O)([O-])[O-])OC(=O)CCCCCCCCCCCCCCCCCCC",
+        "all_tokens": 3430,
+        "blue2": 0.8717808630974648
+    },
+    {
+        "SMILES": "CC1=C(C(=CC=C1)C)N(C(=O)COC)N2CCOC2=O",
+        "description": "The molecule is an oxazolidinone that is N-(2,6-dimethylphenyl)-2-methoxyacetamide in which the amide hydrogen is replaced by a 2-oxo-1,3-oxazolidin-3-yl group. A systemic fungicide used to treat seeds of a variety of food crops, as well as lawns. It has a role as an agrochemical. It is an aromatic amide, an oxazolidinone, a carbohydrazide, an ether and an anilide fungicide.",
+        "answer": "CN(C1=CC=CC=C1C2=NC(=O)OC2)C(=O)CCOC",
+        "all_tokens": 3354,
+        "blue2": 0.8265548679706614
+    },
+    {
+        "SMILES": "CC/C=C\\\\C[C@H](/C=C/C=C\\\\C=C\\\\C=C\\\\C(C(CCCC(=O)[O-])O)O)O",
+        "description": "The molecule is an icosanoid anion that is the conjugate base of (7E,9E,11Z,13E,15R,17Z)-5,6,15-trihydroxyicosapentaenoic acid, obtained by deprotonation of the carboxy group; major species at pH 7.3. It is a lipoxin anion, an icosanoid anion, a long-chain fatty acid anion and a hydroxy fatty acid anion. It is a conjugate base of a (7E,9E,11Z,13E,15R,17Z)-5,6,15-trihydroxyicosapentaenoic acid.",
+        "answer": "COC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(O)(O)C(C)(C)OC",
+        "all_tokens": 3531,
+        "blue2": 0.3834274872521445
+    },
+    {
+        "SMILES": "CC(C)CCCCCCCCCCCCCCCCCCCCCCC(=O)O",
+        "description": "The molecule is a methyl-branched fatty acid that is pentacosanoic acid substituted by a methyl group at position 24. It is a very long-chain fatty acid, a branched-chain saturated fatty acid and a methyl-branched fatty acid. It derives from a pentacosanoic acid.",
+        "answer": "CCCCCCCCCCCCCCCCCCCCCCC(C)CC(=O)O",
+        "all_tokens": 3662,
+        "blue2": 1.0
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCC(=O)N[C@@H](CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)[C@@H]([C@@H](CCCCCCCCCCC(C)C)O)O",
+        "description": "The molecule is an N-acyl-1-O-beta-D-glucosyl-4-hydroxy-15-methylhexadecasphinganine in which the acyl group has 17 carbons and 0 double bonds. It derives from a 15-methylhexadecaphytosphingosine.",
+        "answer": "COC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(O)(O)C(C)(C)OC",
+        "all_tokens": 2762,
+        "blue2": 0.2788513745507597
+    },
+    {
+        "SMILES": "C[C@@]1(CC[C@H]2C(=CC[C@@H]3[C@@]2(CCC[C@]3(C)C(=O)O)C)C1)CCO",
+        "description": "The molecule is a diterpenoid that is isopimar-7-ene substituted by a carboxy group at position 19 and a hydroxy group at position 16. It has been isolated from the fungus, Xylaria species. It has a role as a fungal metabolite. It is a diterpenoid and a hydroxy monocarboxylic acid. It derives from a hydride of an isopimarane.",
+        "answer": "CC[C@@]1(C)CC[C@H]2[C@@H](CC[C@H]3C(C)(C)CCC[C@]23C)C1C(=O)O[C@H](C)C(=O)O",
+        "all_tokens": 4348,
+        "blue2": 0.7514024897430158
+    },
+    {
+        "SMILES": "C1=CC=NC(=C1)CCl",
+        "description": "The molecule is an organochlorine compound that is pyridine substituted at position 2 by a chloromethyl group. It is a member of pyridines and an organochlorine compound. It is a conjugate base of a 2-(chloromethyl)pyridinium.",
+        "answer": "ClCc1ccccn1",
+        "all_tokens": 1419,
+        "blue2": 0.13532625921506297
+    },
+    {
+        "SMILES": "CCCCCCCC1=CC(=O)C2=CC=CC=C2N1",
+        "description": "The molecule is a quinolone consisting of quinolin-4(1H)-one carrying a heptyl substituent at position 2. It has a role as an antibacterial agent, an iron chelator, a signalling molecule and a metabolite. It is a tautomer of a 2-heptyl-4-hydroxyquinoline.",
+        "answer": "CCCCCCCn1c2c(cccc2)c(=O)cc1",
+        "all_tokens": 2949,
+        "blue2": 0.4072193126827121
+    },
+    {
+        "SMILES": "CCNC(=O)C",
+        "description": "The molecule is a member of the class of acetamides that is the N-ethyl derivative of acetamide. It has a role as a metabolite.",
+        "answer": "CCNC(C)=O",
+        "all_tokens": 5198,
+        "blue2": 0.7905694150420948
+    },
+    {
+        "SMILES": "CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC",
+        "description": "The molecule is a tertiary amino compound that is 3,4-dimethoxyphenylethylamine in which the hydrogens attached to the nitrogen are replaced by a methyl group and a 4-cyano-4-(3,4-dimethoxyphenyl)-5-methylhexyl group. It is a tertiary amino compound, an aromatic ether, a polyether and a nitrile.",
+        "answer": "CN(C)CC(C#N)C(C)CCCC1=CC(=C(C=C1)OC)OC",
+        "all_tokens": 3130,
+        "blue2": 0.560488043568919
+    },
+    {
+        "SMILES": "CC1=CC(=O)[C@H]([C@]2([C@H]1C[C@@H]3[C@]45[C@@H]2[C@H]([C@@H]([C@]([C@@H]4[C@H](C(=O)O3)OC(=O)C)(OC5)C)O)O)C)O",
+        "description": "The molecule is a quassinoid isolated from Quassia indica and has been shown to exhibit antimalarial and cytotoxic activity. It has a role as a metabolite, an antimalarial and an antineoplastic agent. It is an acetate ester, a delta-lactone, a cyclic ether, an enone, an organic heteropentacyclic compound, a quassinoid, a secondary alcohol, a triol and a secondary alpha-hydroxy ketone.",
+        "answer": "COC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(O)(O)C(C)(C)OC",
+        "all_tokens": 3099,
+        "blue2": 0.27086857995370744
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCCCC(C(=O)N[C@@H](COP(=O)([O-])O[C@@H]1[C@@H]([C@@H]([C@H]([C@@H]([C@H]1OC2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)O)O)[C@@H](CCCCCCCCCCCCCCC)O)O",
+        "description": "The molecule is a mannosylinositol phosphorylceramide(1-) having a hexacosanoyl group amide-linked to a C18 sphinganine base, with hydroxylation at C-2 of the C26 very-long-chain fatty acid. It is a conjugate base of a Man-1-2-Ins-1-P-Cer(d18:0/2-OH-26:0).",
+        "answer": "COC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(O)(O)C(C)(C)OC",
+        "all_tokens": 4002,
+        "blue2": 0.14378502952371416
+    },
+    {
+        "SMILES": "C[C@@H]1CCN(C[C@@H]1N(C)C2=NC=NC3=C2C=CN3)C(=O)N4CCCC4",
+        "description": "The molecule is a pyrrolopyrimidine that is 7H-pyrrolo[2,3-d]pyrimidine substituted at position 4 by a methyl[(3R,4R)-4-methyl-1-(pyrrolidin-1-ylcarbonyl)piperidin-3-yl]nitrilo group. It is a potent JAK3-selective chemical probe. It has a role as an EC 2.7.10.2 (non-specific protein-tyrosine kinase) inhibitor. It is a pyrrolopyrimidine, a tertiary amino compound, a N-acylpiperidine and a N-acylpyrrolidine.",
+        "answer": "Cn1c2nccnc2c3c1ccc3N4CC[C@H](CN(C5CCCCC5)C(=O)c6ccccn6)[C@H]4C",
+        "all_tokens": 3438,
+        "blue2": 0.5038193627589668
+    },
+    {
+        "SMILES": "C[C@]12[C@H]3[C@@H]([C@@]45C[C@@H](CC[C@H]4[C@@]3(C[C@@H]([C@@H]1O)O)OC2=O)C(=C)C5)C(=O)OC",
+        "description": "The molecule is a gibberellin ester that is the methyl ester of gibberellin A34. It is a gibberellin ester, a lactone and a methyl ester. It derives from a gibberellin A1 methyl ester.",
+        "answer": "COC(C)(C)CCC/C(C)=C/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(O)(O)C(C)(C)OC",
+        "all_tokens": 3938,
+        "blue2": 0.2605533118071788
+    },
+    {
+        "SMILES": "CC1(CC(C(=O)O1)CSC#N)C",
+        "description": "The molecule is a butan-4-olide having a thiocyanatomethyl group at the 3-position and two methyl substituents at the 5-position. It is a butan-4-olide and a member of thiocyanates.",
+        "answer": "C1CC(=O)OC1C(SC#N)C(C)(C)",
+        "all_tokens": 3861,
+        "blue2": 0.7416198487095663
+    },
+    {
+        "SMILES": "CC(C)CC(=O)O",
+        "description": "The molecule is a C5, branched-chain saturated fatty acid. It has a role as a plant metabolite and a mammalian metabolite. It is a short-chain fatty acid, a methylbutyric acid and a branched-chain saturated fatty acid. It is a conjugate acid of an isovalerate.",
+        "answer": "CC(C)CC(=O)O",
+        "all_tokens": 4154,
+        "blue2": 1.0
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](COP(=O)(O)OCCN)[C@@H](/C=C/C=C/CCCCCCC)O",
+        "description": "The molecule is a ceramide phosphoethanolamine (37:2) in which the acyl and sphingoid base specified is tricosanoyl and (4E,6E)-tetradecasphingadienine respectively. It derives from a tricosanoic acid.",
+        "answer": "CCCCCCCCCCCCCCCCCCCCCCC(=O)NCCCCCCCCCC=CC=CC(O)COP(=O)(O)O",
+        "all_tokens": 4363,
+        "blue2": 0.6845260508643478
+    },
+    {
+        "SMILES": "C1=CC=C(C(=C1)C(=O)NCC(=O)O)O",
+        "description": "The molecule is an N-acylglycine in which the acyl group is specified as 2-hydroxybenzoyl. It has a role as a uremic toxin and a human xenobiotic metabolite. It is a N-acylglycine and a secondary carboxamide. It derives from a glycine. It is a conjugate acid of a salicylurate.",
+        "answer": "O=C(O)CNC(=O)c1ccccc1O",
+        "all_tokens": 4143,
+        "blue2": 0.4061398933065805
+    }
+]

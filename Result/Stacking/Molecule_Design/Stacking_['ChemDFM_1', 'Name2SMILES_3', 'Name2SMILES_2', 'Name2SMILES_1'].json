@@ -1,0 +1,107 @@
+[
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](COP(=O)(O)OCCN)[C@@H](/C=C/C=C/CCCCCCC)O",
+        "description": "The molecule is a ceramide phosphoethanolamine (37:2) in which the acyl and sphingoid base specified is tricosanoyl and (4E,6E)-tetradecasphingadienine respectively. It derives from a tricosanoic acid.",
+        "answer": "CCCCCCC/C=C/C=C/[C@@H](O)[C@H](COP(=O)(O)OCCN)NC(=O)CCCCCCCCCCCCCCCCCCCCCC",
+        "all_tokens": 4447,
+        "blue2": 0.945163902818063
+    },
+    {
+        "SMILES": "CC1(CC(C(=O)O1)CSC#N)C",
+        "description": "The molecule is a butan-4-olide having a thiocyanatomethyl group at the 3-position and two methyl substituents at the 5-position. It is a butan-4-olide and a member of thiocyanates.",
+        "answer": "C1CC(C(=O)OC1)C(C)(C)C[S]C#N",
+        "all_tokens": 5964,
+        "blue2": 0.6606874726434099
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](CO[C@@H]1[C@@H]([C@H]([C@H]([C@H](O1)CO)OCC2=CC=C(C=C2)Cl)O)O)[C@@H]([C@@H](CCCCCCCCCCCCCC)O)O",
+        "description": "The molecule is a glycophytoceramide having a 4-O-(4-chlorobenzyl)-alpha-D-galactosyl residue at the O-1 position and a hexacosanoyl group attached to the nitrogen. One of a series of an extensive set of 4\"-O-alkylated alpha-GalCer analogues evaluated (PMID:30556652) as invariant natural killer T-cell (iNKT) antigens. It derives from an alpha-D-galactose.",
+        "answer": "CCCCCCC/C=C/C=C/[C@@H](O)[C@H](COP(=O)(O)OCCN)NC(=O)CCCCCCCCCCCCCCCCCCCCCC",
+        "all_tokens": 7118,
+        "blue2": 0.3930685348489526
+    },
+    {
+        "SMILES": "[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[Cr+3].[Cr+3]",
+        "description": "The molecule is a compound of chromium and sulfate in which the ratio of chromium (in the +3 oxidation state) to sulfate is 2:3 It contains a chromium(3+).",
+        "answer": "[Cr+3].[Cr+3].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-]",
+        "all_tokens": 7546,
+        "blue2": 1.0
+    },
+    {
+        "SMILES": "C[C@@H](C(=O)NCC(=O)N[C@@H](C)C(=O)NCC(=O)O)N",
+        "description": "The molecule is a tetrapeptide composed of L-alanine, glycine, L-alanine, and glycine residues joined in sequence by peptide linkages. It derives from a L-alanine and a glycine.",
+        "answer": "The SMILES for the tetrapeptide composed of L-alanine, glycine, L-alanine, and glycine is \"CC(C)C(=O)NCC(=O)NCC(=O)NCC(=O)NC(C)C\".",
+        "all_tokens": 12385,
+        "blue2": 0.23826044187692383
+    },
+    {
+        "SMILES": "COC1=CC(=CC(=C1O)OC)/C=C/C(=O)OCCCCCCCCCCCCCCCC(=O)[O-]",
+        "description": "The molecule is a monocarboxylic acid anion that is the conjugate base of 16-sinapoyloxypalmitic acid resulting from the deprotonation of the carboxy group. It is a conjugate base of a 16-sinapoyloxypalmitic acid.",
+        "answer": "CCCCCCC/C=C/C=C/[C@@H](O)[C@H](COP(=O)(O)OCCN)NC(=O)CCCCCCCCCCCCCCCCCCCCCC",
+        "all_tokens": 6112,
+        "blue2": 0.5634492073433338
+    },
+    {
+        "SMILES": "C1=CC=NC(=C1)CCl",
+        "description": "The molecule is an organochlorine compound that is pyridine substituted at position 2 by a chloromethyl group. It is a member of pyridines and an organochlorine compound. It is a conjugate base of a 2-(chloromethyl)pyridinium.",
+        "answer": "c1ccnc(c1)CCl",
+        "all_tokens": 6440,
+        "blue2": 0.33635269592471156
+    },
+    {
+        "SMILES": "CC/C=C\\\\CCCCC=O",
+        "description": "The molecule is a monounsaturated fatty aldehyde that is (3Z)-non-3-ene which is carrying an oxo group at position 1. It has a role as a plant metabolite. It is a monounsaturated fatty aldehyde, an olefinic compound and a medium-chain fatty aldehyde.",
+        "answer": "CCCCC/C=C\\CC=O",
+        "all_tokens": 6373,
+        "blue2": 0.9310627797040228
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])[O-])OC(=O)CCCCCCCCCCCCCCCCC",
+        "description": "The molecule is a 1-acyl-2-octadecanoyl-sn-glycerol-3-phosphate(2-) in which the 1-acyl group is also octadecanoyl; major species at pH 7.3. It is a conjugate base of a 1,2-dioctadecanoyl-sn-glycerol-3-phosphate.",
+        "answer": "CCCCCCC/C=C/C=C/[C@@H](O)[C@H](COP(=O)(O)OCCN)NC(=O)CCCCCCCCCCCCCCCCCCCCCC",
+        "all_tokens": 6366,
+        "blue2": 0.7756474884163298
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCC(=O)O[C@H](COC(=O)CCCCCCC/C=C\\\\CCCCCCCC)COP(=O)([O-])[O-]",
+        "description": "The molecule is a 1,2-diacyl-sn-glycero-3-phosphate(2-) obtained by deprotonation of the phosphate OH groups of 1-oleoyl-2-icosanoyl-sn-glycero-3-phosphate. It is a 1,2-diacyl-sn-glycerol 3-phosphate(2-) and a 1-oleoyl-2-acyl-sn-glycero-3-phosphate(2-). It is a conjugate base of a 1-oleoyl-2-icosanoyl-sn-glycero-3-phosphate.",
+        "answer": "CCCCCCC/C=C/C=C/[C@@H](O)[C@H](COP(=O)(O)OCCN)NC(=O)CCCCCCCCCCCCCCCCCCCCCC",
+        "all_tokens": 7458,
+        "blue2": 0.7858695441129592
+    },
+    {
+        "SMILES": "O.O.O.O.O.O.O.[O-]S(=O)(=O)[O-].[Ni+2]",
+        "description": "The molecule is a hydrate of nickel sulfate containing nickel (in +2 oxidation state), sulfate and water moieties in the ratio 1:1:7. It contains a nickel sulfate.",
+        "answer": "[Ni+2].[O-]S(=O)(=O)[O-].7O",
+        "all_tokens": 5901,
+        "blue2": 0.6141115238185401
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)CO)O[C@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO)O)O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O[C@H]6[C@@H]([C@H]([C@H]([C@H](O6)CO)O)O)O)O)NC(=O)C)O)O)NC(=O)C)O)O",
+        "description": "The molecule is beta-D-Galp-(1->4)-beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-D-GlcpNAc in which the configuration of the anomeric centre of the reducing-end N-acetylglucosamine residue is beta. It has a role as an epitope.",
+        "answer": "The SMILES representation for the molecule described (beta-D-Galp-(1->4)-beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-D-GlcpNAc) is not straightforward to create due to its complex structure, and typically requires specific carbohydrate SMILES software or databases to ensure accuracy.",
+        "all_tokens": 7076,
+        "blue2": 0.02015784925609502
+    },
+    {
+        "SMILES": "C[C@@H]1[C@@H](C[C@@H]2[C@]13CC(C[C@H]3C=C2C(=O)O)(C)C)O",
+        "description": "The molecule is a tricyclic sesquiterpenoid that is pentalenene in which the 13-methyl group is oxidsed to the carboxylic acid and a hydroxy substituent is located at position 11. It has a role as a metabolite. It is a sesquiterpenoid, a carbotricyclic compound and a 5-hydroxy monocarboxylic acid. It derives from a pentalenene. It is a conjugate acid of a 1-deoxy-11beta-hydroxypentalenate.",
+        "answer": "No accurate SMILES could be inferred from the tools provided based on the description.",
+        "all_tokens": 7290,
+        "blue2": 0
+    },
+    {
+        "SMILES": "CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC",
+        "description": "The molecule is a tertiary amino compound that is 3,4-dimethoxyphenylethylamine in which the hydrogens attached to the nitrogen are replaced by a methyl group and a 4-cyano-4-(3,4-dimethoxyphenyl)-5-methylhexyl group. It is a tertiary amino compound, an aromatic ether, a polyether and a nitrile.",
+        "answer": "CC(C)CN(C)CC1=CC(=C(C=C1)OC)OC",
+        "all_tokens": 6464,
+        "blue2": 0.36787944117144233
+    },
+    {
+        "SMILES": "CCOP(=S)(C1=CC=CC=C1)OC2=CC=C(C=C2)[N+](=O)[O-]",
+        "description": "The molecule is an organic phosphonate, a phosphonic ester and an organothiophosphate insecticide. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor, an acaricide and an agrochemical.",
+        "answer": "CCCCCCC/C=C/C=C/[C@@H](O)[C@H](COP(=O)(O)OCCN)NC(=O)CCCCCCCCCCCCCCCCCCCCCC",
+        "all_tokens": 5814,
+        "blue2": 0.38289994227010266
+    }
+]

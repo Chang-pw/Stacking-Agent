@@ -1,0 +1,177 @@
+[
+    {
+        "SMILES": "C[C@H]1/C=C/C=C/CC/C=C/C=C/C=C/C=C/C(CC2C(C(C[C@](O2)(CC(C(CCC(CC(CC(CC(=O)O[C@H]([C@@H]([C@@H]1O)C)C)O)O)O)O)O)O)O)C(=O)O)O[C@@H]3[C@H]([C@H]([C@@H]([C@H](O3)C)O)N)O",
+        "description": "The molecule is a polyene macrolide antibiotic; part of the nystatin complex produced by several Streptococcus species. It is a member of nystatins and a carboxylic acid.",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid is a natural product found in Streptomyces with data available.",
+        "all_tokens": 5460,
+        "blue2": 0.28930849623767224
+    },
+    {
+        "SMILES": "CC(C(C)O)O",
+        "description": "The molecule is a butanediol in which hydroxylation is at C-2 and C-3. It is a butanediol, a glycol and a secondary alcohol.",
+        "answer": "The molecule is 2-methyl-2,3-propanediol (also known as pinacolyl alcohol).",
+        "all_tokens": 2816,
+        "blue2": 0.36331082919590846
+    },
+    {
+        "SMILES": "CCCCC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCCCCCCCCCCCCCC[C@H](CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O)O",
+        "description": "The molecule is a 3-hydroxy fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of (3R,19Z,22Z,25Z,28Z)-3-hydroxytetratriacontatetraenoic acid. It is a (R)-3-hydroxyacyl-CoA, a 3-hydroxy fatty acyl-CoA, an unsaturated fatty acyl-CoA and an ultra-long-chain fatty acyl-CoA. It is a conjugate acid of a (3R,19Z,22Z,25Z,28Z)-3-hydroxytetratriacontatetraenoyl-CoA(4-).",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid is a natural product found in Streptomyces with data available.",
+        "all_tokens": 2047,
+        "blue2": 0.44512813423821634
+    },
+    {
+        "SMILES": "C[C@@]12CC[C@@]3(C(=C[C@H]([C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)O)[C@@H]1CC(CC2)(C)C)C",
+        "description": "The molecule is the pentacyclic triterpenoid that is the 11alpha-hydroxy derivative of beta-amyrin. It is a pentacyclic triterpenoid and a secondary alcohol. It derives from a beta-amyrin.",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid.",
+        "all_tokens": 1884,
+        "blue2": 0.25979988911083296
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCC(=O)N[C@@H](COP(=O)(O)OCCN)[C@@H](/C=C/CCCCCCCCCC)O",
+        "description": "The molecule is a ceramide phosphoethanolamine (33:1) in which the sphingoid and acyl components are pentadecasphing-4-enine and octadecanoyl respectively. It derives from an octadecanoic acid.",
+        "answer": "The molecule is a long-chain fatty acid derivative containing a phosphoethanolamine group and a hydroxyl group, with a double bond in the hydrocarbon chain and an amide linkage.",
+        "all_tokens": 4620,
+        "blue2": 0.6444134907203036
+    },
+    {
+        "SMILES": "C[C@@H]1CCC[C@@H](CCC(CC1)C(C)C)C",
+        "description": "The molecule is the fundamental parent of a class of sesquiterpenes with a structure based upon a cyclodecane ring substituted with an isopropyl and two methyl groups. It is a terpenoid fundamental parent and a sesquiterpene.",
+        "answer": "The molecule is (3R,6R)-3,6-Diethyl-7-methyloctane.",
+        "all_tokens": 2904,
+        "blue2": 0.02044713019453883
+    },
+    {
+        "SMILES": "CCCCCCCC/C=C\\\\CCCCCCCC(=O)OC[C@H](COP(=O)(O)OC1[C@@H]([C@H](C([C@H]([C@H]1O)O)O)O)O)OC(=O)CCC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCCCC",
+        "description": "The molecule is 1-acyl-2-arachidonoyl-sn-glycero-3-phospho-D-myo-inositol in which the 1-acyl group is specified as oleoyl. It has a role as a human metabolite. It derives from an oleic acid and an arachidonic acid. It is a conjugate acid of a 1-oleoyl-2-arachidonoyl-sn-glycero-3-phospho-1D-myo-inositol(1-).",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid is a natural product found in Streptomyces with data available.",
+        "all_tokens": 1955,
+        "blue2": 0.40596634741242477
+    },
+    {
+        "SMILES": "CC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O",
+        "description": "The molecule is an acyl-CoA(4-) arising from deprotonation of the phosphate and diphosphate functions of (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA. It is a polyunsaturated fatty acyl-CoA(4-), a very long-chain acyl-CoA(4-) and a (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl derivative. It is a conjugate base of a (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA.",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid is a natural product found in Streptomyces with data available.",
+        "all_tokens": 2121,
+        "blue2": 0.40917776102329667
+    },
+    {
+        "SMILES": "CC(C)C(CCCNCCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC",
+        "description": "The molecule is a secondary amino compound that is 3,4-dimethoxyphenylethylamine in which one of the hydrogens attached to the nitrogen has been replaced by a 4-cyano-4-(3,4-dimethoxyphenyl)-5-methylhexyl group. It is an aromatic ether, a nitrile, a polyether and a secondary amino compound.",
+        "answer": "The molecule is a cyano-substituted diphenylether derivative with two methoxy groups on each phenyl ring, a branched aliphatic chain containing a tertiary butyl group and a cyano group, as well as a propylamine linkage connecting the aromatic systems.",
+        "all_tokens": 3006,
+        "blue2": 0.6357640957226923
+    },
+    {
+        "SMILES": "CCCCC1C(=O)N(N(C1=O)C2=CC=C(C=C2)O)C3=CC=CC=C3.O",
+        "description": "The molecule is a hydrate obtained by combining oxyphenbutazone with one molar equivalent of water. Commonly used to treat pain, swelling and stiffness associated with arthritis and gout, it was withdrawn from the market 1984 following association with blood dyscrasis and Stevens-Johnson syndrome. It has a role as a non-steroidal anti-inflammatory drug, a non-narcotic analgesic, a gout suppressant, an antipyretic, an antimicrobial agent and an antineoplastic agent. It contains an oxyphenbutazone.",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid is a natural product found in Streptomyces with data available.",
+        "all_tokens": 3154,
+        "blue2": 0.30444483658361426
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](COP(=O)([O-])O[C@@H]1[C@@H]([C@@H]([C@H]([C@@H]([C@H]1OC2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)O)O)[C@@H](CCCCCCCCCCCCCCCCC)O",
+        "description": "The molecule is a mannosylinositol phosphorylceramide(1-) having a hexacosanoyl group amide-linked to a C20 sphinganine base, with no hydroxylation at C-4 of the long-chain base or on the C26 very-long-chain fatty acid. It is a conjugate base of a Man-1-2-Ins-1-P-Cer(d20:0/26:0).",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid is a natural product found in Streptomyces with data available.",
+        "all_tokens": 3625,
+        "blue2": 0.3572024499844589
+    },
+    {
+        "SMILES": "C(CC(=O)N[C@@H](CSCCO)C(=O)NCC(=O)O)[C@@H](C(=O)O)N",
+        "description": "The molecule is a Glu-Cys-Gly tripeptide derivative of glutathione containing a 2-hydroxyethyl substituent on the S of the Cys residue. It derives from a glutathione.",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid is a natural product found in Streptomyces with data available.",
+        "all_tokens": 3071,
+        "blue2": 0.2545347798186169
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O)[C@@H]([C@@H](CCCCCCCCCCC(C)C)O)O",
+        "description": "The molecule is an N-acyl-1-O-beta-D-glucosyl-4-hydroxy-15-methylhexadecasphinganine in which the acyl group has 28 carbons and 0 double bonds. It derives from a 15-methylhexadecaphytosphingosine.",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid is a natural product found in Streptomyces with data available.",
+        "all_tokens": 1925,
+        "blue2": 0.35549676898096483
+    },
+    {
+        "SMILES": "C(CC(O)(P(=O)(O)O)P(=O)(O)O)CN",
+        "description": "The molecule is a 1,1-bis(phosphonic acid) that is methanebis(phosphonic acid) in which the two methylene hydrogens are replaced by hydroxy and 3-aminopropyl groups. It has a role as an EC 2.5.1.1 (dimethylallyltranstransferase) inhibitor and a bone density conservation agent. It is a 1,1-bis(phosphonic acid) and a primary amino compound. It is a conjugate acid of an alendronate(1-).",
+        "answer": "The molecule is 2-aminoethylphosphonic acid.",
+        "all_tokens": 2909,
+        "blue2": 0.0004061095514848031
+    },
+    {
+        "SMILES": "CCCCCCCC1=C(C(=O)C2=CC=CC=C2N1)O",
+        "description": "The molecule is a quinolone consisting of quinolin-4(1H)-one carrying a heptyl substituent at position 2 and a hydroxy group at position 3. It has a role as a signalling molecule.",
+        "answer": "The molecule is 8-hydroxy-2-phenylquinoline-4-carboxylic acid.",
+        "all_tokens": 4195,
+        "blue2": 0.11314146862372768
+    },
+    {
+        "SMILES": "CCOP(=S)(OCC)OC1=CC=C(C=C1)S(=O)C",
+        "description": "The molecule is an organic thiophosphate, a sulfoxide and an organothiophosphate insecticide. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor, an agrochemical, an avicide and a nematicide. It derives from a 4-(methylsulfinyl)phenol.",
+        "answer": "The molecule is O,O-Diethyl O-phenylphosphorothioate.",
+        "all_tokens": 4182,
+        "blue2": 0.020803547153950996
+    },
+    {
+        "SMILES": "C(=O)C(=O)O",
+        "description": "The molecule is a 2-oxo monocarboxylic acid that is acetic acid bearing an oxo group at the alpha carbon atom. It has a role as a human metabolite, an Escherichia coli metabolite, a Saccharomyces cerevisiae metabolite and a mouse metabolite. It is a 2-oxo monocarboxylic acid and an aldehydic acid. It is a conjugate acid of a glyoxylate.",
+        "answer": "The molecule is oxalic acid.",
+        "all_tokens": 4010,
+        "blue2": 1.525964592156631e-05
+    },
+    {
+        "SMILES": "CSCCC/C=[N+](\\\\O)/[O-]",
+        "description": "The molecule is an aci-nitro compound resulting from the formal oxidation of the oxime nitrogen of an omega-(methylsulfany)-(E)-alkanal oxime. It is an aci-nitro compound and a methyl sulfide. It derives from an omega-(methylsulfanyl)-(E)-alkanal oxime.",
+        "answer": "The molecule is a thioether derivative with a sulfide group attached to a propyl chain, which is conjugated to a nitroso oxime group through a trans double bond.",
+        "all_tokens": 5783,
+        "blue2": 0.3992540031236091
+    },
+    {
+        "SMILES": "C/C=C\\\\1/C[C@H]([C@@](C(=O)OCC2=CCN3[C@H]2[C@@H](CC3)OC1=O)(C)O)C",
+        "description": "The molecule is a pyrrolizidine alkaloid isolated from the plant species of the genus Senecio. It has a role as a plant metabolite. It is a lactone, a pyrrolizidine alkaloid and a tertiary alcohol. It derives from a senecionan. It is a conjugate base of a senecionine(1+).",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid is a natural product found in Streptomyces with data available.",
+        "all_tokens": 1821,
+        "blue2": 0.3232698322537465
+    },
+    {
+        "SMILES": "CC(=CC(=O)OCC1=CC(=O)OC2=CC(=C(C=C12)OC)OC)C",
+        "description": "The molecule is a member of the class of coumarins that consists of coumarin substituted by a senecioyloxymethyl group at position 4 and methoxy groups at positions 6 and 7. Isolated from Crinum latifolium, it exhibits anti-angiogenic activity. It has a role as a metabolite and an angiogenesis modulating agent. It is a member of coumarins, an enoate ester and an aromatic ether. It derives from a 3-methylbut-2-enoic acid.",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid is a natural product found in Streptomyces with data available.",
+        "all_tokens": 3152,
+        "blue2": 0.35680985503031165
+    },
+    {
+        "SMILES": "CC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+        "description": "The molecule is an unsaturated fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of (8Z,11Z,14Z,17Z,20Z,23Z)-hexacosahexaenoic acid. It is an unsaturated fatty acyl-CoA and a very long-chain fatty acyl-CoA. It derives from an (8Z,11Z,14Z,17Z,20Z,23Z)-hexacosahexaenoic acid. It is a conjugate acid of an (8Z,11Z,14Z,17Z,20Z,23Z)-hexacosahexaenoyl-CoA(4-).",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid is a natural product found in Streptomyces with data available.",
+        "all_tokens": 5305,
+        "blue2": 0.39471352303577
+    },
+    {
+        "SMILES": "C[C@@H](C(=O)O)NC",
+        "description": "The molecule is a methyl-L-alanine in which one of the the amino hydrogen of L-alanine is replaced by a methyl group. It is a tautomer of a N-methyl-L-alanine zwitterion.",
+        "answer": "The molecule is (S)-Alanine, methyl ester.",
+        "all_tokens": 4078,
+        "blue2": 0.037473059452187735
+    },
+    {
+        "SMILES": "C[C@]12CC[C@@H](C([C@@H]1CC[C@@]3([C@@H]2CC=C4[C@]3(CC[C@@]5([C@H]4CC(CC5)(C)C)C(=O)O)C)C)(C)C)O",
+        "description": "The molecule is a pentacyclic triterpenoid that is olean-12-en-28-oic acid substituted by a beta-hydroxy group at position 3. It has a role as a plant metabolite. It is a pentacyclic triterpenoid and a hydroxy monocarboxylic acid. It is a conjugate acid of an oleanolate. It derives from a hydride of an oleanane.",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid is a natural product found in Streptomyces with data available.",
+        "all_tokens": 3442,
+        "blue2": 0.4001657344177186
+    },
+    {
+        "SMILES": "C[C@@H]1CC[C@@H]2[C@]13CC([C@@H]([C@H]3C=C2C(=O)O)O)(C)C",
+        "description": "The molecule is a tricyclic sesquiterpenoid that is pentalenene in which the 13-methyl group is oxidsed to the carboxylic acid and position 1 is substituted by a hydroxy group. It has a role as a metabolite. It is a sesquiterpenoid, a 5-hydroxy monocarboxylic acid and a carbotricyclic compound. It derives from a pentalenene. It is a conjugate acid of a pentalenate.",
+        "answer": "The molecule is (1R,4S,5R,6R,7S,8R)-6-[(6R,7S,8R,9S)-2-[(1E,3E,5E,7E,9E,11E)-12-[(2R,4R,5S,6S)-5-amino-4-hydroxy-6-methyloxan-2-yl]-3-carboxy-3,5-dihydroxy-2-methyl-8-oxabicyclo[5.3.1]undeca-1,7,9-trien-10-yl]-9-hydroxy-8-methyl-1,7-dioxaspiro[5.5]undecan-4-yl]-4-hydroxy-1,7-dioxaspiro[5.5]undecane-2-carboxylic acid is a natural product found in Streptomyces with data available.",
+        "all_tokens": 1803,
+        "blue2": 0.429366479798209
+    },
+    {
+        "SMILES": "CCCCCCC/C=C/C=O",
+        "description": "The molecule is a dec-2-enal in which the olefinic double bond has E configuration. It has a role as an alarm pheromone, a nematicide and a mutagen.",
+        "answer": "The molecule is (2E)-dec-2-enal.",
+        "all_tokens": 5167,
+        "blue2": 0.02193366992349193
+    }
+]

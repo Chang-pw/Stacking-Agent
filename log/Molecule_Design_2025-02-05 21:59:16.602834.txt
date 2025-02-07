@@ -1,0 +1,1 @@
+[{'agent_tool': ChemDFM, 'score': 0.809882836588683, 'tool': 'ChemDFM_0'}, {'agent_tool': Molecule_Design_2, 'score': 0.7450931066964059, 'tool': 'Name2SMILES_2'}, {'agent_tool': Molecule_Design_1, 'score': 0.7109883439095328, 'tool': 'Name2SMILES_1'}, {'agent_tool': Name2SMILES, 'score': 0.5221937005944973, 'tool': 'Name2SMILES_0'}]

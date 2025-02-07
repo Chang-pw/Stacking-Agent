@@ -1,0 +1,62 @@
+[
+    {
+        "gold_answer": "No",
+        "SMILES": "O=C1NC(=O)C2(CC2)C(=O)N1",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether it has the abilities to inhibit HIV replication, based on the SMILES string representation of each molecule. Please answer the question \"does the provided molecule have the abilities to inhibit HIV replication?\" with only Yes or No.SMILES: O=C1NC(=O)C2(CC2)C(=O)N1\nHIV Inhibition:",
+        "answer": "No"
+    },
+    {
+        "SMILES": "N=C1NS(=O)(=O)Nc2nn(-c3ccccc3)nc21",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether it has the abilities to inhibit HIV replication, based on the SMILES string representation of each molecule. Please answer the question \"does the provided molecule have the abilities to inhibit HIV replication?\" with only Yes or No.SMILES: N=C1NS(=O)(=O)Nc2nn(-c3ccccc3)nc21\nHIV Inhibition:",
+        "answer": "Yes"
+    },
+    {
+        "gold_answer": "No",
+        "SMILES": "COC1=C(C(=O)O)P(C)(=O)CC1",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether it has the abilities to inhibit HIV replication, based on the SMILES string representation of each molecule. Please answer the question \"does the provided molecule have the abilities to inhibit HIV replication?\" with only Yes or No.SMILES: COC1=C(C(=O)O)P(C)(=O)CC1\nHIV Inhibition:",
+        "answer": "No"
+    },
+    {
+        "gold_answer": "No",
+        "SMILES": "O=S1(=O)CS(=O)(=O)OCCCCCO1",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether it has the abilities to inhibit HIV replication, based on the SMILES string representation of each molecule. Please answer the question \"does the provided molecule have the abilities to inhibit HIV replication?\" with only Yes or No.SMILES: O=S1(=O)CS(=O)(=O)OCCCCCO1\nHIV Inhibition:",
+        "answer": "No"
+    },
+    {
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether it has the abilities to inhibit HIV replication, based on the SMILES string representation of each molecule. Please answer the question \"does the provided molecule have the abilities to inhibit HIV replication?\" with only Yes or No.SMILES: CCN(CC)CCc1nc(-c2ccccc2)no1.O=C(O)CC(O)(CC(=O)O)C(=O)O\nHIV Inhibition:",
+        "gold_answer": "No",
+        "SMILES": "CCN(CC)CCc1nc(-c2ccccc2)no1.O=C(O)CC(O)(CC(=O)O)C(=O)O",
+        "answer": "No"
+    },
+    {
+        "gold_answer": "No",
+        "SMILES": "O=C1c2ccccc2-n2c1nc1ccccc1c2=O",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether it has the abilities to inhibit HIV replication, based on the SMILES string representation of each molecule. Please answer the question \"does the provided molecule have the abilities to inhibit HIV replication?\" with only Yes or No.SMILES: O=C1c2ccccc2-n2c1nc1ccccc1c2=O\nHIV Inhibition:",
+        "answer": "No"
+    },
+    {
+        "SMILES": "CC(C)N=C1CCCC1C(=S)SSC(=S)C1CCCC1=NC(C)C",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether it has the abilities to inhibit HIV replication, based on the SMILES string representation of each molecule. Please answer the question \"does the provided molecule have the abilities to inhibit HIV replication?\" with only Yes or No.SMILES: CC(C)N=C1CCCC1C(=S)SSC(=S)C1CCCC1=NC(C)C\nHIV Inhibition:",
+        "gold_answer": "No",
+        "answer": "No"
+    },
+    {
+        "gold_answer": "Yes",
+        "SMILES": "O=C1Nc2ccccc2Oc2ccccc21",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether it has the abilities to inhibit HIV replication, based on the SMILES string representation of each molecule. Please answer the question \"does the provided molecule have the abilities to inhibit HIV replication?\" with only Yes or No.SMILES: O=C1Nc2ccccc2Oc2ccccc21\nHIV Inhibition:",
+        "answer": "No"
+    },
+    {
+        "gold_answer": "No",
+        "SMILES": "COc1ccc(C(CC(=O)c2ccc3c(c2)OCO3)c2c(O)c3ccccc3oc2=O)cc1OC",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether it has the abilities to inhibit HIV replication, based on the SMILES string representation of each molecule. Please answer the question \"does the provided molecule have the abilities to inhibit HIV replication?\" with only Yes or No.SMILES: COc1ccc(C(CC(=O)c2ccc3c(c2)OCO3)c2c(O)c3ccccc3oc2=O)cc1OC\nHIV Inhibition:",
+        "answer": "No"
+    },
+    {
+        "SMILES": "CCCCCCCC(=O)OC1C2C(CC1(C)C)C(=O)C13OC1C(=O)C1(CO1)C23C",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically whether it has the abilities to inhibit HIV replication, based on the SMILES string representation of each molecule. Please answer the question \"does the provided molecule have the abilities to inhibit HIV replication?\" with only Yes or No.SMILES: CCCCCCCC(=O)OC1C2C(CC1(C)C)C(=O)C13OC1C(=O)C1(CO1)C23C\nHIV Inhibition:",
+        "answer": "No"
+    }
+]

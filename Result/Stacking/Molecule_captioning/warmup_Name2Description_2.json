@@ -1,0 +1,62 @@
+[
+    {
+        "SMILES": "C1=CC=C(C=C1)C2=NOC(=N2)C3=CC=CS3",
+        "description": "The molecule is a 1,2,4-oxadizole in which the hydrogens at positions 3 and 5 have been replaced by phenyl and thiophen-2-yl groups, respectively. It is used as a broad spectrum nematicidal seed treatment. It has a role as a nematicide and an agrochemical. It is a member of thiophenes and a 1,2,4-oxadiazole.",
+        "answer": "{\"query\": \"phenyl-oxadiazole-thiophene\"}",
+        "blue2": 0.0008423409612826664
+    },
+    {
+        "SMILES": "C1=NN(C(=O)C(=C1N)Cl)C(=O)/C(=C/C=C/C(=O)O)/O",
+        "description": "The molecule is an organochlorine compound and a pyridazinone. It derives from a muconic acid. It is a conjugate acid of a 5-amino-4-chloro-2-(2-oxidomuconoyl)pyridazin-3(2H)-one(2-).",
+        "answer": "The molecule is a member of the class of heme dcopies that is heme d in which the hydroxy group is replaced by a chloro group. It has a role as a bacterial metabolite. It is an organochlorine compound, a member of heme dcopies, a monocarboxylic acid, a N-acylhydroxylamine, and a member of hydrazines. It is functionally related to a heme d.",
+        "blue2": 0.3899284046755423
+    },
+    {
+        "SMILES": "CCCCC[C@@H]1[C@@H](O1)C[C@@H](/C=C/C=C\\\\C/C=C\\\\CCCC(=O)O)OO",
+        "description": "The molecule is a hydroperoxy fatty acid that is (14S,15R)-epoxy-(5Z,8Z,10E)-icosatrienoic acid in which the hydroperoxy group is located at position 12S. It has a role as a human xenobiotic metabolite and a mouse metabolite. It is a conjugate acid of a (12S)-hydroperoxy-(14S,15R)-epoxy-(5Z,8Z,10E)-icosatrienoate.",
+        "answer": "The given SMILES represents a complex molecule featuring a long hydrocarbon chain with multiple conjugated double bonds, an epoxy ring, a hydroxy group, and a hydroperoxy group. Additionally, the molecule contains a carboxylic acid functional group at one end of the chain, indicating it may be a derivative of polyunsaturated fatty acids with potential biological activity in lipid signaling or metabolism.",
+        "blue2": 0.5546145887732316
+    },
+    {
+        "SMILES": "CC(C)C1=CC(=CC(=C1O)C(C)C)/C=C(\\\\C#N)/C(=O)NCCCC2=CC=CC=C2",
+        "description": "The molecule is a monocarboxylic acid amide obtained by formal condensation of the carboxy group of (2E)-2-cyano-3-[4-hydroxy-3,5-di(propan-2-yl)phenyl]prop-2-enoic acid with the amino group of 3-phenylpropylamine. It has a role as a vascular endothelial growth factor receptor antagonist. It is an enamide, a member of phenols, a nitrile, a monocarboxylic acid amide and a secondary carboxamide.",
+        "answer": "The given SMILES represents a complex organic compound featuring a tert-butyl group, phenol moiety with isopropyl groups, cyano group, carbon-carbon double bond, amide linkage, and phenethylamine backbone. It includes aromatic rings and functional groups, indicating potential chemical or pharmaceutical applications.",
+        "blue2": 0.5724867443958762
+    },
+    {
+        "SMILES": "CSCCC/C=[N+](\\\\O)/[O-]",
+        "description": "The molecule is an aci-nitro compound resulting from the formal oxidation of the oxime nitrogen of an omega-(methylsulfany)-(E)-alkanal oxime. It is an aci-nitro compound and a methyl sulfide. It derives from an omega-(methylsulfanyl)-(E)-alkanal oxime.",
+        "answer": "This SMILES represents a molecule with a carbon-sulfur chain and a nitroso group, likely exhibiting resonance, involving a charged nitrogen atom bonded to an oxygen atom.",
+        "blue2": 0.3942424528666668
+    },
+    {
+        "SMILES": "C1CCCCC1",
+        "description": "The molecule is an alicyclic hydrocarbon comprising a ring of six carbon atoms; the cyclic form of hexane, used as a raw material in the manufacture of nylon. It has a role as a non-polar solvent. It is a cycloalkane and a volatile organic compound.",
+        "answer": "Cyclohexane is an alicyclic hydrocarbon comprising a ring of six carbon atoms; the cyclic form of hexane, used as a raw material in the manufacture of nylon. It has a role as a non-polar solvent. It is a cycloalkane and a volatile organic compound.",
+        "blue2": 0.9677565309500695
+    },
+    {
+        "SMILES": "CC1=CC=C(C=C1)N(CC2=NCCN2)C3=CC(=CC=C3)O",
+        "description": "The molecule is a substituted aniline that is 3-aminophenol in which the hydrogens of the amino group are replaced by 4-methylphenyl and 4,5-dihydro-1H-imidazol-2-ylmethyl groups respectively. An alpha-adrenergic antagonist, it is used for the treatment of hypertension. It has a role as an alpha-adrenergic antagonist and a vasodilator agent. It is a member of imidazoles, a member of phenols, a tertiary amino compound and a substituted aniline.",
+        "answer": "The given SMILES represents a molecule with a benzene ring substituted with an amine group connected to another benzene ring with a hydroxyl group and an imidazoline ring. This compound can be described as 4-[(2-Imidazolin-2-yl)methyl]-N-(4-hydroxyphenyl)aniline. It has applications in medicinal chemistry, potentially serving as a bioactive compound with structures that are indicative of pharmacological properties.",
+        "blue2": 0.7129612239780674
+    },
+    {
+        "SMILES": "C([C@@H](C(=O)NCC(=O)[O-])[NH3+])S",
+        "description": "The molecule is the zwitterion of L-cysteinylglycine resulting from the transfer of a proton from the hydroxy group of glycine to the amino group of cysteine. Major microspecies at pH 7.3. It has a role as an Escherichia coli metabolite, a Saccharomyces cerevisiae metabolite and a human metabolite. It is a tautomer of a L-cysteinylglycine.",
+        "answer": "N-acetyl-L-cysteine is an N-acetyl-L-amino acid that is the N-acetylated derivative of the natural amino acid L-cysteine. It has a role as an antiinfective agent, an antioxidant, an antiviral drug, an antidote to paracetamol poisoning, a vulnerary, a mucolytic, a human metabolite, a radical scavenger, a ferroptosis inhibitor and a geroprotector. It is a L-cysteine derivative, an acetylcysteine and a N-acetyl-L-amino acid. It is a conjugate acid of a N-acetyl-L-cysteinate.",
+        "blue2": 0.5331637648761521
+    },
+    {
+        "SMILES": "CC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+        "description": "The molecule is an unsaturated fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of (8Z,11Z,14Z,17Z,20Z,23Z)-hexacosahexaenoic acid. It is an unsaturated fatty acyl-CoA and a very long-chain fatty acyl-CoA. It derives from an (8Z,11Z,14Z,17Z,20Z,23Z)-hexacosahexaenoic acid. It is a conjugate acid of an (8Z,11Z,14Z,17Z,20Z,23Z)-hexacosahexaenoyl-CoA(4-).",
+        "answer": "The SMILES string represents a complex organic molecule that appears to contain multiple unsaturated hydrocarbon chains, likely referring to a polyunsaturated fatty acid derivative. It contains functional groups such as esters and phosphates, and a sugar moiety linked to a nucleoside, suggesting it could be a lipid conjugate or a phospholipid derivative that may be involved in biochemical pathways within Escherichia coli. The molecule's structure implies it may have roles in membrane dynamics or signaling processes, given its potential lipid and nucleotide components.",
+        "blue2": 0.44526358931856885
+    },
+    {
+        "SMILES": "C([C@@H]1[C@H]([C@@H]([C@@H]([C@H](O1)O[C@H]2[C@@H]([C@H](O[C@H]([C@H]2O)O[C@@H]3[C@H](O[C@H]([C@H]([C@H]3O)O)O)CO)CO)O)O)O)O)O",
+        "description": "The molecule is a mannotriose consisting of an alpha-D-mannopyranose residue and two beta-D-mannopyranose residues joined in sequence by (1->3) and (1->4) glycosidic bonds. It is a mannotriose and an alpha-D-Manp-(1->3)-beta-D-Manp-(1->4)-D-Manp.",
+        "answer": "(1R,3S,5R,6R,8R,10S,11S)-11-[(2R,3S,4R,5R,6R)-6-[[(2R,3S,4R,5R)-5-[(2S,3S,4R,5S,6S)-3,4-dihydroxy-6-(hydroxymethyl)-5-[(2R,3S,4R,5R)-3,4,5-trihydroxyoxan-2-yl]oxyoxan-2-yl]oxy-3,4-dihydroxyoxan-2-yl]oxymethyl]-3,4,5-trihydroxyoxan-2-yl]oxy-3,5-dihydroxy-6-[(1S)-1-hydroxyethyl]oxane-2,4,8-triol is a natural product found in Streptomyces mannowensis with data available.",
+        "blue2": 0.2498809501938024
+    }
+]

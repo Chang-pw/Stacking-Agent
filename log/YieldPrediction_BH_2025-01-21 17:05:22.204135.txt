@@ -1,0 +1,1 @@
+[{'agent_tool': YieldPrediction_BH_1, 'score': 0.6, 'tool': 'SMILES2Property_1'}, {'agent_tool': ChemDFM, 'score': 0.35, 'tool': 'ChemDFM_0'}, {'agent_tool': SMILES2Property, 'score': 0.0, 'tool': 'SMILES2Property_0'}]

@@ -1,0 +1,142 @@
+[
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\COP(=O)([O-])OP(=O)([O-])O[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O[C@@H]2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O[C@@H]3[C@H]([C@H]([C@@H]([C@H](O3)CO)O)O[C@@H]4[C@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O)NC(=O)C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is an organophosphate oxoanion obtained by deprotonation of both free diphosphate OH groups of alpha-D-mannosyl-(1->3)-alpha-D-mannosyl-(1->3)-alpha-D-mannosyl-(1->3)-N-acetyl-alpha-D-glucosaminyl-1-diphospho-ditrans,polycis-undecaprenol; major species at pH 7.3. It is a conjugate base of an alpha-D-mannosyl-(1->3)-alpha-D-mannosyl-(1->3)-alpha-D-mannosyl-(1->3)-N-acetyl-alpha-D-glucosaminyl-1-diphospho-ditrans,polycis-undecaprenol.",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 4158,
+        "blue2": 0.0004927349528756453
+    },
+    {
+        "SMILES": "C(=O)C(=O)O",
+        "description": "The molecule is a 2-oxo monocarboxylic acid that is acetic acid bearing an oxo group at the alpha carbon atom. It has a role as a human metabolite, an Escherichia coli metabolite, a Saccharomyces cerevisiae metabolite and a mouse metabolite. It is a 2-oxo monocarboxylic acid and an aldehydic acid. It is a conjugate acid of a glyoxylate.",
+        "answer": "The molecule is oxalic acid.",
+        "all_tokens": 3092,
+        "blue2": 1.525964592156631e-05
+    },
+    {
+        "SMILES": "C1=C(O[C@H]([C@@H]([C@H]1O)OS(=O)(=O)O)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)NS(=O)(=O)O)O[C@H]3[C@@H]([C@H]([C@@H](O[C@H]3C(=O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)NS(=O)(=O)O)O[C@H]5[C@@H]([C@H]([C@@H](O[C@H]5C(=O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)NS(=O)(=O)O)O[C@H]7[C@@H]([C@H]([C@@H](O[C@H]7C(=O)O)O[C@@H]8[C@H](O[C@@H]([C@@H]([C@H]8O)NS(=O)(=O)O)O)CO)OS(=O)(=O)O)O)COS(=O)(=O)O)OS(=O)(=O)O)O)COS(=O)(=O)O)OS(=O)(=O)O)O)COS(=O)(=O)O)C(=O)O",
+        "description": "The molecule is a heparin octasaccharide consisting of 4-deoxy-2-O-sulfo-alpha-L-threo-hex-4-enopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, and 2-deoxy-2-(sulfoamino)-alpha-D-glucopyranose units joined in sequence by (1->4) linkages. Sequence: DUA2S-GlcNS6S-IdoA2S-GlcNS6S-IdoA2S-GlcNS6S-IdoA2S-GlcNS. It is a heparin octasaccharide, an oligosaccharide sulfate and an amino octasaccharide.",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 2675,
+        "blue2": 1.3842238136023027e-05
+    },
+    {
+        "SMILES": "C/C=C\\\\1/C[C@H]([C@@](C(=O)OCC2=CCN3[C@H]2[C@@H](CC3)OC1=O)(C)O)C",
+        "description": "The molecule is a pyrrolizidine alkaloid isolated from the plant species of the genus Senecio. It has a role as a plant metabolite. It is a lactone, a pyrrolizidine alkaloid and a tertiary alcohol. It derives from a senecionan. It is a conjugate base of a senecionine(1+).",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 2448,
+        "blue2": 0.012785500158770814
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H](C[C@@](O[C@H]1[C@@H]([C@@H](CO)O)O)(C(=O)O)OC[C@@H]2[C@@H]([C@@H]([C@H]([C@H](O2)OC[C@@H](C(=O)O)N)NC(=O)C)O)O)O",
+        "description": "The molecule is the L-alpha-amino acid that is N-acetyl-alpha-neuraminyl-(2->6)-N-acetyl-alpha-D-galactosamine linked via an alpha glycosidic bond to the O at position 3 of L-serine. It is a L-serine derivative and a non-proteinogenic L-alpha-amino acid.",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 2894,
+        "blue2": 0.0192685391377042
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)CO)O[C@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO)O[C@@H]3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)NC(=O)C)O)O)O)O",
+        "description": "The molecule is a linear amino tetrasaccharide composed of N-acetyl-beta-D-galactosamine, alpha-D-galactose, beta-D-galactose and N-acetyl-beta-D-galactosamine units joined by sequential (1->3)-, (1->4)- and (1->4)-linkages. It has a role as an epitope.",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 3237,
+        "blue2": 0.019635547939290187
+    },
+    {
+        "SMILES": "C[C@@H]([C@H]1[C@H]([C@H]([C@H](O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O",
+        "description": "The molecule is a quercetin O-glycoside that is quercetin attached to a beta-L-rhamnofuranosyl moiety at position 3 via a glycosidic linkage. It has a role as a metabolite. It is a beta-L-rhamnofuranoside, a monosaccharide derivative, a tetrahydroxyflavone and a quercetin O-glycoside.",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 1539,
+        "blue2": 0.010427364525106916
+    },
+    {
+        "SMILES": "C1CCCCC1",
+        "description": "The molecule is an alicyclic hydrocarbon comprising a ring of six carbon atoms; the cyclic form of hexane, used as a raw material in the manufacture of nylon. It has a role as a non-polar solvent. It is a cycloalkane and a volatile organic compound.",
+        "answer": "The molecule is cyclohexane.",
+        "all_tokens": 2223,
+        "blue2": 0.00035930546155226914
+    },
+    {
+        "SMILES": "C[C@@H](/C=C\\\\C/C=C\\\\C[C@H](/C=C/C=C\\\\C/C=C\\\\C/C=C\\\\CCC(=O)[O-])O)O",
+        "description": "The molecule is a dihydroxydocosahexaenoate that is the conjugate base of (4Z,7Z,10Z,12E,14R,16Z,19Z,21S)-dihydroxydocosahexaenoic acid, obtained by deprotonation of the carboxy group; major species at pH 7.3. It is a conjugate base of a (4Z,7Z,10Z,12E,14R,16Z,19Z,21S)-dihydroxydocosahexaenoic acid. It is an enantiomer of a (4Z,7Z,10Z,12E,14S,16Z,19Z,21R)-dihydroxydocosahexaenoate.",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 2176,
+        "blue2": 0.001454568872279668
+    },
+    {
+        "SMILES": "CCCCC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCCCCCCCCCCCCCC[C@H](CC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O)O",
+        "description": "The molecule is a 3-hydroxy fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of (3R,19Z,22Z,25Z,28Z)-3-hydroxytetratriacontatetraenoic acid. It is a (R)-3-hydroxyacyl-CoA, a 3-hydroxy fatty acyl-CoA, an unsaturated fatty acyl-CoA and an ultra-long-chain fatty acyl-CoA. It is a conjugate acid of a (3R,19Z,22Z,25Z,28Z)-3-hydroxytetratriacontatetraenoyl-CoA(4-).",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 6977,
+        "blue2": 0.0006777518621851776
+    },
+    {
+        "SMILES": "C[C@@]1(CC[C@H]2C(=CC[C@@H]3[C@@]2(CCC[C@]3(C)C(=O)O)C)C1)CCO[C@@H]4[C@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O",
+        "description": "The molecule is a diterpene glycoside that is isopimar-7-en-19-oic acid attached to a alpha-D-mannopyranosyloxy residue at position 16. It has been isolated from the fungus, Xylaria species. It has a role as a fungal metabolite. It is a diterpenoid, a monosaccharide derivative, a monocarboxylic acid and a diterpene glycoside. It derives from an alpha-D-mannose. It derives from a hydride of an isopimarane.",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 2706,
+        "blue2": 0.0011344126512483526
+    },
+    {
+        "SMILES": "C([C@@H]1[C@H]([C@@H]([C@@H]([C@H](O1)O[C@H]2[C@@H]([C@H](O[C@H]([C@H]2O)O[C@@H]3[C@H](O[C@H]([C@H]([C@H]3O)O)O)CO)CO)O)O)O)O)O",
+        "description": "The molecule is a mannotriose consisting of an alpha-D-mannopyranose residue and two beta-D-mannopyranose residues joined in sequence by (1->3) and (1->4) glycosidic bonds. It is a mannotriose and an alpha-D-Manp-(1->3)-beta-D-Manp-(1->4)-D-Manp.",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 2832,
+        "blue2": 0.019389812576826267
+    },
+    {
+        "SMILES": "CCCCC/C=C\\\\C/C=C\\\\CC1C(O1)C/C=C\\\\CCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)OP(=O)(O)O)O",
+        "description": "The molecule is an unsaturated fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of 8,9-epoxy-(5Z,11Z,14Z)-icosatrienoic acid. It is a long-chain fatty acyl-CoA and an unsaturated fatty acyl-CoA. It derives from an 8,9-EET. It is a conjugate acid of an 8,9-epoxy-(5Z,11Z,14Z)-icosatrienoyl-CoA(4-).",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 2961,
+        "blue2": 0.0024205454982875393
+    },
+    {
+        "SMILES": "CC(C)(COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)[C@H](C(=O)NCCC(=O)NCCSC(=O)CC(=O)CCCCCCC(=O)O)O",
+        "description": "The molecule is an acyl-CoA resulting from the formal condensation of the thiol group of coenzyme A with the 1-carboxy group of 3-oxodecanedioic acid. It is a conjugate acid of a 3-oxodecanedioyl-CoA(5-).",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 2906,
+        "blue2": 0.041676854660229176
+    },
+    {
+        "SMILES": "C1=CN(C(=O)N=C1N)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)([O-])[O-])O)O.[Na+].[Na+]",
+        "description": "The molecule is an organic sodium salt that is the disodium salt of CMP. It has a role as a human metabolite. It contains a cytidine 5'-monophosphate(2-).",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 2552,
+        "blue2": 0.10972061586366752
+    },
+    {
+        "SMILES": "CCCCCCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCC[C@H](C)CCCOP(=O)([O-])O[C@H]1[C@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O",
+        "description": "The molecule is an anionic phospholipid that is the conjugate base of beta-D-mannosyl C32-phosphomycoketide obtained by deprotonation of the phosphate OH group; major species at pH 7.3. It derives from a phosphomycoketide C32(2-). It is a conjugate base of a beta-D-mannosyl C32-phosphomycoketide.",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 4153,
+        "blue2": 0.008447062865870106
+    },
+    {
+        "SMILES": "C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)OC2=CC3=CC4=C(C(=C3C(=C2C(=O)OC)C)O)C(=O)[C@@]5(C(=O)C=C([C@H]([C@@]5(C4=O)O)O)OC)OC)OC)OC)OC",
+        "description": "The molecule is a member of the class of tetracenomycins that is 8-demethyltetracenomycin C in which the hydroxyl hydrogens at position 8 and 10 a are replaced by a 2,3,4-tri-O-methyl-alpha-L-rhamnosyl and methyl groups respectively. It has a role as a bacterial metabolite and an antimicrobial agent. It is an alpha-L-rhamnoside, a carboxylic ester, an enol ether, an enone, a monosaccharide derivative, a member of phenols, a tetracenomycin, a methyl ester and a tertiary alpha-hydroxy ketone. It derives from a tetracenomycin C.",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 2911,
+        "blue2": 0.0001113986925739606
+    },
+    {
+        "SMILES": "C1CCNC(C1)C(=O)O",
+        "description": "The molecule is a piperidinemonocarboxylic acid in which the carboxy group is located at position C-2. It is a conjugate acid of a pipecolate.",
+        "answer": "The molecule is Proline (zwitterionic form).",
+        "all_tokens": 2314,
+        "blue2": 0.08442599222601457
+    },
+    {
+        "SMILES": "C(CC(=O)N[C@@H](CSCCO)C(=O)NCC(=O)O)[C@@H](C(=O)O)N",
+        "description": "The molecule is a Glu-Cys-Gly tripeptide derivative of glutathione containing a 2-hydroxyethyl substituent on the S of the Cys residue. It derives from a glutathione.",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 2392,
+        "blue2": 0.08300010948843398
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCC(=O)O[C@H](COC(=O)CCCCCCCCCCCCCCCC)COP(=O)([O-])[O-]",
+        "description": "The molecule is a 1,2-diacyl-sn-glycerol 3-phosphate(2-) in which the phosphatidyl acyl groups at postions 1 and 2 are specified as heptadecanoyl and stearoyl respectively. It is a conjugate base of a 1-heptadecanoyl-2-stearoyl-sn-glycero-3-phosphate.",
+        "answer": "The molecule is a polyprenyl phospho oligosaccharide.",
+        "all_tokens": 2381,
+        "blue2": 0.020920385997390985
+    }
+]

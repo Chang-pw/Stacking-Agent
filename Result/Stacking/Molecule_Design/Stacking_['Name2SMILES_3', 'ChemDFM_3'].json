@@ -1,0 +1,62 @@
+[
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC1=C(C=CC(=C1)C(=O)O)O)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is a monohydroxybenzoic acid that is 4-hydroxybenzoic acid substituted at position 3 by a heptaprenyl group. It is a monohydroxybenzoic acid and an olefinic compound. It is a conjugate acid of a 4-hydroxy-3-all-trans-heptaprenylbenzoate.",
+        "answer": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/Cc1cc(C(=O)O)ccc1O",
+        "blue2": 0.6076832569166732
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\COP(=O)([O-])OP(=O)([O-])O[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O[C@@H]2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)NC(=O)C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is an organophosphate oxoanion obtained by deprotonation of the diphosphate OH groups of alpha-D-mannosyl-(1->3)-N-acetyl-alpha-D-glucosaminyl-1-diphospho-ditrans,polycis-undecaprenol. Major species at pH 7.3. It is a conjugate base of an alpha-D-mannosyl-(1->3)-N-acetyl-alpha-D-glucosaminyl-1-diphospho-ditrans,polycis-undecaprenol.",
+        "answer": "\u001b[91m",
+        "blue2": 1.642199730016325e-175
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@H]([C@H](O[C@@H]1OC[C@@H](C(=O)O)N)CO)O)O",
+        "description": "The molecule is a non-proteinogenic L-amino acid that is N-acetyl-alpha-D-galactosamine linked via an alpha glycosidic bond to the O at position 3 of L-serine. It is a L-serine derivative and a non-proteinogenic L-alpha-amino acid.",
+        "answer": "C[C@@H](O[C@H]1O[C@@H](CO)[C@H](O)[C@H](O)[C@H]1O)C(=O)NC[C@H](O)C(=O)O",
+        "blue2": 0.811883568978622
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\COP(=O)([O-])OP(=O)([O-])O[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O[C@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO)O)O)O)NC(=O)C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is an organophosphate oxoanion arising from deprotonation of both free diphosphate OH groups of beta-D-Gal-(1->3)-alpha-D-GlcNAc-diphospho-ditrans,octacis-undecaprenol It is a conjugate base of a beta-D-Gal-(1->3)-alpha-D-GlcNAc-diphospho-ditrans,octacis-undecaprenol.",
+        "answer": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/Cc1cc(C(=O)O)ccc1O",
+        "blue2": 0.08477025750218295
+    },
+    {
+        "SMILES": "C(CC(=O)N[C@@H](CSS)C(=O)NCC(=O)O)[C@@H](C(=O)O)N",
+        "description": "The molecule is a Glu-Cys-Gly tripeptide derivative of glutathione distinguished by an additional sulfhydryl substituent on the S of Cys. It is a tripeptide, a L-cysteine derivative and a S-substituted glutathione. It derives from a glutathione. It is a conjugate acid of a S-sulfanylglutathionate(1-).",
+        "answer": "NC(CCSC(C(=O)NCC(=O)O)C(=O)O)C(=O)NCC(=O)O",
+        "blue2": 0.6887370378805698
+    },
+    {
+        "SMILES": "C(P(=O)(O)O)P(=O)(O)O",
+        "description": "The molecule is a 1,1-bis(phosphonic acid) consisting of methane substituted by two phosphonic acid groups. It has a role as a bone density conservation agent and a chelator.",
+        "answer": "C(P(=O)(O)O)(P(=O)(O)O)",
+        "blue2": 0.8879963679019833
+    },
+    {
+        "SMILES": "CC1(CC(C(=O)O1)CSC#N)C",
+        "description": "The molecule is a butan-4-olide having a thiocyanatomethyl group at the 3-position and two methyl substituents at the 5-position. It is a butan-4-olide and a member of thiocyanates.",
+        "answer": "CC1C(C(C(=O)O1)C#N)C(SC)=C",
+        "blue2": 0.780532362705589
+    },
+    {
+        "SMILES": "CC/C=C\\\\CCCCC=O",
+        "description": "The molecule is a monounsaturated fatty aldehyde that is (3Z)-non-3-ene which is carrying an oxo group at position 1. It has a role as a plant metabolite. It is a monounsaturated fatty aldehyde, an olefinic compound and a medium-chain fatty aldehyde.",
+        "answer": "O=CCCCCCC=CCC",
+        "blue2": 0.6291624691812853
+    },
+    {
+        "SMILES": "C[C@@H]1C[C@@](C(=O)O[C@@H]2CCN3[C@@H]2C(=CC3)COC(=O)[C@]1(C)O)([C@@H](C)O)O",
+        "description": "The molecule is a pyrrolizine alkaloid obtained from senecionine by formal addition of hydrogen peroxide across the ethylidene double bond. It has a role as a Jacobaea metabolite. It is a macrocyclic lactone, an organic heterotricyclic compound, a pyrrolizine alkaloid, a triol and a tertiary amino compound. It derives from a senecionine.",
+        "answer": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/Cc1cc(C(=O)O)ccc1O",
+        "blue2": 0.3350833914187437
+    },
+    {
+        "SMILES": "CCCCCC(=O)/C=C/[C@H]1[C@@H](C[C@@H]([C@@H]1CC(=O)CCCCC(=O)O)O)O",
+        "description": "The molecule is a prostaglandin Falpha that is prostaglandin F1alpha bearing keto substituents at positions 6 and 15. It has a role as a metabolite. It derives from a prostaglandin F1alpha.",
+        "answer": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/Cc1cc(C(=O)O)ccc1O",
+        "blue2": 0.3746469809839128
+    }
+]

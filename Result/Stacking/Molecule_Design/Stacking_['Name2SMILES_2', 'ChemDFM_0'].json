@@ -1,0 +1,72 @@
+[
+    {
+        "SMILES": "CSCCCCCCC/C=N/O",
+        "description": "The molecule is a 8-(methylsulfanyl)octanal oxime in which the oxime moiety has E configuration. It is an omega-(methylsulfanyl)-(E)-alkanal oxime and an 8-(methylsulfanyl)octanal oxime.",
+        "answer": "CSCCCCCCC/C=N/O",
+        "all_tokens": 2383,
+        "blue2": 1.0
+    },
+    {
+        "SMILES": "CN1CCC2=C3[C@H]1CC4=C(C3=CC=C2)C(=C(C=C4)O)O",
+        "description": "The molecule is an aporphine alkaloid. It has a role as an alpha-adrenergic drug, a serotonergic drug, an antidyskinesia agent, a dopamine agonist, an antiparkinson drug and an emetic. It derives from a hydride of an aporphine.",
+        "answer": "CN1CCc2cccc3c2[C@H]1Cc1ccc(O)c(O)c1-3",
+        "all_tokens": 2412,
+        "blue2": 0.3527700849532666
+    },
+    {
+        "SMILES": "C1=C(O[C@H]([C@@H]([C@H]1O)OS(=O)(=O)O)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)NS(=O)(=O)O)O[C@H]3[C@@H]([C@H]([C@@H](O[C@H]3C(=O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)NS(=O)(=O)O)O[C@H]5[C@@H]([C@H]([C@@H](O[C@H]5C(=O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)NS(=O)(=O)O)O[C@H]7[C@@H]([C@H]([C@@H](O[C@@H]7C(=O)O)O[C@@H]8[C@H](O[C@@H]([C@@H]([C@H]8O)NS(=O)(=O)O)O)COS(=O)(=O)O)O)O)COS(=O)(=O)O)OS(=O)(=O)O)O)COS(=O)(=O)O)OS(=O)(=O)O)O)COS(=O)(=O)O)C(=O)O",
+        "description": "The molecule is a heparin octasaccharide consisting of 4-deoxy-2-O-sulfo-alpha-L-threo-hex-4-enopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, beta-D-glucopyranuronosyl, and 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranose units joined in sequence by (1->4) linkages. Sequence: DUA2S-GlcNS6S-IdoA2S-GlcNS6S-IdoA2S-GlcNS6S-GlcA-GlcNS6S. It is a heparin octasaccharide, an oligosaccharide sulfate and an amino octasaccharide.",
+        "answer": "O=C(O)C1=C[C@H](O)[C@@H](OS(=O)(=O)O)[C@H](O[C@H]2[C@H](O)[C@@H](NS(=O)(=O)O)[C@@H](O[C@H]3[C@H](O)[C@@H](OS(=O)(=O)O)[C@H](O[C@H]4[C@H](O)[C@@H](NS(=O)(=O)O)[C@@H](O[C@H]5[C@H](O)[C@@H](OS(=O)(=O)O)[C@H](O[C@H]6[C@H](O)[C@@H](NS(=O)(=O)O)[C@@H](O[C@H]7[C@H](O)[C@@H](O)[C@H](O[C@H]8[C@H](O)[C@@H](NS(=O)(=O)O)[C@@H](O)O[C@@H]8COS(=O)(=O)O)O[C@@H]7C(=O)O)O[C@@H]6COS(=O)(=O)O)O[C@H]5C(=O)O)O[C@@H]4COS(=O)(=O)O)O[C@H]3C(=O)O)O[C@@H]2COS(=O)(=O)O)O1",
+        "all_tokens": 4704,
+        "blue2": 0.9455086972772344
+    },
+    {
+        "SMILES": "C[C@@H]1CCN(C[C@@H]1N(C)C2=NC=NC3=C2C=CN3)C(=O)N4CCCC4",
+        "description": "The molecule is a pyrrolopyrimidine that is 7H-pyrrolo[2,3-d]pyrimidine substituted at position 4 by a methyl[(3R,4R)-4-methyl-1-(pyrrolidin-1-ylcarbonyl)piperidin-3-yl]nitrilo group. It is a potent JAK3-selective chemical probe. It has a role as an EC 2.7.10.2 (non-specific protein-tyrosine kinase) inhibitor. It is a pyrrolopyrimidine, a tertiary amino compound, a N-acylpiperidine and a N-acylpyrrolidine.",
+        "answer": "C[C@H](CN(C)c1ncnc2[nH]cnc12)[C@@H](C)CN1CCC[C@H]1C(=O)N1CCCC1",
+        "all_tokens": 3033,
+        "blue2": 0.5606994951396111
+    },
+    {
+        "SMILES": "CC(C)(C)C1=CN=C(O1)CSC2=CN=C(S2)NC(=O)C3CCN(CC3)C(=O)CN(C)C",
+        "description": "The molecule is a secondary carboxamide resulting from the formal condensation of the carboxy group of 1-(N,N-dimethylglycyl)piperidine-4-carboxylic acid with the amino group of 5-{[(5-tert-butyl-1,3-oxazol-2-yl)methyl]sulfanyl}-1,3-thiazol-2-amine. It is a CDKL5 and CDK16 kinase inhibitor. It has a role as an EC 2.7.11.22 (cyclin-dependent kinase) inhibitor. It is a member of 1,3-thiazoles, a N-acylpiperidine, an organic sulfide, a tertiary amino compound, a secondary carboxamide and a member of 1,3-oxazoles.",
+        "answer": "CN(C)CC(=O)N1CCC(C(=O)Nc2ncc(SCc3ncc(C(C)(C)C)o3)s2)CC1",
+        "all_tokens": 3282,
+        "blue2": 0.6474674918274894
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O[C@H]2[C@H]([C@H](O[C@H]([C@@H]2O)O[C@@H]3[C@H]([C@@H](O[C@@H]([C@H]3O)CO)O)NC(=O)C)CO)O)CO)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O",
+        "description": "The molecule is a linear amino tetrasaccharide consisting of a sequence of beta-D-galactose, N-acetyl-beta-D-glucosamine, beta-D-galactose and N-acetyl-beta-D-glucosamine residues linked (1->4), (1->3) and (1->3). It has a role as an epitope. It is an amino tetrasaccharide and a glucosamine oligosaccharide.",
+        "answer": "CC(=O)N[C@@H]1[C@@H](O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O[C@@H]3O[C@H](CO)[C@@H](O[C@@H]4O[C@H](CO)[C@H](O)[C@H](O)[C@H]4O)[C@H](O)[C@H]3NC(C)=O)[C@H]2O)[C@H](O)[C@@H](CO)O[C@H]1O",
+        "all_tokens": 2764,
+        "blue2": 0.9092360964660477
+    },
+    {
+        "SMILES": "CCCSP(=S)(OCC)OC1=CC=C(C=C1)SC",
+        "description": "The molecule is an organic thiophosphate, an organothiophosphate insecticide and an organosulfur compound. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor and an agrochemical. It derives from a 4-(methylsulfanyl)phenol.",
+        "answer": "COP(=S)(OC)Oc1ccc(SC)cc1",
+        "all_tokens": 2555,
+        "blue2": 0.43219655550762887
+    },
+    {
+        "SMILES": "C1CN=C(N1)CC2=CC=CC=C2",
+        "description": "The molecule is a member of the class of imidazoles that is 4,5-dihydro-1H-imidazole substituted by a benzyl group. It has a role as an alpha-adrenergic antagonist, an antihypertensive agent and a vasodilator agent.",
+        "answer": "c1ccc(CC2=NCCN2)cc1",
+        "all_tokens": 2357,
+        "blue2": 0.3722809490319187
+    },
+    {
+        "SMILES": "CC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)([O-])[O-])O",
+        "description": "The molecule is an acyl-CoA(4-) arising from deprotonation of the phosphate and diphosphate functions of (10Z,13Z,16Z,19Z)-docosatetraenoyl-CoA. It is a polyunsaturated fatty acyl-CoA(4-) and a very long-chain acyl-CoA(4-). It is a conjugate base of a (10Z,13Z,16Z,19Z)-docosatetraenoyl-CoA.",
+        "answer": "CC/C=C\\C/C=C\\C/C=C\\C/C=C\\CCCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)([O-])OP(=O)([O-])OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)([O-])[O-]",
+        "all_tokens": 2835,
+        "blue2": 0.8408963122400707
+    },
+    {
+        "SMILES": "CC/C=C\\\\CCCCC=O",
+        "description": "The molecule is a monounsaturated fatty aldehyde that is (3Z)-non-3-ene which is carrying an oxo group at position 1. It has a role as a plant metabolite. It is a monounsaturated fatty aldehyde, an olefinic compound and a medium-chain fatty aldehyde.",
+        "answer": "O=CCCCCCC/C=C\\C",
+        "all_tokens": 2431,
+        "blue2": 0.8563488385776753
+    }
+]

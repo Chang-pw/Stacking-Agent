@@ -1,0 +1,1 @@
+[{'agent_tool': Molecule_captioning_2, 'score': 0.554967971566533, 'tool': 'SMILES2Description_1'}, {'agent_tool': Molecule_captioning_1, 'score': 0.25436146551367195, 'tool': 'ChemDFM_1'}, {'agent_tool': ChemDFM, 'score': 0.15987531826148854, 'tool': 'ChemDFM_0'}, {'agent_tool': SMILES2Description, 'score': 0.07732726379706686, 'tool': 'SMILES2Description_0'}]

@@ -1,0 +1,177 @@
+[
+    {
+        "SMILES": "CC1=NN(C(=O)N1C(F)F)C2=C(C=C(C(=C2)NS(=O)(=O)C)Cl)Cl",
+        "description": "The molecule is a member of the class of triazoles that is 5-oxo-1,2,4-triazole which is substituted at positions 1, 3, and 4 by 2,4-dichloro-5-[(methylsulfonyl)amino]phenyl, methyl, and difluoromethyl groups, respectively. A protoporphyrinogen oxidase inhibitor, it is used as a herbicide to control broad-leaved weeds in soya and tobacco crops. Not approved for use within the European Union. It has a role as an EC 1.3.3.4 (protoporphyrinogen oxidase) inhibitor, a herbicide and an agrochemical. It is a sulfonamide, a dichlorobenzene, an organofluorine compound and a member of triazoles.",
+        "answer": "The molecule is a natural product found in Leucetta microraphis with data available.",
+        "all_tokens": 1189,
+        "blue2": 0.002046836018242125
+    },
+    {
+        "SMILES": "COC1=CC(=CC2=C1OC(C2CO)C3=CC(=C(C=C3)O)OC)/C=C/CO",
+        "description": "The molecule is a guaiacyl lignin obtained by cyclodimerisation of coniferol. It has a role as a plant metabolite and an anti-inflammatory agent. It is a member of 1-benzofurans, a primary alcohol, a guaiacyl lignin and a member of guaiacols. It derives from a coniferol.",
+        "answer": "The molecule is a natural product found in Chloranthus serratus with data available.",
+        "all_tokens": 1135,
+        "blue2": 0.08175777559144426
+    },
+    {
+        "SMILES": "C(CC(=O)N[C@@H](CSCCO)C(=O)NCC(=O)O)[C@@H](C(=O)O)N",
+        "description": "The molecule is a Glu-Cys-Gly tripeptide derivative of glutathione containing a 2-hydroxyethyl substituent on the S of the Cys residue. It derives from a glutathione.",
+        "answer": "The molecule is a natural product found in Vicia faba with data available.",
+        "all_tokens": 1149,
+        "blue2": 0.1939375298061285
+    },
+    {
+        "SMILES": "C([C@@H]1[C@H]([C@@H]([C@@H]([C@H](O1)O[C@H]2[C@@H]([C@H](O[C@H]([C@H]2O)O[C@@H]3[C@H](O[C@H]([C@H]([C@H]3O)O)O)CO)CO)O)O)O)O)O",
+        "description": "The molecule is a mannotriose consisting of an alpha-D-mannopyranose residue and two beta-D-mannopyranose residues joined in sequence by (1->3) and (1->4) glycosidic bonds. It is a mannotriose and an alpha-D-Manp-(1->3)-beta-D-Manp-(1->4)-D-Manp.",
+        "answer": "The molecule is Alpha-D-Manp-(1->3)-beta-D-Manp-(1->4)-beta-D-Manp, a mannotriose consisting of an alpha-D-mannopyranose residue and two beta-D-mannopyranose residues joined in sequence by (1->3) and (1->4) glycosidic bonds.",
+        "all_tokens": 1847,
+        "blue2": 0.8800105203089953
+    },
+    {
+        "SMILES": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O[C@H]3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O)O[C@H]4[C@H]([C@@H]([C@@H]([C@@H](O4)C)O)O)O)NC(=O)C)O)CO)O)O)O",
+        "description": "The molecule is an alpha-L-Fucp-(1->2)-beta-D-Galp-(1->3)-[alpha-L-Fucp-(1->4)]-D-GlcNAc where the glucosamine at the reducing end has beta-configuration at its anomeric centre. It has a role as an epitope.",
+        "answer": "The molecule is Alpha-L-Fucp-(1->2)-beta-D-Galp-(1->3)-[alpha-L-Fucp-(1->4)]-beta-D-GlcpNAc is an alpha-L-Fucp-(1->2)-beta-D-Galp-(1->3)-[alpha-L-Fucp-(1->4)]-D-GlcNAc where the glucosamine at the reducing end has beta-configuration at its anomeric centre; Lewis b. It has a role as an epitope.",
+        "all_tokens": 3557,
+        "blue2": 0.6984594835818859
+    },
+    {
+        "SMILES": "C[C@@]1(CC[C@H]2C(=CC[C@@H]3[C@@]2(CCC[C@]3(C)C(=O)O)C)C1)CCO[C@@H]4[C@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O",
+        "description": "The molecule is a diterpene glycoside that is isopimar-7-en-19-oic acid attached to a alpha-D-mannopyranosyloxy residue at position 16. It has been isolated from the fungus, Xylaria species. It has a role as a fungal metabolite. It is a diterpenoid, a monosaccharide derivative, a monocarboxylic acid and a diterpene glycoside. It derives from an alpha-D-mannose. It derives from a hydride of an isopimarane.",
+        "answer": "The molecule is 16-alpha-D-mannopyranosyloxyisopimar-7-en-19-oic acid, a diterpene glycoside that is isopimar-7-en-19-oic acid attached to an alpha-D-mannopyranosyloxy residue at position 16. It has been isolated from the fungus, Xylaria species. It has a role as a fungal metabolite. It is a diterpenoid, a monosaccharide derivative, a monocarboxylic acid, and a diterpene glycoside. It is functionally related to an alpha-D-mannose. It derives from a hydride of an isopimarane.",
+        "all_tokens": 1866,
+        "blue2": 0.8379421705434343
+    },
+    {
+        "SMILES": "C[C@@](CCO)(CC(=O)O)O",
+        "description": "The molecule is the (R)-enantiomer of mevalonic acid. It is a conjugate acid of a (R)-mevalonate. It is an enantiomer of a (S)-mevalonic acid.",
+        "answer": "The molecule is (R)-mevalonic acid, the (R)-enantiomer of mevalonic acid, and a conjugate acid of (R)-mevalonate, as well as an enantiomer of (S)-mevalonic acid.",
+        "all_tokens": 1440,
+        "blue2": 0.8123656123930639
+    },
+    {
+        "SMILES": "CSCCC/C=[N+](\\\\O)/[O-]",
+        "description": "The molecule is an aci-nitro compound resulting from the formal oxidation of the oxime nitrogen of an omega-(methylsulfany)-(E)-alkanal oxime. It is an aci-nitro compound and a methyl sulfide. It derives from an omega-(methylsulfanyl)-(E)-alkanal oxime.",
+        "answer": "The molecule is an aci-nitro compound resulting from the tautomerisation of the nitro group of 3-(methylsulfanyl)propanenitroso formate. It is an aci-nitro compound and a methyl sulfide. It is functionally related to a 3-(methylsulfanyl)propanenitroso formate.",
+        "all_tokens": 3525,
+        "blue2": 0.7737910562629933
+    },
+    {
+        "SMILES": "CCCCC1C(=O)N(N(C1=O)C2=CC=C(C=C2)O)C3=CC=CC=C3.O",
+        "description": "The molecule is a hydrate obtained by combining oxyphenbutazone with one molar equivalent of water. Commonly used to treat pain, swelling and stiffness associated with arthritis and gout, it was withdrawn from the market 1984 following association with blood dyscrasis and Stevens-Johnson syndrome. It has a role as a non-steroidal anti-inflammatory drug, a non-narcotic analgesic, a gout suppressant, an antipyretic, an antimicrobial agent and an antineoplastic agent. It contains an oxyphenbutazone.",
+        "answer": "The molecule is oxyphenbutazone hydrate, a hydrate obtained by combining oxyphenbutazone with one molar equivalent of water.",
+        "all_tokens": 1565,
+        "blue2": 0.04723269729417569
+    },
+    {
+        "SMILES": "C1COC(=O)C2=CC=CC=C21",
+        "description": "The molecule is the simplest member of the class of dihydroisocoumarins that is the 3,4-dihydro derivative of isocoumarin. It derives from an isocoumarin.",
+        "answer": "The molecule is 3,4-dihydroisocoumarin, the simplest member of the class of dihydroisocoumarins that is the 3,4-dihydro derivative of isocoumarin. It is functionally related to an isocoumarin.",
+        "all_tokens": 1455,
+        "blue2": 0.7751034384610458
+    },
+    {
+        "SMILES": "CCCCCC(=O)/C=C/[C@H]1[C@@H](C[C@@H]([C@@H]1CCCCCCC(=O)O)O)O",
+        "description": "The molecule is a prostaglandin Falpha that is prostaglandin F1alpha bearing a keto substituent at the 15-position. It is the initial metabolite of prostaglandin F1alpha via 15-hydroxyprostaglandin dehydrogenase. It has a role as a metabolite. It derives from a prostaglandin F1alpha. It is a conjugate acid of a 15-ketoprostaglandin F1alpha(1-).",
+        "answer": "The molecule is (2R)-2-[(E)-6-[(1S,2S,3S)-3-hydroxy-2-[(1R)-1-hydroxycyclohexyl]-5-oxabicyclo[2.2.1]hept-5-en-1-yl]-6-oxohex-1-enyl]tetrahydro-2H-pyran-2-carboxylic acid.",
+        "all_tokens": 4148,
+        "blue2": 0.13999753733687678
+    },
+    {
+        "SMILES": "C[C@]12[C@H]3[C@@H]([C@@]45C[C@@H](CC[C@H]4[C@@]3(C[C@@H]([C@@H]1O)O)OC2=O)C(=C)C5)C(=O)O",
+        "description": "The molecule is a lactone, a C19-gibberellin and a gibberellin monocarboxylic acid. It is a conjugate acid of a gibberellin A34(1-).",
+        "answer": "The molecule is Gibberellin A34, a lactone, a C19-gibberellin and a gibberellin monocarboxylic acid. It is a conjugate acid of a gibberellin A34(1-).",
+        "all_tokens": 1643,
+        "blue2": 0.8855205038112063
+    },
+    {
+        "SMILES": "CCCCC/C=C\\\\C/C=C\\\\CC1C(O1)C/C=C\\\\CCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]2[C@H]([C@H]([C@@H](O2)N3C=NC4=C(N=CN=C43)N)O)OP(=O)(O)O)O",
+        "description": "The molecule is an unsaturated fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of 8,9-epoxy-(5Z,11Z,14Z)-icosatrienoic acid. It is a long-chain fatty acyl-CoA and an unsaturated fatty acyl-CoA. It derives from an 8,9-EET. It is a conjugate acid of an 8,9-epoxy-(5Z,11Z,14Z)-icosatrienoyl-CoA(4-).",
+        "answer": "The molecule is an unsaturated fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of (6Z,9Z,12S)-hydroxy-12,15-epoxy-(5Z,8Z,10E)-icosatrienoic acid. It is a long-chain fatty acyl-CoA and an unsaturated fatty acyl-CoA. It is functionally related to a (5Z,8Z,11Z)-icosatrienoic acid. It is a conjugate acid of a (6Z,9Z,12S)-hydroxy-12,15-epoxy-(5Z,8Z,10E)-icosatrienoyl-CoA(4-).",
+        "all_tokens": 3400,
+        "blue2": 0.7775802169575478
+    },
+    {
+        "SMILES": "CC1(CC(=O)C2=CC=CC=C2C1=O)S(=O)(=O)[O-]",
+        "description": "The molecule is an organosulfonate oxoanion that is the conjugate base of menadione sulfonic acid, arising from deprotonation of the sulfo group; major species at pH 7.3. It is a conjugate base of a menadione sulfonic acid.",
+        "answer": "The molecule is Menadione sulfonate, an organosulfonate oxoanion that is the conjugate base of menadione sulfonic acid, arising from deprotonation of the sulfo group; major species at pH 7.3. It is a conjugate base of a menadione sulfonic acid.",
+        "all_tokens": 1563,
+        "blue2": 0.9137573194112183
+    },
+    {
+        "SMILES": "C1=CC=C(C=C1)[N+]2=C3C=C(C=CC3=NC4=C2C=C(C=C4)N)N.[Cl-]",
+        "description": "The molecule is an organic chloride salt having 3,7-diamino-5-phenylphenazin-5-ium as the counterion. It is commonly used for staining Gram negative bacteria red in smears to contrast with the blue Gram positive organisms. It has a role as a fluorochrome, a histological dye and a photosensitizing agent. It contains a 3,7-diamino-5-phenylphenazin-5-ium.",
+        "answer": "The molecule is phenosafranine, an organic chloride salt having 3,7-diamino-5-phenylphenazin-5-ium as the counterion. It is commonly used for staining Gram negative bacteria red in smears to contrast with the blue Gram positive organisms. It has a role as a fluorochrome, a histological dye and a photosensitizing agent. It contains a 3,7-diamino-5-phenylphenazin-5-ium.",
+        "all_tokens": 1646,
+        "blue2": 0.956698159781812
+    },
+    {
+        "SMILES": "CCOP(=S)(OCC)OC1=CC=C(C=C1)S(=O)C",
+        "description": "The molecule is an organic thiophosphate, a sulfoxide and an organothiophosphate insecticide. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor, an agrochemical, an avicide and a nematicide. It derives from a 4-(methylsulfinyl)phenol.",
+        "answer": "The molecule is Fensulfothion, an organic thiophosphate, a sulfoxide and an organothiophosphate insecticide. It has a role as an EC 3.1.1.7 (acetylcholinesterase) inhibitor, an agrochemical, an avicide and a nematicide. It is functionally related to a 4-(methylsulfinyl)phenol.",
+        "all_tokens": 1528,
+        "blue2": 0.8696502339018773
+    },
+    {
+        "SMILES": "C[C@@]12CC[C@@]3(C(=C[C@H]([C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)O)[C@@H]1CC(CC2)(C)C)C",
+        "description": "The molecule is the pentacyclic triterpenoid that is the 11alpha-hydroxy derivative of beta-amyrin. It is a pentacyclic triterpenoid and a secondary alcohol. It derives from a beta-amyrin.",
+        "answer": "The molecule is 11alpha-hydroxy-beta-amyrin, a pentacyclic triterpenoid that is the 11alpha-hydroxy derivative of beta-amyrin. It is a pentacyclic triterpenoid and a secondary alcohol, functionally related to beta-amyrin.",
+        "all_tokens": 1674,
+        "blue2": 0.7997325756234824
+    },
+    {
+        "SMILES": "C1=NC2=C(N1[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)([O-])OP(=O)([O-])OP(=O)(O)[O-])O)O)NC(=O)NC2=O",
+        "description": "The molecule is trianion of xanthosine 5'-triphosphate arising from deprotonation of three of the four free triphosphate OH groups. It is a xanthosine 5'-phosphate and a ribonucleoside triphosphate oxoanion. It is a conjugate base of a XTP. It is a conjugate acid of a XTP(4-).",
+        "answer": "The molecule is XTP(3-) which is a trianion of xanthosine 5'-triphosphate arising from deprotonation of three of the four free triphosphate OH groups. It is a xanthosine 5'-phosphate and a ribonucleoside triphosphate oxoanion. It is a conjugate base of a XTP. It is a conjugate acid of a XTP(4-).",
+        "all_tokens": 1738,
+        "blue2": 0.9357020092500183
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](COP(=O)([O-])O[C@@H]1[C@@H]([C@@H]([C@H]([C@@H]([C@H]1OC2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)O)O)O)O)[C@@H](CCCCCCCCCCCCCCCCC)O",
+        "description": "The molecule is a mannosylinositol phosphorylceramide(1-) having a hexacosanoyl group amide-linked to a C20 sphinganine base, with no hydroxylation at C-4 of the long-chain base or on the C26 very-long-chain fatty acid. It is a conjugate base of a Man-1-2-Ins-1-P-Cer(d20:0/26:0).",
+        "answer": "The molecule is an organophosphate oxoanion.",
+        "all_tokens": 5874,
+        "blue2": 0.00440311364548809
+    },
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])[O-])OC(=O)CCCCCCC/C=C\\\\CCCCCCCC",
+        "description": "The molecule is a 1,2-diacyl-sn-glycerol 3-phosphate(2-) obtained by deprotonation of the phosphate OH groups of 1-icosanoyl-2-oleoyl-sn-glycero-3-phosphate. It is a conjugate base of a 1-icosanoyl-2-oleoyl-sn-glycero-3-phosphate.",
+        "answer": "The molecule is a 1,2-diacyl-sn-glycerol 3-phosphate(2-) obtained by deprotonation of the phosphate OH groups of 1-octadecanoyl-2-(7Z)-hexadecenoyl-sn-glycero-3-phosphate. It is a 1,2-diacyl-sn-glycerol 3-phosphate(2-) and a phosphatidate(2-). It is a conjugate base of a 1-octadecanoyl-2-(7Z)-hexadecenoyl-sn-glycero-3-phosphate.",
+        "all_tokens": 5799,
+        "blue2": 0.67645027032537
+    },
+    {
+        "SMILES": "[C@H]1([C@H](C([C@H]([C@@H](C1O)OP(=O)(O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)O)OP(=O)(O)OP(=O)(O)O",
+        "description": "The molecule is a myo-inositol bis(diphosphate) trisphosphate having the three phospho groups located at positions 4, 5 and 6 and the two diphospho groups at positions 1 and 3. It derives from a myo-inositol.",
+        "answer": "The molecule is 1,3-bis(diphospho)-myo-inositol 4,5,6-trisphosphate, a myo-inositol bis(diphosphate) trisphosphate having the three phospho groups located at positions 4, 5 and 6 and the two diphospho groups at positions 1 and 3.",
+        "all_tokens": 1768,
+        "blue2": 0.8421088542787138
+    },
+    {
+        "SMILES": "C[C@]12CC[C@@H](C([C@@H]1CC[C@@]3([C@@H]2CC=C4[C@]3(CC[C@@]5([C@H]4CC(CC5)(C)C)C(=O)O)C)C)(C)C)O",
+        "description": "The molecule is a pentacyclic triterpenoid that is olean-12-en-28-oic acid substituted by a beta-hydroxy group at position 3. It has a role as a plant metabolite. It is a pentacyclic triterpenoid and a hydroxy monocarboxylic acid. It is a conjugate acid of an oleanolate. It derives from a hydride of an oleanane.",
+        "answer": "The molecule is Oleanolic acid, a pentacyclic triterpenoid that is olean-12-en-28-oic acid substituted by a beta-hydroxy group at position 3.",
+        "all_tokens": 1679,
+        "blue2": 0.28895193976531375
+    },
+    {
+        "SMILES": "CN(C)C1=CC2=C(C=C1)NC3=C(O2)C(=O)C(=O)C=C3C(=O)[NH3+]",
+        "description": "The molecule is an organic cation that is 3,4-dihydroxyphenoxazin-5-ium carrying additional carbamoyl and dimethylamino groups at positions 1 and 7 respectively. The chloride salt is the histological dye 'Gallamin blue'. It has a role as a fluorochrome and a histological dye.",
+        "answer": "The molecule is Gallamin blue(1+), an organic cation that is 3,4-dihydroxyphenoxazin-5-ium carrying additional carbamoyl and dimethylamino groups at positions 1 and 7 respectively. The chloride salt is the histological dye 'Gallamin blue'. It has a role as a fluorochrome and a histological dye.",
+        "all_tokens": 1578,
+        "blue2": 0.9354836785867031
+    },
+    {
+        "SMILES": "C[C@H]1[C@H]([C@H](C[C@H](O1)OP(=O)([O-])OP(=O)([O-])OC[C@@H]2[C@H](C[C@@H](O2)N3C=C(C(=O)NC3=O)C)O)[NH+](C)C)O",
+        "description": "The molecule is a nucleotide-sugar oxoanion that is the conjugate base of dTDP-beta-L-rhodosamine, arising from deprotonation of the diphosphate group and protonation of the amino group; major species at pH 7.3. It is a conjugate base of a dTDP-beta-L-rhodosamine.",
+        "answer": "The molecule is DTDP-beta-L-rhodosamine(1-) which is a nucleotide-sugar oxoanion that is the conjugate base of dTDP-beta-L-rhodosamine, arising from deprotonation of the diphosphate group and protonation of the amino group; major species at pH 7.3. It is a conjugate base of a dTDP-beta-L-rhodosamine.",
+        "all_tokens": 1779,
+        "blue2": 0.8768715153801324
+    },
+    {
+        "SMILES": "CC(=O)N(CCCN)O",
+        "description": "The molecule is a member of the class of acetohydroxamic acids that is trimethylenediamine bearing N-hydroxy and N-acetyl substituents. It has a role as a metabolite. It derives from a trimethylenediamine.",
+        "answer": "The molecule is N-(3-aminopropyl)-N-hydroxyacetamide, a member of the class of acetohydroxamic acids that is trimethylenediamine bearing N-hydroxy and N-acetyl substituents. It has a role as a metabolite and is functionally related to a trimethylenediamine.",
+        "all_tokens": 1482,
+        "blue2": 0.7637758828490134
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "SMILES": "COC1=CC(=CC(=C1O)OC)/C=C/C(=O)OCCCCCCCCCCCCCCCC(=O)[O-]",
+        "description": "The molecule is a monocarboxylic acid anion that is the conjugate base of 16-sinapoyloxypalmitic acid resulting from the deprotonation of the carboxy group. It is a conjugate base of a 16-sinapoyloxypalmitic acid.",
+        "answer": "COc1cc(/C=C/C(=O)OCCCCCCCCCCCCCCCC(=O)[O-])cc(OC)c1O",
+        "blue2": 0.7663523674885406
+    }
+]

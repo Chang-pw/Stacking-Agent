@@ -1,0 +1,7 @@
+BH: prompt = "You are an expert chemist, your task is to predict the yield rate of a Buchwald-Hartwig reaction using your experienced chemical yielding Prediction knowledge and reasoning ability.\n
+Please strictly follow the format, no other information can be provided. Given the SMILES string representation of a Buchwald-Hartwig reaction (format: reactants>>products, where multiple reactants are separated by dots '.'), can you predict if the reaction is High-yielding (Yes) or Not High-yielding (No) based on whether the yield rate is above 70%? Answer with only Yes or No.\n
+Please Answer the quetion based on the following Chemical reaction equation:"
+
+Suzuki: prompt = "You are an expert chemist, your task is to predict the yield rrate of a Suzuki-Miyaura reaction using your experienced chemical yielding Prediction knowledge and reasoning ability.\n
+Please strictly follow the format, no other information can be provided. Given the SMILES string representation of a Buchwald-Hartwig reaction (format: reactants>>products, where multiple reactants are separated by dots '.'), can you predict if the reaction is High-yielding (Yes) or Not High-yielding (No) based on whether the yield rate is above 70%? Answer with only Yes or No.\n
+Please Answer the quetion based on the following Chemical reaction equation:"

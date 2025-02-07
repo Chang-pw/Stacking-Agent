@@ -1,0 +1,177 @@
+[
+    {
+        "SMILES": "CCCCCCCCCCCCCCCCCCCC(=O)O[C@H](COC(=O)CCCCCCC/C=C\\\\CCCCCCCC)COP(=O)([O-])[O-]",
+        "description": "The molecule is a 1,2-diacyl-sn-glycero-3-phosphate(2-) obtained by deprotonation of the phosphate OH groups of 1-oleoyl-2-icosanoyl-sn-glycero-3-phosphate. It is a 1,2-diacyl-sn-glycerol 3-phosphate(2-) and a 1-oleoyl-2-acyl-sn-glycero-3-phosphate(2-). It is a conjugate base of a 1-oleoyl-2-icosanoyl-sn-glycero-3-phosphate.",
+        "answer": "CCCCCCCC/C=C\\CCCCCCCC(=O)OC[C@H](COP(=O)([O-])[O-])OC(=O)CCCCCCCCCCCCCCCCCCC",
+        "all_tokens": 1988,
+        "blue2": 0.9602496147206823
+    },
+    {
+        "SMILES": "CCCCC[C@H]1[C@H](O1)C[C@@H](/C=C/C=C\\\\C/C=C\\\\CCCC(=O)O)OO",
+        "description": "The molecule is a hydroperoxy fatty acid that is (14R,15S)-epoxy-(5Z,8Z,10E)-icosatrienoic acid in which the hydroperoxy group is located at position 12S. It has a role as a human xenobiotic metabolite and a mouse metabolite. It is a conjugate acid of a (12S)-hydroperoxy-(14R,15S)-epoxy-(5Z,8Z,10E)-icosatrienoate.",
+        "answer": "CCCCCCCC/C=C\\CCCCCCCC(=O)OC[C@H](COP(=O)([O-])[O-])OC(=O)CCCCCCCCCCCCCCCCCCC",
+        "all_tokens": 4461,
+        "blue2": 0.4616902584383193
+    },
+    {
+        "SMILES": "C[C@@H]([C@H]1[C@H]([C@H]([C@@H](O1)OC2=C(OC3=CC(=CC(=C3C2=O)O)O)C4=CC(=C(C=C4)O)O)O)O)O",
+        "description": "The molecule is a quercetin O-glycoside that is quercetin attached to a alpha-L-rhamnofuranosyl moiety at position 3 via a glycosidic linkage. It has a role as a metabolite. It is an alpha-L-rhamnofuranoside, a monosaccharide derivative, a tetrahydroxyflavone and a quercetin O-glycoside.",
+        "answer": "C[C@H](O)[C@@H]1O[C@@H](Oc2c(-c3ccc(O)c(O)c3)oc3cc(O)cc(O)c3c2=O)[C@H](O)[C@@H]1O",
+        "all_tokens": 4924,
+        "blue2": 0.5485769947597297
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\CC/C(=C\\\\COP(=O)([O-])OP(=O)([O-])O[C@@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O[C@@H]2[C@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O)NC(=O)C)/C)/C)/C)/C)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is an organophosphate oxoanion obtained by deprotonation of the diphosphate OH groups of alpha-D-mannosyl-(1->3)-N-acetyl-alpha-D-glucosaminyl-1-diphospho-ditrans,polycis-undecaprenol. Major species at pH 7.3. It is a conjugate base of an alpha-D-mannosyl-(1->3)-N-acetyl-alpha-D-glucosaminyl-1-diphospho-ditrans,polycis-undecaprenol.",
+        "answer": "CCCCCCCC/C=C\\CCCCCCCC(=O)OC[C@H](COP(=O)([O-])[O-])OC(=O)CCCCCCCCCCCCCCCCCCC",
+        "all_tokens": 5628,
+        "blue2": 0.08862332240024283
+    },
+    {
+        "SMILES": "CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O[C@H]2[C@H]([C@H](O[C@H]([C@@H]2O)O[C@@H]3[C@H]([C@@H](O[C@@H]([C@H]3O)CO)O)NC(=O)C)CO)O)CO)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O",
+        "description": "The molecule is a linear amino tetrasaccharide consisting of a sequence of beta-D-galactose, N-acetyl-beta-D-glucosamine, beta-D-galactose and N-acetyl-beta-D-glucosamine residues linked (1->4), (1->3) and (1->3). It has a role as an epitope. It is an amino tetrasaccharide and a glucosamine oligosaccharide.",
+        "answer": "CC(=O)N[C@@H]1[C@@H](O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O[C@@H]3O[C@H](CO)[C@@H](O[C@@H]4O[C@H](CO)[C@H](O)[C@H](O)[C@H]4O)[C@H](O)[C@H]3NC(C)=O)[C@H]2O)[C@H](O)[C@@H](CO)O[C@H]1O",
+        "all_tokens": 2028,
+        "blue2": 0.9092360964660477
+    },
+    {
+        "SMILES": "C[C@@H]1C[C@@](C(=O)O[C@@H]2CCN3[C@@H]2C(=CC3)COC(=O)[C@]1(C)O)([C@@H](C)O)O",
+        "description": "The molecule is a pyrrolizine alkaloid obtained from senecionine by formal addition of hydrogen peroxide across the ethylidene double bond. It has a role as a Jacobaea metabolite. It is a macrocyclic lactone, an organic heterotricyclic compound, a pyrrolizine alkaloid, a triol and a tertiary amino compound. It derives from a senecionine.",
+        "answer": "C[C@@H]1C[C@](O)([C@@H](C)O)C(=O)O[C@@H]2CCN3CC=C(COC(=O)[C@]1(C)O)[C@H]23",
+        "all_tokens": 2955,
+        "blue2": 0.9324773307887835
+    },
+    {
+        "SMILES": "C(C(C(=O)O)N)P(=O)(O)O",
+        "description": "The molecule is a non-proteinogenc alpha-amino acid that is alanine in which one of the hydrogens of the terminal methyl group has been replaced by a dihydroxy(oxido)-lambda(5)-phosphanyl group. It has a role as a metabotropic glutamate receptor antagonist and a human metabolite. It is a non-proteinogenic alpha-amino acid, a member of phosphonic acids and an alanine derivative.",
+        "answer": "{\"query\":\"Please try to infer the SMILES of this molecule: The molecule is a non-proteinogenc alpha-amino acid that is alanine in which one of the hydrogens of the terminal methyl group has been replaced by a dihydroxy(oxido)-lambda(5)-phosphanyl group. It has a role as a metabotropic glutamate receptor antagonist and a human metabolite. It is a non-proteinogenic alpha-amino acid, a member of phosphonic acids and an alanine derivative.\"}",
+        "all_tokens": 18860,
+        "blue2": 1.5883197023161116e-155
+    },
+    {
+        "SMILES": "CC/C=C\\\\C[C@H](/C=C/C=C\\\\C=C\\\\C=C\\\\C(C(CCCC(=O)[O-])O)O)O",
+        "description": "The molecule is an icosanoid anion that is the conjugate base of (7E,9E,11Z,13E,15R,17Z)-5,6,15-trihydroxyicosapentaenoic acid, obtained by deprotonation of the carboxy group; major species at pH 7.3. It is a lipoxin anion, an icosanoid anion, a long-chain fatty acid anion and a hydroxy fatty acid anion. It is a conjugate base of a (7E,9E,11Z,13E,15R,17Z)-5,6,15-trihydroxyicosapentaenoic acid.",
+        "answer": "CC/C=C\\C[C@@H](O)/C=C/C=C\\C=C\\C=C\\C(O)C(O)CCCC(=O)[O-]",
+        "all_tokens": 5622,
+        "blue2": 0.8635388993430704
+    },
+    {
+        "SMILES": "CC1=CC2=C(C=C1N)N(C3=NC(=NC(=O)C3=N2)[O-])C[C@@H]([C@@H]([C@@H](CO)O)O)O",
+        "description": "The molecule is an organic anion that is the conjugate base of 8-amino-8-demethylriboflavin, obtained by removal of the imide proton at position 3. It is the major microspecies at pH 7.3 (according to Marvin v 6.2.0.). It is a conjugate base of an 8-amino-8-demethylriboflavin.",
+        "answer": "Cc1cc2nc3c(=O)nc(=O)nc-3n(C[C@H](O)[C@H](O)[C@H](O)CO)c2cc1N",
+        "all_tokens": 14247,
+        "blue2": 0.4938526677336637
+    },
+    {
+        "SMILES": "COC1=C(C(=C2C=CC(=O)OC2=C1)OC)OC",
+        "description": "The molecule is a member of the class of coumarins that is coumarin substituted by methoxy groups at positions 5, 6 and 7. It has a role as an antibacterial agent and a metabolite. It is an aromatic ether and a member of coumarins. It derives from a coumarin.",
+        "answer": "COc1cc2oc(=O)ccc2c(OC)c1OC",
+        "all_tokens": 4462,
+        "blue2": 0.32955699145002015
+    },
+    {
+        "SMILES": "C1=C(NC=N1)C[C@@H](C(=O)[O-])NC(=O)CC[C@@H](C(=O)[O-])[NH3+]",
+        "description": "The molecule is a peptide anion that is the conjugate base of gamma-Glu-His, obtained by removal of protons from the two carboxy groups as well as protonation of the amino group; major species at pH 7.3. It is a conjugate base of a member of gamma-Glu-His.",
+        "answer": "[NH3+][C@@H](CCC(=O)N[C@@H](Cc1cnc[nH]1)C(=O)[O-])C(=O)[O-]",
+        "all_tokens": 2728,
+        "blue2": 0.8051752539233873
+    },
+    {
+        "SMILES": "C(C=O)S(=O)[O-]",
+        "description": "The molecule is an organosulfinate oxoanion resulting from the deprotonation of the sulfino group of sulfinoacetaldehyde. The major species at pH 7.3. It is a conjugate base of a sulfinoacetaldehyde.",
+        "answer": "O=CCS(=O)[O-]",
+        "all_tokens": 5987,
+        "blue2": 0.7000673684685328
+    },
+    {
+        "SMILES": "C(Cl)(Cl)Cl",
+        "description": "The molecule is a one-carbon compound that is methane in which three of the hydrogens are replaced by chlorines. It has a role as an inhalation anaesthetic, a non-polar solvent, a carcinogenic agent, a central nervous system drug and a refrigerant. It is a one-carbon compound and a member of chloromethanes.",
+        "answer": "ClC(Cl)Cl",
+        "all_tokens": 6451,
+        "blue2": 0.749021254622464
+    },
+    {
+        "SMILES": "CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC",
+        "description": "The molecule is a tertiary amino compound that is 3,4-dimethoxyphenylethylamine in which the hydrogens attached to the nitrogen are replaced by a methyl group and a 4-cyano-4-(3,4-dimethoxyphenyl)-5-methylhexyl group. It is a tertiary amino compound, an aromatic ether, a polyether and a nitrile.",
+        "answer": "COc1ccc(CCN(C)CCCC(C#N)(c2ccc(OC)c(OC)c2)C(C)C)cc1OC",
+        "all_tokens": 4462,
+        "blue2": 0.5571956481301077
+    },
+    {
+        "SMILES": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C",
+        "description": "The molecule is a trihydroxy-5beta-cholanic acid that is 5beta-cholan-24-oic acid substituted by hydroxy groups at positions 3, 7 and 12 (the 3alpha,7alpha,12beta stereoisomer). It has a role as a human metabolite. It is a conjugate acid of a 3alpha,7alpha,12beta-trihydroxy-5beta-cholanate.",
+        "answer": "C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3[C@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3C[C@@H](O)[C@]12C",
+        "all_tokens": 4947,
+        "blue2": 0.8954821141964666
+    },
+    {
+        "SMILES": "CC(C)CCCCCCCCCCCCCCCCCCCCCCC(=O)O",
+        "description": "The molecule is a methyl-branched fatty acid that is pentacosanoic acid substituted by a methyl group at position 24. It is a very long-chain fatty acid, a branched-chain saturated fatty acid and a methyl-branched fatty acid. It derives from a pentacosanoic acid.",
+        "answer": "CCC(C)CCCCCCCCCCCCCCCCCCCCCCC(=O)O",
+        "all_tokens": 1640,
+        "blue2": 0.9701425001453319
+    },
+    {
+        "SMILES": "COC1=CC(=CC(=C1O)OC)/C=C/C(=O)OCCCCCCCCCCCCCCCC(=O)[O-]",
+        "description": "The molecule is a monocarboxylic acid anion that is the conjugate base of 16-sinapoyloxypalmitic acid resulting from the deprotonation of the carboxy group. It is a conjugate base of a 16-sinapoyloxypalmitic acid.",
+        "answer": "COc1cc(/C=C/C(=O)OCCCCCCCCCCCCCCCC(=O)[O-])cc(OC)c1O",
+        "all_tokens": 2735,
+        "blue2": 0.7663523674885406
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC1=C(C=CC(=C1)C(=O)O)O)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is a monohydroxybenzoic acid that is 4-hydroxybenzoic acid substituted at position 3 by a heptaprenyl group. It is a monohydroxybenzoic acid and an olefinic compound. It is a conjugate acid of a 4-hydroxy-3-all-trans-heptaprenylbenzoate.",
+        "answer": "CCCCCCCC/C=C\\CCCCCCCC(=O)OC[C@H](COP(=O)([O-])[O-])OC(=O)CCCCCCCCCCCCCCCCCCC",
+        "all_tokens": 6459,
+        "blue2": 0.4063333217430151
+    },
+    {
+        "SMILES": "C[C@@H](C(=O)NCC(=O)N[C@@H](C)C(=O)NCC(=O)O)N",
+        "description": "The molecule is a tetrapeptide composed of L-alanine, glycine, L-alanine, and glycine residues joined in sequence by peptide linkages. It derives from a L-alanine and a glycine.",
+        "answer": "C[C@H](N)C(=O)NCC(=O)N[C@@H](C)C(=O)NCC(=O)O",
+        "all_tokens": 5099,
+        "blue2": 0.9428127320371884
+    },
+    {
+        "SMILES": "C[C@H]1[C@H]([C@@](C[C@H](O1)OP(=O)([O-])OP(=O)([O-])OC[C@@H]2[C@H](C[C@@H](O2)N3C=C(C(=O)NC3=O)C)O)(C)[NH3+])O",
+        "description": "The molecule is a nucleotide-sugar oxoanion that is the conjugate base of dTDP-beta-L-vancosamine, arising from deprotonation of the diphosphate group and protonation of the amino group; major species at pH 7.3. It is a conjugate base of a dTDP-beta-L-vancosamine.",
+        "answer": "Cc1cn([C@H]2C[C@H](O)[C@@H](COP(=O)([O-])OP(=O)([O-])N[C@@H]3C[C@](C)([NH3+])[C@H](O)[C@H](C)O3)O2)c(=O)[nH]c1=O",
+        "all_tokens": 4710,
+        "blue2": 0.8538654631065886
+    },
+    {
+        "SMILES": "C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H]([C@@H](O2)O[C@@H]3[C@H](OC([C@@H]([C@H]3O)O)O)CO)O)O)O)O)O)O)O",
+        "description": "The molecule is a glucotriose consisting of two beta-D-glucopyranose residues and a D-glucopyranose residue joined in sequence by (1->6) and (1->4) glycosidic bonds. It derives from a cellobiose and a beta-D-Glcp-(1->6)-beta-D-Glcp.",
+        "answer": "OC[C@H]1O[C@@H](O[C@H]2[C@@H](O)[C@H](O)[C@H](O)[C@H](CO)O2)[C@@H](O)[C@H](O)[C@H]1O[C@H]3[C@@H](O)[C@H](O)[C@H](O)[C@H](CO)O3",
+        "all_tokens": 6030,
+        "blue2": 0.8522251175475525
+    },
+    {
+        "SMILES": "C[C@H]1CC[C@H]2[C@H](CC[C@H]([C@@H]2C1)C(C)C)C",
+        "description": "The molecule is a sesquiterpene consisting of decalin having two methyl substituents at the 1- and 6-positions, an isopropyl substituent at the 4-position and (1S,4S,4aS,6S,8aS)-configuration. It is a terpenoid fundamental parent and a sesquiterpene.",
+        "answer": "C[C@H]1CC[C@@H]2[C@H]([C@@H](CC2)[C@@H](C1)C)C(C)C",
+        "all_tokens": 6061,
+        "blue2": 0.8880154438811458
+    },
+    {
+        "SMILES": "C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H](O[C@H]2OC3=CC(=C4C(=O)C[C@H](OC4=C3)C5=CC=C(C=C5)O)O)CO)O)O)O)O)O",
+        "description": "The molecule is a disaccharide derivative that is (S)-naringenin substituted by a 2-O-(alpha-L-rhamnopyranosyl)-beta-D-glucopyranosyl moiety at position 7 via a glycosidic linkage. It has a role as a metabolite, an antineoplastic agent and an anti-inflammatory agent. It is a disaccharide derivative, a dihydroxyflavanone, a member of 4'-hydroxyflavanones, a (2S)-flavan-4-one and a neohesperidoside. It derives from a (S)-naringenin.",
+        "answer": "C[C@@H]1O[C@@H](O[C@H]2[C@H](Oc3cc(O)c4c(c3)O[C@H](c3ccc(O)cc3)CC4=O)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O",
+        "all_tokens": 5584,
+        "blue2": 0.7387125996048899
+    },
+    {
+        "SMILES": "C1=NC2=C(N1[C@H]3[C@@H]([C@@H]([C@H](O3)COP(=O)([O-])OP(=O)([O-])[O-])O)O)NC(=O)NC2=O",
+        "description": "The molecule is trianion of xanthosine 5'-diphosphate arising from deprotonation of all three OH groups of the diphosphate. It is an organophosphate oxoanion and a xanthosine 5'-phosphate. It is a conjugate base of a XDP.",
+        "answer": "O=c1[nH]c(=O)c2ncn([C@@H]3O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]3O)c2[nH]1",
+        "all_tokens": 4764,
+        "blue2": 0.7470873676376284
+    },
+    {
+        "SMILES": "CC(C)(C)C1=CC(=CC=C1)OC(=S)N(C)C2=NC(=CC=C2)OC",
+        "description": "The molecule is a monothiocarbamic ester that is carbamic acid in which the oxygen of the oxo group is replaced by sulfur, the hydrogens attached to the nitrogen are replaced by methyl and 6-methoxypyridin-2-yl groups, and the hydrogen of the hydroxy group is replaced by a p-tert-butylphenyl group. It has fungicidal and herbicidal activity and is used in paddy rice and turf production. It has a role as a sterol biosynthesis inhibitor, a herbicide and an antifungal agrochemical. It is a member of pyridines, an aromatic ether and a monothiocarbamic ester.",
+        "answer": "COc1cccc(OC(=S)NC)n1-c1ccc(C(C)(C)C)cc1",
+        "all_tokens": 5492,
+        "blue2": 0.42539386156256037
+    }
+]

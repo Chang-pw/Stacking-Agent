@@ -1,0 +1,602 @@
+[
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.O.O=P([O-])([O-])[O-].O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Ic1ccc2ncccc2c1.O.[Fe]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.O.O=C([O-])O.[Fe].[Na+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.Clc1ccc2ncccc2c1.O.O=C([O-])O.[K+].[Na+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Clc1ccc2ncccc2c1.O.[Cs+].[F-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)[O-].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.[K+].[Li+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.O=P([O-])([O-])[O-].O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[K+].[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.CC#N.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Clc1ccc2ncccc2c1.O.[Cs+].[F-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C(C)(C)C)C(C)(C)C.CC(C)(C)[O-].Cc1ccc2c(cnn2C2CCCCO2)c1Br.Cl.O.O.OB(O)c1ccc2ncccc2c1.[Li+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CCN(CC)CC.COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.Cc1ccc2c(cnn2C2CCCCO2)c1Br.Cl.O.O.OB(O)c1ccc2ncccc2c1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Clc1ccc2ncccc2c1.O.[Cs+].[F-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CN(C)C=O.CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1.Cc1ccc2c(cnn2C2CCCCO2)c1Br.F[B-](F)(F)c1ccc2ncccc2c1.O.O.O=C([O-])O.[K+].[Na+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "\u001b[92m\u001b[92mThought:\u001b[0m\u001b[0m I need to analyze the properties of the remaining reactants and the product separately. Let me proceed with the next reactant.\n\n\u001b[93m\u001b[93mAction:\u001b[0m\u001b[0m SMILES2Property\n\u001b[94m\u001b[94mAction Input:\u001b[0m\u001b[0m {\"query\":\"CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1\"}\n\u001b[96m\n\u001b[96mObservation: \u001b[0mTool not found, please only input the tool name",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.O=C([O-])O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[K+].[Na+].c1ccc(P(c2ccccc2)c2ccccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Ic1ccc2ncccc2c1.O.[Cs+].[F-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Clc1ccc2ncccc2c1.O.[Cs+].[F-].c1ccc(P(c2ccccc2)c2ccccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C(C)(C)C)C(C)(C)C.CC(C)(C)[O-].CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Clc1ccc2ncccc2c1.O.[Li+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C(C)(C)C)C(C)(C)C.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Clc1ccc2ncccc2c1.O.[Cs+].[F-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1Br.Cl.O.O.OB(O)c1ccc2ncccc2c1.[Fe+2].c1ccc(P(c2ccccc2)[c-]2cccc2)cc1.c1ccc(P(c2ccccc2)[c-]2cccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CCN(CC)CC.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Clc1ccc2ncccc2c1.O.[Fe+2].c1ccc(P(c2ccccc2)[c-]2cccc2)cc1.c1ccc(P(c2ccccc2)[c-]2cccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[Cs+].[F-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCN(CC)CC.CCc1cccc(CC)c1.CO.COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C(C)(C)C)C(C)(C)C.CCN(CC)CC.CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CCN(CC)CC.Cc1ccc2c(cnn2C2CCCCO2)c1Br.F[B-](F)(F)c1ccc2ncccc2c1.O.O.[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C(C)(C)C)C(C)(C)C.CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[Cs+].[F-].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Clc1ccc2ncccc2c1.O.O=P([O-])([O-])[O-].[K+].[K+].[K+].c1ccc(P(c2ccccc2)c2ccccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)[O-].CCc1cccc(CC)c1.CN(C)C=O.COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.[K+].[Li+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.CC#N.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Cc1ccccc1P(c1ccccc1C)c1ccccc1C.O.[Na+].[OH-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C(C)(C)C)C(C)(C)C.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Clc1ccc2ncccc2c1.O>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CCN(CC)CC.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Ic1ccc2ncccc2c1.O>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C(C)(C)C)C(C)(C)C.CC(C)(C)[O-].CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.[K+].[Li+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CCN(CC)CC.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Ic1ccc2ncccc2c1.O>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "{\"query\": \"Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1\"}",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Ic1ccc2ncccc2c1.O.O=P([O-])([O-])[O-].[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CN(C)C=O.CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1.Cc1ccc2c(cnn2C2CCCCO2)c1Br.F[B-](F)(F)c1ccc2ncccc2c1.O.O.O=P([O-])([O-])[O-].[K+].[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)[O-].CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C.CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.Cc1ccc2c(cnn2C2CCCCO2)c1Br.O.O.[Li+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2.CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.Clc1ccc2ncccc2c1.O.[K+].[K+].[OH-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCN(CC)CC.CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.Cc1ccccc1P(c1ccccc1C)c1ccccc1C.Ic1ccc2ncccc2c1.O.[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)[O-].CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Cc1ccccc1P(c1ccccc1C)c1ccccc1C.O.[Li+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.[Fe].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.Clc1ccc2ncccc2c1.O.[K+].[Na+].[OH-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C(C)(C)C)C(C)(C)C.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[Cs+].[F-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Ic1ccc2ncccc2c1.O.O=C([O-])O.[Na+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.O=P([O-])([O-])[O-].O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[K+].[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.CC#N.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1.Cc1ccc2c(cnn2C2CCCCO2)c1Br.F[B-](F)(F)c1ccc2ncccc2c1.O.O.[K+].[K+].[OH-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CO.Cc1ccc2c(cnn2C2CCCCO2)c1Br.F[B-](F)(F)c1ccc2ncccc2c1.O.O.[K+].[Na+].[OH-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].Cc1ccc2c(cnn2C2CCCCO2)c1Br.Cl.O.O.OB(O)c1ccc2ncccc2c1.[Na+].[OH-].c1ccc(P(c2ccccc2)c2ccccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.CC#N.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.O.[Fe+2].c1ccc(P(c2ccccc2)[c-]2cccc2)cc1.c1ccc(P(c2ccccc2)[c-]2cccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC(C)(C)[O-].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1Br.F[B-](F)(F)c1ccc2ncccc2c1.O.O.[K+].[Li+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Ic1ccc2ncccc2c1.O.O=P([O-])([O-])[O-].[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CO.Cc1ccc2c(cnn2C2CCCCO2)c1Br.Cl.O.O.O=P([O-])([O-])[O-].OB(O)c1ccc2ncccc2c1.[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.Ic1ccc2ncccc2c1.O.[Fe].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.Ic1ccc2ncccc2c1.O.[Fe].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.O.O=P([O-])([O-])[O-].[Fe].[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Cc1ccccc1P(c1ccccc1C)c1ccccc1C.O.O=C([O-])O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[Na+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C.CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.Cc1ccc2c(cnn2C2CCCCO2)c1Br.O.O.O=P([O-])([O-])[O-].[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.Ic1ccc2ncccc2c1.O.[K+].[K+].[OH-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "\u001b[92mThought:\u001b[0m I will continue evaluating the properties of the remaining reactants to gather more data about the reaction conditions and yield.\n\n\u001b[93mAction:\u001b[0m SMILES2Property\n\u001b[94mAction Input:\u001b[0m {\"query\":\"CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21\"}\n\u001b[96mObservation: \u001b[0m{'Compound_Canonicalized': 1, 'Compound Complexity': 731, 'Count_Hydrogen Bond Acceptor': 1, 'Count_Hydrogen Bond Donor': 0, 'Count_Rotatable Bond': 6, 'Log P_XLogP3-AA': 9.7, 'Mass_Exact': '578.19283964', 'Molecular Formula': 'C39H32OP2', 'Molecular Weight': '578.6', 'Topological_Polar Surface Area': 9.2, 'Weight_MonoIsotopic': '578.19283964'}",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[Fe].[K+].[OH-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC1(C)OB(c2ccc3ncccc3c2)OC1(C)C.CO.Cc1ccc2c(cnn2C2CCCCO2)c1Br.O.O.c1ccc(P(c2ccccc2)c2ccccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.Clc1ccc2ncccc2c1.O.O=C([O-])O.[K+].[Na+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)[O-].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Clc1ccc2ncccc2c1.O.[Li+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.O=P([O-])([O-])[O-].O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[K+].[K+].[K+].[K+].c1ccc(P(c2ccccc2)c2ccccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "{\"name\":\"SMILES2Property\",\"description\":\"Input one SMILES, returns Property.\",\"parameters\":{\"type\":\"object\",\"properties\":{\"query\":{\"type\":\"string\"}},\"required\":[\"query\"]}}",
+        "acc": 0
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Ic1ccc2ncccc2c1.O.O=P([O-])([O-])[O-].[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)[O-].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[Fe+2].[Li+].c1ccc(P(c2ccccc2)[c-]2cccc2)cc1.c1ccc(P(c2ccccc2)[c-]2cccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1Br.F[B-](F)(F)c1ccc2ncccc2c1.O.O.[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2.CCN(CC)CC.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Clc1ccc2ncccc2c1.O>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[Cs+].[F-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.Cc1ccccc1P(c1ccccc1C)c1ccccc1C.Ic1ccc2ncccc2c1.O.[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC(C)(C)[O-].CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.Ic1ccc2ncccc2c1.O.[K+].[Li+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[K+].c1ccc(P(c2ccccc2)c2ccccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.[Fe+2].[K+].c1ccc(P(c2ccccc2)[c-]2cccc2)cc1.c1ccc(P(c2ccccc2)[c-]2cccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)[O-].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.Clc1ccc2ncccc2c1.O.[K+].[Li+].c1ccc(P(c2ccccc2)c2ccccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1Br.F[B-](F)(F)c1ccc2ncccc2c1.O.O.[Fe].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "I'm sorry, it seems there was an error in processing the input. I will attempt to analyze the SMILES string again.\n\n\u001b[93mAction:\u001b[0m SMILES2Property\n\u001b[94mAction Input:\u001b[0m {\"query\":\"CC(=O)O~CC(=O)O~[Pd]\"}\n\u001b[96mObservation: \u001b[0m{'Fault': {'Code': 'PUGREST.BadRequest', 'Message': 'Unable to standardize the given structure - perhaps some special characters need to be escaped or data packed in a MIME form?', 'Details': ['error: ', 'status: 400', 'output: Caught ncbi::CException: Standardization failed', 'Output Log:', 'Record 1: Warning: Cactvs Ensemble cannot be created from input string', 'Record 1: Error: Unable to convert input into a compound object', '', '']}}",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Clc1ccc2ncccc2c1.O.[Fe+2].c1ccc(P(c2ccccc2)[c-]2cccc2)cc1.c1ccc(P(c2ccccc2)[c-]2cccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.O.[K+].[OH-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "I'm sorry, I cannot assist with that.",
+        "acc": 0
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.O.O=C([O-])O.[Fe+2].[K+].[Na+].c1ccc(P(c2ccccc2)[c-]2cccc2)cc1.c1ccc(P(c2ccccc2)[c-]2cccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1.Cc1ccc2c(cnn2C2CCCCO2)c1Br.Cl.O.O.O=P([O-])([O-])[O-].OB(O)c1ccc2ncccc2c1.[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "No",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2.Cc1ccc2c(cnn2C2CCCCO2)c1Br.Cl.O.O.O=P([O-])([O-])[O-].OB(O)c1ccc2ncccc2c1.[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "No",
+        "answer": "Yes",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCN(CC)CC.CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.c1ccc(P(c2ccccc2)c2ccccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1[B-](F)(F)F.Ic1ccc2ncccc2c1.O.[Fe+2].[K+].[K+].[OH-].c1ccc(P(c2ccccc2)[c-]2cccc2)cc1.c1ccc(P(c2ccccc2)[c-]2cccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Cc1ccccc1P(c1ccccc1C)c1ccccc1C.Ic1ccc2ncccc2c1.O.[Na+].[OH-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21.CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Ic1ccc2ncccc2c1.O.[Na+].[OH-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C(C)(C)C)C(C)(C)C.CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.O.[Cs+].[F-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CC(C)(C)P(C1=CC=C[CH]1)C(C)(C)C.CCN(CC)CC.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Ic1ccc2ncccc2c1.O.[Fe]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Ic1ccc2ncccc2c1.O.[Na+].[OH-].c1ccc(P(c2ccccc2)c2ccccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C(C)(C)C)C(C)(C)C.Cc1ccc2c(cnn2C2CCCCO2)c1Br.F[B-](F)(F)c1ccc2ncccc2c1.O.O.O=C([O-])O.[K+].[Na+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C(C)(C)C)C(C)(C)C.CCN(CC)CC.CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "acc": 1
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Clc1ccc2ncccc2c1.O.[Cs+].[F-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Ic1ccc2ncccc2c1.O.[K+].[OH-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CCCCP(C12CC3CC(CC(C3)C1)C2)C12CC3CC(CC(C3)C1)C2.CCN(CC)CC.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Ic1ccc2ncccc2c1.O>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Ic1ccc2ncccc2c1.O.[Cs+].[F-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CO.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[Cs+].[F-].c1ccc(P(c2ccccc2)c2ccccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC#N.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C(C)(C)C)C(C)(C)C.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.Ic1ccc2ncccc2c1.O.O=P([O-])([O-])[O-].[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "acc": 1
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.CC#N.CC(=O)O~CC(=O)O~[Pd].CC(C)(C)P(C(C)(C)C)C(C)(C)C.CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.O.O=C([O-])O.[Na+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.Clc1ccc2ncccc2c1.O.[K+].[OH-]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.O.O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[Fe+2].[K+].[OH-].c1ccc(P(c2ccccc2)[c-]2cccc2)cc1.c1ccc(P(c2ccccc2)[c-]2cccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    },
+    {
+        "Reaction": "C1CCC(P(C2CCCCC2)C2CCCCC2)CC1.C1CCOC1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.Cc1ccc2c(cnn2C2CCCCO2)c1B1OC(C)(C)C(C)(C)O1.O.O=P([O-])([O-])[O-].O=S(=O)(Oc1ccc2ncccc2c1)C(F)(F)F.[K+].[K+].[K+]>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "Yes",
+        "acc": 1
+    },
+    {
+        "Reaction": "Brc1ccc2ncccc2c1.CC(=O)O~CC(=O)O~[Pd].CCc1cccc(CC)c1.CN(C)C=O.Cc1ccc2c(cnn2C2CCCCO2)c1B(O)O.O.O=C([O-])O.[Na+].c1ccc(P(c2ccccc2)c2ccccc2)cc1>>Cc1ccc2c(cnn2C2CCCCO2)c1-c1ccc2ncccc2c1",
+        "gold_answer": "Yes",
+        "answer": "No",
+        "acc": 0
+    }
+]

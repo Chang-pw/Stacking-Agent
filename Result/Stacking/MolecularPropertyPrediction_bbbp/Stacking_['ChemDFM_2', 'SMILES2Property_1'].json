@@ -1,0 +1,122 @@
+[
+    {
+        "gold_answer": "Yes",
+        "SMILES": "CN1CCCC(C1)CN2c3ccccc3Sc4ccccc24",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: CN1CCCC(C1)CN2c3ccccc3Sc4ccccc24\nPenetration:",
+        "answer": "Yes"
+    },
+    {
+        "SMILES": "Fc1ccc(cc1)C(=O)CCCN2CCN(CC2)c3ccccn3",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: Fc1ccc(cc1)C(=O)CCCN2CCN(CC2)c3ccccn3\nPenetration:",
+        "answer": "Yes"
+    },
+    {
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: CN(C)[C@H]1[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C(=O)\\C(=C(/O)NCN5CCCC5)C1=O\nPenetration:",
+        "gold_answer": "Yes",
+        "SMILES": "CN(C)[C@H]1[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C(=O)\\C(=C(/O)NCN5CCCC5)C1=O",
+        "answer": "Yes"
+    },
+    {
+        "SMILES": "NC(N)=NCC1COC2(CCCCC2)O1",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: NC(N)=NCC1COC2(CCCCC2)O1\nPenetration:",
+        "gold_answer": "No",
+        "answer": "Yes"
+    },
+    {
+        "SMILES": "OC(=O)CCC(O)=O.FC(F)(F)c1ccc2Sc3ccccc3N(CCCN4CCN(CCC5OCCCO5)CC4)c2c1",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: OC(=O)CCC(O)=O.FC(F)(F)c1ccc2Sc3ccccc3N(CCCN4CCN(CCC5OCCCO5)CC4)c2c1\nPenetration:",
+        "answer": "Yes"
+    },
+    {
+        "SMILES": "NC1=C(F)C=NC(=O)N1",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: NC1=C(F)C=NC(=O)N1\nPenetration:",
+        "answer": "Yes"
+    },
+    {
+        "SMILES": "CN1CCN(CC1)C2=C3C=CC=CC3=Nc4ccc(Cl)cc4N2",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: CN1CCN(CC1)C2=C3C=CC=CC3=Nc4ccc(Cl)cc4N2\nPenetration:",
+        "answer": "Yes"
+    },
+    {
+        "SMILES": "C1CCN(CC1)C2(CCCCC2)c3ccccc3",
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: C1CCN(CC1)C2(CCCCC2)c3ccccc3\nPenetration:",
+        "answer": "Yes"
+    },
+    {
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: CN1CCC[C@H]1c2cccnc2\nPenetration:",
+        "SMILES": "CN1CCC[C@H]1c2cccnc2",
+        "gold_answer": "Yes",
+        "answer": "Yes"
+    },
+    {
+        "gold_answer": "No",
+        "SMILES": "CCN(CC)CCOC(=O)C1(CCCCC1)C2CCCCC2",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: CCN(CC)CCOC(=O)C1(CCCCC1)C2CCCCC2\nPenetration:",
+        "answer": "Yes"
+    },
+    {
+        "SMILES": "C[C@]12CC[C@H]3[C@@H](CCc4cc(O)ccc34)[C@@H]1CCC2=O",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: C[C@]12CC[C@H]3[C@@H](CCc4cc(O)ccc34)[C@@H]1CCC2=O\nPenetration:",
+        "answer": "Yes"
+    },
+    {
+        "SMILES": "Oc1ccc(cc1)C2(OC(=O)c3ccccc23)c4ccc(O)cc4",
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: Oc1ccc(cc1)C2(OC(=O)c3ccccc23)c4ccc(O)cc4\nPenetration:",
+        "answer": "Yes"
+    },
+    {
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: CN1CCc2cccc3c2[C@H]1Cc4ccc(O)c(O)c34\nPenetration:",
+        "SMILES": "CN1CCc2cccc3c2[C@H]1Cc4ccc(O)c(O)c34",
+        "gold_answer": "Yes",
+        "answer": "Yes"
+    },
+    {
+        "SMILES": "CN1[C@H]2CCC[C@@H]1CC(C2)NC(=O)c3nn(C)c4ccccc34",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: CN1[C@H]2CCC[C@@H]1CC(C2)NC(=O)c3nn(C)c4ccccc34\nPenetration:",
+        "gold_answer": "Yes",
+        "answer": "Yes"
+    },
+    {
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: c1cc2c(c(c(c3ccccc3)nc2cc1)OCCNC([C@@H]1CCCN1)=O)C(=O)N[C@@H](CC)c1ccccc1\nPenetration:",
+        "SMILES": "c1cc2c(c(c(c3ccccc3)nc2cc1)OCCNC([C@@H]1CCCN1)=O)C(=O)N[C@@H](CC)c1ccccc1",
+        "answer": "Yes"
+    },
+    {
+        "SMILES": "OC(CCN1CCCCC1)(C2CC3CC2C=C3)c4ccccc4",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: OC(CCN1CCCCC1)(C2CC3CC2C=C3)c4ccccc4\nPenetration:",
+        "gold_answer": "Yes",
+        "answer": "Yes"
+    },
+    {
+        "gold_answer": "No",
+        "SMILES": "CCCCC[C@H](O)/C=C/[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: CCCCC[C@H](O)/C=C/[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O\nPenetration:",
+        "answer": "Yes"
+    },
+    {
+        "gold_answer": "Yes",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: OCC[C@@H]1CCN(CC\\C=C2/c3ccc(F)cc3Sc4ccc(cc24)C(F)(F)F)CC1\nPenetration:",
+        "SMILES": "OCC[C@@H]1CCN(CC\\C=C2/c3ccc(F)cc3Sc4ccc(cc24)C(F)(F)F)CC1",
+        "answer": "Yes"
+    },
+    {
+        "gold_answer": "No",
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: CC(C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)CNC(=O)[C@@H](C)NC(=O)[C@@H](N)Cc2ccc(O)cc2)C(N)=O\nPenetration:",
+        "SMILES": "CC(C)[C@H](NC(=O)[C@H](Cc1ccccc1)NC(=O)CNC(=O)[C@@H](C)NC(=O)[C@@H](N)Cc2ccc(O)cc2)C(N)=O",
+        "answer": "Yes"
+    },
+    {
+        "Question": "You are an expert chemist, your task is to predict the property of molecules using your experienced chemical property prediction knowledge.\nPlease strictly follow the format, no other information can be provided. Given the SMILES string of a molecule, the task focus on predicting molecular properties, specifically penetration/non-penetration to the brain-blood barrier, based on the SMILES string representation of each molecule. Please answer with only Yes (penetrative) or No (not penetrative).SMILES: Clc1ccc2N(C3CCN(CCCN4C(=O)Nc5ccccc45)CC3)C(=O)Nc2c1\nPenetration:",
+        "gold_answer": "No",
+        "SMILES": "Clc1ccc2N(C3CCN(CCCN4C(=O)Nc5ccccc45)CC3)C(=O)Nc2c1",
+        "answer": "Yes"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "SMILES": "C1=CC=C(C=C1)C2=NOC(=N2)C3=CC=CS3",
+        "description": "The molecule is a 1,2,4-oxadizole in which the hydrogens at positions 3 and 5 have been replaced by phenyl and thiophen-2-yl groups, respectively. It is used as a broad spectrum nematicidal seed treatment. It has a role as a nematicide and an agrochemical. It is a member of thiophenes and a 1,2,4-oxadiazole.",
+        "answer": "The given SMILES structure, C1=CC=C(C=C1)C2=NOC(=N2)C3=CC=CS3, represents a compound known as phenyl-oxadiazole-thiophene. This compound features a phenyl ring attached to an oxadiazole ring, which is further connected to a thiophene ring. The structure exhibits aromatic characteristics and consists of interconnected heterocyclic components.",
+        "blue2": 0.5940876817130276
+    },
+    {
+        "SMILES": "C1=NN(C(=O)C(=C1N)Cl)C(=O)/C(=C/C=C/C(=O)O)/O",
+        "description": "The molecule is an organochlorine compound and a pyridazinone. It derives from a muconic acid. It is a conjugate acid of a 5-amino-4-chloro-2-(2-oxidomuconoyl)pyridazin-3(2H)-one(2-).",
+        "answer": "The given SMILES structure, C1=NN(C(=O)C(=C1N)Cl)C(=O)/C(=C/C=C/C(=O)O)/O, represents a complex organic molecule. It includes a pyrazole ring (C1=NN(C(=O)C(=C1N)Cl)), which is a five-membered aromatic heterocycle containing two nitrogen atoms. The pyrazole is substituted with a chlorine atom and a carbonyl group. Additionally, the molecule contains a conjugated acyclic chain with carbonyl and carboxylic acid functionalities, contributing to its reactivity and stability. This structure is significant in medicinal chemistry due to its potential biological activity.",
+        "blue2": 0.25312717782307975
+    },
+    {
+        "SMILES": "CCCCC[C@@H]1[C@@H](O1)C[C@@H](/C=C/C=C\\\\C/C=C\\\\CCCC(=O)O)OO",
+        "description": "The molecule is a hydroperoxy fatty acid that is (14S,15R)-epoxy-(5Z,8Z,10E)-icosatrienoic acid in which the hydroperoxy group is located at position 12S. It has a role as a human xenobiotic metabolite and a mouse metabolite. It is a conjugate acid of a (12S)-hydroperoxy-(14S,15R)-epoxy-(5Z,8Z,10E)-icosatrienoate.",
+        "answer": "The given SMILES structure, CCCCC[C@@H]1[C@@H](O1)C[C@@H](/C=C/C=C\\\\C/C=C\\\\CCCC(=O)O)OO, represents a molecule with a chiral oxirane ring (epoxide) attached to a long aliphatic chain and a series of conjugated double bonds terminating in a carboxylic acid group. The molecule also contains a hydroperoxide group.",
+        "blue2": 0.5771049038064658
+    },
+    {
+        "SMILES": "CC(C)C1=CC(=CC(=C1O)C(C)C)/C=C(\\\\C#N)/C(=O)NCCCC2=CC=CC=C2",
+        "description": "The molecule is a monocarboxylic acid amide obtained by formal condensation of the carboxy group of (2E)-2-cyano-3-[4-hydroxy-3,5-di(propan-2-yl)phenyl]prop-2-enoic acid with the amino group of 3-phenylpropylamine. It has a role as a vascular endothelial growth factor receptor antagonist. It is an enamide, a member of phenols, a nitrile, a monocarboxylic acid amide and a secondary carboxamide.",
+        "answer": "The given SMILES structure represents a complex organic molecule featuring a hydroxyl group and two isopropyl groups attached to a benzene ring, along with a nitrile group, a carbonyl group, a secondary amide linkage to a pentyl chain, and another benzene ring.",
+        "blue2": 0.47193279366028806
+    },
+    {
+        "SMILES": "CSCCC/C=[N+](\\\\O)/[O-]",
+        "description": "The molecule is an aci-nitro compound resulting from the formal oxidation of the oxime nitrogen of an omega-(methylsulfany)-(E)-alkanal oxime. It is an aci-nitro compound and a methyl sulfide. It derives from an omega-(methylsulfanyl)-(E)-alkanal oxime.",
+        "answer": "The given SMILES structure, CSCCC/C=[N+](\\O)/[O-], represents a compound with a sulfanylpropyl group attached to a nitroso group. The structure contains a positively charged nitrogen double-bonded to an oxygen and single-bonded to another oxygen, which carries a negative charge. This compound exhibits unique chemical properties due to the presence of the charged nitroso group and the sulfanylpropyl chain.",
+        "blue2": 0.4112171942712108
+    },
+    {
+        "SMILES": "C1CCCCC1",
+        "description": "The molecule is an alicyclic hydrocarbon comprising a ring of six carbon atoms; the cyclic form of hexane, used as a raw material in the manufacture of nylon. It has a role as a non-polar solvent. It is a cycloalkane and a volatile organic compound.",
+        "answer": "The given SMILES \"C1CCCCC1\" represents cyclohexane, a saturated cyclic hydrocarbon with the chemical formula C6H12. Cyclohexane is a six-membered carbon ring, where each carbon is bonded to two hydrogens. It is a colorless, flammable liquid with a distinctive detergent-like odor, commonly used as a non-polar solvent in the chemical industry and as a starting material for the industrial production of adipic acid and caprolactam, which are precursors to nylon. Cyclohexane is known for its chair and boat conformations due to its flexibility and ring strain relief.",
+        "blue2": 0.39898788199705226
+    },
+    {
+        "SMILES": "CC1=CC=C(C=C1)N(CC2=NCCN2)C3=CC(=CC=C3)O",
+        "description": "The molecule is a substituted aniline that is 3-aminophenol in which the hydrogens of the amino group are replaced by 4-methylphenyl and 4,5-dihydro-1H-imidazol-2-ylmethyl groups respectively. An alpha-adrenergic antagonist, it is used for the treatment of hypertension. It has a role as an alpha-adrenergic antagonist and a vasodilator agent. It is a member of imidazoles, a member of phenols, a tertiary amino compound and a substituted aniline.",
+        "answer": "The given SMILES structure, CC1=CC=C(C=C1)N(CC2=NCCN2)C3=CC(=CC=C3)O, represents a compound featuring a phenyl ring attached to a piperazine moiety, which is further connected to a phenol group. The structure exhibits aromatic characteristics and consists of interconnected heterocyclic components, highlighting the compound's potential for various chemical interactions and biological activities.",
+        "blue2": 0.5913150860971104
+    },
+    {
+        "SMILES": "C([C@@H](C(=O)NCC(=O)[O-])[NH3+])S",
+        "description": "The molecule is the zwitterion of L-cysteinylglycine resulting from the transfer of a proton from the hydroxy group of glycine to the amino group of cysteine. Major microspecies at pH 7.3. It has a role as an Escherichia coli metabolite, a Saccharomyces cerevisiae metabolite and a human metabolite. It is a tautomer of a L-cysteinylglycine.",
+        "answer": "The given SMILES structure, C([C@@H](C(=O)NCC(=O)[O-])[NH3+])S, represents a compound with a chiral center, featuring a thioether group attached to an amino acid derivative. This structure contains an amide bond, typically found in peptides, and a carboxylate group, which is deprotonated under physiological conditions, contributing to the compound's solubility and ionic properties.",
+        "blue2": 0.5698527037783372
+    },
+    {
+        "SMILES": "CC/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\C/C=C\\\\CCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@@H](C(C)(C)COP(=O)(O)OP(=O)(O)OC[C@@H]1[C@H]([C@H]([C@@H](O1)N2C=NC3=C(N=CN=C32)N)O)OP(=O)(O)O)O",
+        "description": "The molecule is an unsaturated fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of (8Z,11Z,14Z,17Z,20Z,23Z)-hexacosahexaenoic acid. It is an unsaturated fatty acyl-CoA and a very long-chain fatty acyl-CoA. It derives from an (8Z,11Z,14Z,17Z,20Z,23Z)-hexacosahexaenoic acid. It is a conjugate acid of an (8Z,11Z,14Z,17Z,20Z,23Z)-hexacosahexaenoyl-CoA(4-).",
+        "answer": "The given SMILES represents a complex organic molecule which includes multiple conjugated double bonds (indicating a polyene chain), ester, thioester, and amide functional groups. The structure also includes a highly functionalized sugar ring attached to a nucleotide base (adenine) and several phosphate groups. This suggests the molecule is structurally related to a lipid-linked nucleotide-sugar, possibly involved in biological processes such as glycosylation or signaling.",
+        "blue2": 0.48583334205878853
+    },
+    {
+        "SMILES": "C([C@@H]1[C@H]([C@@H]([C@@H]([C@H](O1)O[C@H]2[C@@H]([C@H](O[C@H]([C@H]2O)O[C@@H]3[C@H](O[C@H]([C@H]([C@H]3O)O)O)CO)CO)O)O)O)O)O",
+        "description": "The molecule is a mannotriose consisting of an alpha-D-mannopyranose residue and two beta-D-mannopyranose residues joined in sequence by (1->3) and (1->4) glycosidic bonds. It is a mannotriose and an alpha-D-Manp-(1->3)-beta-D-Manp-(1->4)-D-Manp.",
+        "answer": "The given SMILES string represents a compound that is a type of sugar molecule, specifically a trisaccharide composed of three monosaccharides connected by glycosidic bonds. It contains multiple hydroxyl (OH) groups, indicating it's a carbohydrate. The stereochemistry is specified at several chiral centers, which is typical for naturally occurring sugars.",
+        "blue2": 0.4113395973832486
+    }
+]

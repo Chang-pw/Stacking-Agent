@@ -1,0 +1,72 @@
+[
+    {
+        "SMILES": "C[C@@]1(CC[C@H]2C(=CC[C@@H]3[C@@]2(CCC[C@]3(C)C(=O)O)C)C1)CCO[C@@H]4[C@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O",
+        "description": "The molecule is a diterpene glycoside that is isopimar-7-en-19-oic acid attached to a alpha-D-mannopyranosyloxy residue at position 16. It has been isolated from the fungus, Xylaria species. It has a role as a fungal metabolite. It is a diterpenoid, a monosaccharide derivative, a monocarboxylic acid and a diterpene glycoside. It derives from an alpha-D-mannose. It derives from a hydride of an isopimarane.",
+        "answer": "The molecule is a natural product found in Fusarium with data available.",
+        "all_tokens": 5130,
+        "blue2": 0.00756906368365653
+    },
+    {
+        "SMILES": "COC1=CC(=CC2=C1OC(C2CO)C3=CC(=C(C=C3)O)OC)/C=C/CO",
+        "description": "The molecule is a guaiacyl lignin obtained by cyclodimerisation of coniferol. It has a role as a plant metabolite and an anti-inflammatory agent. It is a member of 1-benzofurans, a primary alcohol, a guaiacyl lignin and a member of guaiacols. It derives from a coniferol.",
+        "answer": "The molecule is a natural product found in Fusarium with data available.",
+        "all_tokens": 1523,
+        "blue2": 0.05021533435130927
+    },
+    {
+        "SMILES": "C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H]([C@@H](O2)OC3=CC(=C4C(=O)C[C@H](OC4=C3)C5=CC=C(C=C5)O)O)O)O)O)O)O)O",
+        "description": "The molecule is a disaccharide derivative that is (S)-naringenin substituted by a 6-O-(6-deoxy-alpha-L-mannopyranosyl)-beta-D-glucopyranosyl moiety at position 7 via a glycosidic linkage. It has a role as an anti-inflammatory agent, an antioxidant and a metabolite. It is a disaccharide derivative, a dihydroxyflavanone, a member of 4'-hydroxyflavanones, a (2S)-flavan-4-one and a rutinoside. It derives from a (S)-naringenin.",
+        "answer": "The molecule is a natural product found in Fusarium with data available.",
+        "all_tokens": 1809,
+        "blue2": 0.006076213260491083
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/C=C/C(=C/C=C/C=C(\\\\C)/C=C/C=C(\\\\C)/C=C/C=C(\\\\C)/C=C/C(C(C)(C)OC)O)/C)/C)/C)C",
+        "description": "The molecule is a carotenoid ether that is spheroidene substituted at position 2 by a hydroxy group. It is a carotenoid ether and a carotenol. It derives from a spheroidene.",
+        "answer": "The molecule is a natural product found in Fusarium with data available.",
+        "all_tokens": 2829,
+        "blue2": 0.1722462181477862
+    },
+    {
+        "SMILES": "CC(=CCC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC/C(=C/CC1=C(C=CC(=C1)C(=O)O)O)/C)/C)/C)/C)/C)/C)/C)/C)C",
+        "description": "The molecule is a monohydroxybenzoic acid that is 4-hydroxybenzoic acid substituted at position 3 by a nonaprenyl group. It is a monohydroxybenzoic acid and an olefinic compound. It is a conjugate acid of a 4-hydroxy-3-all-trans-nonaprenylbenzoate.",
+        "answer": "The molecule is a natural product found in Fusarium with data available.",
+        "all_tokens": 5543,
+        "blue2": 0.06533487047402739
+    },
+    {
+        "SMILES": "C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)OC2=CC3=CC4=C(C(=C3C(=C2C(=O)OC)C)O)C(=O)[C@@]5(C(=O)C=C([C@H]([C@@]5(C4=O)O)O)OC)OC)OC)OC)OC",
+        "description": "The molecule is a member of the class of tetracenomycins that is 8-demethyltetracenomycin C in which the hydroxyl hydrogens at position 8 and 10 a are replaced by a 2,3,4-tri-O-methyl-alpha-L-rhamnosyl and methyl groups respectively. It has a role as a bacterial metabolite and an antimicrobial agent. It is an alpha-L-rhamnoside, a carboxylic ester, an enol ether, an enone, a monosaccharide derivative, a member of phenols, a tetracenomycin, a methyl ester and a tertiary alpha-hydroxy ketone. It derives from a tetracenomycin C.",
+        "answer": "The molecule is a natural product found in Fusarium with data available.",
+        "all_tokens": 1789,
+        "blue2": 0.0013791123855663348
+    },
+    {
+        "SMILES": "C[C@@]12CC[C@@]3(C(=C[C@H]([C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)O)[C@@H]1CC(CC2)(C)C)C",
+        "description": "The molecule is the pentacyclic triterpenoid that is the 11alpha-hydroxy derivative of beta-amyrin. It is a pentacyclic triterpenoid and a secondary alcohol. It derives from a beta-amyrin.",
+        "answer": "The molecule is a natural product found in Fusarium with data available.",
+        "all_tokens": 1672,
+        "blue2": 0.14060374682598895
+    },
+    {
+        "SMILES": "C1CCNC(C1)C(=O)O",
+        "description": "The molecule is a piperidinemonocarboxylic acid in which the carboxy group is located at position C-2. It is a conjugate acid of a pipecolate.",
+        "answer": "The molecule is a natural product found in Fusarium with data available.",
+        "all_tokens": 1427,
+        "blue2": 0.26339777044423834
+    },
+    {
+        "SMILES": "C[C@@H]1CC[C@@H]2[C@]13CC([C@@H]([C@H]3C=C2C(=O)O)O)(C)C",
+        "description": "The molecule is a tricyclic sesquiterpenoid that is pentalenene in which the 13-methyl group is oxidsed to the carboxylic acid and position 1 is substituted by a hydroxy group. It has a role as a metabolite. It is a sesquiterpenoid, a 5-hydroxy monocarboxylic acid and a carbotricyclic compound. It derives from a pentalenene. It is a conjugate acid of a pentalenate.",
+        "answer": "The molecule is a natural product found in Fusarium with data available.",
+        "all_tokens": 5439,
+        "blue2": 0.013569172646839963
+    },
+    {
+        "SMILES": "C1=C(O[C@H]([C@@H]([C@H]1O)OS(=O)(=O)O)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)NS(=O)(=O)O)O[C@H]3[C@@H]([C@H]([C@@H](O[C@H]3C(=O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)NS(=O)(=O)O)O[C@H]5[C@@H]([C@H]([C@@H](O[C@H]5C(=O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)NS(=O)(=O)O)O[C@H]7[C@@H]([C@H]([C@@H](O[C@H]7C(=O)O)O[C@@H]8[C@H](O[C@@H]([C@@H]([C@H]8O)NS(=O)(=O)O)O)CO)OS(=O)(=O)O)O)COS(=O)(=O)O)OS(=O)(=O)O)O)COS(=O)(=O)O)OS(=O)(=O)O)O)COS(=O)(=O)O)C(=O)O",
+        "description": "The molecule is a heparin octasaccharide consisting of 4-deoxy-2-O-sulfo-alpha-L-threo-hex-4-enopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, 2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranosyl, 2-O-sulfo-alpha-L-idopyranuronosyl, and 2-deoxy-2-(sulfoamino)-alpha-D-glucopyranose units joined in sequence by (1->4) linkages. Sequence: DUA2S-GlcNS6S-IdoA2S-GlcNS6S-IdoA2S-GlcNS6S-IdoA2S-GlcNS. It is a heparin octasaccharide, an oligosaccharide sulfate and an amino octasaccharide.",
+        "answer": "The molecule is a natural product found in Fusarium with data available.",
+        "all_tokens": 2813,
+        "blue2": 0.00028278215915306787
+    }
+]

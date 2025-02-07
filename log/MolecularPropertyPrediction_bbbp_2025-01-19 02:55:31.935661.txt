@@ -1,0 +1,1 @@
+[{'agent_tool': MolecularPropertyPrediction_bbbp_1, 'score': 0.6263736263736263, 'tool': 'ChemDFM_1'}, {'agent_tool': MolecularPropertyPrediction_bbbp_2, 'score': 0.5549450549450549, 'tool': 'SMILES2Property_1'}, {'agent_tool': ChemDFM, 'score': 0.4285714285714286, 'tool': 'ChemDFM_0'}, {'agent_tool': SMILES2Property, 'score': 0, 'tool': 'SMILES2Property_0'}]
