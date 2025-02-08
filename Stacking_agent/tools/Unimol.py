@@ -29,8 +29,8 @@ def lmdb2csv(lmdb_path):
         result.append(mol)
     
     df = pd.DataFrame(result)
-    df.to_csv(lmdb_path.split(".")[0]+".csv", index=False)
-    return lmdb_path.split(".")[0]+".csv"
+    df.to_csv(lmdb_path.rsplit('.', 1)[0]+".csv", index=False)
+    return lmdb_path.rsplit('.', 1)[0]+".csv"
 
 def get_data(file_path):
     train_csv_path = lmdb2csv(os.path.join(file_path,"train.lmdb"))
@@ -39,12 +39,12 @@ def get_data(file_path):
     df1 = pd.read_csv(train_csv_path)
     df2 = pd.read_csv(val_csv_path)
     df_merged = pd.concat([df1, df2], ignore_index=True)
-    df_merged.to_csv(train_csv_path.split(".")[0]+".csv", index=False)
+    df_merged.to_csv(train_csv_path.rsplit('.', 1)[0]+".csv", index=False)
     return train_csv_path,test_csv_path
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="train_unimol")
-    parser.add_argument('--file_path', type=str, help="read_path",default="../../Dataset/molecular_property_prediction/bbbp/")
+    parser.add_argument('--file_path', type=str, help="read_path",default="../../Dataset/molecular_property_prediction/bbbp")
     args = parser.parse_args()
     file_path = args.file_path
     train_csv_path,test_csv_path = get_data(file_path)
