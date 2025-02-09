@@ -8,10 +8,6 @@ class ChatModel():
         self.model = model
         self.temperature = temperature
 
-        os.environ["OPENAI_API_TYPE"] = "azure"
-        self.api_keys = ['42006d324d8f491f9d8ff82a15cd41f8','42006d324d8f491f9d8ff82a15cd41f8','8f09ac0303fd4a8584796c08a5013fea','8f09ac0303fd4a8584796c08a5013fea']
-        self.api_endpoints = ['https://dexter0808.openai.azure.com/openai/deployments/Dexter0808/chat/completions?api-version=2024-08-01-preview','https://dexter0808.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-08-01-preview','https://xiaojin.openai.azure.com/openai/deployments/gpt4o/chat/completions?api-version=2024-08-01-preview','https://xiaojin.openai.azure.com/openai/deployments/gpt4ohigh/chat/completions?api-version=2024-08-01-preview']
-
     def chat(self, prompt: str, history: List[Dict[str, str]], system_prompt: str = 'You are a helpful assistant',stop_word:str='') -> str:
         """
         Get response with the prompt,history and system prompt.
