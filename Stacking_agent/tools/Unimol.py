@@ -9,25 +9,7 @@ import json
 
 from unimol_tools import MolTrain, MolPredict
 import os
-os.environ['CUDA_LAUNCH_BLOCKING'] = "1"
-def check_smiles(smi, is_train, smi_strict):
-        """
-        Validates a SMILES string and decides whether it should be included based on training mode and strictness.
-
-        :param smi: (str) The SMILES string to check.
-        :param is_train: (bool) Indicates if this check is happening during training.
-        :param smi_strict: (bool) If true, invalid SMILES strings raise an error, otherwise they're logged and skipped.
-
-        :return: (bool) True if the SMILES string is valid, False otherwise.
-        :raises ValueError: If the SMILES string is invalid and strict mode is on.
-        """
-        if Chem.MolFromSmiles(smi) is None:
-            if is_train and not smi_strict:
-                print(f'Illegal SMILES clean: {smi}')
-                return False
-            else:
-                raise ValueError(f'SMILES rule is illegal: {smi}')
-        return True    
+os.environ['CUDA_LAUNCH_BLOCKING'] = "1"  
 def lmdb2csv(lmdb_path):
     target_type = set()
     env = lmdb.open(
@@ -101,7 +83,6 @@ if __name__ == "__main__":
     task = args.task
     if task == "train":
         train_csv_path, test_csv_path, target_type = get_data(file_path)
-
         clf = MolTrain( task= target_type, #multiclass #classification # multilabel_classification
                         data_type='molecule', 
                         epochs=10, 
